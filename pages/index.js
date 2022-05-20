@@ -28,9 +28,12 @@ export async function getStaticProps() {
     'author',
     'coverImage',
     'excerpt',
+    'published',
   ]);
 
+  const publishedPosts = allPosts.filter((post) => post.published);
+
   return {
-    props: { allPosts },
+    props: { allPosts: publishedPosts },
   };
 }
