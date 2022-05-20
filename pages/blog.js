@@ -1,9 +1,9 @@
 import React from 'react';
-import Container from '../../components/container';
-import Layout from '../../components/layout';
-import { getAllPosts } from '../../lib/api';
+import Container from '../components/container';
+import Layout from '../components/layout';
+import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
-import PostPreview from '../../components/post-preview';
+import PostPreview from '../components/post-preview';
 
 export default function Blog({ allPosts }) {
   return (
@@ -38,9 +38,12 @@ export async function getStaticProps() {
     'author',
     'coverImage',
     'excerpt',
+    'published',
   ]);
 
+  const publishedPosts = allPosts.filter((post) => post.published);
+
   return {
-    props: { allPosts },
+    props: { allPosts: publishedPosts },
   };
 }
