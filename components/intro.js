@@ -1,21 +1,24 @@
-import { CMS_NAME } from '../lib/constants'
+import Image from 'next/image';
+import { CMS_NAME } from '../lib/constants';
 
 export default function Intro() {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-        Blog.
-      </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-success duration-200 transition-colors"
-        >
-          Next.js
-        </a>{' '}
-        and {CMS_NAME}.
-      </h4>
-    </section>
-  )
+    <header>
+      <article className="intro">
+        <div>
+          <h1>Hey, I'm Chris!</h1>
+          <p>
+            I develop software , make music, and laugh lots. I live in Dallas
+            Texas and love to make things. Come say hey!
+          </p>
+          <p className="hero_buttons">
+            <a href="/about">More About me</a>
+          </p>
+        </div>
+        <div className="headshot">
+          <Image src="/assets/headshot.jpeg" width={500} height={500} />
+        </div>
+      </article>
+    </header>
+  );
 }
