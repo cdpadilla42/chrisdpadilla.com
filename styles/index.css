@@ -1,3 +1,129 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ */
+
+:root {
+  --black: #292f36;
+  --blue: #4ecdc4;
+  /* --white: #f7fff7; */
+  --white: #ccc;
+  --red: #ff6b6b;
+  --yellow: #ffe66d;
+  --font-family: system-ui;
+  /* Breakpoint */
+  --md: 800px;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  font-family: var(--font-family);
+}
+
+a {
+  color: var(--blue);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--yellow);
+}
+
+h2 {
+  /* margin-bottom: 8rem; */
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* .body__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+    'header header'
+    'sidebar main';
+} */
+
+header {
+  /* grid-area: header; */
+}
+
+main {
+  max-width: 50rem;
+  margin: 1rem 0.5rem;
+  /* grid-area: main; */
+}
+
+@media all and (min-width: 800px) {
+  main {
+    margin: 4rem auto;
+  }
+}
+
+nav {
+  /* grid-area: sidebar; */
+}
+
+.intro {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+@media all and (min-width: 800px) {
+  .intro {
+    flex-direction: row;
+  }
+}
+
+.intro h1 {
+  margin: 0;
+  margin-bottom: 0.75rem;
+}
+
+.hero_buttons {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.article_preview {
+  display: flex;
+}
+
+.article_preview__image_container {
+  flex-basis: 3rem;
+}
+
+a.no_underline {
+  text-decoration: none;
+  color: ;
+}
+
+footer {
+  text-align: center;
+}
+
+.headshot img {
+  border-radius: 300px;
+}
+.heading_flex > * {
+  display: inline-block;
+}
+.heading_flex a h2 {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  color: var(--blue);
+}
+
+strong {
+  color: var(--red);
+}
