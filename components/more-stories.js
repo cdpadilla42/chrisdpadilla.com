@@ -5,9 +5,9 @@ export default function MoreStories({ posts }) {
     <section>
       <div className="heading_flex">
         <h2>Latest Posts</h2>
-        <a href="">
+        {/* <a href="">
           <h2>See All</h2>
-        </a>
+        </a> */}
       </div>
       <div>
         {posts.map((post) => (

@@ -8,7 +8,7 @@ export default function Intro() {
         <div>
           <h1>Hey, I'm Chris!</h1>
           <p>
-            I develop software , make music, and laugh lots. I live in Dallas
+            I develop software , make music, and laugh lots. I live in Dallas,
             Texas and love to make things. Come say hey!
           </p>
           <p className="hero_buttons">

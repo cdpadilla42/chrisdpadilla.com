@@ -22,7 +22,7 @@ export default function PostPreview({
         />
       </div> */}
       <h3 className="text-3xl mb-3 leading-snug">
-        <Link href={`/posts/${slug}`}>
+        <Link href={`/blog/${slug}`}>
           <a>{title}</a>
         </Link>
       </h3>

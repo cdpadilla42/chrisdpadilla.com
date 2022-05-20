@@ -8,17 +8,15 @@ import Head from 'next/head';
 
 export default function Index({ allPosts }) {
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>Chris Padilla — Full Stack Developer</title>
-        </Head>
-        <Container>
-          <Intro />
-          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
-        </Container>
-      </Layout>
-    </>
+    <Layout>
+      <Head>
+        <title>Chris Padilla — Full Stack Developer</title>
+      </Head>
+      <Container>
+        <Intro />
+        {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+      </Container>
+    </Layout>
   );
 }
 

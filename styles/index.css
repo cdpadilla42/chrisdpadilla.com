@@ -10,6 +10,8 @@
   --white: #ccc;
   --red: #ff6b6b;
   --yellow: #ffe66d;
+  --code-black: #373c47;
+  --code-font-color: #b3b9c5;
   --font-family: system-ui;
   /* Breakpoint */
   --md: 800px;
@@ -18,9 +20,8 @@
 body {
   background-color: var(--black);
   color: var(--white);
-
-  font-size: 1.5rem;
-  line-height: 2.3rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   font-family: var(--font-family);
 }
 
@@ -77,6 +78,8 @@ nav {
   display: flex;
   gap: 1.5rem;
   flex-direction: column;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
 }
 
 @media all and (min-width: 800px) {
@@ -105,7 +108,7 @@ nav {
 
 a.no_underline {
   text-decoration: none;
-  color: ;
+  /* color: ; */
 }
 
 footer {
@@ -126,4 +129,23 @@ footer {
 
 strong {
   color: var(--red);
+}
+
+.tags {
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+.tags span {
+  /* background-color: var(--code-black); */
+  color: var(--code-font-color);
+  border: 1px solid var(--code-font-color);
+  border-radius: 10px;
+  padding: 0.25rem 1rem;
+  margin: 0 0.5rem;
+  cursor: initial;
+  display: inline-block;
+}
+
+.tags span:first-child {
+  margin-left: 0;
 }
