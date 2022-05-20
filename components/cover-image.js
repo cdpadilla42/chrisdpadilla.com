@@ -1,6 +1,6 @@
-import cn from 'classnames'
-import Link from 'next/link'
-import Image from 'next/image'
+import cn from 'classnames';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CoverImage({ title, src, slug, height, width }) {
   const image = (
@@ -14,7 +14,9 @@ export default function CoverImage({ title, src, slug, height, width }) {
       width={width}
       height={height}
     />
-  )
+  );
+
+  if (!src) return '';
   return (
     <div className="sm:mx-0">
       {slug ? (
@@ -25,5 +27,5 @@ export default function CoverImage({ title, src, slug, height, width }) {
         image
       )}
     </div>
-  )
+  );
 }
