@@ -1,0 +1,249 @@
+import Head from 'next/head';
+import React from 'react';
+import Header from '../components/header';
+import Layout from '../components/layout';
+import { calculateAge } from '../lib/util';
+
+const About = () => {
+  // TODO Add the Creston Concerto!!!
+  return (
+    <Layout>
+      <Head>
+        <title>Saxophone Music | Chris Padilla</title>
+        <meta property="og:image" content="/assets/headshot.jpeg" />
+      </Head>
+      <Header />
+      <h2>Music — The Saxophone Era</h2>
+      <p>
+        <strong>
+          Here are some of my favorite recordings from when I was regularly
+          playing sax!
+        </strong>{' '}
+      </p>
+      <p>All recordings done live and without editing.</p>
+      <p>
+        I performed as a classical saxophonist. I dabbled in jazz, but the more
+        traditional and experimental instrumental playing were my main vehicles.
+        If you didn't know that was a thing, you are in the majority! It's
+        fairly niche.
+      </p>
+      <p>
+        I played in jazz ensembles, concert and marching bands, saxophone
+        quartets, and mixed insrumentation new music (aka, avant-garde) groups.
+      </p>
+      <p>
+        On this page are mostly saxophone quartet and "solo" performances with
+        piano. Some classical pieces with experimental instrumental writing.
+        Much of it from my time at UT and UNT.
+      </p>
+      <p>
+        It's been a big part of my life and I worked with several amazing
+        musicians all along the way! The other musicians on these recordings are
+        dear friends. A major part of these recordings are the incredible
+        teachers I worked with: Graham Tobin, Dr. Eric Nestler at UNT, and
+        Stephen Page at UT.
+      </p>
+
+      <h3>
+        Colors That Dance from Hypercolor by{' '}
+        <a href="https://www.davidwerfelmann.com/">David Werfelmann</a>
+      </h3>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/MODUS+plays+Werfelmann's+Hypercolor%2C+III++Colors+that+Dance.mp3"
+        controls="controls"
+      />
+      <p>
+        Performing with MODUS, my grad school saxophone quaret at UT. Very
+        special group of people:{' '}
+        <a href="https://calvin-wong.com/">Calvin Wong</a> on Soprano,{' '}
+        <a href="https://www.sarahhetricksaxophone.com/">Sarah Hetrick</a> on
+        Alto, Nick McNamara on tenor, and your's truly on bari. Listening to
+        this brings back so many good memories!! Very floaty textures through
+        out this one.
+      </p>
+
+      <h3>Primavera</h3>
+      <a href="https://www.youtube.com/watch?v=oWi2xosQo5w">Video on YouTube</a>
+      <p>
+        This was unbelievably fun! Definitely the artsy-est thing I've been a
+        part of. A full blown multi-media and live dance production as part of
+        an anual festival at UT. Many amazingly talented people went into the
+        design here. Stephen Rothermel composed the music and produced the
+        electronic track.
+      </p>
+
+      <h3>Tango Etude No. 5 by Astor Piazzolla</h3>
+      <h4>I. Allegro</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Piazzolla+Tango+Etude+No.+5.wav"
+        controls="controls"
+      />
+      <p>
+        My most recent recording on sax (...from{' '}
+        {calculateAge(new Date('2019-05-12'))} years ago!) I was working on this
+        during my first year of teaching. This short dance has so much fire and
+        color to it. At the time, I was listening to several violinists,
+        especially Joshua Bell. I worked really hard here to steal their levity,
+        quickness, and nuance. My girlfriend Miranda graciously helped with this
+        recording!
+      </p>
+
+      <h3>Sonata by Edison Denisov</h3>
+      <h4>I. Allegro</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Chris+Padilla+performs+Denisov+I.+Allegro.wav"
+        controls="controls"
+      />
+      <h4>II. Lento & III. Allegro Moderato</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Chris+Padilla+performs+Denisov's+Sonata+-+II.+Lento+%26+III.+Allegro+Moderato.wav"
+        controls="controls"
+      />
+      <p>
+        This piece was a blast!! One of my proudest performances. Quintesential
+        avant-garde saxophone playing. Denisov drew inspiration from 12-tone
+        composition, bebop, and pointalism. Dizying and energetic music! The
+        first movement is a dance (try waltzing to that!), the second a
+        meditation that immediately blends into the third — a hard bop. Many of
+        the squonks here are part of the piece, and some of the most beautiful
+        writing for those effects! I had tremendous lessons with my teacher{' '}
+        <a href="http://stephen-page.com/">Stephen Page</a> at UT on this.
+        Joseph Dougherty plays piano here tremendously!!
+      </p>
+
+      <h3>Concerto by Pierre Max Dubois</h3>
+      <h4>I. Lento Espressivo</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Dubois+I.wav"
+        controls="controls"
+      />
+      <h4>II. Sarabande</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Dubois+II.wav"
+        controls="controls"
+      />
+      <h4>III. Rondo</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Dubois+III.wav"
+        controls="controls"
+      />
+      <p>
+        My first study at UT. A big ol' bucket of notes. The first movement is
+        mostly a solo cadenza. I still hear the second movement in my head — the
+        lyricism really stuck with me. The third movement fits into my Spahgetti
+        Western perception of several saxophone pieces.
+      </p>
+
+      <h3>Der Schönheitsmolch by Joseph Klein</h3>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/KleinFinal.mp3"
+        controls="controls"
+      />
+      <p>
+        While I was at UNT, the school had gotten a brand new{' '}
+        <a href="https://en.wikipedia.org/wiki/Bass_saxophone">
+          bass saxophone
+        </a>
+        , special ordered from Selmer in Paris. I was VERY fortunate to be one
+        of the first to play it! The title translates to "The Beauty Newt" —
+        based on a story about a creature "keen on all the beautiful things" but
+        is repuslive. Dr. Klein's notes are available on{' '}
+        <a href="https://josephklein.music.unt.edu/compositions/schonheitsmolch">
+          his site
+        </a>
+        .
+      </p>
+
+      {/* <h3>Concerto for Wind Ensemble by Paul Creston</h3>
+      <h4>I. Allegro non troppo</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+I.+Allegro+non+tr.wav"
+        controls="controls"
+      />
+      <h4>II. Andante</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+II.+Andante.wav"
+        controls="controls"
+      />
+      <h4>III. Poco largo, ma risoluto</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+III.+Poco+largo%2C.wav"
+        controls="controls"
+      />
+      <p>
+        From playing with The Millenium Quartet at UNT, another special group of
+        folks! Sarah Dunbar on Soprano, Jess Dodge on Alto, myself on Tenor, and
+        Kevin Ford on bari. Amazing memories playing with these folks! The piece
+        itstelf is hauntingly lyrical.
+      </p> */}
+
+      <h3>Saxophone Quartet by Alfred Desneclos</h3>
+      <h4>I. Allegro non troppo</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+I.+Allegro+non+tr.wav"
+        controls="controls"
+      />
+      <h4>II. Andante</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+II.+Andante.wav"
+        controls="controls"
+      />
+      <h4>III. Poco largo, ma risoluto</h4>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+III.+Poco+largo%2C.wav"
+        controls="controls"
+      />
+      <p>
+        From playing with The Millenium Quartet at UNT, another special group of
+        folks! Sarah Dunbar on Soprano, Jess Dodge on Alto, myself on Tenor, and
+        Kevin Ford on bari. Amazing memories playing with these folks! The piece
+        itstelf is hauntingly lyrical.
+      </p>
+
+      <h3>Paganini Lost by Jun Nagao</h3>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/PaganiniLostFinal.wav"
+        controls="controls"
+      />
+      <p>
+        This one's just fun!! A mix of quotes from the{' '}
+        <a href="https://www.youtube.com/watch?v=UcL0IsklM3M">
+          Paganini Violin Caprice No. 24
+        </a>{' '}
+        with prog rock writing and, of course, a classicaly trained trio! Xiao
+        Wang plays piano, Jess Dodge and I sax. Jess took all the high notes!
+      </p>
+
+      <h3>Concertino da Camara by Jacques Ibert</h3>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Ibert_+Concertin+Da+Camera+II.+Largh.wav"
+        controls="controls"
+      />
+      <p>
+        This is <strong>THE</strong> classical saxophone piece! My teacher at
+        UNT,{' '}
+        <a href="https://music.unt.edu/faculty-and-staff/eric-nestler">
+          Dr. Eric Nestler
+        </a>{' '}
+        introduced me to the playing of{' '}
+        <a href="https://en.wikipedia.org/wiki/Eugene_Rousseau_(saxophonist)">
+          Eugene Rousseau
+        </a>
+        . He was essentially one of the grandfathers of this type of saxophone
+        playing in the US. Warm sound, vigorous energy, and string-like
+        boyouncy. I was obsessed! A lot of my playing here is the result of
+        chasing that sound.
+      </p>
+      <p>
+        The piece itself is fun! Another jazz influenced, but this very much
+        from a french neo-romantic perspective. This recording is of the second
+        movement ballad and the third movement. I called it the Spahgetti
+        Western movement at the time — that's what the energy sounded like to
+        me, at least! The incomparable Xiao Wang performs the piano reduction
+        beautifully.
+      </p>
+    </Layout>
+  );
+};
+
+export default About;
