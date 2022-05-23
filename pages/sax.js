@@ -79,7 +79,7 @@ const About = () => {
         controls="controls"
       />
       <p>
-        My most recent recording on sax (...from{' '}
+        My last recording on sax before diving fully into coding (...from{' '}
         {calculateAge(new Date('2019-05-12'))} years ago!) I was working on this
         during my first year of teaching. This short dance has so much fire and
         color to it. At the time, I was listening to several violinists,
@@ -131,7 +131,8 @@ const About = () => {
         My first study at UT. A big ol' bucket of notes. The first movement is
         mostly a solo cadenza. I still hear the second movement in my head — the
         lyricism really stuck with me. The third movement fits into my Spahgetti
-        Western perception of several saxophone pieces.
+        Western perception of several saxophone pieces. The amazing Dr. Alex
+        Maynegre performs the piano reduction here.
       </p>
 
       <h3>Der Schönheitsmolch by Joseph Klein</h3>
@@ -154,28 +155,58 @@ const About = () => {
         .
       </p>
 
-      {/* <h3>Concerto for Wind Ensemble by Paul Creston</h3>
-      <h4>I. Allegro non troppo</h4>
+      <h3>Concerto for Wind Ensemble by Paul Creston</h3>
+      <h4>I. Energetic</h4>
       <audio
-        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+I.+Allegro+non+tr.wav"
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Creston_+Concerto+I.+Energetic.wav"
         controls="controls"
       />
-      <h4>II. Andante</h4>
+      <h4>II. Meditative</h4>
       <audio
-        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+II.+Andante.wav"
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Creston_+Concerto+II.+Meditative.wav"
         controls="controls"
       />
-      <h4>III. Poco largo, ma risoluto</h4>
+      <h4>III. Rhythmic</h4>
       <audio
-        src="https://padilla-media.s3.amazonaws.com/audio/sax/Desenclos_+Quatuor+III.+Poco+largo%2C.wav"
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Creston_+Concerto+III.+Rhythmic.wav"
         controls="controls"
       />
       <p>
-        From playing with The Millenium Quartet at UNT, another special group of
-        folks! Sarah Dunbar on Soprano, Jess Dodge on Alto, myself on Tenor, and
-        Kevin Ford on bari. Amazing memories playing with these folks! The piece
-        itstelf is hauntingly lyrical.
-      </p> */}
+        This was a really special opportunity! I was an understudy for a
+        concerto performance with saxophone solo and band. I never ended up
+        playing this in concert, but I got to play and record a dress rehearsal
+        with full band!
+      </p>
+      <p>
+        I was playing on pure adrenaline!! (I can espeically hear it with how
+        fast I take some of these lines!!) Getting to the rehearsal in the first
+        place was a mad rush that day. This is the most energy I've ever played
+        with. Makes me think of how crazy indestructable we are in those college
+        days!
+      </p>
+      <p>
+        The legendary Dennis Fisher conducts the Symphonic Band with many great
+        friends!
+      </p>
+
+      <h3>Jenn Song</h3>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/jenn+song+2.wav"
+        controls="controls"
+      />
+      <p>
+        No sax in this one! This is a chiptune song I wrote on a DS in{' '}
+        <a href="http://web.archive.org/web/20190118070140/http://nitrotracker.tobw.net/index.php?cat_id=0">
+          nitrotracker
+        </a>
+        . I wanted to write something inspire by my sister{' '}
+        <a href="https://www.jennpadilla.com/">Jenn's</a> art. This was done
+        some summer inbetween terms at UNT. I can hear influences from quartet
+        music! A little Gorillaz plastic beach too, with the siren. Maybe some{' '}
+        <a href="https://disasterpeace.com/blog/">disasterpeace</a> in there
+        too. My theory knowledge was very minimal, so I'm impressed with how
+        cohesive and interesting this still is after so many years!
+      </p>
 
       <h3>Saxophone Quartet by Alfred Desneclos</h3>
       <h4>I. Allegro non troppo</h4>
