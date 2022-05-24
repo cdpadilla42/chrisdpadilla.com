@@ -37,7 +37,6 @@ h3 {
 
 h2,
 h3 {
-  margin-top: 4rem;
 }
 
 h3 {
@@ -107,9 +106,12 @@ nav {
   flex-basis: 3rem;
 }
 
-a.no_underline {
+a {
   text-decoration: none;
-  /* color: ; */
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -149,4 +151,9 @@ strong {
 
 .tags span:first-child {
   margin-left: 0;
+}
+
+.markdown h2,
+.markdown h3 {
+  margin-top: 4rem;
 }
