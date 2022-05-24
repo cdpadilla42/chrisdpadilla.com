@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import Header from '../components/header';
 import Layout from '../components/layout';
 import { calculateAge } from '../lib/util';
 
@@ -13,6 +14,7 @@ const About = () => {
         <title>About | Chris Padilla</title>
         <meta property="og:image" content={'/assets/headshot.jpeg'} />
       </Head>
+      <Header />
       <h2>Hey, I'm Chris! </h2>
       <p>Nice to meet you!</p>
       <h2>The Gist</h2>
