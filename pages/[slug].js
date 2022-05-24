@@ -75,10 +75,8 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const posts = getAllPosts(['slug']);
 
-  const filteredPosts = posts.filter(filterBlogPosts);
-
   return {
-    paths: filteredPosts.map((post) => {
+    paths: posts.map((post) => {
       return {
         params: {
           slug: post.slug,

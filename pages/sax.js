@@ -5,7 +5,6 @@ import Layout from '../components/layout';
 import { calculateAge } from '../lib/util';
 
 const About = () => {
-  // TODO Add the Creston Concerto!!!
   return (
     <Layout>
       <Head>
