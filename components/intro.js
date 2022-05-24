@@ -16,7 +16,7 @@ export default function Intro() {
           </p>
           <p className="hero_buttons">
             <a href="/about">More about me</a> —{' '}
-            <a href="/contact">Contact Me</a>
+            <a href="/contact">Contact me</a>
           </p>
         </div>
         <div className="headshot">
