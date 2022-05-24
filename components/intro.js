@@ -9,10 +9,9 @@ export default function Intro() {
           <h1>Hey, I'm Chris!</h1>
           <p>
             By day, I <a href="https://chrispadilla.dev/">develop software</a>.{' '}
-            By night, I{' '}
-            <a href="https://letsgochris.bandcamp.com/">write music</a>. I laugh
-            lots all hours of the day. I live in Dallas, Texas and love to make
-            things. Come say hey!
+            By night, I <a href="/music">write music</a>. I laugh lots all hours
+            of the day. I live in Dallas, Texas and love to make things. Come
+            say hey!
           </p>
           <p className="hero_buttons">
             <a href="/about">More about me</a> —{' '}
