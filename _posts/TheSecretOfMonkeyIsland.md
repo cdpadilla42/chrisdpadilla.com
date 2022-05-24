@@ -4,7 +4,7 @@ tags:
   - old gold
   - games
 date: '2020-05-12T05:35:07.322Z'
-published: false
+hidden: true
 ---
 
 ![Guy going up against a troll](troll.png)
