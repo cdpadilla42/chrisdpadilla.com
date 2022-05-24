@@ -9,11 +9,11 @@ import Head from 'next/head';
 import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
 import markdownToHtml from '../lib/markdownToHtml';
+import { filterBlogPosts } from '../lib/util';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
-  console.log(post.published);
-  if ((!router.isFallback && !post?.slug) || !post.published) {
+  if ((!router.isFallback && !post?.slug) || post.hidden) {
     return <ErrorPage statusCode={404} />;
   }
   return (
@@ -58,7 +58,7 @@ export async function getStaticProps({ params }) {
     'ogImage',
     'coverImage',
     'tags',
-    'published',
+    'hidden',
   ]);
   const content = await markdownToHtml(post.content || '');
 
@@ -75,8 +75,10 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const posts = getAllPosts(['slug']);
 
+  const filteredPosts = posts.filter(filterBlogPosts);
+
   return {
-    paths: posts.map((post) => {
+    paths: filteredPosts.map((post) => {
       return {
         params: {
           slug: post.slug,

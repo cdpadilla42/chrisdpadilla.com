@@ -5,6 +5,7 @@ import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
+import { filterBlogPosts } from '../lib/util';
 
 export default function Index({ allPosts }) {
   return (
@@ -28,10 +29,10 @@ export async function getStaticProps() {
     'author',
     'coverImage',
     'excerpt',
-    'published',
+    'hidden',
   ]);
 
-  const publishedPosts = allPosts.filter((post) => post.published);
+  const publishedPosts = allPosts.filter(filterBlogPosts);
 
   return {
     props: { allPosts: publishedPosts },
