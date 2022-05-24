@@ -8,11 +8,15 @@ export default function Intro() {
         <div>
           <h1>Hey, I'm Chris!</h1>
           <p>
-            I develop software, make music, and laugh lots. I live in Dallas,
-            Texas and love to make things. Come say hey!
+            By day, I <a href="https://chrispadilla.dev/">develop software</a>.{' '}
+            By night, I{' '}
+            <a href="https://letsgochris.bandcamp.com/">write music</a>. I laugh
+            lots all hours of the day. I live in Dallas, Texas and love to make
+            things. Come say hey!
           </p>
           <p className="hero_buttons">
-            <a href="/about">More About me</a>
+            <a href="/about">More about me</a> —{' '}
+            <a href="/contact">Contact Me</a>
           </p>
         </div>
         <div className="headshot">
