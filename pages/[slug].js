@@ -8,8 +8,6 @@ import PostTitle from '../components/post-title';
 import Head from 'next/head';
 import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
-import markdownToHtml from '../lib/markdownToHtml';
-import { filterBlogPosts } from '../lib/util';
 import Link from 'next/link';
 
 export default function Post({ post, morePosts, preview }) {
@@ -67,14 +65,10 @@ export async function getStaticProps({ params }) {
     'tags',
     'hidden',
   ]);
-  const content = await markdownToHtml(post.content || '');
 
   return {
     props: {
-      post: {
-        ...post,
-        content,
-      },
+      post,
     },
   };
 }

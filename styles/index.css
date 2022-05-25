@@ -170,6 +170,10 @@ article h1 {
   display: block;
 }
 
+.markdown p {
+  display: block;
+  position: relative;
+}
 .music_display {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
