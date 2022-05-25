@@ -19,12 +19,11 @@ const About = () => {
           playing sax!
         </strong>{' '}
       </p>
-      <p>All recordings done live and without editing.</p>
       <p>
-        I performed as a classical saxophonist. I dabbled in jazz, but the more
-        traditional and experimental instrumental playing were my main vehicles.
-        If you didn't know that was a thing, you are in the majority! It's
-        fairly niche.
+        I performed as a classical saxophonist. I dabbled in jazz, but both
+        traditional and experimental playing were my main vehicles. If you
+        didn't know that <i>classical sax</i> was a thing, you are in the
+        majority! It's fairly niche.
       </p>
       <p>
         I played in jazz ensembles, concert and marching bands, saxophone
@@ -32,16 +31,34 @@ const About = () => {
       </p>
       <p>
         On this page are mostly saxophone quartet and "solo" performances with
-        piano. Some classical pieces with experimental instrumental writing.
-        Much of it from my time at UT and UNT.
+        piano. Some classical pieces and some non-traditional pieces. Much of it
+        from my time at UT and UNT.
       </p>
       <p>
         It's been a big part of my life and I worked with several amazing
         musicians all along the way! The other musicians on these recordings are
-        dear friends. A major part of these recordings are the incredible
-        teachers I worked with: Graham Tobin, Dr. Eric Nestler at UNT, and
-        Stephen Page at UT.
+        dear friends.
       </p>
+      <p>
+        Big thanks to the incredible teachers I worked with: Graham Tobin,{' '}
+        <a
+          href="https://music.unt.edu/faculty-and-staff/eric-nestler"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Dr. Eric Nestler
+        </a>{' '}
+        at UNT, and{'  '}
+        <a
+          href="http://stephen-page.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Stephen Page
+        </a>{' '}
+        at UT.
+      </p>
+      <p>All recordings are live and unedited.</p>
 
       <h3>
         Colors That Dance from Hypercolor by{' '}
@@ -54,21 +71,40 @@ const About = () => {
       <p>
         Performing with MODUS, my grad school saxophone quaret at UT. Very
         special group of people:{' '}
-        <a href="https://calvin-wong.com/">Calvin Wong</a> on Soprano,{' '}
-        <a href="https://www.sarahhetricksaxophone.com/">Sarah Hetrick</a> on
-        Alto, Nick McNamara on tenor, and your's truly on bari. Listening to
+        <a
+          href="https://calvin-wong.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Calvin Wong
+        </a>{' '}
+        on Soprano,{' '}
+        <a
+          href="https://www.sarahhetricksaxophone.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sarah Hetrick
+        </a>{' '}
+        on Alto, Nick McNamara on tenor, and your's truly on bari. Listening to
         this brings back so many good memories!! Very floaty textures through
         out this one.
       </p>
 
       <h3>Primavera</h3>
-      <a href="https://www.youtube.com/watch?v=oWi2xosQo5w">Video on YouTube</a>
+      <a
+        href="https://www.youtube.com/watch?v=oWi2xosQo5w"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Video on YouTube
+      </a>
       <p>
         This was unbelievably fun! Definitely the artsy-est thing I've been a
-        part of. A full blown multi-media and live dance production as part of
-        an anual festival at UT. Many amazingly talented people went into the
+        part of. A full blown multi-media / live dance production as part of an
+        anual festival at UT. Many amazingly talented people worked on the
         design here. Stephen Rothermel composed the music and produced the
-        electronic track.
+        electronic track. I'm performing bari here with MODUS
       </p>
 
       <h3>Tango Etude No. 5 by Astor Piazzolla</h3>
@@ -83,8 +119,9 @@ const About = () => {
         during my first year of teaching. This short dance has so much fire and
         color to it. At the time, I was listening to several violinists,
         especially Joshua Bell. I worked really hard here to steal their levity,
-        quickness, and nuance. My girlfriend Miranda graciously helped with this
-        recording!
+        quickness, and nuance. Listening back, I'm surprised — it might be one
+        of my most polished recordings! My girlfriend Miranda graciously helped
+        with this recording.
       </p>
 
       <h3>Sonata by Edison Denisov</h3>
@@ -101,13 +138,13 @@ const About = () => {
       <p>
         This piece was a blast!! One of my proudest performances. Quintesential
         avant-garde saxophone playing. Denisov drew inspiration from 12-tone
-        composition, bebop, and pointalism. Dizying and energetic music! The
-        first movement is a dance (try waltzing to that!), the second a
-        meditation that immediately blends into the third — a hard bop. Many of
-        the squonks here are part of the piece, and some of the most beautiful
-        writing for those effects! I had tremendous lessons with my teacher{' '}
-        <a href="http://stephen-page.com/">Stephen Page</a> at UT on this.
-        Joseph Dougherty plays piano here tremendously!!
+        composition, bebop, and pointalism, bringing it all into one. Dizying
+        and energetic music! The first movement is a dance (try waltzing to
+        that!), the second a meditation that immediately blends into the third —
+        a hard bop. Many of the squonks here are part of the piece, and some of
+        the most beautiful writing for those effects! I had tremendous lessons
+        with my teacher Stephen Page at UT on this. Joseph Dougherty plays piano
+        here tremendously!!
       </p>
 
       <h3>Concerto by Pierre Max Dubois</h3>
@@ -141,14 +178,23 @@ const About = () => {
       />
       <p>
         While I was at UNT, the school had gotten a brand new{' '}
-        <a href="https://en.wikipedia.org/wiki/Bass_saxophone">
+        <a
+          href="https://en.wikipedia.org/wiki/Bass_saxophone"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           bass saxophone
         </a>
         , special ordered from Selmer in Paris. I was VERY fortunate to be one
-        of the first to play it! The title translates to "The Beauty Newt" —
-        based on a story about a creature "keen on all the beautiful things" but
-        is repuslive. Dr. Klein's notes are available on{' '}
-        <a href="https://josephklein.music.unt.edu/compositions/schonheitsmolch">
+        of the first to play it for this one! The title translates to "The
+        Beauty Newt" — based on a story about a creature "keen on all the
+        beautiful things" but who is absolutely repuslive. Dr. Klein's full
+        notes are available on{' '}
+        <a
+          href="https://josephklein.music.unt.edu/compositions/schonheitsmolch"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           his site
         </a>
         .
@@ -185,7 +231,7 @@ const About = () => {
       </p>
       <p>
         The legendary Dennis Fisher conducts the Symphonic Band with many great
-        friends!
+        friends in the group!
       </p>
 
       <h3>Jenn Song</h3>
@@ -195,16 +241,33 @@ const About = () => {
       />
       <p>
         No sax in this one! This is a chiptune song I wrote on a DS in{' '}
-        <a href="http://web.archive.org/web/20190118070140/http://nitrotracker.tobw.net/index.php?cat_id=0">
+        <a
+          href="http://web.archive.org/web/20190118070140/http://nitrotracker.tobw.net/index.php?cat_id=0"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           nitrotracker
         </a>
         . I wanted to write something inspire by my sister{' '}
-        <a href="https://www.jennpadilla.com/">Jenn's</a> art. This was done
-        some summer inbetween terms at UNT. I can hear influences from quartet
-        music! A little Gorillaz plastic beach too, with the siren. Maybe some{' '}
-        <a href="https://disasterpeace.com/blog/">disasterpeace</a> in there
-        too. My theory knowledge was very minimal, so I'm impressed with how
-        cohesive and interesting this still is after so many years!
+        <a
+          href="https://www.jennpadilla.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Jenn's
+        </a>{' '}
+        art. This was done some summer inbetween terms at UNT. I can hear
+        influences from quartet music! A little Gorillaz Plastic Beach too, with
+        the siren. Maybe some{' '}
+        <a
+          href="https://disasterpeace.com/blog/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          disasterpeace
+        </a>{' '}
+        in there too. My theory knowledge was very minimal, so I'm impressed
+        with how cohesive and interesting this still is after so many years!
       </p>
 
       <h3>Saxophone Quartet by Alfred Desneclos</h3>
@@ -226,8 +289,8 @@ const About = () => {
       <p>
         From playing with The Millenium Quartet at UNT, another special group of
         folks! Sarah Dunbar on Soprano, Jess Dodge on Alto, myself on Tenor, and
-        Kevin Ford on bari. Amazing memories playing with these folks! The piece
-        itstelf is hauntingly lyrical.
+        Kevin Ford on bari. Amazing memories playing with these musicians! The
+        piece itstelf is hauntingly lyrical.
       </p>
 
       <h3>Paganini Lost by Jun Nagao</h3>
@@ -237,7 +300,11 @@ const About = () => {
       />
       <p>
         This one's just fun!! A mix of quotes from the{' '}
-        <a href="https://www.youtube.com/watch?v=UcL0IsklM3M">
+        <a
+          href="https://www.youtube.com/watch?v=UcL0IsklM3M"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Paganini Violin Caprice No. 24
         </a>{' '}
         with prog rock writing and, of course, a classicaly trained trio! Xiao
@@ -251,12 +318,12 @@ const About = () => {
       />
       <p>
         This is <strong>THE</strong> classical saxophone piece! My teacher at
-        UNT,{' '}
-        <a href="https://music.unt.edu/faculty-and-staff/eric-nestler">
-          Dr. Eric Nestler
-        </a>{' '}
-        introduced me to the playing of{' '}
-        <a href="https://en.wikipedia.org/wiki/Eugene_Rousseau_(saxophonist)">
+        UNT, Dr. Eric Nestler introduced me to the playing of{' '}
+        <a
+          href="https://en.wikipedia.org/wiki/Eugene_Rousseau_(saxophonist)"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Eugene Rousseau
         </a>
         . He was essentially one of the grandfathers of this type of saxophone
@@ -265,12 +332,12 @@ const About = () => {
         chasing that sound.
       </p>
       <p>
-        The piece itself is fun! Another jazz influenced, but this very much
-        from a french neo-romantic perspective. This recording is of the second
-        movement ballad and the third movement. I called it the Spahgetti
-        Western movement at the time — that's what the energy sounded like to
-        me, at least! The incomparable Xiao Wang performs the piano reduction
-        beautifully.
+        The piece itself is fun! Another jazz influenced classical work, but
+        this one is very much from a french neo-romantic perspective. This
+        recording is of the second movement ballad and the third movement. I
+        called it the Spahgetti Western movement at the time — that's what the
+        energy sounded like to me, at least! The incomparable Xiao Wang performs
+        the piano reduction beautifully.
       </p>
     </Layout>
   );

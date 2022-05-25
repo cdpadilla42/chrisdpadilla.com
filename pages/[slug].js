@@ -10,6 +10,7 @@ import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
 import markdownToHtml from '../lib/markdownToHtml';
 import { filterBlogPosts } from '../lib/util';
+import Link from 'next/link';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -19,7 +20,13 @@ export default function Post({ post, morePosts, preview }) {
   return (
     <Layout preview={preview}>
       <Container>
-        <Header />
+        <Header
+          section={
+            <Link href="/blog">
+              <a>Blog</a>
+            </Link>
+          }
+        />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (

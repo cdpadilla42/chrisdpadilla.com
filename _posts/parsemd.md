@@ -85,7 +85,7 @@ The `match` method in JavaScript, returns separate capture groups as part of the
 - index 1: the first capture group, our tags
 - index 2: the second capture group, the post body
 
-From here, it's built in JS split, map, and trim methods to grab the data.
+From here, I just need the built in split, map, and trim methods to grab the data.
 
 # Voilà!
 

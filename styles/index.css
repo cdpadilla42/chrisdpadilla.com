@@ -58,6 +58,10 @@ header {
   /* grid-area: header; */
 }
 
+.header_divider {
+  margin: 0 0.5rem;
+}
+
 main {
   max-width: 50rem;
   margin: 1rem 0.5rem;
@@ -152,8 +156,21 @@ strong {
 .tags span:first-child {
   margin-left: 0;
 }
-
+article h1 {
+  font-size: 2em;
+}
 .markdown h2,
 .markdown h3 {
   margin-top: 4rem;
 }
+
+.markdown img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* .markdown p {
+  display: block;
+  width: 100%;
+} */

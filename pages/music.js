@@ -19,8 +19,15 @@ export default function Blog({ allPosts }) {
       <Container>
         <h1>Music.</h1>
         <p>
-          I put all of my new albums on{' '}
-          <a href="https://letsgochris.bandcamp.com/">bandcamp</a>.
+          All of my newly composed music is on{' '}
+          <a
+            href="https://letsgochris.bandcamp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            bandcamp
+          </a>
+          .
         </p>
         <p>
           You can{' '}
