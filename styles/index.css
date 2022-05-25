@@ -170,7 +170,15 @@ article h1 {
   display: block;
 }
 
-/* .markdown p {
-  display: block;
-  width: 100%;
-} */
+.music_display {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+@media all and (min-width: 800px) {
+  .music_display {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+}

@@ -1,15 +1,13 @@
 import React from 'react';
 import Container from '../components/container';
 import Layout from '../components/layout';
-import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
-import { filterBlogPosts } from '../lib/util';
 import Header from '../components/header';
-import Image from 'next/image';
-import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
-import Link from 'next/link';
 
-export default function Blog({ allPosts }) {
+import Link from 'next/link';
+import MusicGrid from '../components/MusicGrid';
+
+export default function Music({ allPosts }) {
   return (
     <Layout>
       <Head>
@@ -36,38 +34,8 @@ export default function Blog({ allPosts }) {
           </Link>
           .
         </p>
-        <section>
-          <h2>Latest Release</h2>
-          <article>
-            <Link href="https://letsgochris.bandcamp.com/album/spectrum">
-              <a target="_blank" rel="noopener noreferrer">
-                <Image
-                  src={SpectrumImg}
-                  alt="Cover art for Spectrum. Photo of Lady Bird Lake."
-                />
-              </a>
-            </Link>
-          </article>
-        </section>
+        <MusicGrid />
       </Container>
     </Layout>
   );
-}
-
-export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-    'hidden',
-  ]);
-
-  const publishedPosts = allPosts.filter(filterBlogPosts);
-
-  return {
-    props: { allPosts: publishedPosts },
-  };
 }

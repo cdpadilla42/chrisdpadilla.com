@@ -4,7 +4,7 @@ import Header from '../components/header';
 import Layout from '../components/layout';
 import { calculateAge } from '../lib/util';
 
-const About = () => {
+const Sax = () => {
   return (
     <Layout>
       <Head>
@@ -349,4 +349,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Sax;

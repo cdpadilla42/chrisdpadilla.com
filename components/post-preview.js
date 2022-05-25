@@ -11,7 +11,7 @@ export default function PostPreview({
   slug,
 }) {
   return (
-    <div>
+    <>
       {/* <div className="article_preview__image_container">
         <CoverImage
           slug={slug}
@@ -30,6 +30,6 @@ export default function PostPreview({
         <DateFormatter dateString={date} />
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p> */}
-    </div>
+    </>
   );
 }
