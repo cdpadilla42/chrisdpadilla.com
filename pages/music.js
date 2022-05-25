@@ -40,7 +40,7 @@ export default function Blog({ allPosts }) {
           <h2>Latest Release</h2>
           <article>
             <Link href="https://letsgochris.bandcamp.com/album/spectrum">
-              <a>
+              <a target="_blank" rel="noopener noreferrer">
                 <Image
                   src={SpectrumImg}
                   alt="Cover art for Spectrum. Photo of Lady Bird Lake."

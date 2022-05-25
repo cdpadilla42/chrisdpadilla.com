@@ -21,7 +21,7 @@ export default function PostPreview({
           width={556}
         />
       </div> */}
-      <h3 className="text-3xl mb-3 leading-snug">
+      <h3>
         <Link href={`/${slug}`}>
           <a>{title}</a>
         </Link>

@@ -62,7 +62,13 @@ const About = () => {
 
       <h3>
         Colors That Dance from Hypercolor by{' '}
-        <a href="https://www.davidwerfelmann.com/">David Werfelmann</a>
+        <a
+          href="https://www.davidwerfelmann.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          David Werfelmann
+        </a>
       </h3>
       <audio
         src="https://padilla-media.s3.amazonaws.com/audio/sax/MODUS+plays+Werfelmann's+Hypercolor%2C+III++Colors+that+Dance.mp3"

@@ -9,7 +9,8 @@ export default function Header({ section }) {
         </Link>
         {section ? (
           <>
-            <span className="header_divider">/</span> {section}
+            <span className="header_divider">/</span>
+            {section}
           </>
         ) : (
           '.'

@@ -13,8 +13,8 @@ export default function Blog({ allPosts }) {
         <title>Contact | Chris Padilla</title>
       </Head>
       <Header />
-      <h1>Contact.</h1>
       <Container>
+        <h1>Contact.</h1>
         <p>
           You can reach me at <strong>cdpadilla42</strong> at{' '}
           <strong>gmail</strong> dot <strong>com</strong>. It's honeslty the
@@ -23,16 +23,40 @@ export default function Blog({ allPosts }) {
         <p>I'm also on the socials:</p>
         <ul>
           <li>
-            <a href="https://twitter.com/cpadilladevs">Twitter</a>
+            <a
+              href="https://twitter.com/cpadilladevs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter
+            </a>
           </li>
           <li>
-            <a href="https://github.com/cdpadilla42">GitHub</a>
+            <a
+              href="https://github.com/cdpadilla42"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/chrisdpadilla/">LinkedIn</a>
+            <a
+              href="https://www.linkedin.com/in/chrisdpadilla/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/c.d.padilla/">Instagram</a>
+            <a
+              href="https://www.instagram.com/c.d.padilla/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
           </li>
         </ul>
       </Container>

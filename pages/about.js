@@ -16,7 +16,7 @@ const About = () => {
         <meta property="og:image" content={'/assets/headshot.jpeg'} />
       </Head>
       <Header />
-      <h2>Hey, I'm Chris! </h2>
+      <h1>Hey, I'm Chris! </h1>
       <p>Nice to meet you!</p>
       <h2>The Gist</h2>
       <p>
