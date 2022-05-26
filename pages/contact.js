@@ -5,6 +5,7 @@ import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
 import { filterBlogPosts } from '../lib/util';
 import Header from '../components/header';
+import { TWITTER_URL } from '../lib/constants';
 
 export default function Blog({ allPosts }) {
   return (
@@ -17,17 +18,13 @@ export default function Blog({ allPosts }) {
         <h1>Contact.</h1>
         <p>
           You can reach me at <strong>cdpadilla42</strong> at{' '}
-          <strong>gmail</strong> dot <strong>com</strong>. It's honeslty the
+          <strong>gmail</strong> dot <strong>com</strong>. It's honestly the
           most reliable way to get to me.
         </p>
         <p>I'm also on the socials:</p>
         <ul>
           <li>
-            <a
-              href="https://twitter.com/cpadilladevs"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer">
               Twitter
             </a>
           </li>

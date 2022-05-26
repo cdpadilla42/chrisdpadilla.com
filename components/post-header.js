@@ -4,7 +4,6 @@ import CoverImage from '../components/cover-image';
 import PostTitle from '../components/post-title';
 
 export default function PostHeader({ title, coverImage, date, tags }) {
-  console.log(tags);
   return (
     <>
       <PostTitle>{title}</PostTitle>

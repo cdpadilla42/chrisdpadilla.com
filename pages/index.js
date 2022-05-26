@@ -8,6 +8,8 @@ import { filterBlogPosts } from '../lib/util';
 import Link from 'next/link';
 import Image from 'next/image';
 import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
+import { generateRSSFeed } from '../lib/generateRssFeed';
+import markdownToHtml from '../lib/markdownToHtml';
 
 export default function Index({ allPosts }) {
   return (
@@ -52,9 +54,23 @@ export async function getStaticProps() {
     'coverImage',
     'excerpt',
     'hidden',
+    'content',
   ]);
 
   const publishedPosts = allPosts.filter(filterBlogPosts);
+
+  // Generating the rss file on build
+
+  const parsedPublishedPost = await Promise.all(
+    publishedPosts.map(async (post) => {
+      const newPost = { ...post };
+      const newContent = await markdownToHtml(post.content);
+      newPost.content = newContent;
+      return newPost;
+    })
+  );
+
+  generateRSSFeed(parsedPublishedPost);
 
   return {
     props: { allPosts: publishedPosts },
