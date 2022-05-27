@@ -2,9 +2,8 @@
 title: Parsing Markdown in Node
 date: '2022-05-19T05:35:07.322Z'
 tags:
-  - node
   - tech
-  - blog
+  - node
 published: true
 ---
 

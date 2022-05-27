@@ -2,6 +2,7 @@
 title: Symbolic Links
 tags:
   - tech
+  - linux
 date: '2022-05-30T05:35:07.322Z'
 ---
 
