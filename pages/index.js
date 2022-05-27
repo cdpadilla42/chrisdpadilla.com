@@ -57,12 +57,12 @@ export async function getStaticProps() {
     'content',
   ]);
 
-  const publishedPosts = allPosts.filter(filterBlogPosts);
+  const filteredPosts = allPosts.filter(filterBlogPosts);
 
   // Generating the rss file on build
 
   const parsedPublishedPost = await Promise.all(
-    publishedPosts.map(async (post) => {
+    filteredPosts.map(async (post) => {
       const newPost = { ...post };
       const newContent = await markdownToHtml(post.content);
       newPost.content = newContent;
@@ -73,6 +73,6 @@ export async function getStaticProps() {
   generateRSSFeed(parsedPublishedPost);
 
   return {
-    props: { allPosts: publishedPosts },
+    props: { allPosts: filteredPosts },
   };
 }

@@ -9,22 +9,18 @@ import Head from 'next/head';
 import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
 import Link from 'next/link';
+import { filterBlogPosts } from '../lib/util';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
-  if ((!router.isFallback && !post?.slug) || post.hidden) {
+  console.log(post);
+  if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
   return (
     <Layout preview={preview}>
       <Container>
-        <Header
-          section={
-            <Link href="/blog">
-              <a>Blog</a>
-            </Link>
-          }
-        />
+        <Header section="blog" />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
@@ -65,6 +61,8 @@ export async function getStaticProps({ params }) {
     'tags',
     'hidden',
   ]);
+
+  if (!filterBlogPosts(post)) return { props: {} };
 
   return {
     props: {
