@@ -5,6 +5,8 @@ import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
 import PostPreview from '../components/post-preview';
 import { filterBlogPosts } from '../lib/util';
+import RssSvg from '../components/rssSvg';
+import Header from '../components/header';
 
 export default function Blog({ allPosts }) {
   return (
@@ -12,7 +14,7 @@ export default function Blog({ allPosts }) {
       <Head>
         <title>Chris Padilla — Full Stack Developer</title>
       </Head>
-      <h1>Blog.</h1>
+      <Header section="blog" />
       <Container>
         {allPosts.length > 0 &&
           allPosts.map((post) => (

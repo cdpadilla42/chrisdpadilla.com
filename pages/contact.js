@@ -6,6 +6,7 @@ import Head from 'next/head';
 import { filterBlogPosts } from '../lib/util';
 import Header from '../components/header';
 import { TWITTER_URL } from '../lib/constants';
+import Link from 'next/link';
 
 export default function Blog({ allPosts }) {
   return (
@@ -56,6 +57,17 @@ export default function Blog({ allPosts }) {
             </a>
           </li>
         </ul>
+        <p>
+          You can follow my{' '}
+          <Link href="/blog">
+            <a>blog</a>
+          </Link>{' '}
+          by{' '}
+          <Link href="/rss.xml">
+            <a>RSS</a>
+          </Link>
+          . (<a href="https://aboutfeeds.com/">What's RSS?</a>)
+        </p>
       </Container>
     </Layout>
   );
