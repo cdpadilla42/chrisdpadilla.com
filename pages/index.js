@@ -19,7 +19,6 @@ export default function Index({ allPosts }) {
       </Head>
       <Container>
         <Intro />
-        {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         <section>
           <div className="heading_flex">
             <h2>Latest Music</h2>
@@ -40,6 +39,7 @@ export default function Index({ allPosts }) {
             </Link>
           </article>
         </section>
+        {allPosts.length > 0 && <MoreStories posts={allPosts} />}
       </Container>
     </Layout>
   );

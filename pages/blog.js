@@ -14,8 +14,8 @@ export default function Blog({ allPosts }) {
       <Head>
         <title>Chris Padilla — Full Stack Developer</title>
       </Head>
-      <Header section="blog" />
       <Container>
+        <Header section="blog" />
         {allPosts.length > 0 &&
           allPosts.map((post) => (
             <PostPreview

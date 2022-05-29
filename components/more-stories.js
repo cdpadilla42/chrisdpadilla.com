@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import PostPreview from '../components/post-preview';
 
 export default function MoreStories({ posts }) {
@@ -5,12 +6,14 @@ export default function MoreStories({ posts }) {
     <section>
       <div className="heading_flex">
         <h2>Latest Posts</h2>
-        {/* <a href="">
-          <h2>See All</h2>
-        </a> */}
+        <Link href="/blog">
+          <a>
+            <h2>See All</h2>
+          </a>
+        </Link>
       </div>
 
-      {posts.map((post) => (
+      {posts.slice(0, 6).map((post) => (
         <PostPreview
           key={post.slug}
           title={post.title}

@@ -33,6 +33,7 @@ h1,
 h2,
 h3 {
   color: var(--yellow);
+  line-height: 2.2rem;
 }
 
 h2,
