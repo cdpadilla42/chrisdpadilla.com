@@ -113,6 +113,18 @@ const Sax = () => {
         electronic track. I'm performing bari here with MODUS
       </p>
 
+      <h3>Chrysalis</h3>
+      <audio
+        src="https://padilla-media.s3.amazonaws.com/audio/sax/Chrysalis+NASA.WAV"
+        controls="controls"
+      />
+      <p>One more MODUS recording!</p>
+      <p>
+        Very, very special piece for us. Another one by Stephen Rothermel.
+        Really beautiful and lyrical. I'm reading the poem <strong>AND</strong>{' '}
+        starting the performance on bari. No pressure!
+      </p>
+
       <h3>Tango Etude No. 5 by Astor Piazzolla</h3>
       <h4>I. Allegro</h4>
       <audio
