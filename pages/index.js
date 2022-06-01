@@ -8,8 +8,7 @@ import { filterBlogPosts } from '../lib/util';
 import Link from 'next/link';
 import Image from 'next/image';
 import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
-import { generateRSSFeed } from '../lib/generateRssFeed';
-import markdownToHtml from '../lib/markdownToHtml';
+import { filterBlogPosts } from './util';
 
 export default function Index({ allPosts }) {
   return (
@@ -46,34 +45,25 @@ export default function Index({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-    'hidden',
-    'content',
-  ]);
-
-  const filteredPosts = allPosts.filter(filterBlogPosts);
-
-  // Generating the rss file on build
-
-  const parsedPublishedPost = await Promise.all(
-    filteredPosts.map(async (post) => {
-      const newPost = { ...post };
-      const newContent = await markdownToHtml(post.content);
-      newPost.content = newContent;
-      return newPost;
-    })
+  const allPosts = getAllPosts(
+    [
+      'title',
+      'date',
+      'slug',
+      'author',
+      'coverImage',
+      'excerpt',
+      'hidden',
+      'content',
+    ],
+    {
+      filter: filterBlogPosts,
+      convertContentToHtml: true,
+    }
   );
 
-  generateRSSFeed(parsedPublishedPost);
-
   return {
-    props: { allPosts: filteredPosts },
+    props: { allPosts },
     // revalidate: 14400,
   };
 }
