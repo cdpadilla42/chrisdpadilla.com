@@ -1,14 +1,13 @@
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts } from '../lib/api';
-import Head from 'next/head';
-import { filterBlogPosts } from '../lib/util';
-import Link from 'next/link';
-import Image from 'next/image';
 import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
-import { filterBlogPosts } from './util';
+import { filterBlogPosts } from '../lib/util';
 
 export default function Index({ allPosts }) {
   return (
