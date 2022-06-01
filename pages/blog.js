@@ -33,7 +33,7 @@ export default function Blog({ allPosts }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const allPosts = getAllPosts([
     'title',
     'date',
