@@ -45,7 +45,7 @@ export default function Index({ allPosts }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const allPosts = getAllPosts([
     'title',
     'date',
