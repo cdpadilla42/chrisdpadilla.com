@@ -2,7 +2,7 @@
 title: Compute! Gazette
 tags:
   - old gold
-date: '2020-05-13T05:35:07.322Z'
+date: '2022-05-13T05:35:07.322Z'
 ---
 
 ![Cover of instruments floating (or sinking int) a Commodore 64](https://padilla-media.s3.amazonaws.com/blog/compute-gazette/cover.png)
