@@ -8,7 +8,7 @@ import Header from '../components/header';
 import { TWITTER_URL } from '../lib/constants';
 import Link from 'next/link';
 
-export default function Blog({ allPosts }) {
+export default function Blog() {
   return (
     <Layout>
       <Head>
@@ -71,22 +71,4 @@ export default function Blog({ allPosts }) {
       </Container>
     </Layout>
   );
-}
-
-export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-    'hidden',
-  ]);
-
-  const publishedPosts = allPosts.filter(filterBlogPosts);
-
-  return {
-    props: { allPosts: publishedPosts },
-  };
 }
