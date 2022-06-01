@@ -74,5 +74,6 @@ export async function getStaticProps() {
 
   return {
     props: { allPosts: filteredPosts },
+    revalidate: 14400,
   };
 }
