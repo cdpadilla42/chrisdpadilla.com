@@ -48,7 +48,7 @@ export default function Post({ post, morePosts, preview }) {
   );
 }
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const post = getPostBySlug(params.slug, [
     'title',
     'date',
@@ -70,17 +70,17 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export async function getStaticPaths() {
-  const posts = getAllPosts(['slug']);
+// export async function getStaticPaths() {
+//   const posts = getAllPosts(['slug']);
 
-  return {
-    paths: posts.map((post) => {
-      return {
-        params: {
-          slug: post.slug,
-        },
-      };
-    }),
-    fallback: 'blocking',
-  };
-}
+//   return {
+//     paths: posts.map((post) => {
+//       return {
+//         params: {
+//           slug: post.slug,
+//         },
+//       };
+//     }),
+//     fallback: 'blocking',
+//   };
+// }
