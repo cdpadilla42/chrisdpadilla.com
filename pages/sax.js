@@ -252,19 +252,19 @@ const Sax = () => {
         friends in the group!
       </p>
 
-      <h3>Jenn Song</h3>
+      <h3>Reach</h3>
       <audio
         src="https://padilla-media.s3.amazonaws.com/audio/sax/jenn+song+2.wav"
         controls="controls"
       />
       <p>
-        No sax in this one! This is a chiptune song I wrote on a DS in{' '}
+        No sax in this one! This is a chiptune song I wrote on a Nintendo DS in{' '}
         <a
           href="http://web.archive.org/web/20190118070140/http://nitrotracker.tobw.net/index.php?cat_id=0"
           target="_blank"
           rel="noopener noreferrer"
         >
-          nitrotracker
+          Nitrotracker
         </a>
         . I wanted to write something inspire by my sister{' '}
         <a
