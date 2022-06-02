@@ -52,6 +52,6 @@ export async function getServerSideProps() {
 
   return {
     props: { allPosts: publishedPosts },
-    revalidate: 14400,
+    // revalidate: 14400,
   };
 }
