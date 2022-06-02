@@ -13,6 +13,10 @@ export default function Blog({ allPosts }) {
     <Layout>
       <Head>
         <title>Chris Padilla — Full Stack Developer</title>
+        <meta
+          property="og:title"
+          content="Chris Padilla — Full Stack Developer"
+        />
       </Head>
       <Container>
         <Header section="blog" />
