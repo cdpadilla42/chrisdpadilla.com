@@ -63,7 +63,7 @@ export default function Blog() {
             <a>blog</a>
           </Link>{' '}
           by{' '}
-          <Link href="/rss.xml">
+          <Link href="/api/feed">
             <a>RSS</a>
           </Link>
           . (<a href="https://aboutfeeds.com/">What's RSS?</a>)
