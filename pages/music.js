@@ -13,8 +13,8 @@ export default function Music({ allPosts }) {
       <Head>
         <title>Music | Chris Padilla</title>
       </Head>
-      <Header />
       <Container>
+        <Header />
         <h1>Music.</h1>
         <p>
           All of my newly composed music is on{' '}
