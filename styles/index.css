@@ -132,10 +132,17 @@ footer {
 .heading_flex > * {
   display: inline-block;
 }
+
 .heading_flex a h2 {
-  margin-left: 4rem;
+  margin-left: 1rem;
   font-size: 1.5rem;
   color: var(--blue);
+}
+
+@media all and (min-width: 800px) {
+  .heading_flex a h2 {
+    margin-left: 4rem;
+  }
 }
 
 strong {
