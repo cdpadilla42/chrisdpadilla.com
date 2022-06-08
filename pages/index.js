@@ -8,6 +8,7 @@ import Layout from '../components/layout';
 import { getAllPosts } from '../lib/api';
 import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
 import { filterBlogPosts } from '../lib/util';
+import Footer from '../components/footer';
 
 export default function Index({ allPosts }) {
   return (

@@ -58,6 +58,9 @@ h3 {
 header {
   /* grid-area: header; */
 }
+footer {
+  padding-top: 4rem;
+}
 
 .header_divider {
   margin: 0 0.5rem;

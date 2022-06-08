@@ -1,16 +1,19 @@
 import React from 'react';
 import Container from '../components/container';
 import Layout from '../components/layout';
-import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
-import { filterBlogPosts } from '../lib/util';
 import Header from '../components/header';
-import { TWITTER_URL } from '../lib/constants';
+import {
+  DEV_TWITTER_URL,
+  GITHUB_URL,
+  INSTAGRAM_URL,
+  MUSIC_TWITTER_URL,
+} from '../lib/constants';
 import Link from 'next/link';
 
 export default function Blog() {
   return (
-    <Layout>
+    <Layout noFooter>
       <Head>
         <title>Contact | Chris Padilla</title>
       </Head>
@@ -25,16 +28,21 @@ export default function Blog() {
         <p>I'm also on the socials:</p>
         <ul>
           <li>
-            <a href={TWITTER_URL} target="_blank" rel="noopener noreferrer">
-              Twitter
+            <a href={DEV_TWITTER_URL} target="_blank" rel="noopener noreferrer">
+              Dev Twitter
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/cdpadilla42"
+              href={MUSIC_TWITTER_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
+              Music Twitter
+            </a>
+          </li>
+          <li>
+            <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </li>
@@ -48,11 +56,7 @@ export default function Blog() {
             </a>
           </li>
           <li>
-            <a
-              href="https://www.instagram.com/c.d.padilla/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
               Instagram
             </a>
           </li>
