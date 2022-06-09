@@ -3,12 +3,7 @@ import Container from '../components/container';
 import Layout from '../components/layout';
 import Head from 'next/head';
 import Header from '../components/header';
-import {
-  DEV_TWITTER_URL,
-  GITHUB_URL,
-  INSTAGRAM_URL,
-  MUSIC_TWITTER_URL,
-} from '../lib/constants';
+import { MUSIC_TWITTER_URL, GITHUB_URL, INSTAGRAM_URL } from '../lib/constants';
 import Link from 'next/link';
 
 export default function Blog() {
@@ -28,17 +23,12 @@ export default function Blog() {
         <p>I'm also on the socials:</p>
         <ul>
           <li>
-            <a href={DEV_TWITTER_URL} target="_blank" rel="noopener noreferrer">
-              Dev Twitter
-            </a>
-          </li>
-          <li>
             <a
               href={MUSIC_TWITTER_URL}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Music Twitter
+              Twitter
             </a>
           </li>
           <li>
