@@ -3,7 +3,12 @@ import Container from '../components/container';
 import Layout from '../components/layout';
 import Head from 'next/head';
 import Header from '../components/header';
-import { MUSIC_TWITTER_URL, GITHUB_URL, INSTAGRAM_URL } from '../lib/constants';
+import {
+  MUSIC_TWITTER_URL,
+  GITHUB_URL,
+  INSTAGRAM_URL,
+  LINKEDIN_URL,
+} from '../lib/constants';
 import Link from 'next/link';
 
 export default function Blog() {
@@ -37,11 +42,7 @@ export default function Blog() {
             </a>
           </li>
           <li>
-            <a
-              href="https://www.linkedin.com/in/chrisdpadilla/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </li>

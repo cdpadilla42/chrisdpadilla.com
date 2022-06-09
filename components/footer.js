@@ -1,4 +1,10 @@
-import { MUSIC_TWITTER_URL, GITHUB_URL, INSTAGRAM_URL } from '../lib/constants';
+import Link from 'next/link';
+import {
+  MUSIC_TWITTER_URL,
+  GITHUB_URL,
+  INSTAGRAM_URL,
+  LINKEDIN_URL,
+} from '../lib/constants';
 
 export default function Footer() {
   return (
@@ -15,6 +21,10 @@ export default function Footer() {
       •{' '}
       <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
         Instagram
+      </a>{' '}
+      •{' '}
+      <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+        LinkedIn
       </a>{' '}
     </footer>
   );
