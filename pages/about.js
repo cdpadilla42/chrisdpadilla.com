@@ -13,7 +13,6 @@ const About = () => {
     <Layout>
       <Head>
         <title>About | Chris Padilla</title>
-        <meta property="og:image" content={'/assets/headshot.jpeg'} />
       </Head>
       <Header />
       <h1>Hey, I'm Chris! </h1>
