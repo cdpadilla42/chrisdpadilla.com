@@ -9,7 +9,6 @@ const Sax = () => {
     <Layout>
       <Head>
         <title>Saxophone Music | Chris Padilla</title>
-        <meta property="og:image" content="/assets/headshot.jpeg" />
       </Head>
       <Header />
       <h2>Music — The Saxophone Era</h2>
