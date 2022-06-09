@@ -31,6 +31,8 @@ export default function Meta() {
         content={`Web developer, musician, human being.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:image:secure_url" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:image:url" content={HOME_OG_IMAGE_URL} />
     </Head>
   );
 }
