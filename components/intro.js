@@ -35,7 +35,7 @@ export default function Intro() {
           </p>
         </div>
         <div className="headshot">
-          <Image src="/assets/headshot.jpeg" width={500} height={500} />
+          <Image src="/assets/headshot-blue.jpg" width={500} height={500} />
         </div>
       </article>
     </header>
