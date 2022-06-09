@@ -14,7 +14,7 @@ export default function Index({ allPosts }) {
   return (
     <Layout>
       <Head>
-        <title>Chris Padilla — Full Stack Developer</title>
+        <title>Chris Padilla — Developer & Musician</title>
       </Head>
       <Container>
         <Intro />

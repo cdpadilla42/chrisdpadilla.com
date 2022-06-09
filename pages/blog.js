@@ -12,10 +12,10 @@ export default function Blog({ allPosts }) {
   return (
     <Layout>
       <Head>
-        <title>Chris Padilla — Full Stack Developer</title>
+        <title>Chris Padilla — Developer & Musician</title>
         <meta
           property="og:title"
-          content="Chris Padilla — Full Stack Developer"
+          content="Chris Padilla — Developer & Musician"
         />
       </Head>
       <Container>
