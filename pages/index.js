@@ -6,11 +6,15 @@ import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts } from '../lib/api';
-import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
 import { filterBlogPosts } from '../lib/util';
-import Footer from '../components/footer';
+import { albums } from '../components/MusicGrid';
 
 export default function Index({ allPosts }) {
+  const latestAlbum =
+    process.env.NODE_ENV === 'development'
+      ? albums[0]
+      : albums.find((album) => album.releaseDate < new Date());
+
   return (
     <Layout>
       <Head>
@@ -28,11 +32,11 @@ export default function Index({ allPosts }) {
             </Link>
           </div>
           <article>
-            <Link href="https://letsgochris.bandcamp.com/album/spectrum">
+            <Link href={latestAlbum.link}>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
-                  src={SpectrumImg}
-                  alt="Cover art for Spectrum. Photo of Lady Bird Lake."
+                  src={latestAlbum.photo}
+                  alt={`Cover art for ${latestAlbum.title}.`}
                 />
               </a>
             </Link>
