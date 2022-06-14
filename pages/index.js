@@ -43,22 +43,10 @@ export default function Index({ allPosts, latestAlbum }) {
 }
 
 export async function getServerSideProps() {
-  const allPosts = getAllPosts(
-    [
-      'title',
-      'date',
-      'slug',
-      'author',
-      'coverImage',
-      'excerpt',
-      'hidden',
-      'content',
-    ],
-    {
-      filter: filterBlogPosts,
-      convertContentToHtml: true,
-    }
-  );
+  const allPosts = getAllPosts(['title', 'date', 'slug', 'hidden'], {
+    filter: filterBlogPosts,
+    convertContentToHtml: true,
+  });
 
   const latestAlbum = getLatestAlbum();
 
