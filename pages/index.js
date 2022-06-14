@@ -7,6 +7,13 @@ import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
+import LunarImg from '../public/assets/albums/lunar-cover-scaled.jpg';
+import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
+
+const albumPhotos = {
+  Lunar: LunarImg,
+  Spectrum: SpectrumImg,
+};
 
 export default function Index({ allPosts, latestAlbum }) {
   return (
@@ -29,7 +36,7 @@ export default function Index({ allPosts, latestAlbum }) {
             <Link href={latestAlbum.link}>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
-                  src={latestAlbum.photo}
+                  src={albumPhotos[latestAlbum.title]}
                   alt={`Cover art for ${latestAlbum.title}.`}
                 />
               </a>
