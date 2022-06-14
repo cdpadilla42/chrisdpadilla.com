@@ -3,11 +3,11 @@ import Container from '../components/container';
 import Layout from '../components/layout';
 import Head from 'next/head';
 import Header from '../components/header';
-
 import Link from 'next/link';
 import MusicGrid from '../components/MusicGrid';
+import { getAlbums } from '../lib/api';
 
-export default function Music({ allPosts }) {
+export default function Music({ albums }) {
   return (
     <Layout>
       <Head>
@@ -34,8 +34,18 @@ export default function Music({ allPosts }) {
           </Link>
           .
         </p>
-        <MusicGrid />
+        <MusicGrid albums={albums} />
       </Container>
     </Layout>
   );
+}
+
+export async function getServerSideProps() {
+  const albums = getAlbums();
+
+  return {
+    props: {
+      albums,
+    },
+  };
 }

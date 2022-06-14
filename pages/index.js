@@ -5,16 +5,10 @@ import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
-import { getAllPosts } from '../lib/api';
+import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
-import { albums } from '../components/MusicGrid';
 
-export default function Index({ allPosts }) {
-  const latestAlbum =
-    process.env.NODE_ENV === 'development'
-      ? albums[0]
-      : albums.find((album) => album.releaseDate < new Date());
-
+export default function Index({ allPosts, latestAlbum }) {
   return (
     <Layout>
       <Head>
@@ -66,8 +60,9 @@ export async function getServerSideProps() {
     }
   );
 
+  const latestAlbum = getLatestAlbum();
+
   return {
-    props: { allPosts },
-    // revalidate: 14400,
+    props: { allPosts, latestAlbum },
   };
 }
