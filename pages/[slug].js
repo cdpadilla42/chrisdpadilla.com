@@ -8,14 +8,9 @@ import PostTitle from '../components/post-title';
 import Head from 'next/head';
 import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
-import Link from 'next/link';
-import { filterBlogPosts } from '../lib/util';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
-  if (!router.isFallback && !post?.slug) {
-    return <ErrorPage statusCode={404} />;
-  }
   return (
     <Layout preview={preview}>
       <Container>
