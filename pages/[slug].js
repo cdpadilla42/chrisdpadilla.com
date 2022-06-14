@@ -61,6 +61,12 @@ export async function getStaticProps({ params }) {
     'hidden',
   ]);
 
+  if (!post) {
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       post,
