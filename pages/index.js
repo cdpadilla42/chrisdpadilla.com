@@ -7,10 +7,12 @@ import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
-import LunarImg from '../public/assets/albums/lunar-cover-scaled.jpg';
 import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
+import LunarImg from '../public/assets/albums/lunar-cover-scaled.jpg';
+import TekserveImg from '../public/assets/albums/tekservecoverlarge.jpg';
 
 const albumPhotos = {
+  'Tek Serve': TekserveImg,
   Lunar: LunarImg,
   Spectrum: SpectrumImg,
 };
