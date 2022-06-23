@@ -16,7 +16,7 @@ export default function PostHeader({ title, coverImage, date, tags }) {
         </div>
         <div className="tags">
           {tags.map((tag) => (
-            <span>{tag}</span>
+            <span key={tag}>{tag}</span>
           ))}
         </div>
       </div>
