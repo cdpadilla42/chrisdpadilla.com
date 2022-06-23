@@ -3,7 +3,7 @@ title: Geeking Out Over Notion
 tags:
   - Tech
   - Meta
-date: '2022-08-16T05:35:07.322Z'
+date: '2022-08-15T05:35:07.322Z'
 ---
 
 You guys, I'm just really jazzed about a piece of software over here.
