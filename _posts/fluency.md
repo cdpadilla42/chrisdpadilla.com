@@ -41,7 +41,7 @@ There's a spectrum. Folks who are renaissance devs, those who have dipped their 
 
 Namely, in web development, is it worth going broad or focusing in?
 
-(Short answer: go [T Shapes](https://en.wikipedia.org/wiki/T-shaped_skills))
+(Short answer: go [T Shaped](https://en.wikipedia.org/wiki/T-shaped_skills))
 
 The answer comes from community, or maybe more importantly, from what jobs are hiring for.
 
