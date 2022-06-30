@@ -11,7 +11,7 @@ const Sax = () => {
         <title>Saxophone Music | Chris Padilla</title>
       </Head>
       <Header />
-      <h2>Music — The Saxophone Era</h2>
+      <h2>Music — Saxophone Playing</h2>
       <p>
         <strong>
           Here are some of my favorite recordings from when I was regularly
@@ -131,7 +131,7 @@ const Sax = () => {
         controls="controls"
       />
       <p>
-        My last recording on sax before diving fully into coding (...from{' '}
+        My most recent recording on sax before diving fully into coding (...from{' '}
         {calculateAge(new Date('2019-05-12'))} years ago!) I was working on this
         during my first year of teaching. This short dance has so much fire and
         color to it. At the time, I was listening to several violinists,
@@ -161,7 +161,7 @@ const Sax = () => {
         a hard bop. Many of the squonks here are part of the piece, and some of
         the most beautiful writing for those effects! I had tremendous lessons
         with my teacher Stephen Page at UT on this. Joseph Dougherty plays piano
-        here tremendously!!
+        here exquisitely!!
       </p>
 
       <h3>Concerto by Pierre Max Dubois</h3>

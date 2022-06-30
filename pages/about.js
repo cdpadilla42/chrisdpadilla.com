@@ -49,8 +49,8 @@ const About = () => {
       <p>
         <strong>I'm an avid learner and maker!</strong> I bounce between
         reading, writing, learning new instruments, composing, and trying new
-        things. I love being in tech for that reason. I feel at home being a
-        part of a community that is constantly improving and creating.
+        things. I feel at home in music and tech for that reason. There's always
+        something new to try!
       </p>
       <h2>Coding Origin Story</h2>
       <p>
