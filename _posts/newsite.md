@@ -8,7 +8,7 @@ date: '2022-06-25T05:35:07.322Z'
 
 Very excited to have plowed some land and planted the seeds for my own garden on the web!
 
-The sites I've developed have represented big phases in my life. Moomoofilms.com was my portfolio for youtube sketches when I was a kid. After grad school, I put up a music teaching portfolio site for students. Starting in tech, I put together a [landing page](chrispadilla.dev) for all my projects.
+The sites I've developed have represented big phases in my life. Moomoofilms.com was my portfolio for youtube sketches when I was a kid. After grad school, I put up a music teaching portfolio site for students. Starting in tech, I put together a [landing page](https://chrispadilla.dev) for all my projects.
 
 With chrisdpadilla.com, it feels like another step. A unified home for all the different wanderings I do in tech, music, and writing.
 
