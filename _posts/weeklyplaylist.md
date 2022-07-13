@@ -3,7 +3,7 @@ title: Automatically Saving Spotify Weekly Playlists
 tags:
   - tech
   - python
-date: '2022-04-11T05:35:07.322Z'
+date: '2022-08-08T05:35:07.322Z'
 ---
 
 With friends, I've been talking for ages about how channels of communication have different feelings and expectations around them. Sending a work email feels different from sending an instagram DM, which feels different from texting, which feels different from sending a snap on Snapchat.
