@@ -10,8 +10,10 @@ import { filterBlogPosts } from '../lib/util';
 import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
 import LunarImg from '../public/assets/albums/lunar-cover-scaled.jpg';
 import TekserveImg from '../public/assets/albums/tekservecoverlarge.jpg';
+import IslandImg from '../public/assets/albums/Island.jpg';
 
 const albumPhotos = {
+  Island: IslandImg,
   'Tek Serve': TekserveImg,
   Lunar: LunarImg,
   Spectrum: SpectrumImg,

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import IslandImg from '../public/assets/albums/Island.jpg';
 import TekserveImg from '../public/assets/albums/tekservecoverlarge.jpg';
 import LunarImg from '../public/assets/albums/lunar-cover-scaled.jpg';
 import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
@@ -11,6 +12,7 @@ import SnowBearImg from '../public/assets/albums/snow-bear.jpeg';
 import QuietPlaces from '../public/assets/albums/quiet-places.jpeg';
 
 const albumPhotos = {
+  Island: IslandImg,
   'Tek Serve': TekserveImg,
   Lunar: LunarImg,
   Spectrum: SpectrumImg,
