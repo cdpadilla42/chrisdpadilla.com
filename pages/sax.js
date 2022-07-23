@@ -13,19 +13,16 @@ const Sax = () => {
       <Header />
       <h2>Music — Saxophone Playing</h2>
       <p>
-        <strong>
-          Here are some of my favorite recordings from when I was regularly
-          playing sax!
-        </strong>{' '}
+        <strong>Here are some of my favorite saxophone recordings!</strong>{' '}
       </p>
       <p>
-        I performed as a classical saxophonist. I dabbled in jazz, but both
-        traditional and experimental playing were my main vehicles. If you
-        didn't know that <i>classical sax</i> was a thing, you are in the
-        majority! It's fairly niche.
+        Classical sax is my main voice when performing. I've dabbled in jazz,
+        but both traditional-instrumental and experimental-playing are my main
+        vehicles. If you didn't know that <i>classical sax</i> was a thing, you
+        are in the majority! It's fairly niche.
       </p>
       <p>
-        I played in jazz ensembles, concert and marching bands, saxophone
+        I've played in jazz ensembles, concert and marching bands, saxophone
         quartets, and mixed insrumentation new music (aka, avant-garde) groups.
       </p>
       <p>
@@ -34,12 +31,11 @@ const Sax = () => {
         from my time at UT and UNT.
       </p>
       <p>
-        It's been a big part of my life and I worked with several amazing
-        musicians all along the way! The other musicians on these recordings are
-        dear friends.
+        I've had the pleasure of working with so many amazing musicians! The
+        other performers on these recordings are dear friends.
       </p>
       <p>
-        Big thanks to the incredible teachers I worked with: Graham Tobin,{' '}
+        Big thanks to the incredible teachers I've worked with: Graham Tobin,{' '}
         <a
           href="https://music.unt.edu/faculty-and-staff/eric-nestler"
           target="_blank"
@@ -131,14 +127,12 @@ const Sax = () => {
         controls="controls"
       />
       <p>
-        My most recent recording on sax before diving fully into coding (...from{' '}
-        {calculateAge(new Date('2019-05-12'))} years ago!) I was working on this
-        during my first year of teaching. This short dance has so much fire and
-        color to it. At the time, I was listening to several violinists,
-        especially Joshua Bell. I worked really hard here to steal their levity,
-        quickness, and nuance. Listening back, I'm surprised — it might be one
-        of my most polished recordings! My girlfriend Miranda graciously helped
-        with this recording.
+        I recorded this right before diving head first into coding I was working
+        on this during my first year of teaching. This short dance has so much
+        fire and color to it. At the time, I was listening to several
+        violinists, especially Joshua Bell. I worked really hard here to steal
+        their levity, quickness, and nuance. My girlfriend Miranda graciously
+        helped with this recording.
       </p>
 
       <h3>Sonata by Edison Denisov</h3>
