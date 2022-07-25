@@ -43,23 +43,23 @@ Namely, in web development, is it worth going broad or focusing in?
 
 (Short answer: go [T Shaped](https://en.wikipedia.org/wiki/T-shaped_skills))
 
-The answer comes from community, or maybe more importantly, from what jobs are hiring for.
+The answer comes from community, or maybe more importantly, what your problems are your clients grappling with?
 
-That, too, is a spectrum. If you're aiming for the big ones, python, data structures, and a CS degree in your back pocket helps. If you're doing client work, breadth wins out. If you're an application developer, it may be a more focused in set of JS centric technologies.
+That, too, is a spectrum. If you're aiming for the big companies, python, data structures, and a CS degree in your back pocket helps. If you're doing client work, breadth wins out. If you're an application developer, it may be a more focused in set of JS centric technologies.
 
 Like music, the field is too large and varied to really say one size fits all.
 
 No matter what, though, mastery isn't necessarily the goal. Here, it _is_ fluency.
 
-Some gigs may require that intimate knowledge of JS runtime logic.
+Some projects may require that intimate knowledge of JS runtime logic.
 
 Others may only need some familiarity with JQuery.
 
-The interesting thing about this field, in my mind, is that it's a lot less about working towards a specific target for fluency, but using the tools you have to solve a problem for your client.
+The interesting thing about this field, in my mind, is that it's a lot less about working towards a specific target for fluency, but using the tools you have to solve a problem for your collaborators.
 
 Learning is a natural part of that process. So there is both a really tight feedback loop _and_ there's natural growth and development built in.
 
-(Again, caveat here to say it's not an excuse to not develop your skills. But working towards fluency can keep it so that you are working to master relevant skills vs. simply being virtuosic in an irrelevant way.)
+(Again, caveat here to say it's not an excuse to slack developing your skills. But working towards fluency can keep it so that you are working to master relevant skills vs. simply being virtuosic in an irrelevant way.)
 
 # Back to Music
 
