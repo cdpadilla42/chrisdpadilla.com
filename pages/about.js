@@ -26,7 +26,7 @@ const About = () => {
         I'm {calculateAge(bd)} years old and wrangled my first lines of HTML,
         CSS, and JavaScript on{' '}
         <a
-          href="https://en.wikipedia.org/wiki/Neopets"
+          href="https://thehistoryoftheweb.com/neopets/"
           target="_blank"
           rel="noopener noreferrer"
         >
