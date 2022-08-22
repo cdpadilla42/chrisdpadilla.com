@@ -13,9 +13,9 @@ I'm thinking a lot about this thread by multi-instrumentalist and composer [Carl
 
 For me, this is the key phrase:
 
-> where is the fluency line with an instrument? ... I think a closer answer is having the necessary abilities to effectively communicate in whatever situation you may be in. And if you're in a vacuum, learning an instrument by yourself without ever playing it for or with others... you don't get the chance to communicate musically.
+> Where is the fluency line with an instrument? ... I think a closer answer is having the necessary abilities to effectively communicate in whatever situation you may be in. And if you're in a vacuum, learning an instrument by yourself without ever playing it for or with others... you don't get the chance to communicate musically.
 
-Putting aside the whole argument for or against language as an analogy for music here.
+(Putting aside the whole argument for or against language as an analogy for music here.)
 
 # In Music
 
@@ -27,17 +27,17 @@ The main point of the thread is to deemphasize practicing for the sake of master
 
 I'm thinking a **LOT** about the inverse, though. How do you find that same community and immersion in a musical context that's a lot more individualist than, say, being in a concert band or jazz combo? Where does the feedback come from there?
 
-When it comes to writing music, I feel like it's much more in the vein of how I imagine authors write. Or Jazz musicians working on transcriptions, actually. You're not limited by time or space. You are communicating and riffing off of someone's ideas that could be from decades ago. I think a present, accessible community is of course important. But online communities are much more lightweight than it is when you're in a group that rehearses every week together. And so, filling in the gaps takes working with recordings and materials.
+When it comes to writing music, I feel like it's much more in the vein of how I imagine authors write. Or Jazz musicians working on transcriptions, actually. You're not limited by time or space. You are communicating and riffing off of someone's ideas that could be from decades ago. I think a present, accessible community is of course important. But online communities are much more lightweight than when you're in a group that rehearses every week together. And so, filling in the gaps takes working with recordings and materials.
 
-Speaking as an ambivert, this way of connecting musically is pretty amorphous. The buzzword now is that many relationships online are "parasocial." And don't get me wrong, there's beauty to it, too. I love being able to transcribe a Japanese musician's X68000 chip music so easily and readily, there's an interesting kind of intimacy to that engagement with music. The feedback and communication is strange in that case, though. It's not direct communication, and the community, again, is very light and obviously less tangible.
+Speaking as an ambivert, this way of connecting musically is pretty amorphous. The buzzword now is that many relationships online are "parasocial." And don't get me wrong, there's beauty to it, too. I love being able to transcribe a Japanese musician's X68000 chip music so easily and readily, there's an interesting kind of intimacy to that engagement with music. The feedback and communication is strange, though. It's not direct communication, and the community, again, is less tangible.
 
-Anyhow — sometimes I miss in person music making, and maybe I shouldn't expect writing music to be the same kind of fulfilling. For me the lesson is that music is multifaceted. Different acts in music can balance each other out. We write to express individualism. We perform to connect with a larger community.
+Anyhow — sometimes I miss in person music making. Maybe I shouldn't expect writing music to be the same kind of fulfilling. For me, the lesson is that music is multifaceted. Different acts in music can balance each other out. We write to express individualism. We perform to connect with a larger community.
 
 # In Code
 
 This got me thinking with code languages as well.
 
-There's a spectrum. Folks who are renaissance devs, those who have dipped their toes in many technologies, are fluid in multiple languages and frameworks, etc. And there are folks who are highly specialized.
+There's a spectrum. Folks who are renaissance devs, those who have dipped their toes in many technologies, are fluent in multiple languages and frameworks, etc. And there are folks who are highly specialized.
 
 Namely, in web development, is it worth going broad or focusing in?
 
@@ -59,8 +59,10 @@ The interesting thing about this field, in my mind, is that it's a lot less abou
 
 Learning is a natural part of that process. So there is both a really tight feedback loop _and_ there's natural growth and development built in.
 
-(Again, caveat here to say it's not an excuse to slack developing your skills. But working towards fluency can keep it so that you are working to master relevant skills vs. simply being virtuosic in an irrelevant way.)
+(Again, caveat here to say it's not an excuse to slack on developing your skills. But working towards fluency can keep it so that you are working to master relevant skills vs. simply being virtuosic in an irrelevant way.)
 
 # Back to Music
 
-The difference here is that software solves a direct problem for someone else. It's creativity with a practical outcome. With music, there's more magic ✨ The outcomes are less clear, the people you serve and communities you entangle with are less defined. The benefits, even, are vague at times. Except, you know, your **soul** grows in the process. And simply _being_ creative in the world and sharing that creativity _is_ a benefit.
+The difference here is that software solves a direct problem for someone else. It's creativity with a practical outcome. With music, there's more magic. ✨ The outcomes are less clear, the people you serve and communities you entangle with are less defined. The benefits, even, are vague at times.
+
+Except, y'know, your **soul** grows in the process. And simply _being_ creative in the world and sharing that creativity can lead to inspiring others to do the same.
