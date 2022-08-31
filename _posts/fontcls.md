@@ -2,7 +2,7 @@
 title: Fonts and CLS
 tags:
   - Tech
-date: '2022-08-31T05:35:07.322Z'
+date: '2022-10-11T05:35:07.322Z'
 ---
 
 Fonts are a tricky space when accounting for CLS. They have the potential to not ping the CLS score too harshly. Though, if multiple element sizings are based on a web font loading, then it can add up. A nav bar plus a hero header plus breadcrumbs plus subtitle plus author name, it can all contribute to a larger score.
