@@ -79,6 +79,12 @@ I've tried a few out: "Write something everyday" was impossible. "Record one alb
 
 Having to make it public, also, helps a lot with the accountability, even if no one is actively policing you on your schedule.
 
+# Follow Your Energy Through the Day
+
+Classic productivity prescription. It clicked for me when I heard Dilbert's [Scott Adams](https://dilbert.com/) talk about it in his [sort-of-autobiography](https://www.amazon.com/How-Fail-Almost-Everything-Still-ebook/dp/B00COOFBA4). For him, writing happens in the morning, and rote-drawing happens in the evening. 
+
+Translating to writing: Actual melody/harmony production happens in the morning, edits and tightening up the quality happens in the evening. Or, most of the time in my case, I took the evenings to practice an instrument like guitar or piano. It doesn't take design-type thinking to practice a scale or play an exercise.
+
 # Keep a Collection of What you like.
 
 Likes on Spotify, bookmarks in your web browser, whatever! I personally keep a plane text file called `FavoriteMusic.md` where I copy in links, song titles, and notes on what I like about a song.

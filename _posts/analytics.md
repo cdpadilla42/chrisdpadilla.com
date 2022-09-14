@@ -2,7 +2,7 @@
 title: Analytics - Accuracy and Ethics
 tags:
   - Tech
-date: '2022-10-06T05:35:07.322Z'
+date: '2022-09-01T05:35:07.322Z'
 ---
 
 I don't personally use analytics on this site. I'm not here to growth hack my occasional writing for ad space. But I _am_ involved in a couple of projects where analytics is good feedback for what we're putting out. So I did a little bit of a deep dive.
