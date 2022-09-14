@@ -101,7 +101,7 @@ There are a few steps I'm skipping - validation, schema creation, sanitization. 
 
 The way I'm keeping it locked down, out of harms way from the world wide web, is through CORS.
 
-An incredible thorough look at CORS is available at [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). For our purposes, we just need to know that this is how our API will whitelist _only_ our applications url when receiving requests.
+An incredible thorough look at CORS is available at [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). For our purposes, we just need to know that this is how our API will whitelist _only_ our application's url when receiving requests.
 
 Back to the `runMiddleware()` method! Here is the function declared in the same document:
 
@@ -127,7 +127,7 @@ function runMiddleware(req, res, fn) {
 }
 ```
 
-The `cors` npm package is a great way of managing CORS without getting into manipulating the headers directly. In our instantiation, we're passing a few options for approved methods and the origins we want to white list. (NO TRAILING slash, FYI!)
+The `cors` npm package is a great way of managing CORS without getting into manipulating the headers directly. In our instantiation, we're passing a few options for approved methods and the origins we want to white list. (NO trailing slash, FYI!)
 
 `runMiddleware()` is the simple wrapper function that handles us using the cors middleware with our request.
 
