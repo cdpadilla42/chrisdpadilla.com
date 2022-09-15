@@ -7,13 +7,13 @@ date: '2022-09-14T05:35:07.322Z'
 
 I've been [exploring analytics options](/analytics). I have a use case for them, but we're more concerned with specific user behavior on this project. We want to know if they click a certain button, or make it to a certain page.
 
-There are some options. Google Analytics provides journeys and goals, though is heavy handed for our use case. Other solutions like Fathom would keep track of individual page performance, but there are certain actions that we're interested in.
+There are some options. Google Analytics provides journeys and goals, though it's heavy handed for our use case. Other solutions like Fathom would keep track of individual page performance, but there are certain UI interactinos that we're interested in.
 
 So the need arose! I wrote a custom solution for our app.
 
 # Overview & Stack
 
-We're using React on the client. Since button interactions are our main metric, we essentially need something that can be integrated with our click handlers on the client.
+We're using React on the client side. Since button interactions are our main metric, we essentially need something that can be integrated with our click handlers.
 
 Easy enough! We can fire off a POST request to an external API that records the interaction.
 
