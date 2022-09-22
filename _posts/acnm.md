@@ -11,15 +11,15 @@ Bucket list item complete — for the past year and a half I've had the chance t
 
 ![Home Screen](https://padilla-media.s3.amazonaws.com/blog/acnm/play.png)
 
-A massive labor of love, Animal Crossing: New Murder is web-based visual novel where you are investigating the details of the almost murder of a villager on the island. In classic Phoenix Wright style, you are helping clear the name of Ñen, the initial suspect who claims to be inocent. By chatting with the islanders and visiting a real New Horizons island on the nintendo switch as a companion to the web app, you'll uncover clues that will help reveal who-dun-it! There are even trials for you to put your knowledge to the test, presenting evidence, and objecting to suspicious testimonies!
+A massive labor of love, Animal Crossing: New Murder is a web-based visual novel where you are investigating the details of the almost-murder of a villager on the island. In classic Phoenix Wright style, you are helping clear the name of Ñenn, the initial suspect who claims to be innocent. By chatting with the islanders and visiting a real New Horizons island on the Nintendo Switch as a companion to the web app, you'll uncover clues that will help reveal who-dun-it! There are even trials for you to put your knowledge to the test, presenting evidence, and objecting to suspicious testimonies!
 
-Jenn wrote the script, illustrated the characters, and handled all of the Animal Crossing customizations for the New Horizons island players are encouraged to visit on their own copy of New Horizons. Her story and characters are dramatic, hilariously funny, and are overflowing with charm and personality!
+Jenn wrote the script, illustrated the characters, and handled all of the Animal Crossing customizations for the New Horizons island that players are encouraged to visit on their own copy of New Horizons. Her story and characters are dramatic, hilariously funny, and are overflowing with charm and personality!
 
 ![Ankha looking frustrated](https://padilla-media.s3.amazonaws.com/blog/acnm/Ankha.png)
 
-My part was designing the application, developing the software, and creating a custom CMS to load in assets, story, and handling any story-related game logic.
+My part was designing the application, developing the software, and creating a custom CMS to load in assets, story, and handling any story-related game logic. Also, I wrote some music for it!
 
-This was a blast to work on! I had the chance to hone my web development chops, pick up new skills, and collaborate on a massive project. Read on for the story of how this came to be!
+This was a blast to work on! I had the chance to hone my web development chops, take an app from ideation to release, and collaborate on a massive project. Read on for the story of how this came to be!
 
 # Application Features
 
@@ -97,7 +97,7 @@ We _did_ end up needing a tool for staying organized! We've been using **Notion*
 
 I created a board for our project to keep track of development tasks, and it soon expanded. At the end of development, we had a shared board, road map, and several Sanity guides that I wrote for Jenn to refference when she needed to add in some in-frequently used game logic to CMS
 
-# Conclusion
+# Wrapping Up
 
 Growing up, I really wanted my sister and I to collaborate on a big creative project together! I personally envisioned Jenn and I would start a virtual band similar to the Gorillaz, me making music while she illustrated band mates. BUT! This, I think, is even more fun than what I fantisized!
 
@@ -109,8 +109,8 @@ I hope you check out [Animal Crossing: New Murder](https://acmurdermystery.netli
 
 If you're interested in reading more about the nitty gritty of developing the tech or how I managed the project, you can read my deep dive on each below:
 
-- Developing a Game in React
-- Using Sanity as a Game Maker
-- Project Management: An Artist and a Software Engineer Walk into a Bar...
+- [Developing a Game in React](https://chrisdpadilla.com/acnmfe)
+- [Using Sanity as a Level Maker](https://chrisdpadilla.com/acnmbe)
+- [Project Management for Game Development](https://chrisdpadilla.com/acnmpm)
 
 You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart)

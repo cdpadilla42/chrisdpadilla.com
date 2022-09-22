@@ -7,11 +7,11 @@ date: '2022-12-13T05:35:07.322Z'
 
 What are the differences between developing a game and making a well organized web application? Surprisingly, there aren't as many as you would think!
 
-Before starting the project, I thought the move away from flash on the web meant the end of web games and shows like [homestarrunner](https://homestarrunner.com/).
+Before starting development on [AC: New Murder](https://acnewmurder.com/), I thought the move away from flash on the web meant the end of web games and shows like [homestarrunner](https://homestarrunner.com/).
 
-![Gameplay of Elivs getting questioned](https://padilla-media.s3.amazonaws.com/blog/acnm/Elvis.png)
+![Gameplay of Elvis getting questioned](https://padilla-media.s3.amazonaws.com/blog/acnm/Elvis.png)
 
-In listening to an interview Drew Conley gave on his game Danger Crew, my hope was sparked. Danger Crew and New Murder both are built on modern web development technology. At the end of the day, a game manages state, controls intereactive elements, and renders specific views for different actions, just as a web application does.
+In listening to an interview Drew Conley gave on his game Danger Crew, my hope was sparked. Danger Crew and New Murder both are built on modern web development technology. At the end of the day, a game manages state, controls interactive elements, and renders specific views for different actions, just as a web application does.
 
 Here I'll be pulling back the curtain on how those similarities came through in developing New Murder.
 
@@ -29,18 +29,23 @@ From there, the user is taken to the next dialogue scene based on their answer.
 
 My favorite example of this is Julian's Testimony in the first trial. If I were to graph out the structure, it would look like this:
 
+```
 0 => 0 => 0 => 0 => Repeat or move on to next dialogue
-| |
-V V
-0
+|    |
+V    V
+0    0
+| 
+V 
+0 
+```
 
-By checking the dialogue properties, the game knows weather to render an objection option, and then once following down the next dialogue path, the game also handles when to offer presenting evidence or offering response options. When reaching the end of an "objection" path, the user is then sent back to the main testimony path, one step further than they were before.
+By checking the dialogue properties, the game knows whether to render an objection option, and then once following down the next dialogue path, the game also handles when to offer presenting evidence or offering response options. When reaching the end of an "objection" path, the user is then sent back to the main testimony path, one step further than they were before.
 
 # State Management
 
-This is where I was surprised to see that I felt most at home developing that app from my experience with web development. There were certainly more peices of state to manage with a game that stored the player's inventory, previously visited conversations, what conversation they were in, what paths they were on, and the list goes on. Managing that state, however, and the best practices for organizing it, very closely followed what goes into a web application!
+This is where I was surprised to see that I felt most at home developing that app from my experience with web development. There were certainly more pieces of state to manage with a game that stored the player's inventory, previously visited conversations, what conversation they were in, what paths they were on, and the list goes on. Managing that state, however, and the best practices for organizing it, very closely followed what goes into a web application!
 
-UI state, API data, and player save data were stored through seperate reducers within the store. The store's structure at a top level was structured like so:
+UI state, API data, and player save data were stored through separate reducers within the store. The store's structure at a top level was structured like so:
 
 ```
 store/
@@ -64,20 +69,20 @@ store/
 State updated in three instances:
 
 1. On App load, user's save data was loaded in from local storage, where the game continually simultaneously saves when the user makes progress
-2. On page load, the specific conversation or menu screen requests for the relavent data from the API
+2. On page load, the specific conversation or menu screen requests for the relevant data from the API
 3. On interaction, UI changes are made, including progressing through the dialogue, adding to the player's inventory, or receiving an achievement
 
 All familiar tasks when designing any other web application, such as a user account portal. Even marking their game progress and saving their game data is not too dissimilar from managing form data, just without the inputs and validation.
 
 ![A look at Agent S's Notes](https://padilla-media.s3.amazonaws.com/blog/acnm/SNotes.png)
 
-A paticularly interesting piece of state are Agent S's notes. These are tasks within the game with particular ways of completing them. An Agent S Note (SNote, for short) is stored into redux like so:
+A particularly interesting piece of state are Agent S's notes. These are tasks within the game with particular ways of completing them. An Agent S Note (SNote, for short) is stored into redux like so:
 
 ```
 {
-count: 4,
-description: "Get Lucky to remember yesterday by presenting evidence to him.",
-name: "luckyMemories",
+	count: 4,
+	description: "Get Lucky to remember yesterday by presenting evidence to him.",
+	name: "luckyMemories",
 }
 ```
 
@@ -90,7 +95,7 @@ In the game, Jenn is able to add points where player's achieve a SNote by adding
 
 Achieving SNotes eventually leads to unlocking the final part of the game, where the player needs the most evidence and deepest understanding of the events that transpired. These were a fun way to add direction and celebrate progress through the game!
 
-SHOW GIF OF ACHEIVEMENT
+![Toast messages filling the screen in the mobile app](https://padilla-media.s3.amazonaws.com/blog/acnm/Notifications.gif)
 
 # Saving Player Info
 
@@ -104,7 +109,7 @@ Most players will likely only play the game on a single device. And save data is
 
 # Animations
 
-The app really came to life when I started adding in animations! I wanted to give as much of a native game feeling to our app as I could. The animations are mostly small transitional touches that add a bit of life and playfulness to the game. The tenniques I used were:
+The app really came to life when I started adding in animations! I wanted to give as much of a native game feeling to our app as I could. The animations are mostly small transitional touches that add a bit of life and playfulness to the game. The techniques I used were:
 
 - Text Animation with Typist
 - CSS Transition Animations
@@ -115,7 +120,7 @@ The app really came to life when I started adding in animations! I wanted to giv
 
 Built in CSS animations cover the small touches, such as menus swiping in and icons shaking or bouncing. Below is one of my favorites: Agent S's Notepad.
 
-IMG HERE
+![Slide in and out effect for SNotebook](https://padilla-media.s3.amazonaws.com/blog/acnm/snotesopen.gif)
 
 One of the [12 Principles of Animation](https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation#Squash_and_stretch) is Anticipation, a gesture preparing the viewer for an action. The pulling back before springing forward motion here is just that, and was accomplished with this simple line of css:
 
@@ -146,7 +151,7 @@ The one case where JavaScript was the best tool for animation was with the dialo
 
 ![Dialogue text appearing on screen](https://padilla-media.s3.amazonaws.com/blog/acnm/textAnimation.gif)
 
-I initially scripted out a vanilla JS type-writer function that would lay out peices of dialogue character by character. Eventually we went with another package for this functionality to more easily handle non-text portions of the dialogue, such as icon images and text highlighting.
+I initially scripted out a vanilla JS type-writer function that would lay out pieces of dialogue character by character. Eventually we went with another package for this functionality to more easily handle non-text portions of the dialogue, such as icon images and text highlighting.
 
 ## CSS Transition Group
 
@@ -160,15 +165,17 @@ There are different classes dynamically set for the animals based on their posit
 
 The true native feel came from bringing in page transitions with **Framer Motion**. Each page has a loading screen overlay that swipes in and out between the stages, almost like a curtain for scene transitions.
 
-Here's how it works: Framer Motion has built in functionality for working with React Router. What needs to happen is a handshake for a really smooth transition. After a link is clicked (or an action leads to switching pages), Framer Motion intercepts the request to React Router. It delays the new page from loading until the exiting animation has occured.
+![Slick Scene Transition](https://padilla-media.s3.amazonaws.com/blog/acnm/FramerMotionTransition.gif)
+
+Here's how it works: Framer Motion has built in functionality for working with React Router. What needs to happen is a handshake for a really smooth transition. After a link is clicked (or an action leads to switching pages), Framer Motion intercepts the request to React Router. It delays the new page from loading until the exiting animation has occurred.
 
 Then, the next page loads. The next page also has an on load animation, mirroring the exiting animation of the previous page. So on the first page, the loading overlay swiped in. On the next page's load, a copy of the overlay is displayed and swipes out.
 
 # Mobile and Desktop View
 
-With much of my time and energy focused on handling game logic and creating the CMS, the flexibility of the game's UI is another area where I had to eventually make a compromise timewise.
+With much of my time and energy focused on handling game logic and creating the CMS, the flexibility of the game's UI is another area where I had to eventually make a compromise time-wise.
 
-Our initial ambition was to create an application that looked ellagent on all devices. Phones, tablets, and desktop. When working with primarily text and an endless scrolling page, there's a lot of room for flexibility and responsive design. When it came to developing a game with specifically sized assets and menus, it became more complex.
+Our initial ambition was to create an application that looked elegant on all devices. Phones, tablets, and desktop. When working with primarily text and an endless scrolling page, there's a lot of room for flexibility and responsive design. When it came to developing a game with specifically sized assets and menus, it became more complex.
 
 Ultimately, I was able to create two views: Desktop and Mobile, with tablets rendering the desktop version.
 
@@ -180,23 +187,23 @@ Mobile is a full screen rendering of the game:
 
 ![Mobile view of the app](https://padilla-media.s3.amazonaws.com/blog/acnm/mobile.png)
 
-The Mobile version was optimized for most popular dimensions, iPhones being my basis. Things got strange with tablet dimmensions, however, and it became difficult to handle a very particularly staged set of character positions, menus, and fixed background size in this size range.
+The Mobile version was optimized for most popular dimensions, iPhones being my basis. Things got strange with tablet dimensions, however, and it became difficult to handle a very particularly staged set of character positions, menus, and fixed background size in this size range.
 
 That's what lead to showing the desktop version on tablet devices. We had hoped for an experience similar to mobile, but given the constraints of a position sensitive layout with less flexibility, it's another one I saw as worth taking.
 
-# Conclusion
+# Wrapping Up
 
-There's much to be proud of with this application, but I'm happiest with how the front end turned out! Working through game logic was an interesting puzzle. Managing the application's state and performance was delightfully surprising! The process drew from my experience working in web development seemlessly. And the small touches of animation help make the story come alive. Even deciding on trade offs boosted my confidence in my ability to work with the resources I had to create a fun piece of software.
+There's much to be proud of with this application, but I'm happiest with how the front end turned out! Working through game logic was an interesting puzzle. Managing the application's state and performance was delightfully surprising! The process drew from my experience working in web development seamlessly. And the small touches of animation help make the story come alive. Even deciding on trade offs boosted my confidence in my ability to work with the resources I had to create a fun piece of software.
 
 ![Merengue questioning Agent S's Question](https://padilla-media.s3.amazonaws.com/blog/acnm/Merenguequestion.png)
 
-I hope you check out [Animal Crossing: New Murder](https://acmurdermystery.netlify.app/)!
+I hope you check out [Animal Crossing: New Murder](https://acnewmurder.com/)!
 
 If you're interested in reading more about the nitty gritty of developing the tech or how I managed the project, you can read my deep dive on each below:
 
-- Overview
-- Using Sanity as a Game Maker
-- Project Management: An Artist and a Software Engineer Walk into a Bar...
+- [Overview](https://chrisdpadilla.com/acnm)
+- [Using Sanity as a Level Maker](https://chrisdpadilla.com/acnmbe)
+- [Project Management for Game Development](https://chrisdpadilla.com/acnmpm)
 
 You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart)
 
