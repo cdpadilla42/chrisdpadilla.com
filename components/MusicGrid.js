@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import ACNMImg from '../public/assets/albums/acnmcover.jpg';
 import IslandImg from '../public/assets/albums/Island.jpg';
 import TekserveImg from '../public/assets/albums/tekservecoverlarge.jpg';
 import LunarImg from '../public/assets/albums/lunar-cover-scaled.jpg';
@@ -12,6 +13,7 @@ import SnowBearImg from '../public/assets/albums/snow-bear.jpeg';
 import QuietPlaces from '../public/assets/albums/quiet-places.jpeg';
 
 const albumPhotos = {
+  'AC: New Murder Soundtrack': ACNMImg,
   Island: IslandImg,
   'Tek Serve': TekserveImg,
   Lunar: LunarImg,

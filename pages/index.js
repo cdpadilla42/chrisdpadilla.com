@@ -7,16 +7,12 @@ import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
-import SpectrumImg from '../public/assets/albums/SpectrumCover.jpg';
-import LunarImg from '../public/assets/albums/lunar-cover-scaled.jpg';
-import TekserveImg from '../public/assets/albums/tekservecoverlarge.jpg';
 import IslandImg from '../public/assets/albums/Island.jpg';
+import ACNMImg from '../public/assets/albums/acnmcover.jpg';
 
 const albumPhotos = {
+  'AC: New Murder Soundtrack': ACNMImg,
   Island: IslandImg,
-  'Tek Serve': TekserveImg,
-  Lunar: LunarImg,
-  Spectrum: SpectrumImg,
 };
 
 export default function Index({ allPosts, latestAlbum }) {
