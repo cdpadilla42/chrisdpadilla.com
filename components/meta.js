@@ -34,10 +34,9 @@ export default function Meta({ customOGImage, title }) {
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:secure_url" content={ogImage} />
       <meta property="og:image:url" content={ogImage} />
-      <meta property="og:image:url" content={ogImage} />
-      <meta property="twitter:image" content={ogImage} />
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:title" content={title || 'Chris Padilla'} />
+      <meta property="twitter:image" content={ogImage} />
       {/* <meta property="twitter:description" content="Chris Padilla" /> */}
       <meta property="twitter:site" content="@letsgokris" />
     </Head>
