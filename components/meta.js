@@ -33,6 +33,7 @@ export default function Meta({ customOGImage, title }) {
       />
       <meta
         prefix="og: http://ogp.me/ns#"
+        name="image"
         property="og:image"
         content={ogImage}
       />
