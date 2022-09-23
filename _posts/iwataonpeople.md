@@ -3,6 +3,8 @@ title: Iwata on Creative People
 tags:
   - Notes
 date: '2022-09-23T05:35:07.322Z'
+ogImage: https://padilla-media.s3.amazonaws.com/blog/imgs/iwata+sketch.jpeg
+coverImage: https://padilla-media.s3.amazonaws.com/blog/imgs/iwata+sketch.jpeg
 ---
 
 I grew up with a lot of the games and consoles developed by the late Satura Iwata, Nintendo's former President. "Ask Iwata" is a sort of auto-biography, a collection of interviews Iwata gave for Shigesato Itoi's company / site with a few excerpts from the official Nintendo "Iwata Asks" interview series.

@@ -7,9 +7,7 @@ export default function PostHeader({ title, coverImage, date, tags }) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
-      <div>
-        <CoverImage title={title} src={coverImage} height={620} width={1240} />
-      </div>
+    
       <div>
         <div>
           <DateFormatter dateString={date} />
@@ -19,6 +17,9 @@ export default function PostHeader({ title, coverImage, date, tags }) {
             <span key={tag}>{tag}</span>
           ))}
         </div>
+      </div>
+      <div>
+        <CoverImage title={title} src={coverImage} height={620} width={1240} />
       </div>
     </>
   );

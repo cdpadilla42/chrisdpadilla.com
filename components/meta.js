@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import { HOME_OG_IMAGE_URL } from '../lib/constants';
+import OGImage from './ogImage';
 
-export default function Meta() {
+export default function Meta({ customOGImage }) {
   return (
     <Head>
       <link
@@ -30,14 +31,10 @@ export default function Meta() {
         name="description"
         content={`Web developer, musician, human being.`}
       />
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-      <meta property="og:image:secure_url" content={HOME_OG_IMAGE_URL} />
-      <meta property="og:image:url" content={HOME_OG_IMAGE_URL} />
-      <meta property="og:image:url" content={HOME_OG_IMAGE_URL} />
+      <OGImage image={customOGImage || HOME_OG_IMAGE_URL} />
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:title" content="Chris Padilla" />
       {/* <meta property="twitter:description" content="Chris Padilla" /> */}
-      <meta property="twitter:image" content={HOME_OG_IMAGE_URL} />
       <meta property="twitter:site" content="@letsgokris" />
     </Head>
   );
