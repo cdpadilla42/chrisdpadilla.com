@@ -2,10 +2,16 @@ import Alert from '../components/alert';
 import Footer from '../components/footer';
 import Meta from '../components/meta';
 
-export default function Layout({ preview, children, noFooter, customOGImage }) {
+export default function Layout({
+  preview,
+  children,
+  noFooter,
+  customOGImage,
+  title,
+}) {
   return (
     <>
-      <Meta customOGImage={customOGImage} />
+      <Meta customOGImage={customOGImage} title={title} />
       <main>{children}</main>
       {!noFooter && <Footer />}
     </>

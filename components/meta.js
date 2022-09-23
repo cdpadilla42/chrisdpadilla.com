@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { HOME_OG_IMAGE_URL } from '../lib/constants';
 
-export default function Meta({ customOGImage }) {
+export default function Meta({ customOGImage, title }) {
   const ogImage = customOGImage || HOME_OG_IMAGE_URL;
   return (
     <Head>
@@ -37,7 +37,7 @@ export default function Meta({ customOGImage }) {
       <meta property="og:image:url" content={ogImage} />
       <meta property="twitter:image" content={ogImage} />
       <meta property="twitter:card" content="summary" />
-      <meta property="twitter:title" content="Chris Padilla" />
+      <meta property="twitter:title" content={title || 'Chris Padilla'} />
       {/* <meta property="twitter:description" content="Chris Padilla" /> */}
       <meta property="twitter:site" content="@letsgokris" />
     </Head>

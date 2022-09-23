@@ -12,7 +12,11 @@ import PostBody from '../components/post-body';
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
   return (
-    <Layout preview={preview} customOGImage={post.ogImage}>
+    <Layout
+      preview={preview}
+      customOGImage={post.ogImage}
+      title={`${post.title} | Chris Padilla`}
+    >
       <Container>
         <Header section="blog" />
         {router.isFallback ? (
