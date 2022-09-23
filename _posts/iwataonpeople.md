@@ -7,7 +7,7 @@ ogImage: https://padilla-media.s3.amazonaws.com/blog/imgs/iwata+sketch.jpeg
 coverImage: https://padilla-media.s3.amazonaws.com/blog/imgs/iwata+sketch.jpeg
 ---
 
-I grew up with a lot of the games and consoles developed by the late Satoru Iwata, Nintendo's former President. "Ask Iwata" is a sort of auto-biography, a collection of interviews Iwata gave for Shigesato Itoi's company / site with a few excerpts from the official Nintendo "Iwata Asks" interview series.
+I grew up with a lot of the games and consoles developed by the late Satoru Iwata, Nintendo's former President. ["Ask Iwata"](https://www.amazon.com/Ask-Iwata-Wisdom-Nintendos-Legendary/dp/197472154X) is a sort of auto-biography, a collection of interviews Iwata gave for Shigesato Itoi's company / site with a few excerpts from the official Nintendo "Iwata Asks" interview series.
 
 The book came across as surprisingly personal for someone that's a sort of legend in the space. Some characters garner mysticism through the distance between them and their audience, but Iwata was a proponent of transparency and open communication, as is evident by all that's shared in these interviews.
 
