@@ -51,7 +51,7 @@ I hope you check out [Animal Crossing: New Murder](https://acmurdermystery.netli
 
 If you're interested in reading more about the nitty gritty of developing the tech or how I managed the project, you can read my deep dive on each below:
 
-- [Overview](https://chrisdpadilla.com/acnm)
+- [Overview](https://chrisdpadilla.com/acnmp)
 - [Developing a Game in React](https://chrisdpadilla.com/acnmfe)
 - [Using Sanity as a Level Maker](https://chrisdpadilla.com/acnmbe)
 
