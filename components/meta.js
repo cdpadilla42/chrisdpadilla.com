@@ -3,6 +3,7 @@ import { HOME_OG_IMAGE_URL } from '../lib/constants';
 import OGImage from './OGImage';
 
 export default function Meta({ customOGImage }) {
+  const ogImage = customOGImage || HOME_OG_IMAGE_URL;
   return (
     <Head>
       <link
@@ -31,7 +32,11 @@ export default function Meta({ customOGImage }) {
         name="description"
         content={`Web developer, musician, human being.`}
       />
-      <OGImage image={customOGImage || HOME_OG_IMAGE_URL} />
+      <meta property="og:image" content={ogImage} />
+      <meta property="og:image:secure_url" content={ogImage} />
+      <meta property="og:image:url" content={ogImage} />
+      <meta property="og:image:url" content={ogImage} />
+      <meta property="twitter:image" content={ogImage} />
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:title" content="Chris Padilla" />
       {/* <meta property="twitter:description" content="Chris Padilla" /> */}
