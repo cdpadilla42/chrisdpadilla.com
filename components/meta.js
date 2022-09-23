@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { HOME_OG_IMAGE_URL } from '../lib/constants';
-import OGImage from './OGImage';
 
 export default function Meta({ customOGImage }) {
   const ogImage = customOGImage || HOME_OG_IMAGE_URL;
