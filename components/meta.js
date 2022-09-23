@@ -31,9 +31,21 @@ export default function Meta({ customOGImage, title }) {
         name="description"
         content={`Web developer, musician, human being.`}
       />
-      <meta property="og:image" content={ogImage} />
-      <meta property="og:image:secure_url" content={ogImage} />
-      <meta property="og:image:url" content={ogImage} />
+      <meta
+        prefix="og: http://ogp.me/ns#"
+        property="og:image"
+        content={ogImage}
+      />
+      <meta
+        prefix="og: http://ogp.me/ns#"
+        property="og:image:secure_url"
+        content={ogImage}
+      />
+      <meta
+        prefix="og: http://ogp.me/ns#"
+        property="og:image:url"
+        content={ogImage}
+      />
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:title" content={title || 'Chris Padilla'} />
       <meta property="twitter:image" content={ogImage} />
