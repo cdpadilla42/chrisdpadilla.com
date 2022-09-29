@@ -5,7 +5,7 @@ tags:
 date: '2022-12-13T05:35:07.322Z'
 ---
 
-Something that goes under appreciated when it comes to developing anything — games, websites, music — is how much time goes into making the *tools* that you need to make *your* project.
+Something that goes under appreciated when it comes to developing anything — games, websites, music — is how much time goes into making the _tools_ that you need to make _your_ project.
 
 Musicians familiarize themselves with scales and harmonic language.
 
@@ -19,7 +19,7 @@ I mention in my previous article the why and how of choosing Sanity as our backe
 
 # Schema Development
 
-Sanity is a document based database. The structure is not too different from MongoDB. You have a collection of *documents*, which can have nested elements to them, and that can connect to other documents *relationally*. We have several collections for the game:
+Sanity is a document based database. The structure is not too different from MongoDB. You have a collection of _documents_, which can have nested elements to them, and that can connect to other documents _relationally_. We have several collections for the game:
 
 ```
 Content
@@ -43,11 +43,9 @@ Phrase => Text => Speaker => Emotion.
 
 Let's dive into a few to get a sense for the game's structure.
 
-// TODO: Use google slides to create the schema
-
 ## Dialogue
 
-The heart of the game is text. So this was a jam-packed Schema. 
+The heart of the game is text. So this was a jam-packed Schema.
 
 Dialogue objects look like this:
 
@@ -62,7 +60,7 @@ Dialogue objects look like this:
 }
 ```
 
-There are a few other properties, but the important ones are displayed. 
+There are a few other properties, but the important ones are displayed.
 
 Each dialogue is linked to a **conversation**. The conversation is the equivalent of a whole scene with an animal, say, you talking to Ankha in the first act. Conversations are broken up into separate dialogues, with player responses being the separator.
 
@@ -96,11 +94,11 @@ Achievements, mission clearing, and being given an item is handled in our **spec
 
 ## Linking Dialogues
 
-Handling multiple branches took some doing, but stayed a lot less complicated thanks to the modular nature of our schemas! 
+Handling multiple branches took some doing, but stayed a lot less complicated thanks to the modular nature of our schemas!
 
 As mentioned above, we're able to go down branching paths depending on the dialogueID that's linked to a given response option. This is also possible when presenting evidence.
 
-There's a point in the game where it's a bit of a free for all. Animals can be asked about any item in the users inventory, sometimes providing different dialogue depending on what the user has already achieved in the game. Implementation here was largely similar to the above - link items to a specific dialogue document. BUT, if a prerequisite event is required to see a secondary response, make that check first. 
+There's a point in the game where it's a bit of a free for all. Animals can be asked about any item in the users inventory, sometimes providing different dialogue depending on what the user has already achieved in the game. Implementation here was largely similar to the above - link items to a specific dialogue document. BUT, if a prerequisite event is required to see a secondary response, make that check first.
 
 The nitty gritty of that implementation is too large for a single blog post. It all comes back to this main implementation of separate dialogues linked relationally by items or response options.
 
@@ -110,7 +108,7 @@ Sanity Studio was great to work with! Even for contorting it to suit our needs f
 
 Here's a quick peak at what a dialogue document looked like in Sanity:
 
-PHOTO
+![Sanity Studio](https://padilla-media.s3.amazonaws.com/blog/acnm/Screen+Shot+2022-09-22+at+12.05.36+PM.png)
 
 ## Conditionally Rendering Input Elements
 
@@ -118,16 +116,40 @@ We had a few situations of "If prompting for evidence is true, we also need thes
 
 Sanity also handled this really nicely! It came in handy as a reminder to Jenn what was and wasn't needed in certain game scenarios by having the back end client nudge her in the right direction.
 
+Here's an example of what this looks like in Sanity's schema, from their [documentation](https://www.sanity.io/docs/conditional-fields)
+
+```
+{
+  name: 'link',
+  type: 'object',
+  title: 'Link',
+  fields: [
+    {
+      name: 'external',
+      type: 'url',
+      title: 'URL',
+      hidden: ({ parent, value }) => !value && parent?.internal
+    },
+    {
+      name: 'internal',
+      type: 'reference',
+      to: [{ type: 'route' }, { type: 'post' }],
+      hidden: ({ parent, value }) => !value && parent?.external
+    }
+  ]
+}
+```
+
 # Wrapping Up
 
-There was a fairly large upfront cost of planning out how to structure the game and enable Jenn to add in assets and story. We saw it evolve pretty quickly as the game grew and grew in complexity. Taking that time upfront helped save a lot of headache down the road! I'm grateful to have used a system that was resilient enough to change as our needs inevitably pivoted. 
+There was a fairly large upfront cost of planning out how to structure the game and enable Jenn to add in assets and story. We saw it evolve pretty quickly as the game grew and grew in complexity. Taking that time upfront helped save a lot of headache down the road! I'm grateful to have used a system that was resilient enough to change as our needs inevitably pivoted.
 
-I hope you check out [Animal Crossing: New Murder](https://acmurdermystery.netlify.app/)!
+I hope you check out [AC: New Murder](https://acnewmurder.com)!
 
 If you're interested in reading more about the nitty gritty of developing the tech or how I managed the project, you can read my deep dive on each below:
 
-- [Overview](https://chrisdpadilla.com/acnmp)
-- [Developing a Game in React](https://chrisdpadilla.com/acnmfe)
-- [Project Management for Game Development](https://chrisdpadilla.com/acnmpm)
+- [Overview](/acnmp)
+- [Developing a Game in React](/acnmfe)
+- [Project Management for Game Development](/acnmpm)
 
 You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart)

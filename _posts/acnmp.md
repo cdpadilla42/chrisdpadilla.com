@@ -23,13 +23,13 @@ This was a blast to work on! I had the chance to hone my web development chops, 
 
 # Application Features
 
-When we started planning this in November 2020, we had played around with different ways that this could come to life. A full on web comic would have taken ages with creating individual art assets for the story she had in mind. Software like GameMaker were a viable option, but had limitations for how much genuine control we had over the feel of the game. We also wanted an experience where there were very few bariers to entry — nothing to download, just a link to visit, a la the web experiences we grew up with on sites like [Homestar Runner](https://homestarrunner.com/) or [Homestuck](https://www.homestuck.com/info-story).
+When we started planning this in November 2020, we had played around with different ways that this could come to life. A full on web comic would have taken ages with creating individual art assets for the story she had in mind. Software like GameMaker were a viable option, but had limitations for how much genuine control we had over the feel of the game. We also wanted an experience where there were very few barriers to entry — nothing to download, just a link to visit, a la the web experiences we grew up with on sites like [Homestar Runner](https://homestarrunner.com/) or [Homestuck](https://www.homestuck.com/info-story).
 
 Enter me and my skillset! Working primarily in React and web development technologies, this felt like the perfect opportunity to craft a web app for both the players as well as Jenn to be able to load her pages and pages of dialogue into, controlling also the emotions characters made with each phrase, who they were talking to, what evidence was required, and so on!
 
 ![Julian riddling you a riddle](https://padilla-media.s3.amazonaws.com/blog/acnm/Julian.png)
 
-This project exists as two seperate applications, similar to a blog: A client site and a backend portal for editing the application data.
+This project exists as two separate applications, similar to a blog: A client site and a backend portal for editing the application data.
 
 Our most important features for the app were:
 
@@ -44,7 +44,7 @@ For the back end application, our CMS features:
 
 - Intuitive interface of storing different types of data (text, images, and preferences)
 - A way to referencing other documents
-- Flexible UI for hidding any uneccesary fields when inputing game assets
+- Flexible UI for hiding any uneccesary fields when inputing game assets
 - Ways of easily updating the schema as features were added without invalidating older documents
 
 # The Tech Stack
@@ -67,13 +67,13 @@ User data is simultaneously updated in Redux and Local Storage. On load, the app
 
 ## CMS (Sanity)
 
-The project was complex enough to reach for a CMS instead of developing my own backend. We needed something flexible enough that would be able to handle our game logic (we weren't _just_ building a blog, afterall.) I wanted something that came with an intuitive interface out of the box for Jenn to use. And, JavaScript being my language of choice, I wanted a service that allowed me to develop in my primary language. **Sanity** checked all of our boxes here!
+The project was complex enough to reach for a CMS instead of developing my own backend. We needed something flexible enough that would be able to handle our game logic (we weren't _just_ building a blog, after all.) I wanted something that came with an intuitive interface out of the box for Jenn to use. And, JavaScript being my language of choice, I wanted a service that allowed me to develop in my primary language. **Sanity** checked all of our boxes here!
 
 With Sanity, Schema development was a breeze. There was plenty of flexibility to reffernce different documents, create unique document types, nest documents within other documents, the whole sha-bang! Querying the data on the client was elegent as well. Sanity uses their own language **GROQ**, which will feel familiar to anyone that's used **GraphQL**. All in all, for this project, we're pleased to have gone with Sanity!
 
 ## Hosting
 
-Site hosting and building is done on **Netlify**. The code for the site is hosted on github. Everytime changes are pushed, Netlify will take in the new code, build, and publish the updated site all in one go.
+Site hosting and building is done on **Netlify**. The code for the site is hosted on github. Every time changes are pushed, Netlify will take in the new code, build, and publish the updated site all in one go.
 
 Sanity takes care of CMS hosting on their platform easily. For our scope, it was straightforward and cheap to implement.
 
@@ -81,9 +81,9 @@ Sanity takes care of CMS hosting on their platform easily. For our scope, it was
 
 It's an oversimplification to say that our roles were focused one hemisphere of the brain — Code is as creative as it is literal, as is illustration and story writing.
 
-We were coming from different skillsets, though, and were both learning along the way how best to comunicate the needs of our side of the project.
+We were coming from different skillsets, though, and were both learning along the way how best to communicate the needs of our side of the project.
 
-What got us through wasn't so much a particular tool, but more of a mindset of being open to finding creative solutions to walls, accepting limitations where we had them, and creating an accepting environment for ideation and flexibility. Thankfully, we're respectfull, kind, and resilient in our lives as brother and sister outside of the project, so this was a natural flow to get into for us!
+What got us through wasn't so much a particular tool, but more of a mindset of being open to finding creative solutions to walls, accepting limitations where we had them, and creating an accepting environment for ideation and flexibility. Thankfully, we're respectful, kind, and resilient in our lives as brother and sister outside of the project, so this was a natural flow to get into for us!
 
 Our process for coming together involved meeting regularly to plan our next priorities together, work out what we needed to do individually, and getting feedback on recent steps.
 
@@ -95,22 +95,22 @@ We _did_ end up needing a tool for staying organized! We've been using **Notion*
 
 ![Pulling back the curtain to show an internal guide written in Notion](https://padilla-media.s3.amazonaws.com/blog/acnm/NotionGuide.png)
 
-I created a board for our project to keep track of development tasks, and it soon expanded. At the end of development, we had a shared board, road map, and several Sanity guides that I wrote for Jenn to refference when she needed to add in some in-frequently used game logic to CMS
+I created a board for our project to keep track of development tasks, and it soon expanded. At the end of development, we had a shared board, road map, and several Sanity guides that I wrote for Jenn to reference when she needed to add in some in-frequently used game logic to CMS
 
 # Wrapping Up
 
-Growing up, I really wanted my sister and I to collaborate on a big creative project together! I personally envisioned Jenn and I would start a virtual band similar to the Gorillaz, me making music while she illustrated band mates. BUT! This, I think, is even more fun than what I fantisized!
+Growing up, I really wanted my sister and I to collaborate on a big creative project together! I personally envisioned Jenn and I would start a virtual band similar to the Gorillaz, me making music while she illustrated band mates. BUT! This, I think, is even more fun than what I fantasized!
 
 ![Cool animal animations!](https://padilla-media.s3.amazonaws.com/blog/acnm/characterSwapAnimations.gif)
 
 I had fun bringing life and interactivity to Jenn's story! It was rewarding to continue to learn and explore the technologies I was familiar with in a new way. We had ups and downs (and left and rights!) during development, but we were able to work through all of our blocks to create something really unique and special.
 
-I hope you check out [Animal Crossing: New Murder](https://acmurdermystery.netlify.app/)!
+I hope you check out [AC: New Murder](https://acnewmurder.com)!
 
 If you're interested in reading more about the nitty gritty of developing the tech or how I managed the project, you can read my deep dive on each below:
 
-- [Developing a Game in React](https://chrisdpadilla.com/acnmfe)
-- [Using Sanity as a Level Maker](https://chrisdpadilla.com/acnmbe)
-- [Project Management for Game Development](https://chrisdpadilla.com/acnmpm)
+- [Developing a Game in React](/acnmfe)
+- [Using Sanity as a Level Maker](/acnmbe)
+- [Project Management for Game Development](/acnmpm)
 
 You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart)

@@ -131,6 +131,12 @@ footer {
   object-fit: cover;
   object-position: 0 25%;
 }
+
+.heading_flex {
+  margin-top: 2rem;
+}
+
+
 .heading_flex > * {
   display: inline-block;
 }
@@ -195,6 +201,10 @@ article h1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
+}
+
+.center{
+  text-align: center;
 }
 
 @media all and (min-width: 800px) {

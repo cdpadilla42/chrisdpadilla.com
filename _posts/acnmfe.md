@@ -34,9 +34,9 @@ My favorite example of this is Julian's Testimony in the first trial. If I were 
 |    |
 V    V
 0    0
-| 
-V 
-0 
+|
+V
+0
 ```
 
 By checking the dialogue properties, the game knows whether to render an objection option, and then once following down the next dialogue path, the game also handles when to offer presenting evidence or offering response options. When reaching the end of an "objection" path, the user is then sent back to the main testimony path, one step further than they were before.
@@ -197,13 +197,13 @@ There's much to be proud of with this application, but I'm happiest with how the
 
 ![Merengue questioning Agent S's Question](https://padilla-media.s3.amazonaws.com/blog/acnm/Merenguequestion.png)
 
-I hope you check out [Animal Crossing: New Murder](https://acnewmurder.com/)!
+I hope you check out [AC: New Murder](https://acnewmurder.com/)!
 
 If you're interested in reading more about the nitty gritty of developing the tech or how I managed the project, you can read my deep dive on each below:
 
-- [Overview](https://chrisdpadilla.com/acnmp)
-- [Using Sanity as a Level Maker](https://chrisdpadilla.com/acnmbe)
-- [Project Management for Game Development](https://chrisdpadilla.com/acnmpm)
+- [Overview](/acnmp)
+- [Using Sanity as a Level Maker](/acnmbe)
+- [Project Management for Game Development](/acnmpm)
 
 You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart)
 

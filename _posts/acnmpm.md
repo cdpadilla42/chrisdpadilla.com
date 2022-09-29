@@ -15,7 +15,7 @@ In most cases, the CMS had descriptions and self-explanatory field names that wo
 
 I wrote a handful of guides with images and gifs to serve as reference for those less used features. I would write them out as I finished a feature, then hop on a call with Jenn to talk walk down the guide. I would screen share my own computer working through an example so there was a clear picture of how it worked in Sanity, and how it would end up looking in our main application.
 
-![Screenshot of a Notion Guide on Positioning and Phrases](NotionGuide.png)
+![Screenshot of a Notion Guide on Positioning and Phrases](https://padilla-media.s3.amazonaws.com/blog/acnm/NotionGuide.png)
 
 ## Communicating Trade Offs and Keeping an Eye on the Big Picture
 
@@ -37,22 +37,22 @@ And still, the project acquired it's fair share of technical debt.
 
 My time and resources for the project began to shrink as we neared the end, and I became less and less able to maintain it in the way that I would like. Getting the application done and out in the world took precedence over a pristine, DRY codebase.
 
-This has been a big lesson for me. Ultimately, I stand by the choice to focus on implementation over maintenance for this project — neither of us are planning to return to it. I also don't intend on releasing the code as any sort of basis for other people to develop their own Animal Crossing fan games.
+This has been a big lesson for me. Ultimately, I stand by the choice to focus on implementation over maintenance for this project — neither of us are planning to return to it. I also don't intend on releasing the code as any sort of basis for other people to use this as a game engine anytime soon.
 
 At the same time, I now deeply understand what technical debt looks and feels like, how it can come about gradually, and that for a project that's meant to be sustained and continually iterated on, it's _invaluable_ to take the time to maintain, refactor, and plan for the future.
 
 # Wrapping Up
 
-This was my greatest area of growth. I picked up some great technical skills, certainly. Actually managing the project, triaging feature requests, sticking to an MVP, and communicating to a non-technical collaborator — that's a whole suite of juicy soft skills. 
+This was my greatest area of growth. I picked up some great technical skills, certainly. Actually managing the project, triaging feature requests, sticking to an MVP, and communicating to a non-technical collaborator — that's a whole suite of juicy soft skills.
 
 My experience with teaching music came in handy here! Lots of overlap from planning out the next step in a beginner saxophonist's education. And, some interesting new ways of adapting when it came to shipping an entire application!
 
-I hope you check out [Animal Crossing: New Murder](https://acmurdermystery.netlify.app/)!
+I hope you check out [AC: New Murder](https://acnewmurder.com)!
 
 If you're interested in reading more about the nitty gritty of developing the tech or how I managed the project, you can read my deep dive on each below:
 
-- [Overview](https://chrisdpadilla.com/acnmp)
-- [Developing a Game in React](https://chrisdpadilla.com/acnmfe)
-- [Using Sanity as a Level Maker](https://chrisdpadilla.com/acnmbe)
+- [Overview](/acnmp)
+- [Developing a Game in React](/acnmfe)
+- [Using Sanity as a Level Maker](/acnmbe)
 
 You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart)

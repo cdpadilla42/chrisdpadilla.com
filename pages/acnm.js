@@ -29,7 +29,7 @@ const About = () => {
 
       <p>Oh, and I <Link href="https://letsgochris.bandcamp.com/album/ac-new-murder-soundtrack"><a target="_blank" rel="noopener noreferrer">made the music</a></Link>, too!</p>
 
-      <p>2 years ago, my sister Jenn approached me with an idea for a murder mystery game featuring some of the characters from Animal Crossing. I was looking for a fun new way to sharpen my software engineering skills, and I was won over by the silliness of the story!</p>
+      <p>2 years ago, my sister <Link href="https://www.jennpadilla.com/"><a target="_blank" rel="noopener noreferrer">Jenn</a></Link> approached me with an idea for a murder mystery game featuring some of the characters from Animal Crossing. I was looking for a fun new way to sharpen my software engineering skills, and I was won over by the silliness of the story!</p>
 
       <h2>The History</h2>
 

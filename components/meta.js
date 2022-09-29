@@ -50,8 +50,8 @@ export default function Meta({ customOGImage, title }) {
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:title" content={title || 'Chris Padilla'} />
       <meta property="twitter:image" content={ogImage} />
-      {/* <meta property="twitter:description" content="Chris Padilla" /> */}
       <meta property="twitter:site" content="@letsgokris" />
+      {/* <meta property="twitter:description" content="Chris Padilla" /> */}
     </Head>
   );
 }
