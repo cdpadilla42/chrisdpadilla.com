@@ -17,7 +17,7 @@ Here I'll be pulling back the curtain on how those similarities came through in 
 
 # Rendering Dialogue
 
-In THIS SANITY ARTICLE we looked at the different data types required for all of the games assets and logics. A majority of that data is dialogue text. And much of the actual game logic in the app is handling what to do with that dialogue, especially when they move towards branching paths.
+In [this Sanity article](/acnmbe) we looked at the different data types required for all of the games assets and logics. A majority of that data is dialogue text. And much of the actual game logic in the app is handling what to do with that dialogue, especially when they move towards branching paths.
 
 I was inspired by Twine, software I discovered way back when Ryan North of Dinosaur Comics fame wrote his first chose-your-own-adventure book. The software breaks down key moments in the narrative into individual nodes. The nodes can connect to each other by different response options and paths.
 
