@@ -9,6 +9,7 @@ import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import IslandImg from '../public/assets/albums/Island.jpg';
 import ACNMImg from '../public/assets/albums/acnmcover.jpg';
+import ACNMPromo2 from '../public/assets/projects/ACNMpromo2.jpg';
 
 const albumPhotos = {
   'AC: New Murder Soundtrack': ACNMImg,
@@ -24,6 +25,23 @@ export default function Index({ allPosts, latestAlbum }) {
       <Container>
         <Intro />
         <section>
+          <div className="heading_flex">
+            <h2>
+              <Link href="/acnm">
+                <a>I MADE A GAME — AC: NEW MURDER</a>
+              </Link>
+            </h2>
+          </div>
+          <article>
+            <Link href="/acnm">
+              <a>
+                <Image
+                  src={ACNMPromo2}
+                  alt={`Promo banner for AC: New Mureder`}
+                />
+              </a>
+            </Link>
+          </article>
           <div className="heading_flex">
             <h2>Latest Music</h2>
             <Link href="/music">
