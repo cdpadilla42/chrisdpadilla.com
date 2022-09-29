@@ -11,7 +11,7 @@ Bucket list item complete — for the past year and a half I've had the chance t
 
 ![Home Screen](https://padilla-media.s3.amazonaws.com/blog/acnm/play.png)
 
-A massive labor of love, Animal Crossing: New Murder is a web-based visual novel where you are investigating the details of the almost-murder of a villager on the island. In classic Phoenix Wright style, you are helping clear the name of Ñenn, the initial suspect who claims to be innocent. By chatting with the islanders and visiting a real New Horizons island on the Nintendo Switch as a companion to the web app, you'll uncover clues that will help reveal who-dun-it! There are even trials for you to put your knowledge to the test, presenting evidence, and objecting to suspicious testimonies!
+A massive labor of love, AC: New Murder is a web-based visual novel where you are investigating the details of the almost-murder of a villager on the island. In classic Phoenix Wright style, you are helping clear the name of Ñenn, the initial suspect who claims to be innocent. By chatting with the islanders and visiting a real New Horizons island on the Nintendo Switch as a companion to the web app, you'll uncover clues that will help reveal who-dun-it! There are even trials for you to put your knowledge to the test, presenting evidence, and objecting to suspicious testimonies!
 
 Jenn wrote the script, illustrated the characters, and handled all of the Animal Crossing customizations for the New Horizons island that players are encouraged to visit on their own copy of New Horizons. Her story and characters are dramatic, hilariously funny, and are overflowing with charm and personality!
 
