@@ -2,7 +2,7 @@
 title: Keeping it 200 — HTTP Status Codes
 tags:
   - Tech
-date: '2022-09-28T05:35:07.322Z'
+date: '2022-09-22T05:35:07.322Z'
 ---
 
 I was getting a 503 waiting for my Gmail to load, so I decided to learn more about status codes while I waited!
