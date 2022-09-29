@@ -1,5 +1,5 @@
 ---
-title: I Made A Video Game - Animal Crossing New Murder
+title: I Made A Video Game - AC New Murder
 tags:
   - Project
 date: '2022-09-29T05:35:07.322Z'
