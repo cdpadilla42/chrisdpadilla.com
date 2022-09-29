@@ -2,7 +2,7 @@
 title: Using Sanity as a Level Maker
 tags:
   - Project
-date: '2022-12-13T05:35:07.322Z'
+date: '2022-09-27T05:35:07.322Z'
 ---
 
 Something that goes under appreciated when it comes to developing anything — games, websites, music — is how much time goes into making the _tools_ that you need to make _your_ project.

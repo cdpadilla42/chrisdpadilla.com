@@ -2,7 +2,7 @@
 title: Project Management for Game Development
 tags:
   - Project
-date: '2022-12-13T05:35:07.322Z'
+date: '2022-09-26T05:35:07.322Z'
 ---
 
 # Project Managing

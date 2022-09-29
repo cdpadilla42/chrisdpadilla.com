@@ -2,7 +2,7 @@
 title: Developing A Game In React
 tags:
   - Project
-date: '2022-12-13T05:35:07.322Z'
+date: '2022-09-28T05:35:07.322Z'
 ---
 
 What are the differences between developing a game and making a well organized web application? Surprisingly, there aren't as many as you would think!
