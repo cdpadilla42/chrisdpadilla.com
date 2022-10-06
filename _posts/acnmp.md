@@ -113,4 +113,6 @@ If you're interested in reading more about the nitty gritty of developing the te
 - [Using Sanity as a Level Maker](/acnmbe)
 - [Project Management for Game Development](/acnmpm)
 
-You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart)
+You can also follow Jenn's art and work from her [site](https://www.jennpadilla.com/) or [twitter](https://twitter.com/jennpadillart).
+
+[View the code on GitHub](https://github.com/cdpadilla42/AMM).
