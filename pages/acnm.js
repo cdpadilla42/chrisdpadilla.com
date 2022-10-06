@@ -123,6 +123,14 @@ const About = () => {
         </Link>
       </p>
 
+      <p>
+        <Link href="https://github.com/cdpadilla42/AMM">
+          <a target="_blank" rel="noopener noreferrer">
+            💾 View the Code
+          </a>
+        </Link>
+      </p>
+
       <p>🧑‍💻 Read more about the project on my blog:</p>
       <ul>
         <li>
