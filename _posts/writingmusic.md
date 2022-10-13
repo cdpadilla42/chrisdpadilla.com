@@ -2,7 +2,7 @@
 title: Writing Music
 tags:
   - Music
-date: '2022-10-10T05:35:07.322Z'
+date: '2022-12-10T05:35:07.322Z'
 ---
 
 I had a surprisingly hard time starting up the practice of writing music. Lots of false starts were involved, a ton of back and forth on if I even really enjoyed doing it, and the classic moments of cringing at some of my first tunes.
