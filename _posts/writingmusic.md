@@ -2,7 +2,7 @@
 title: Writing Music
 tags:
   - Music
-date: '2022-10-13T05:35:07.322Z'
+date: '2022-10-10T05:35:07.322Z'
 ---
 
 I had a surprisingly hard time starting up the practice of writing music. Lots of false starts were involved, a ton of back and forth on if I even really enjoyed doing it, and the classic moments of cringing at some of my first tunes.
@@ -81,7 +81,7 @@ Having to make it public, also, helps a lot with the accountability, even if no 
 
 # Follow Your Energy Through the Day
 
-Classic productivity prescription. It clicked for me when I heard Dilbert's [Scott Adams](https://dilbert.com/) talk about it in his [sort-of-autobiography](https://www.amazon.com/How-Fail-Almost-Everything-Still-ebook/dp/B00COOFBA4). For him, writing happens in the morning, and rote-drawing happens in the evening. 
+Classic productivity prescription. It clicked for me when I heard Dilbert's [Scott Adams](https://dilbert.com/) talk about it in his [sort-of-autobiography](https://www.amazon.com/How-Fail-Almost-Everything-Still-ebook/dp/B00COOFBA4). For him, writing happens in the morning, and rote-drawing happens in the evening.
 
 Translating to writing: Actual melody/harmony production happens in the morning, edits and tightening up the quality happens in the evening. Or, most of the time in my case, I took the evenings to practice an instrument like guitar or piano. It doesn't take design-type thinking to practice a scale or play an exercise.
 

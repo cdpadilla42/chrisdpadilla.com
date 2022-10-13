@@ -2,7 +2,7 @@
 title: Aggregation in MongoDB
 tags:
   - Tech
-date: '2022-10-13T05:35:07.322Z'
+date: '2022-10-10T05:35:07.322Z'
 ---
 
 Earlier [I wrote](diyanalytics) on getting a quick bare-bones analytics feature running for a project.
