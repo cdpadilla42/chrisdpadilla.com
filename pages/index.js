@@ -7,13 +7,13 @@ import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
-import IslandImg from '../public/assets/albums/Island.jpg';
+import TurningLeavesIMG from '../public/assets/albums/turningleavescover.jpg';
 import ACNMImg from '../public/assets/albums/acnmcover.jpg';
 import ACNMPromo2 from '../public/assets/projects/ACNMpromo2.jpg';
 
 const albumPhotos = {
+  'Turning Leaves': TurningLeavesIMG,
   'AC: New Murder Soundtrack': ACNMImg,
-  Island: IslandImg,
 };
 
 export default function Index({ allPosts, latestAlbum }) {
