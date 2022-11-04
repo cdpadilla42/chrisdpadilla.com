@@ -3,6 +3,7 @@ title: Walt Stanchfield & Performing with No Audience
 tags:
   - Notes
 date: '2022-11-04T05:35:07.322Z'
+ogImage: https://padilla-media.s3.amazonaws.com/blog/imgs/waltstanchfield.jpeg
 ---
 
 Switching from a performance art to a creating medium has been **weird**.
@@ -18,6 +19,8 @@ Creatively instead of playing on stage, I write songs, draw on the couch, and la
 So I've been thinking about that a lot.
 
 # Walt Stanchfield
+
+![Walt Stanchfield](https://padilla-media.s3.amazonaws.com/blog/imgs/waltstanchfield.jpeg)
 
 The late Walt Stanchfield, former Disney animator and teacher, knows what I'm talking about. The guy, on top of being a highly expressive teacher and artist, played concert piano, wrote poems, and was an enthusiastic tennis player.
 
