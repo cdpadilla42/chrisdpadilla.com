@@ -36,7 +36,7 @@ So is there a solution to dealing with that missing piece? Is it just comparing 
 
 > Well, we do have an awaiting audience out there. We’ll be denied the applause but at least there is a potential audience to perform for; one to keep in mind constantly as we day by day shape up our year dress rehearsal. Even as we struggle with the myriad difficulties of finalizing a picture—what is the phrase, “getting it in the can,” we can perform each act for that invisible or mystical audience. We can’t see our audience but it is real and it is something to work for.
 
-So yes, a little bit of imagination. And a lot of taking time to — if someone comments, likes, shares, and all the other little internet-unique forms of appreciation — to really appreciate those.
+So yes, a little bit of imagination.
 
 He mentions it earlier, but _devotion_ and _enthusiasm_ has been the real key for me. I don't think I'd say I necessarily played music _for_ the applause. The practice itself is what's energizing. I'm grateful that all of my disciplines have pretty great feedback loops. They're so physical, tactil, and expressive that the work is reward enough.
 
