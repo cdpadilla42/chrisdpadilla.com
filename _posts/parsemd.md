@@ -15,7 +15,10 @@ I have a file written like so:
 ```
 ---
 title: Parsing Markdown in Node
-tags: node, blog, tech
+tags:
+  - node
+  - blog
+  - tech
 date: 2022-05-19
 
 ---
