@@ -2,6 +2,7 @@
 title: Building a Proxy with AWS Lambda Functions and CORS
 tags:
   - Tech
+  - AWS
 date: '2022-11-10T05:35:07.322Z'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Writing Music
 tags:
+  - Notes
   - Music
 date: '2022-10-12T05:35:07.322Z'
 ---

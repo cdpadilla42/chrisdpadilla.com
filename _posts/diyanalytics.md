@@ -2,6 +2,8 @@
 title: DIY Analytics & CORS
 tags:
   - Tech
+  - Analytics
+  - Architecture
 date: '2022-09-14T05:35:07.322Z'
 ---
 

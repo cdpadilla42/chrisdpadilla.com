@@ -2,12 +2,13 @@
 title: Redux Growing Pains and React Query
 tags:
   - Tech
+  - React
 date: '2022-10-13T05:35:07.322Z'
 ---
 
 [AC: New Murder's](/acnm) announcement has been par for the course of a major release. Lots of good feedback and excitement, and some big bugs that can only be exposed out in the open.
 
-The biggest one was a bit of a doozy. It's around how we're fetching data. The short version of an [already short overview](/acnmp) is this: 
+The biggest one was a bit of a doozy. It's around how we're fetching data. The short version of an [already short overview](/acnmp) is this:
 
 - Redux stores both Application State and Fetched Data
 - Redux Thunks are used to asynchronously fetch data from our Sanity API
@@ -32,14 +33,13 @@ Sanity uses a GraphQL-esque querying language, [GROQ](https://www.sanity.io/docs
 
 Similar to GraphQL, you can query specifically what you need in one request. For our purposes, we wanted to store data in different hierarchies, so a mega-long query wasn't ideal. Instead, we have several small queries by document type like the `animalImage` query above.
 
-
 # The Issue
 
-On app load, roughly 5 requests are sent to Sanity. If it's a certain page with dialogue, 5 additional requests will be sent. 
+On app load, roughly 5 requests are sent to Sanity. If it's a certain page with dialogue, 5 additional requests will be sent.
 
 The problem: Not every request returned correctly.
 
-This started happening with our beta testers. Unfortunately, there's not a ton of data to go off of. From what we could tell, everyone had stable internet connections, used modern browsers, and weren't using any blocking plugins. 
+This started happening with our beta testers. Unfortunately, there's not a ton of data to go off of. From what we could tell, everyone had stable internet connections, used modern browsers, and weren't using any blocking plugins.
 
 My theory is that some requests may not be fulfilled due to the high volume of requests at once. I doubt it's because Sanity couldn't handle our piddly 10 requests. More likely, there could be a request limit. Here, I'm still surprised it would be as low as 10 within a certain timeframe.
 
@@ -57,7 +57,7 @@ function inventoryReducer(state = initialState, action) {
   switch (type) {
     case 'GET_INVENTORY_ITEMS/fulfilled':
       return { ...state, items: payload };
-   	...   
+   	...
 ```
 
 The "/fulfilled" portion does imply that we do log actions of different states. We could handle the case if it returns a failure, or even write code if a "/pending" request hasn't returned after a certain amount of time. Maybe even, SAY, fetch three times, then error out.
@@ -74,7 +74,6 @@ React Query can do both. But, rewiring the entire app would have been time consu
 
 So, at the risk of some redundancy, I've refactored the application to fetch data with React Query and then also store the data in Redux. I get to keep all the redux boilerplate and piping, and we get a sturdier data fetching process. Huzzah!
 
- 
 # Glueing React Query and Redux Together with Hooks
 
 To make all of this happen, we need:
@@ -88,7 +87,7 @@ A tall order! We have to do this for 10 separate requests, after all.
 
 After creating my actions, migrating GROQ into query methods, we need to make the glue.
 
-I used a couple of hooks to make this happen. 
+I used a couple of hooks to make this happen.
 
 ```
 import React, { useEffect } from 'react';
@@ -132,7 +131,6 @@ export default function useQueryWithSaveToRedux(name, query, reduxAction) {
 
 ```
 
-
 `useQueryWithSaveToRedux` takes in the query and redux action. We write out our `useQuery` hook, and as the `data`, `isLoading`, and `error` results are updated, we pass it to our handler to save the data. If something goes awry, we have a couple of ways of notifying the user.
 
 These are then called within another hook - `useFetchAppLevelData`.
@@ -175,7 +173,7 @@ function App() {
   const fetchAppLevelDataRes = useFetchAppLevelData();
 
   ...
-  
+
 }
 ```
 

@@ -2,8 +2,8 @@
 title: Parsing Markdown in Node
 date: '2022-05-19T05:35:07.322Z'
 tags:
-  - tech
-  - node
+  - Tech
+  - Node
 ---
 
 I'm writing my own markdown-based blog, and had a lot of fun getting into the nitty gritty of file reading and text manipulation. It takes a little more writing than off the shelf solutions, but I wanted to have more control and ownership over the process.

@@ -2,6 +2,7 @@
 title: Iwata on Creative People
 tags:
   - Notes
+  - Books
 date: '2022-09-23T05:35:07.322Z'
 ogImage: https://padilla-media.s3.amazonaws.com/blog/imgs/iwata+sketch.jpeg
 coverImage: https://padilla-media.s3.amazonaws.com/blog/imgs/iwata+sketch.jpeg

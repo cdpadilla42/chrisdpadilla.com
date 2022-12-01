@@ -2,6 +2,7 @@
 title: Error Tracking
 tags:
   - Tech
+  - Architecture
 date: '2022-09-05T05:35:07.322Z'
 ---
 

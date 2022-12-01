@@ -2,6 +2,7 @@
 title: Project Management for Game Development
 tags:
   - Project
+  - Meta
 date: '2022-09-26T05:35:07.322Z'
 ---
 

@@ -2,6 +2,7 @@
 title: Analytics - Accuracy and Ethics
 tags:
   - Tech
+  - Analytics
 date: '2022-09-01T05:35:07.322Z'
 ---
 

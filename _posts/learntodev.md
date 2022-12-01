@@ -1,7 +1,9 @@
 ---
 title: How to Learn Web Development
 tags:
-  - tech
+  - Tech
+  - React
+  - JavaScript
 date: '2022-05-28T05:35:07.322Z'
 ---
 

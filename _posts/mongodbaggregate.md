@@ -2,6 +2,8 @@
 title: Aggregation in MongoDB
 tags:
   - Tech
+  - MongoDB
+  - Database
 date: '2022-10-10T05:35:07.322Z'
 ---
 

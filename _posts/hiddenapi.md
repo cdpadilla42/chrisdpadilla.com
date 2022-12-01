@@ -2,6 +2,7 @@
 title: Navigating NPM Package Changes
 tags:
   - Tech
+  - Architecture
 date: '2022-10-04T05:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: Using Sanity as a Level Maker
 tags:
   - Project
+  - Database
+  - Backend
 date: '2022-09-27T05:35:07.322Z'
 ---
 

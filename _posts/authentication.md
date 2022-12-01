@@ -1,7 +1,9 @@
 ---
 title: The Gist on Authentication
 tags:
-  - tech
+  - Tech
+  - JavaScript
+  - Architecture
 date: '2022-10-20T05:35:07.322Z'
 ---
 
@@ -13,11 +15,11 @@ There are cases where packages or frameworks handle this sort of thing. And just
 
 The classic way of handling authentication. This approach is popular with server-rendered sites and apps.
 
-Here, A user logs in with a username and password, the server cross references them in the DB, and handles the response. On success, a session is created, and a cookie is sent with a session id. 
+Here, A user logs in with a username and password, the server cross references them in the DB, and handles the response. On success, a session is created, and a cookie is sent with a session id.
 
-The "state" of sessions are stored in a cache or on the DB. 
+The "state" of sessions are stored in a cache or on the DB.
 
-Session Cookies are the typical vehicles for this approach. They're stored on the client and automatically sent with any request to the appropriate server. 
+Session Cookies are the typical vehicles for this approach. They're stored on the client and automatically sent with any request to the appropriate server.
 
 ## Pros
 
@@ -25,9 +27,9 @@ For this approach, it's nice that it's a passive process. Very easy to implement
 
 ## Cons
 
-The lookup to your DB or cache can be timely here. You take a hit in performance on your requests. 
+The lookup to your DB or cache can be timely here. You take a hit in performance on your requests.
 
-Cookies are also more susceptible to Cross-Site Request Forgery (XSRF). 
+Cookies are also more susceptible to Cross-Site Request Forgery (XSRF).
 
 # JWT's
 
@@ -37,7 +39,7 @@ Cookies hypothetically could be used to store a limited amount of data, but for 
 
 Well, what are JWT's? Jason Web Tokens are a popular alternative to sessions and cookie based authentication.
 
-On successful login, a JWT is returned with the response. It's then up to the client to store it for future requests, working in the same way as sessions here. 
+On successful login, a JWT is returned with the response. It's then up to the client to store it for future requests, working in the same way as sessions here.
 
 The major difference, though, is that the token is verified on the server through an algorithm, not by DB lookup of a particular ID. There's a major prop of JWT's! It's a stateless way of handling authentication.
 
@@ -53,12 +55,12 @@ This approach is also flexible across platforms. You can use JWT's with mobile a
 
 ## Cons
 
-Because this approach is stateless, unfortunately you have limited control in logging out individual users remotely. It would require changing your entire algorithm, logging *all* of your users out. 
+Because this approach is stateless, unfortunately you have limited control in logging out individual users remotely. It would require changing your entire algorithm, logging _all_ of your users out.
 
-Depending on how you store the token, there are security concerns here, too. It's best to avoid local storage, in particular, as you are open to XSRF - Cross site request forgery. If you accept custom inputs from users, beware also of XSS - Cross Site Scripting, where malicious code could be ran on your site. 
+Depending on how you store the token, there are security concerns here, too. It's best to avoid local storage, in particular, as you are open to XSRF - Cross site request forgery. If you accept custom inputs from users, beware also of XSS - Cross Site Scripting, where malicious code could be ran on your site.
 
 # Who Wins?
 
-Depending on your situation, you may just need the ease of setup provided by session storage. For an API spanning multiple devices, JWT's may seem appealing. There is also the option to blend the approaches: Using JWT's while also storing session logic in a cache or DB. 
+Depending on your situation, you may just need the ease of setup provided by session storage. For an API spanning multiple devices, JWT's may seem appealing. There is also the option to blend the approaches: Using JWT's while also storing session logic in a cache or DB.
 
 Some handy libraries for implementing authentication includes Passport.js and auth0. For integrated authentication with Google, Facebook, etc., there's also OAuth2.0. A tangled conversation on it's own! And, addmitedly, one that's best implemented alongside a custom authentication feature, rather than as the only form of authentication.

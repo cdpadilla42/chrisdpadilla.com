@@ -3,6 +3,7 @@ title: My New Website! Details and Tech
 tags:
   - Tech
   - Project
+  - React
 date: '2022-06-25T05:35:07.322Z'
 ---
 

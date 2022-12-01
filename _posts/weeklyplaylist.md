@@ -1,8 +1,8 @@
 ---
 title: Automatically Saving Spotify Weekly Playlists
 tags:
-  - tech
-  - python
+  - Tech
+  - Python
 date: '2022-08-08T05:35:07.322Z'
 ---
 

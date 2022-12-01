@@ -2,7 +2,8 @@
 title: Adding RSS Feed to Next.js with SSR
 tags:
   - Tech
-  - Architecture
+  - Node
+  - React
 date: '2022-07-25T05:35:07.322Z'
 ---
 
@@ -28,7 +29,7 @@ So, since we have a Server Side Rendering solution for pages, we need a SSR solu
 
 I'll briefly start with the code to generate the XML file for the feed. I'm creating a `generateRSSFeed` method that largely looks similar to the one described in [this guide](https://sreetamdas.com/blog/rss-for-nextjs).
 
-That gets passed to my handler `getRSSFeed`. 
+That gets passed to my handler `getRSSFeed`.
 
 ```
 export async function getRSSFeed() {
@@ -53,6 +54,7 @@ export async function getRSSFeed() {
   return feed;
 }
 ```
+
 lib/api.js
 
 And here's the tweak: I'm using the method in the api routes folder instead of `getStaticProps`.
@@ -66,8 +68,9 @@ export default async function handler(req, res) {
   res.send(xml);
 }
 ```
+
 pages/api/feed.js
 
-Instead of generating a static file and saving it to our assets folder, here we're serving it up from the API directly. 
+Instead of generating a static file and saving it to our assets folder, here we're serving it up from the API directly.
 
 And that's it! Once the time passes on a scheduled post, the next request to the feed will include that latest post!

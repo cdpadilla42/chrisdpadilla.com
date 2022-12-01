@@ -2,6 +2,7 @@
 title: Keeping it 200 — HTTP Status Codes
 tags:
   - Tech
+  - Architecture
 date: '2022-09-22T05:35:07.322Z'
 ---
 

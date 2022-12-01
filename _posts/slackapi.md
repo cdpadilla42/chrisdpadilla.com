@@ -2,6 +2,8 @@
 title: An Overview of Developing Slack Shortcuts
 tags:
   - Tech
+  - Python
+  - JavaScript
 date: '2022-10-14T05:35:07.322Z'
 ---
 

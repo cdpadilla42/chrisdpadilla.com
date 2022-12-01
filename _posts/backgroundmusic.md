@@ -2,6 +2,7 @@
 title: Adding Background Music to Websites
 tags:
   - Tech
+  - JavaScript
 date: '2022-09-09T05:35:07.322Z'
 ---
 

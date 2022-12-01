@@ -1,7 +1,8 @@
 ---
 title: Git Hygiene
 tags:
-  - tech
+  - Tech
+  - Git
 date: '2022-08-29T05:35:07.322Z'
 ---
 

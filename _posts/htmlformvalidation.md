@@ -2,6 +2,8 @@
 title: HTML Form Validation is Pretty Good!
 tags:
   - Tech
+	- HTML
+	- JavaScript
 date: '2022-10-03T05:35:07.322Z'
 ---
 

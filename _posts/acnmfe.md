@@ -2,6 +2,8 @@
 title: Developing A Game In React
 tags:
   - Project
+  - React
+  - CSS
 date: '2022-09-28T05:35:07.322Z'
 ---
 
