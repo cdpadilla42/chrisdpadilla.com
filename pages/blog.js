@@ -8,7 +8,7 @@ import { filterBlogPosts } from '../lib/util';
 import RssSvg from '../components/rssSvg';
 import Header from '../components/header';
 
-export default function Blog({ allPosts }) {
+export default function Blog({ allPosts, tags }) {
   return (
     <Layout>
       <Head>
@@ -46,12 +46,25 @@ export async function getServerSideProps() {
     'coverImage',
     'excerpt',
     'hidden',
+    'tags',
   ]);
 
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
+  const tagsObj = publishedPosts.reduce((res, currentPost) => {
+    const currentTags = currentPost.tags;
+    currentTags.forEach((tag) => {
+      if (!res[tag]) {
+        res[tag] = true;
+      }
+    });
+    return res;
+  }, {});
+
+  const tagsList = Object.keys(tagsObj);
+
   return {
-    props: { allPosts: publishedPosts },
+    props: { allPosts: publishedPosts, tags: tagsList },
     // revalidate: 14400,
   };
 }
