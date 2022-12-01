@@ -2,8 +2,8 @@
 title: Fonts and CLS
 tags:
   - Tech
-	- React
-	- CSS
+  - React
+  - CSS
 date: '2022-10-11T05:35:07.322Z'
 ---
 

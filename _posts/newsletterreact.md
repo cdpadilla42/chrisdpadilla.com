@@ -3,7 +3,6 @@ title: Creating a Newsletter Form in React
 tags:
   - Tech
   - React
-
 date: '2022-11-17T05:35:07.322Z'
 ---
 
