@@ -12,8 +12,10 @@ import NoodleBirdImg from '../public/assets/albums/noodle-bird.jpeg';
 import SnowBearImg from '../public/assets/albums/snow-bear.jpeg';
 import QuietPlaces from '../public/assets/albums/quiet-places.jpeg';
 import TurningLeavesIMG from '../public/assets/albums/turningleavescover.jpg';
+import CoversIMG from '../public/assets/albums/covers.jpg';
 
 const albumPhotos = {
+  Covers: CoversIMG,
   'Turning Leaves': TurningLeavesIMG,
   'AC: New Murder Soundtrack': ACNMImg,
   Island: IslandImg,
