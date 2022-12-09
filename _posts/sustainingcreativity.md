@@ -11,7 +11,7 @@ I've been thinking about this a lot. I went from making music in a clearly defin
 
 So the question on my mind has really been this: what's the motive behind continuing to work in a creative discipline?
 
-Nothing here is really a prescription. It's mostly me figuring it out as I go. I write a lot of "You"s in this, but really I mean "me, Chris Padilla." If any of this is helpful to you, dear reader, by all means take what works! If you have perspectives on this, [drop me a line](https://www.chrisdpadilla.com/contact).
+Nothing here is really a prescription. It's mostly me figuring it out as I go. I write a lot of "You"s in this, but really I mean "me, Chris Padilla." If any of this is helpful to you, dear reader, by all means take what works! If you have perspectives on this, [drop me a line](/contact).
 
 So here we go! Three different categories and motives for making stuff:
 
@@ -35,7 +35,7 @@ Sometimes, ya gotta do what ya gotta do. In some ways, this is what separates pr
 
 (Again, on a motivation level, I don't have much in my life that falls into this category. I'm very, VERY lucky to be working in a field that is interesting, and I have a pretty direct feeling of that work being of service — that work being a gift. BUT I've been in positions before where some of my work was more for those dollars.)
 
-Actually, [Game Director Masahiro Sakurai](https://www.youtube.com/watch?v=jlFkxfkICO8&ab_channel=MasahiroSakuraionCreatingGames) of Nintendo fame talks about this. A professional does what's tasked in front of them, even if it's not what you'd initially find interesting or fun. Even [video game dev has it's chores](https://www.chrisdpadilla.com/acnmp)!
+Actually, [Game Director Masahiro Sakurai](https://www.youtube.com/watch?v=jlFkxfkICO8&ab_channel=MasahiroSakuraionCreatingGames) of Nintendo fame talks about this. A professional does what's tasked in front of them, even if it's not what you'd initially find interesting or fun. Even [video game dev has it's chores](/acnmp)!
 
 This type of work is not inherently sell-out-y. You can still find the joy in the work and you can still find the purpose behind it. Shifting to a gift mindset here helps. Be wary of doing anything purely for this chunk of the venn diagram with no overlap.
 

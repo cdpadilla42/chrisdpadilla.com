@@ -12,7 +12,7 @@ We built one [for our game](https://acnewmurder.com/). This is another case in w
 
 # Component Set Up
 
-To get things started, I've already built an API similar to the one outlined [here in my Analytics and CORS post](https://www.chrisdpadilla.com/diyanalytics)
+To get things started, I've already built an API similar to the one outlined [here in my Analytics and CORS post](/diyanalytics)
 
 There are ultimately three states for this simple form: Pre-submitting, success, and failure.
 

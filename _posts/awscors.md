@@ -8,7 +8,7 @@ date: '2022-11-10T05:35:07.322Z'
 
 For those times you just need a sip of backend, Lambda functions serve as a great proxy.
 
-For my situation, I needed a way for a client to submit a form to an endpoint, use a proxy to access an API key through environment variables, and then submit to the appropriate API. The proxy is still holding onto sensitive data, so in lieu of storing an API key on the client (no good!), I'm using [CORS](https://www.chrisdpadilla.com/diyanalytics) to keep the endpoint secure.
+For my situation, I needed a way for a client to submit a form to an endpoint, use a proxy to access an API key through environment variables, and then submit to the appropriate API. The proxy is still holding onto sensitive data, so in lieu of storing an API key on the client (no good!), I'm using [CORS](/diyanalytics) to keep the endpoint secure.
 
 # Handling Pre-Flight Requests:
 
