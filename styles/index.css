@@ -199,6 +199,28 @@ article h1 {
 .markdown .twitter-tweet {
   margin: 0 auto;
 }
+
+.markdown .article-book-image {
+  float: left;
+  margin-right: 1rem;
+  width: 150px;
+}
+
+.article-book-section {
+  display: block;
+}
+
+.clearfix {
+  color: rgba(0, 0, 0, 0);
+  margin: 1rem 0;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
 .music_display {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
