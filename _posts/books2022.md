@@ -37,7 +37,7 @@ Could have easily been titled: How to Learn Anything. A very thorough guide on u
 
 **The Passionate Programmer**
 
-Career advice for software engineering from a former full time sax player gone programmer. I _am_ very squarely the target demographic for this book. It was very reassuring to hear that everything that applied in music similarly applies in unrelated fields.
+Career advice for software engineering from a former full time sax player gone programmer. I _am_ very squarely the target demographic for this book. It was very reassuring to hear that everything that applied in music similarly applies in this field.
 
 <div className="clearfix">
 
@@ -71,7 +71,7 @@ I've written about my favorite nuggets from this book already: [serving those in
 
 **4,000 Weeks by Oliver Burkeman**
 
-A playful antidote to self-help that somehow still fits in the genre. A pretty humbling read about being satisfied with doing less and taming infinite ambitions. More on the philosophy of deciding on what's worth doing when you know you have limited time instead of trying to cram everything in. I may not have mastered the material, I still dabble, but the message helped quell the quite inner voice that's on The Search For Glory.
+A playful antidote to self-help that somehow still fits in the genre. A pretty humbling read about being satisfied with doing less and taming infinite ambitions. More on the philosophy of deciding on what's worth doing when you know you have limited time instead of trying to cram everything in. I may not have mastered the material, I still dabble, but the message helped quell the inner voice that's admittedly frequently on The Search For Glory.
 
 <div className="clearfix">
 
@@ -79,7 +79,7 @@ A playful antidote to self-help that somehow still fits in the genre. A pretty h
 
 **The Principle of 18 by Eyal Danon**
 
-A life changer, honestly. The gist is that there are 5 phases of life spanning 18 years. Dreamer, Explorer, Builder, Giver, Mentor, and Giver. Each builds on the previous, and each has different major motivations. Most relevant for me was reading about Eyal's proposed difference between 18-36 and 36-54. Before 36, it's crucial to be fully exploring and experimenting professionally so that you can execute without doubt and distracting in the following phase of life. A great balance between the trend in minimalism, essentialism, etc, while also allowing time and space to actually breath and discover what's uniquely interesting.
+A life changer, honestly. The gist is that there are 5 phases of life spanning 18 years. Dreamer, Explorer, Builder, Mentor, and Giver. Each builds on the previous, and each has different major motivations. Most relevant for me was reading about Eyal's proposed difference between the ages from 18-36 and 36-54. Before 36, it's crucial to be fully exploring and experimenting professionally so that you can execute without doubt and distraction in the following phase of life. A great balance, embracing the current trend towards minimalism, essentialism, hyper focus, etc, while also allowing time and space to actually breath and discover what's uniquely interesting.
 
 <div className="clearfix">
 
@@ -95,7 +95,7 @@ Interesting lens on how the way we perceive time shapes us. Future focused folks
 
 **The 12 Stages of Healing by Donny Epstein**
 
-If you know, you know. Network Spinal has been a life changer. Donny's book is a tremendous introduction to the philosophy as well as a field guide for navigating the different rhythms of life.
+If you know, you know. Nothing compares to Network Spinal. Donny's book is a tremendous introduction to the philosophy as well as a field guide for navigating the different rhythms of life.
 
 <div className="clearfix">
 
@@ -121,7 +121,7 @@ A re-read for me, one of my favorite books on living creatively. The secret is b
 
 **Gesture Drawing for Animation by Walt Stanchfield**
 
-I've picked up drawing this year, and this was my first book on it. Walt Stanchfield was a Disney animator and teacher to other Disney artists. Plenty of the techniques are still beyond me, but Walt writes with such a fire and emphasis on expression over accuracy. Not to mention his life story - an animator, tennis player, piano player, musician, poet, a real renaissance man! I also wrote a bit about [his perspective on performing without an audience](/stanchfield), a very new and real sensation for me.
+I've picked up drawing this year, and this was my first book on it. Walt Stanchfield was a Disney animator and teacher to other Disney artists. Plenty of the techniques are still beyond me, but it's fun all the same. Walt writes with such a fire and emphasis on expression over accuracy. Not to mention his life story - an animator, tennis player, piano player, musician, poet, a real renaissance man! I also wrote a bit about [his perspective on performing without an audience](/stanchfield), a very new and real sensation for me.
 
 <div className="clearfix">
 
@@ -137,7 +137,7 @@ The first Jazz book I've picked up that _actually_ takes you from zero to improv
 
 **Hal Leonard Guitar Method**
 
-I've been [learning guitar](https://letsgochris.bandcamp.com/album/turning-leaves) for a couple of years. I've largely done it the self taught way, hacking through chords of Radiohead songs, and trying to pick things up by ear. It's helped, but _man_, nothing beats a good ol' fashioned method book! This one focuses pretty heavily on lead guitar. Lots of spirituals and traditional tunes. I may never get called to play "Simple Gifts" for a gig, but it's definitely helped me play melodic lines and really _learn_ the notes on the guitar.
+I've been [learning guitar](https://letsgochris.bandcamp.com/album/turning-leaves) for a couple of years. I've largely done it the self taught way, hacking through chords of Radiohead songs, and trying to pick things up by ear. It's helped, but _man_, nothing beats a good ol' fashioned method book! This one focuses pretty heavily on lead guitar. Lots of spirituals and traditional tunes. I may never get called to play "Simple Gifts" for a gig, but playing these simple tunes has helped my melodic lines and helped me really _learn_ the notes on the guitar.
 
 <div className="clearfix">
 
@@ -165,6 +165,6 @@ Quirky characters, old computer hardware, and moments of surrealism. I liked thi
 
 I'm starting a campaign to read every [Discworld](https://www.terrypratchettbooks.com/book-series/discworld/) book. I've hopped around, and I've finally settled on reading them in order.
 
-I read up to the 6th book this year, Wyrd Sisters. But the Light Fantastic was my favorite. Still wildly funny, but there's a more serious tone at the start that quickly reshapes even in the next book onward. If these books were illustrations, this one was done purely in ink, and later books are fully colored in more of a cartoony style.
+I read up to the 6th book this year, Wyrd Sisters. But the Light Fantastic was my favorite. Still wildly funny, but there's a more serious tone at the start that quickly reshapes even in the next book onward. If these books were illustrations, later books are fully colored in more of a cartoony style, and this one was done purely in ink.
 
 <div className="clearfix">
