@@ -18,6 +18,8 @@ The article walks through a great work around, exposing Google's `traffic_type=i
 
 The two options from there are to set this with either cookies or JavaScript. Both are imperfect in their own way, but all of these methods together end up being a useable solution.
 
+**Update:** An alternate approach is to set the internal traffic from a custom event. If tag manager is already being used, it's likely there are custom events already set up for when an admin logs in. So you can trigger on admin login to set the internal traffic.
+
 I can't recommend [Julius Fedorovicius' article](https://www.analyticsmania.com/post/how-to-exclude-internal-traffic-in-google-analytics-4) and site enough for all help on all the different growing pains from UA to GA4.
 
 Here's hoping the ol' opt-out plugin gets an update sometime!
