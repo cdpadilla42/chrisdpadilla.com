@@ -11,7 +11,7 @@ I made a conscious effort to actually read less this year. Kind of a weird way t
 
 I personally can fall into a point where reading is a vice. I end up reading more than making things. So I tried to take a break this year.
 
-**But it didn't work!!** I still read a few good books this year. Many of them are more in line with actual questions I had, specific areas I wanted to grown in, and the like. So this list is a pretty good representation of where my head has been this year.
+**But it didn't work!!** I still read a few good books this year. Many of them are more in line with actual questions I had, specific areas I wanted to grow in, and the like. So this list is a pretty good representation of where my head has been this year.
 
 _Note_: I could do the blog-thing where I provide Amazon affiliate links. But I'm not all that interested in getting paid cents if you purchase the book. I'd just rather you [let me know](/contact) if you've read a book. We can have a **meeting of the minds** on it! 🧠
 
