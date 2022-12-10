@@ -9,9 +9,11 @@ import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import CoversIMG from '../public/assets/albums/covers.jpg';
 import TurningLeavesIMG from '../public/assets/albums/turningleavescover.jpg';
+import LastChristmasIMG from '../public/assets/albums/LastChristmasCover.jpg';
 import ACNMPromo2 from '../public/assets/projects/ACNMpromo2.jpg';
 
 const albumPhotos = {
+  'Last Christmas': LastChristmasIMG,
   Covers: CoversIMG,
   'Turning Leaves': TurningLeavesIMG,
 };

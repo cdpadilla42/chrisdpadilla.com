@@ -13,8 +13,10 @@ import SnowBearImg from '../public/assets/albums/snow-bear.jpeg';
 import QuietPlaces from '../public/assets/albums/quiet-places.jpeg';
 import TurningLeavesIMG from '../public/assets/albums/turningleavescover.jpg';
 import CoversIMG from '../public/assets/albums/covers.jpg';
+import LastChristmasIMG from '../public/assets/albums/LastChristmasCover.jpg';
 
 const albumPhotos = {
+  'Last Christmas': LastChristmasIMG,
   Covers: CoversIMG,
   'Turning Leaves': TurningLeavesIMG,
   'AC: New Murder Soundtrack': ACNMImg,
