@@ -53,7 +53,7 @@ When I was a teacher, I tore through tons of business books. This one might be m
 
 **Ask Iwata by Satoru Iwata**
 
-I've written about my favorite nuggets from this book already: [serving those in front of you](/iwataontheinternet) and [Iwata's insight on working with creative people](/iwataonpeople). It's not a full blown biography, but pieces of interviews Iwata has given that are strung together to tell his story in broad strokes. It turned out to be a surprisingly insightful read on leadership, creativity, and management. And Iwata's story is simply _legendary_.
+I've written about my favorite nuggets from this book already: [serving those infront of you](/iwataontheinternet) and [Iwata's insight on working with creative people](/iwataonpeople). It's not a full blown biography, but pieces of interviews Iwata has given that are strung together to tell his story in broad strokes. It turned out to be a surprisingly insightful read on leadership, creativity, and management. And Iwata's story is simply _legendary_.
 
 <div className="clearfix">
 
@@ -105,7 +105,7 @@ If you know, you know. Nothing compares to Network Spinal. Donny's book is a tre
 
 **The Listening Book by W.A. Mathieu**
 
-Everyone should read this! Even non musicians. The book takes the pure meditative quality of listening to and reveling in sound form the start and further combs towards practicing music. Absolutely beautiful. So many wonderful insights on our relation to sound and being a creative musician in the world.
+Everyone should read this! Even non musicians. The book takes the pure meditative quality of listening to and reveling in sound from the start and further combs towards practicing music. Absolutely beautiful. So many wonderful insights on our relation to sound and being a creative musician in the world.
 
 <div className="clearfix">
 
@@ -137,7 +137,7 @@ The first Jazz book I've picked up that _actually_ takes you from zero to improv
 
 **Hal Leonard Guitar Method**
 
-I've been [learning guitar](https://letsgochris.bandcamp.com/album/turning-leaves) for a couple of years. I've largely done it the self taught way, hacking through chords of Radiohead songs, and trying to pick things up by ear. It's helped, but _man_, nothing beats a good ol' fashioned method book! This one focuses pretty heavily on lead guitar. Lots of spirituals and traditional tunes. I may never get called to play "Simple Gifts" for a gig, but playing these simple tunes has helped my melodic lines and helped me really _learn_ the notes on the guitar.
+I've been [learning guitar](https://letsgochris.bandcamp.com/album/turning-leaves) for a couple of years. I've largely done it the self taught way, hacking through chords from Radiohead and Coldplay songs, and trying to pick things up by ear. It's helped, but _man_, nothing beats a good ol' fashioned method book! This one focuses pretty heavily on lead guitar. Lots of spirituals and traditional tunes. I may never get called to play "Simple Gifts" for a gig, but playing these tuneful lines has helped my melodic playing and helped me really _learn_ the notes on the guitar.
 
 <div className="clearfix">
 
@@ -145,7 +145,7 @@ I've been [learning guitar](https://letsgochris.bandcamp.com/album/turning-leave
 
 **Remixing the Classroom by Randall Everett Allsup**
 
-An argument for how classroom music favors communal collaboration and skill development (good things) in favor of nurturing creativity and really fostering a life long interest in engaging with music (not so good.) I love band and how it's taught today, and at the same time I agree with the author in that there's room for more genuine play in those spaces. Ends with a bit of pessimism, but it was interesting all the same.
+An argument for how classroom music favors teacher-lead instruction and skill development (good things) in favor of nurturing creativity and really fostering a life long interest in engaging with music (not so good.) I love band and how it's taught today, and at the same time I agree with the author in that there's room for more genuine play in those spaces. Ends with a bit of pessimism, but it was interesting all the same.
 
 <div className="clearfix">
 
@@ -165,6 +165,6 @@ Quirky characters, old computer hardware, and moments of surrealism. I liked thi
 
 I'm starting a campaign to read every [Discworld](https://www.terrypratchettbooks.com/book-series/discworld/) book. I've hopped around, and I've finally settled on reading them in order.
 
-I read up to the 6th book this year, Wyrd Sisters. But the Light Fantastic was my favorite. Still wildly funny, but there's a more serious tone at the start that quickly reshapes even in the next book onward. If these books were illustrations, later books are fully colored in more of a cartoony style, and this one was done purely in ink.
+I read up to the 6th book this year, Wyrd Sisters. But the Light Fantastic was my favorite. Still wildly funny, but there's a more serious tone at the start that quickly reshapes even in the next book onward. If these books were illustrations, later books are fully colored in more of a cartoony style, and this one was done a darker, more engergetic ink style.
 
 <div className="clearfix">
