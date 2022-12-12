@@ -53,7 +53,7 @@ When I was a teacher, I tore through tons of business books. This one might be m
 
 **Ask Iwata by Satoru Iwata**
 
-I've written about my favorite nuggets from this book already: [serving those infront of you](/iwataontheinternet) and [Iwata's insight on working with creative people](/iwataonpeople). It's not a full blown biography, but pieces of interviews Iwata has given that are strung together to tell his story in broad strokes. It turned out to be a surprisingly insightful read on leadership, creativity, and management. And Iwata's story is simply _legendary_.
+I've written about my favorite nuggets from this book already: [serving those in front of you](/iwataontheinternet) and [Iwata's insight on working with creative people](/iwataonpeople). It's not a full blown biography, but pieces of interviews Iwata has given that are strung together to tell his story in broad strokes. It turned out to be a surprisingly insightful read on leadership, creativity, and management. And Iwata's story is simply _legendary_.
 
 <div className="clearfix">
 
