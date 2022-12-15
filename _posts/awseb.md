@@ -1,5 +1,5 @@
 ---
-title: Hosting Node Express App on AWS Elastic Beanstalk
+title: Hosting a Node Express App on AWS Elastic Beanstalk
 tags:
   - Tech
   - React
@@ -8,7 +8,7 @@ tags:
 date: '2022-12-15T07:35:07.322Z'
 ---
 
-Heroku has discontinued their free hosting tier for web applications. A major disappointment for many a side-projector! Several of my first web apps were still being hosted on Heroku, so it was time to re-evaluate. 
+Heroku has discontinued their free hosting tier for web applications. A major disappointment for many a side-projector! Several of my first web apps were still being hosted on Heroku, so it was time to re-evaluate.
 
 There are a few other options. Render and Digital Ocean have low cost options. As you can tell by the title of the article, though, I felt it was time to explore hosting on AWS.
 
@@ -22,10 +22,9 @@ There are a few options for hosting:
 
 For those unfamiliar:
 
-- **Lambda functions** are AWS's solution for *Serverless Functions*
-- **EC2 (Elastic Compute Cloud)** is a *hosting platform* for cloud computing
-- **Elastic Beanstalk** is an *orchestration service* that wrangles EC2, S3s, CloudWatch, Elastic Load, and many other good-to-haves in hosting an application
-
+- **Lambda functions** are AWS's solution for _Serverless Functions_
+- **EC2 (Elastic Compute Cloud)** is a _hosting platform_ for cloud computing
+- **Elastic Beanstalk** is an _orchestration service_ that wrangles EC2, S3s, CloudWatch, Elastic Load, and many other good-to-haves in hosting an application
 
 So, maybe it's unfair to say these are different options: Technically Elastic Beanstalk will make use of an EC2 instance with several other goodies baked in to handle the need to up and down scale my apps as needed.
 
