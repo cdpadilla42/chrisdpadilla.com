@@ -25,7 +25,18 @@ export default function Projects({ softwareProjects }) {
         <p>
           My technolgoies of choice are <strong>React</strong>,{' '}
           <strong>Express</strong>, <strong>Node</strong>, <strong>AWS</strong>,{' '}
-          <strong>MongoDB</strong>, to name a few.
+          and <strong>MongoDB</strong>, to name a few.
+        </p>
+        <p>
+          Most of the code I write is a part of{' '}
+          <a
+            href="https://www.aptamigo.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            AptAmigo
+          </a>
+          , where I work.
         </p>
         <p>
           I write technical articles on <Link href="/blog">my blog</Link>. Most
