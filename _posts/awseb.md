@@ -2,9 +2,9 @@
 title: Hosting a Node Express App on AWS Elastic Beanstalk
 tags:
   - Tech
-  - React
   - Node
   - AWS
+  - Architecture
 date: '2022-12-15T07:35:07.322Z'
 ---
 
