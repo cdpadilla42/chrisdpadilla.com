@@ -100,4 +100,4 @@ You have a couple of options for deploying: Downloading the EB CLI, or using the
 
 # More To Come
 
-So that's getting an Express app up on Elastic Beanstalk! Next time I'll talk about bringing in React within the same project and the pitfalls to watch out for.
+So that's getting an Express app up on Elastic Beanstalk! Next time I'll talk about [bringing in React within the same project](/reactexpressapp) and the pitfalls to watch out for.
