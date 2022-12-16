@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
-import ACNMStartDisplay from '../public/assets/projects/acnmfrontpage.png';
+import ACNMStartDisplay from '../public/assets/projects/ACNM/acnmfrontpage.png';
 
 const About = () => {
   return (

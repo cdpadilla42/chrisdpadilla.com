@@ -10,7 +10,7 @@ import { filterBlogPosts } from '../lib/util';
 import CoversIMG from '../public/assets/albums/covers.jpg';
 import TurningLeavesIMG from '../public/assets/albums/turningleavescover.jpg';
 import LastChristmasIMG from '../public/assets/albums/LastChristmasCover.jpg';
-import ACNMPromo2 from '../public/assets/projects/ACNMpromo2.jpg';
+import ACNMPromo2 from '../public/assets/projects/ACNM/ACNMpromo2.jpg';
 
 const albumPhotos = {
   'Last Christmas': LastChristmasIMG,
@@ -27,23 +27,7 @@ export default function Index({ allPosts, latestAlbum }) {
       <Container>
         <Intro />
         <section>
-          <div className="heading_flex">
-            <h2>
-              <Link href="/acnm">
-                <a>I MADE A GAME — AC: NEW MURDER</a>
-              </Link>
-            </h2>
-          </div>
-          <article>
-            <Link href="/acnm">
-              <a>
-                <Image
-                  src={ACNMPromo2}
-                  alt={`Promo banner for AC: New Mureder`}
-                />
-              </a>
-            </Link>
-          </article>
+          <MoreStories posts={allPosts} />
           <div className="heading_flex">
             <h2>Latest Music</h2>
             <Link href="/music">
@@ -62,8 +46,24 @@ export default function Index({ allPosts, latestAlbum }) {
               </a>
             </Link>
           </article>
+          <div className="heading_flex">
+            <h2>
+              <Link href="/acnm">
+                <a>I MADE A GAME — AC: NEW MURDER</a>
+              </Link>
+            </h2>
+          </div>
+          <article>
+            <Link href="/acnm">
+              <a>
+                <Image
+                  src={ACNMPromo2}
+                  alt={`Promo banner for AC: New Mureder`}
+                />
+              </a>
+            </Link>
+          </article>
         </section>
-        {allPosts.length > 0 && <MoreStories posts={allPosts} />}
       </Container>
     </Layout>
   );

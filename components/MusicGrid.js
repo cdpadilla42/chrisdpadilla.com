@@ -39,10 +39,7 @@ const MusicGrid = ({ albums }) => {
           <article key={album.title}>
             <Link href={album.link}>
               <a target="_blank" rel="noopener noreferrer">
-                <Image
-                  src={albumPhotos[album.title]}
-                  alt="Cover art for Spectrum. Photo of Lady Bird Lake."
-                />
+                <Image src={albumPhotos[album.title]} />
                 <span>{album.title}</span>
               </a>
             </Link>

@@ -91,13 +91,10 @@ const About = () => {
       </p>
       <p>
         You can{' '}
-        <a
-          href="https://chrispadilla.dev/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          visit my portfolio here.
-        </a>
+        <Link href="/projects">
+          <a>visit my portfolio here</a>
+        </Link>
+        .
       </p>
       <h2>Music</h2>
       <p>
@@ -119,8 +116,9 @@ const About = () => {
       <p>
         You can{' '}
         <Link href="/music">
-          <a>listen to my music here.</a>
+          <a>listen to my music here</a>
         </Link>
+        .
       </p>
       <h2>Life</h2>
       <p>

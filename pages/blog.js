@@ -5,7 +5,7 @@ import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
 import PostPreview from '../components/post-preview';
 import { filterBlogPosts } from '../lib/util';
-import RssSvg from '../components/rssSvg';
+import Link from 'next/link';
 import Header from '../components/header';
 
 export default function Blog({ allPosts, tags }) {
@@ -20,6 +20,14 @@ export default function Blog({ allPosts, tags }) {
       </Head>
       <Container>
         <Header section="blog" />
+        <p>Writings on Tech, Music, and Creativity.</p>
+        <p>
+          Much of my technical writing is born from my{' '}
+          <Link href="/projects">
+            <a>personal projects</a>
+          </Link>
+          .
+        </p>
         {allPosts.length > 0 &&
           allPosts.map((post) => (
             <PostPreview
