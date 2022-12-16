@@ -9,7 +9,7 @@ export default function Intro() {
           <h1>Hey, I'm Chris!</h1>
           <p>
             By day, I{' '}
-            <Link href="/projects">
+            <Link href="/software">
               <a>develop software</a>
             </Link>
             . By night, I{' '}

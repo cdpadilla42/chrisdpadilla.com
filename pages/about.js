@@ -91,7 +91,7 @@ const About = () => {
       </p>
       <p>
         You can{' '}
-        <Link href="/projects">
+        <Link href="/software">
           <a>visit my portfolio here</a>
         </Link>
         .

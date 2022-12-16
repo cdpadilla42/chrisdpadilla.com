@@ -23,7 +23,7 @@ export default function Blog({ allPosts, tags }) {
         <p>Writings on Tech, Music, and Creativity.</p>
         <p>
           Much of my technical writing is born from my{' '}
-          <Link href="/projects">
+          <Link href="/software">
             <a>personal projects</a>
           </Link>
           .
