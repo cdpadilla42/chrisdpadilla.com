@@ -18,11 +18,7 @@ const ProjectGrid = ({ softwareProjects }) => {
                 {project.title} {project.emoji}
               </h3>
               <p>
-                {/* <Link href={project.liveLink}>
-                  <a target="_blank" rel="noopener noreferrer">
-                    Project Page
-                  </a>
-                </Link> */}
+                <Link href={project.articleLink}>Article</Link> |{' '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
