@@ -13,6 +13,7 @@ import LastChristmasIMG from '../public/assets/albums/LastChristmasCover.jpg';
 import ACNMPromo2 from '../public/assets/projects/ACNM/ACNMpromo2.jpg';
 
 const albumPhotos = {
+  Meditations: CoversIMG,
   'Last Christmas': LastChristmasIMG,
   Covers: CoversIMG,
   'Turning Leaves': TurningLeavesIMG,

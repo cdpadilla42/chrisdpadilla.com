@@ -16,6 +16,7 @@ import CoversIMG from '../public/assets/albums/covers.jpg';
 import LastChristmasIMG from '../public/assets/albums/LastChristmasCover.jpg';
 
 const albumPhotos = {
+  Meditations: CoversIMG,
   'Last Christmas': LastChristmasIMG,
   Covers: CoversIMG,
   'Turning Leaves': TurningLeavesIMG,
