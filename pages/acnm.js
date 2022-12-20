@@ -154,6 +154,29 @@ const About = () => {
           </Link>
         </li>
       </ul>
+      <p>📚 Dive deeper with my articles on particular features:</p>
+      <ul>
+        <li>
+          <Link href="/backgroundmusic">
+            <a>Adding Background Music to Websites</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/refactorredux">
+            <a>Redux Growing Pains and React Query</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/newsletterreact">
+            <a>Creating a Newsletter Form in React</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/diyanalytics">
+            <a>Developing DIY Analytics while Navigating CORS</a>
+          </Link>
+        </li>
+      </ul>
     </Layout>
   );
 };

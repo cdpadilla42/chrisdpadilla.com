@@ -51,10 +51,14 @@ While it was a pleasure using a new UI library, I quickly discovered that Handle
 
 The solution was to approach views from a page level, allowing there to be separate pages to share a fair amount of layout formatting, but to make the small tweaks necessary to better suit a page’s needs. Working with handlebars, it was still possible to utilize conditional rendering of items, such as the authors of the poems, while still allowing the server to perform the heavy lifting of logic.
 
+# Hosting on AWS
+
+This project is hosted on AWS through Elastic Beanstalk and updated with the Code Pipeline CI tool. You can read more about how I configured the project for AWS in my article [Hosting a Node Express App on AWS Elastic Beanstalk](/awseb).
+
 # Next Steps
 
 Much of what I learned in this project transitioned into a later application, Mystery-Cowboy-Theater. Another Node application, I took the pains I felt while using Handlebars’ page approach and switched over to React to break down the UI into components. Authorization was carried over into that project as well, this time using JWT’s to pass user data between the client and API.
 
 # Poem Credits
 
-Authors are viewable by members. Major poets include Shel Silverstein, Walt Whitman, and Robert Frost
+Authors are viewable by members. Major poets include Shel Silverstein, Walt Whitman, and Robert Frost.

@@ -7,13 +7,13 @@ tags:
 date: '2022-06-25T05:35:07.322Z'
 ---
 
-Very excited to have plowed some land and planted the seeds for my own garden on the web!
+I'm very excited to have plowed some land and planted the seeds for my own garden on the web!
 
 The sites I've developed have represented big phases in my life. Moomoofilms.com was my portfolio for youtube sketches when I was a kid. After grad school, I put up a music teaching portfolio site for students. Starting in tech, I put together a [landing page](https://chrispadilla.dev) for all my projects.
 
 With chrisdpadilla.com, it feels like another step. A unified home for all the different wanderings I do in tech, music, and writing.
 
-So yes, websites are great, would definitely recommend getting one!
+So yes, websites are great! I would definitely recommend getting one!
 
 With the sentimental side of the site laid out, let's talk tech!
 
@@ -85,6 +85,16 @@ A future concern I have with the site is vendor lock in. Next works like a charm
 
 At this time, I definitely needed to get up and running quickly! So I'm happy with my choice today. As I continue developing, I'm planning to decouple my personal server logic from Next's API.
 
+# What I Learned During Development
+
+Working on this site has been filled with learning opportunities, both in hard and soft skills. For more on particular areas of learning, you can read my articles on the subjects:
+
+- [SSG vs SSR vs CSR](/rendering)
+- [Parsing Markdown in Node](/parsemd)
+- [Adding RSS Feed to Next.js with SSR](/rssnext)
+- [Using Symbolic Links](/symlinks)
+- [Balancing New and Familiar Tech](/pareto)
+
 # Launch and Beyond
 
 Now that the code is in a presentable spot, I'm ready to fill the pages up! I already have a few more blog posts and albums in the works. It feels great to have a central home for all of them.
@@ -95,5 +105,3 @@ Here are a few selected inspirations for the site's design:
 - [Tania Rascia](https://www.taniarascia.com/)
 - [Wes Bos](https://wesbos.com/)
 - [Bandcamp dot com](https://bandcamp.com/)
-
-Thanks for poking around! Definitely more to come.

@@ -46,3 +46,7 @@ A challenge in the project was discovering that, although the application was wr
 # Secure Authentication
 
 Editing movies requires being logged in as the theater owner. There are both client and server side security measures to ensure that the appropriate user is authenticated before editing. While contained within the same project, the authentication process treats the front-end and back-end as separate entities needing to communicate with one another. The best solution for this was to use JSON Web Tokens. I’ve used Passport to implement the creation and authentication of the token that users send in request headers through axios. To ensure passwords remain secure, bcrypt was brought into the project to encrypt newly created passwords and decode login requests.
+
+# Single App Hosting on AWS
+
+This project is hosted as a single application on AWS through Elastic Beanstalk and updated with the Code Pipeline CI tool. You can read more about how I configured the project for AWS in my article [Hosting a Node Express App on AWS Elastic Beanstalk](/merneb). You can also read on the why and how of [Rendering a React App from an Express Server](/reactexpressapp).
