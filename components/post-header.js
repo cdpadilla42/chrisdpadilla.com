@@ -7,16 +7,15 @@ export default function PostHeader({ title, coverImage, date, tags }) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
-    
       <div>
         <div>
           <DateFormatter dateString={date} />
         </div>
-        <div className="tags">
+        {/* <div className="tags">
           {tags.map((tag) => (
             <span key={tag}>{tag}</span>
           ))}
-        </div>
+        </div> */}
       </div>
       <div>
         <CoverImage title={title} src={coverImage} height={620} width={1240} />
