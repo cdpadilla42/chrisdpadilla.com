@@ -88,7 +88,7 @@ Translating to writing: Actual melody/harmony production happens in the morning,
 
 # Keep a Collection of What you like.
 
-Likes on Spotify, bookmarks in your web browser, whatever! I personally keep a plane text file called `FavoriteMusic.md` where I copy in links, song titles, and notes on what I like about a song.
+Likes on Spotify, bookmarks in your web browser, whatever! I personally keep a plain text file called `FavoriteMusic.md` where I copy in links, song titles, and notes on what I like about a song.
 
 I have a list for album ideas. Some may never happen. But on the days where there's simply a blank canvas, both of these lists come in handy.
 
