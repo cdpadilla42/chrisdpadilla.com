@@ -8,6 +8,7 @@ import PostTitle from '../components/post-title';
 import Head from 'next/head';
 import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
+import Link from 'next/link';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -35,6 +36,14 @@ export default function Post({ post, morePosts, preview }) {
               />
               <PostBody content={post.content} />
             </article>
+            <aside className="article_end">
+              <strong>Thank you for reading!</strong> I'd love to hear your
+              thoughts. Feel free to{' '}
+              <Link href="/contact">
+                <a>drop me a line</a>
+              </Link>
+              !
+            </aside>
             <script src="../"></script>
           </>
         )}

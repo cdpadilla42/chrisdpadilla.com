@@ -36,10 +36,6 @@ h3 {
   line-height: 2.2rem;
 }
 
-h2,
-h3 {
-}
-
 h3 {
   font-size: 1.5rem;
 }
@@ -285,4 +281,47 @@ article h1 {
   .softwareproject_display_description {
     margin-top: 0;
   }
+}
+
+.bloglist,
+.bloglist_article_tags,
+.tagslist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bloglist_article {
+  margin: 1rem 0;
+}
+
+.bloglist_article_title {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.bloglist_article_date {
+  font-size: 1rem;
+}
+
+.bloglist_article_tags {
+  display: inline;
+}
+.bloglist_article_tag,
+.tagslist_tag {
+  display: inline;
+  margin: 0 1rem 0 0;
+  padding: 0.25rem 0.5rem;
+  color: var(--yellow);
+  border: 2px dotted var(--yellow);
+}
+
+.article_end {
+  margin-top: 4rem;
+}
+
+.bloglist_index li:first-child {
+  margin-top: 0;
 }

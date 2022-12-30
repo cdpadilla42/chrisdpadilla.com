@@ -7,8 +7,12 @@ import PostPreview from '../components/post-preview';
 import { filterBlogPosts } from '../lib/util';
 import Link from 'next/link';
 import Header from '../components/header';
+import { techTags } from '../lib/minorBlogTags';
 
 export default function Blog({ allPosts, tags }) {
+  console.log(tags);
+  const primaryTags = tags.filter((tag) => !techTags.includes(tag));
+
   return (
     <Layout>
       <Head>
@@ -28,18 +32,27 @@ export default function Blog({ allPosts, tags }) {
           </Link>
           .
         </p>
-        {allPosts.length > 0 &&
-          allPosts.map((post) => (
-            <PostPreview
-              key={post.slug}
-              title={post.title}
-              coverImage={post.coverImage}
-              date={post.date}
-              author={post.author}
-              slug={post.slug}
-              excerpt={post.excerpt}
-            />
+        <p>Take a look by topic:</p>
+        <ul className="tagslist">
+          {primaryTags.map((tag) => (
+            <li className="tagslist_tag">{tag}</li>
           ))}
+        </ul>
+        <ul className="bloglist">
+          {allPosts.length > 0 &&
+            allPosts.map((post) => (
+              <PostPreview
+                key={post.slug}
+                title={post.title}
+                coverImage={post.coverImage}
+                date={post.date}
+                author={post.author}
+                slug={post.slug}
+                excerpt={post.excerpt}
+                tags={post.tags.filter((tag) => primaryTags.includes(tag))}
+              />
+            ))}
+        </ul>
       </Container>
     </Layout>
   );
