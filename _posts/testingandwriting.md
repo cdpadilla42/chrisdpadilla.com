@@ -1,5 +1,5 @@
 ---
-title: Testing Software for the Same Reason You Write
+title: Testing Software for the Same Reason You Write Notes
 tags:
   - Tech
   - Testing
