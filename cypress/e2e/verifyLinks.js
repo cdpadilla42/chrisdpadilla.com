@@ -20,9 +20,6 @@ describe('Test Broken Links', () => {
         cy.request(linkPath).then((res) => {
           expect(res.status).to.eq(200);
         });
-        // const message = linkElm.text();
-        // cy.log(linkElm.attr('href'));
-        // expect(linkElm, message || linkElm.attr('href'))
       }
     });
   });
