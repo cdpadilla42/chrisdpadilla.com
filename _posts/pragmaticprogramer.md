@@ -106,7 +106,7 @@ You don't need to store the averageRent, just the rent prices. You _can_ break t
 
 A general rule for Classes and modular coding is to make any outside endpoints an accessor or setting function as opposed to exposing access to the metal. By doing this, you make it easier to add adjustments to those methods (setting a value can allow for later triggering off other internal methods. Getting methods allow you to obfuscate if the value is calculated or directly accessed, it shouldn't matter either way.
 
-#### Interdeveloper Duplication
+#### Inter-developer Duplication
 
 Keeping clear communication among teams will help keep from code duplication.
 
