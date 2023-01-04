@@ -218,7 +218,7 @@ test('two plus two', () => {
 
 #### Chris' Notes!
 
-An example of this is totally your application. You're using react to write code for yourself. You're using Sanity to generate JSON objects that are then parsed and controlled by your application.
+An example of this is ACNM. You're using React to write code for yourself. You're using Sanity to generate JSON objects that are then parsed and controlled by your application.
 
 ### Estimating
 
@@ -609,8 +609,6 @@ Consulting - ask why 5 times, and you'll get to the root. Yes, be annoying, it's
 Requirements vs policy: Requirements are a hard and fast thing (Must run under 500ms). Policy, however, is often configurable. For example: Color scheme, text, fonts, authorizations: These are configurable, and are therefor policy.
 
 Requirements may shift when the user gets their hands on it. They may prefer different workflows. This is why short iterations work best.
-
-CHRIS NOTE WITH JENN'S PROJECT: A script is not a requirements document. It is meant to be flexible. If you are working with someone who has a strict document, acknowledge that this is not a good working relationship. There needs to be flexibility.
 
 #### A Better Way
 
