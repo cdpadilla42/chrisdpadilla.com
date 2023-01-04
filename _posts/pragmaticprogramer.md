@@ -34,7 +34,7 @@ Maintain awareness around you. A la Navy SEALS.
 
 The scope and quality of your software should be a part of the discussion when planning for it. With clients, talk about tradeoffs. Don't aim for perfection every time. Know when to ship good-enough software. Again, discuss this with the client. It's not all up to you.
 
-Example: SSR and React Portal aren't playing nice. Do the research to discuss solutions. Leave the decision to Sam for whether or not this should stop us from shipping the code.
+Example: SSR and React Portal aren't playing nice. Do the research to discuss solutions. Leave the decision to client for whether or not this should stop us from shipping the code.
 
 ### Your Knowledge Portfolio
 
