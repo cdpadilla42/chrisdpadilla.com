@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../../components/container';
 import Layout from '../../components/layout';
-import { getAllPosts } from '../../lib/api';
+import { getAllPosts, getPrimaryTags } from '../../lib/api';
 import Head from 'next/head';
 import PostPreview from '../../components/post-preview';
 import { filterBlogPosts } from '../../lib/util';
@@ -85,17 +85,7 @@ export async function getServerSideProps() {
 
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
-  const tagsObj = publishedPosts.reduce((res, currentPost) => {
-    const currentTags = currentPost.tags;
-    currentTags.forEach((tag) => {
-      if (!res[tag]) {
-        res[tag] = true;
-      }
-    });
-    return res;
-  }, {});
-
-  const tagsList = Object.keys(tagsObj);
+  const tagsList = getPrimaryTags({ posts: publishedPosts });
 
   return {
     props: { allPosts: publishedPosts, tags: tagsList },

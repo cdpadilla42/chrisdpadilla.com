@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import PostPreview from '../components/post-preview';
 
-export default function MoreStories({ posts }) {
-  // const primaryTags = tags.filter((tag) => !techTags.includes(tag));
+export default function MoreStories({ posts, tags }) {
   return (
     <section>
       <div className="heading_flex">
@@ -14,7 +13,7 @@ export default function MoreStories({ posts }) {
         </Link>
       </div>
       <ul className="bloglist_index bloglist">
-        {posts.slice(0, 6).map((post) => (
+        {posts.map((post) => (
           <PostPreview
             key={post.slug}
             title={post.title}
@@ -23,7 +22,7 @@ export default function MoreStories({ posts }) {
             author={post.author}
             slug={post.slug}
             excerpt={post.excerpt}
-            // tags={(tag) => primaryTags.includes(tag))}
+            tags={post.tags.filter((tag) => tags.includes(tag))}
           />
         ))}
       </ul>
