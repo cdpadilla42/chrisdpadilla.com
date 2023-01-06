@@ -313,11 +313,11 @@ article h1 {
 }
 
 .bloglist_article_tags {
-  display: inline;
+  display: inline-block;
 }
 .bloglist_article_tag,
 .tagslist_tag {
-  display: inline;
+  display: inline-block;
   margin: 0 1rem 0 0;
   padding: 0.25rem 0.5rem;
   text-decoration: underline;
@@ -364,6 +364,6 @@ article h1 {
   margin-top: 4rem;
 }
 
-.bloglist_index li:first-child {
+/* .bloglist_index li:first-child {
   margin-top: 0;
-}
+} */

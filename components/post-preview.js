@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
-import Avatar from '../components/avatar';
 import DateFormatter from '../components/date-formatter';
-import CoverImage from './cover-image';
 import Link from 'next/link';
-import { techTags } from '../lib/minorBlogTags';
+import Avatar from '../components/avatar';
+import CoverImage from './cover-image';
 
 export default function PostPreview({
   title,
@@ -24,7 +23,7 @@ export default function PostPreview({
           width={556}
         />
       </div> */}
-      <li className="bloglist_article">
+      <li className="bloglist_article" key={title}>
         <span className="bloglist_article_date">
           <DateFormatter dateString={date} />
         </span>
@@ -34,8 +33,12 @@ export default function PostPreview({
         </Link>
         <ul className="bloglist_article_tags">
           {tags.map((tag) => (
-            <li className="bloglist_article_tag" data-tag={tag}>
-              <Link href="/">
+            <li
+              className="bloglist_article_tag"
+              data-tag={tag}
+              key={`${title}:${tag}`}
+            >
+              <Link href={`/blog/${tag}`}>
                 <a>{tag}</a>
               </Link>
             </li>

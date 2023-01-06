@@ -5,7 +5,7 @@ import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
-import { getAllPosts, getLatestAlbum, getPrimaryTags } from '../lib/api';
+import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import CoversIMG from '../public/assets/albums/covers.jpg';
 import TurningLeavesIMG from '../public/assets/albums/turningleavescover.jpg';
@@ -19,7 +19,7 @@ const albumPhotos = {
   'Turning Leaves': TurningLeavesIMG,
 };
 
-export default function Index({ allPosts, latestAlbum, tags }) {
+export default function Index({ allPosts, latestAlbum }) {
   return (
     <Layout>
       <Head>
@@ -28,7 +28,7 @@ export default function Index({ allPosts, latestAlbum, tags }) {
       <Container>
         <Intro />
         <section>
-          <MoreStories posts={allPosts} tags={tags} />
+          <MoreStories posts={allPosts} />
           <div className="heading_flex">
             <h2>Latest Music</h2>
             <Link href="/music">
@@ -76,11 +76,9 @@ export async function getServerSideProps() {
     convertContentToHtml: true,
   }).slice(0, 6);
 
-  const primaryTags = getPrimaryTags({ posts: allPosts });
-
   const latestAlbum = getLatestAlbum();
 
   return {
-    props: { allPosts, latestAlbum, tags: primaryTags },
+    props: { allPosts, latestAlbum },
   };
 }
