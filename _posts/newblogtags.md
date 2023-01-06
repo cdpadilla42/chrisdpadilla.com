@@ -12,7 +12,7 @@ So I'm creating those buckets through tags.
 
 ![Tags Preview](https://padilla-media.s3.amazonaws.com/blog/imgs/Screen+Shot+2023-01-06+at+4.48.54+PM.png)
 
-I've heard somewhere that tags largely are more for the author than the reader. How often a blog is filtered by tags (or even searched through in the first place) is pretty minimal.
+I've heard somewhere that tags largely are more for the author than the reader. How often a visitor filters by tags (or even digs deep in the archive) is pretty minimal.
 
 I think there's still value in saying "Hey, I write about this stuff, here are some thoughts on these things."
 
