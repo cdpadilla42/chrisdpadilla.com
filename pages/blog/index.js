@@ -1,17 +1,26 @@
 import React from 'react';
-import Container from '../components/container';
-import Layout from '../components/layout';
-import { getAllPosts } from '../lib/api';
+import Container from '../../components/container';
+import Layout from '../../components/layout';
+import { getAllPosts } from '../../lib/api';
 import Head from 'next/head';
-import PostPreview from '../components/post-preview';
-import { filterBlogPosts } from '../lib/util';
+import PostPreview from '../../components/post-preview';
+import { filterBlogPosts } from '../../lib/util';
 import Link from 'next/link';
-import Header from '../components/header';
-import { techTags } from '../lib/minorBlogTags';
+import Header from '../../components/header';
+import { techTags } from '../../lib/minorBlogTags';
+import { useRouter } from 'next/router';
 
 export default function Blog({ allPosts, tags }) {
   console.log(tags);
   const primaryTags = tags.filter((tag) => !techTags.includes(tag));
+  const router = useRouter();
+  const query = router.query;
+  let renderedPosts = allPosts;
+  if (query.tag) {
+    renderedPosts = renderedPosts.filter((post) =>
+      post.tags.includes(query.tag)
+    );
+  }
 
   return (
     <Layout>
@@ -35,12 +44,16 @@ export default function Blog({ allPosts, tags }) {
         <p>Take a look by topic:</p>
         <ul className="tagslist">
           {primaryTags.map((tag) => (
-            <li className="tagslist_tag">{tag}</li>
+            <li className="tagslist_tag" data-tag={tag}>
+              <Link href={`/blog?tag=${tag}`}>
+                <a>{tag}</a>
+              </Link>
+            </li>
           ))}
         </ul>
         <ul className="bloglist">
-          {allPosts.length > 0 &&
-            allPosts.map((post) => (
+          {renderedPosts.length > 0 &&
+            renderedPosts.map((post) => (
               <PostPreview
                 key={post.slug}
                 title={post.title}

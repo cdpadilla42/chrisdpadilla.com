@@ -13,7 +13,6 @@ export default function PostPreview({
   slug,
   tags,
 }) {
-  console.log(tags);
   return (
     <>
       {/* <div className="article_preview__image_container">
@@ -35,7 +34,11 @@ export default function PostPreview({
         </Link>
         <ul className="bloglist_article_tags">
           {tags.map((tag) => (
-            <li className="bloglist_article_tag">{tag}</li>
+            <li className="bloglist_article_tag" data-tag={tag}>
+              <Link href="/">
+                <a>{tag}</a>
+              </Link>
+            </li>
           ))}
         </ul>
       </li>
