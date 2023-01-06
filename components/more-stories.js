@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import PostPreview from '../components/post-preview';
+import { primaryTags } from '../lib/minorBlogTags';
+import TagsNav from './TagsNav';
 
 export default function MoreStories({ posts }) {
   return (
@@ -12,18 +14,21 @@ export default function MoreStories({ posts }) {
           </a>
         </Link>
       </div>
-
-      {posts.slice(0, 6).map((post) => (
-        <PostPreview
-          key={post.slug}
-          title={post.title}
-          coverImage={post.coverImage}
-          date={post.date}
-          author={post.author}
-          slug={post.slug}
-          excerpt={post.excerpt}
-        />
-      ))}
+      <TagsNav />
+      <ul className="bloglist_index bloglist">
+        {posts.map((post) => (
+          <PostPreview
+            key={post.slug}
+            title={post.title}
+            coverImage={post.coverImage}
+            date={post.date}
+            author={post.author}
+            slug={post.slug}
+            excerpt={post.excerpt}
+            tags={post.tags.filter((tag) => primaryTags.includes(tag))}
+          />
+        ))}
+      </ul>
     </section>
   );
 }

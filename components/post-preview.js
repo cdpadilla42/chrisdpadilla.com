@@ -1,7 +1,8 @@
-import Avatar from '../components/avatar';
+import PropTypes from 'prop-types';
 import DateFormatter from '../components/date-formatter';
-import CoverImage from './cover-image';
 import Link from 'next/link';
+import Avatar from '../components/avatar';
+import CoverImage from './cover-image';
 
 export default function PostPreview({
   title,
@@ -9,6 +10,7 @@ export default function PostPreview({
   date,
   excerpt,
   slug,
+  tags,
 }) {
   return (
     <>
@@ -21,15 +23,40 @@ export default function PostPreview({
           width={556}
         />
       </div> */}
-      <h3>
+      <li className="bloglist_article" key={title}>
+        <span className="bloglist_article_date">
+          <DateFormatter dateString={date} />
+        </span>
+        <br />
         <Link href={`/${slug}`}>
-          <a>{title}</a>
+          <a className="bloglist_article_title">{title}</a>
         </Link>
-      </h3>
+        <ul className="bloglist_article_tags">
+          {tags.map((tag) => (
+            <li
+              className="bloglist_article_tag"
+              data-tag={tag}
+              key={`${title}:${tag}`}
+            >
+              <Link href={`/blog/${tag}`}>
+                <a>{tag}</a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </li>
       {/* <div className="text-lg mb-4">
-        <DateFormatter dateString={date} />
+       
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p> */}
     </>
   );
 }
+
+PostPreview.propTypes = {
+  tags: PropTypes.array,
+};
+
+PostPreview.defaultProps = {
+  tags: [],
+};

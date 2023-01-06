@@ -6,7 +6,7 @@ tags:
 date: '2022-12-29T05:35:07.322Z'
 ---
 
-My work as of right now isn't largely Test Driven. The scale I work at isn't as dependent on tests, the codebases are small enough where I'm not as concerned about on glossing over any unwanted side effects.
+My work as of right now isn't largely Test Driven. The scale I work at isn't as dependent on tests, the codebases are small enough where I'm not as concerned about glossing over any unwanted side effects.
 
 _However_, I can't deny the benefits of testing.
 
