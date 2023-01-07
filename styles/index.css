@@ -364,6 +364,11 @@ article h1 {
   margin-top: 4rem;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 /* .bloglist_index li:first-child {
   margin-top: 0;
 } */
