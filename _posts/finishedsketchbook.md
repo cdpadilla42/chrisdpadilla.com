@@ -3,7 +3,7 @@ title: Finishing a Sketchbook
 tags:
   - Art
   - Notes
-date: '2023-01-08T05:35:07.322Z'
+date: '2023-01-08T10:35:07.322Z'
 ---
 
 I reached a funny spot creatively in September. I was making lots of things, but they were all purely digital. Each day also finished with "well, I'm in the process of making something. Not much to show today, though!" There's something that felt a little incomplete about having large creative projects, but no small ones.
