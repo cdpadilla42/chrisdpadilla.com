@@ -12,6 +12,8 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v5.0.5 # use the explicit version number
+        env:
+          CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
         with:
           build: npm run build
           start: npm start
