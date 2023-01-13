@@ -9,9 +9,15 @@ import Head from 'next/head';
 import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
 import Link from 'next/link';
+import { primaryTags } from '../lib/minorBlogTags';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
+  const postPrimaryTags = post.tags.filter((tag) => primaryTags.includes(tag));
+  let pageTag;
+  if (postPrimaryTags.length >= 1) {
+    pageTag = postPrimaryTags[0];
+  }
   return (
     <Layout
       preview={preview}
@@ -19,7 +25,7 @@ export default function Post({ post, morePosts, preview }) {
       title={`${post.title} | Chris Padilla`}
     >
       <Container>
-        <Header section="blog" />
+        <Header section="blog" tag={pageTag} />
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
@@ -42,7 +48,11 @@ export default function Post({ post, morePosts, preview }) {
               <Link href="/contact">
                 <a>drop me a line</a>
               </Link>
-              !
+              ! You can also follow by{' '}
+              <Link href="/api/feed">
+                <a>RSS</a>
+              </Link>
+              ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
             </aside>
             <script src="../"></script>
           </>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const RssSvg = () => {
   return (
-    <Link href="/rss.xml">
+    <Link href="/api/feed">
       <a>
         <svg
           class="icon"
@@ -11,6 +11,7 @@ const RssSvg = () => {
           viewBox="0 0 24 24"
           height="32"
           width="32"
+          style={{ position: 'relative', top: '4px' }}
         >
           <path
             fill="currentColor"

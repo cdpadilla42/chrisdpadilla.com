@@ -40,6 +40,13 @@ export default function Blog({ allPosts }) {
           </Link>
           .
         </p>
+        <p>
+          You can follow by{' '}
+          <Link href="/api/feed">
+            <a>RSS</a>
+          </Link>
+          ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
+        </p>
         <p>Take a look by topic:</p>
         <TagsNav />
         <ul className="bloglist">

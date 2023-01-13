@@ -10,9 +10,11 @@ export default function Header({ section, tag }) {
       {tag && (
         <>
           <span className="header_divider">/</span>{' '}
-          <span className="header_tag" data-tag={tag}>
-            {tag}
-          </span>
+          <Link href={`/blog/${tag}`}>
+            <a data-tag={tag} className="header_tag">
+              {tag}
+            </a>
+          </Link>{' '}
         </>
       )}
     </>
