@@ -324,6 +324,11 @@ article h1 {
   text-decoration-style: dotted;
 }
 
+.tags .tagslist_tag:first-child,
+.tagslist .tagslist_tag:first-child {
+  margin-left: -0.5rem;
+}
+
 .bloglist_article_tag:hover,
 .tagslist_tag:hover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -332,30 +337,35 @@ article h1 {
 
 .bloglist_article_tag[data-tag='Tech'] a,
 .tagslist_tag[data-tag='Tech'] a,
+.tagslist_tag[data-tag='Tech'],
 .header_tag[data-tag='Tech'] {
   color: var(--yellow);
 }
 
 .bloglist_article_tag[data-tag='Notes'] a,
 .tagslist_tag[data-tag='Notes'] a,
+.tagslist_tag[data-tag='Notes'],
 .header_tag[data-tag='Notes'] {
   color: var(--orange);
 }
 
 .bloglist_article_tag[data-tag='Music'] a,
 .tagslist_tag[data-tag='Music'] a,
+.tagslist_tag[data-tag='Music'],
 .header_tag[data-tag='Music'] {
   color: var(--green);
 }
 
 .bloglist_article_tag[data-tag='Art'] a,
 .tagslist_tag[data-tag='Art'] a,
+.tagslist_tag[data-tag='Art'],
 .header_tag[data-tag='Art'] {
   color: var(--red);
 }
 
 .bloglist_article_tag[data-tag='Books'] a,
 .tagslist_tag[data-tag='Books'] a,
+.tagslist_tag[data-tag='Books'],
 .header_tag[data-tag='Books'] {
   color: var(--purple);
 }
