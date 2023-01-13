@@ -24,7 +24,7 @@ export default function Header({ section, tag }) {
     <header className="header">
       <h1>
         <Link href="/">
-          <a>Chris Padilla</a>
+          <a style={{ display: 'inline-block' }}>Chris Padilla</a>
         </Link>
         {section === 'blog' ? (
           <>
