@@ -2,6 +2,7 @@
 title: Terry Pratchett and Real Life Inspirations
 tags:
   - Books
+  - Notes
 date: '2023-01-13T10:35:07.322Z'
 ---
 
