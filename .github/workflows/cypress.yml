@@ -15,5 +15,7 @@ jobs:
         env:
           CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
         with:
+          browser: chrome
           build: npm run build
           start: npm start
+          command: npx cypress run
