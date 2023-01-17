@@ -14,7 +14,7 @@ This was _also_ inspired by a message I received lately about my [RSS feed](/api
 
 A post for another day is the different types of tests in software. The quick run down, from atomic to all-encompassing, goes like this: Static Tests, Unit Tests, Integration Tests, and End-to-End Tests.
 
-Cypress is on the farther end of that spectrum, encompassing End-to-End testing. Cypresswill spin up a browser, walk through your application, and use the site as a user would.
+Cypress is on the farther end of that spectrum, encompassing End-to-End testing. Cypress will spin up a browser, walk through your application, and use the site as a user would.
 
 There's a suite of tools and assertion methods included from the popular Mocha and Chai testing frameworks.
 
