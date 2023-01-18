@@ -41,6 +41,8 @@ const About = () => {
         , too!
       </p>
 
+      <h2>The History</h2>
+
       <p>
         2 years ago, my sister{' '}
         <Link href="https://www.jennpadilla.com/">
@@ -53,8 +55,6 @@ const About = () => {
         sharpen my software engineering skills, and I was won over by the
         silliness of the story!
       </p>
-
-      <h2>The History</h2>
 
       <p>
         What started out as a pretty simple web app for displaying text turned
