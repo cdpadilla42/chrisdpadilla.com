@@ -26,7 +26,7 @@ export default function Meta({ customOGImage, title }) {
       <link rel="shortcut icon" href="/favicons/favicon-16x16.png" />
       <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
-      <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
+      <link rel="alternate" type="application/rss+xml" href="/api/feed" />
       <meta
         name="description"
         content={`Web developer, musician, human being.`}
