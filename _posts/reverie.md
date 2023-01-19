@@ -5,7 +5,9 @@ tags:
 date: '2023-01-14T10:35:07.322Z'
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rmyblCau6T4?modestbranding=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/rmyblCau6T4?modestbranding=1&showinfo=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen class="youtube_video"></iframe>
+
+[Listen on Youtube](https://youtu.be/rmyblCau6T4)
 
 💭
 
