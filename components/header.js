@@ -20,20 +20,39 @@ export default function Header({ section, tag }) {
     </>
   );
 
+  const musicHeader = () => (
+    <>
+      <Link href="/music">
+        <a>Music</a>
+      </Link>
+    </>
+  );
+
+  let trailingHeader = '.';
+
+  if (section === 'blog') {
+    trailingHeader = (
+      <>
+        <span className="header_divider">/</span>
+        {blogHeader()}
+      </>
+    );
+  } else if (section) {
+    trailingHeader = (
+      <>
+        <span className="header_divider">/</span>
+        {musicHeader()}
+      </>
+    );
+  }
+
   return (
     <header className="header">
       <h1>
         <Link href="/">
           <a style={{ display: 'inline-block' }}>Chris Padilla</a>
         </Link>
-        {section === 'blog' ? (
-          <>
-            <span className="header_divider">/</span>
-            {blogHeader()}
-          </>
-        ) : (
-          '.'
-        )}
+        {trailingHeader}
       </h1>
     </header>
   );

@@ -10,8 +10,8 @@ const Sax = () => {
       <Head>
         <title>Saxophone Music | Chris Padilla</title>
       </Head>
-      <Header />
-      <h2>Music — Saxophone Playing</h2>
+      <Header section="music" />
+      <h2>Saxophone Playing</h2>
       <p>
         <strong>Here are some of my favorite saxophone recordings!</strong>{' '}
       </p>

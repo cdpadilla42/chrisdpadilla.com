@@ -14,8 +14,7 @@ export default function Music({ albums }) {
         <title>Music | Chris Padilla</title>
       </Head>
       <Container>
-        <Header />
-        <h1>Music.</h1>
+        <Header section="music" />
         <p>
           All of my newly composed music is on{' '}
           <a
