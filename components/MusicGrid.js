@@ -13,12 +13,13 @@ import SnowBearImg from '../public/assets/albums/snow-bear.jpeg';
 import QuietPlaces from '../public/assets/albums/quiet-places.jpeg';
 import TurningLeavesIMG from '../public/assets/albums/turningleavescover.jpg';
 import CoversIMG from '../public/assets/albums/covers.jpg';
+import MeditationsIMG from '../public/assets/albums/meditations.jpg';
 import SpringIMG from '../public/assets/albums/spring.jpg';
 import LastChristmasIMG from '../public/assets/albums/LastChristmasCover.jpg';
 
 const albumPhotos = {
   Spring: SpringIMG,
-  Meditations: CoversIMG,
+  Meditations: MeditationsIMG,
   'Last Christmas': LastChristmasIMG,
   Covers: CoversIMG,
   'Turning Leaves': TurningLeavesIMG,
