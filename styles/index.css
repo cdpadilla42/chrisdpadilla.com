@@ -388,6 +388,22 @@ iframe.youtube_video {
   }
 }
 
+button {
+  font-size: inherit;
+  font-family: inherit;
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+  padding: 1rem;
+  transition: background-color 0.4s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--light-blue);
+  cursor: pointer;
+}
+
 /* .bloglist_index li:first-child {
   margin-top: 0;
 } */

@@ -1,16 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from '../../components/container';
 import Layout from '../../components/layout';
 import Head from 'next/head';
 import Header from '../../components/header';
 import { getAlbums } from '../../lib/api';
-import { kebabCase } from '../../lib/util';
-import Blog404 from '../../components/Blog404';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Album({ album }) {
+  const [showTracks, setShowTracks] = useState(false);
   const pageTitle = `${album.title} | Chris Padilla`;
   console.log(album);
+
+  const renderShowTracksButton = () => {
+    const text = showTracks ? 'Hide Tracks' : 'Show Tracks';
+    return (
+      <button
+        type="button"
+        onClick={() => setShowTracks(!showTracks)}
+        style={{ width: '160px' }}
+      >
+        {text}
+      </button>
+    );
+  };
+
+  const renderTracks = () => {
+    if (album.tracks) {
+      return (
+        <>
+          {showTracks && <h3>Tracks</h3>}
+          {showTracks &&
+            album.tracks.map((track) => (
+              <>
+                <p>{track.title}</p>
+                <p>
+                  {' '}
+                  <audio src={track.url} controls="controls" />
+                </p>
+              </>
+            ))}
+        </>
+      );
+    }
+  };
 
   return (
     <Layout>
@@ -22,6 +55,12 @@ export default function Album({ album }) {
         <Header section="music" />
         <h1>{album.title}</h1>
         <p>{album.description}</p>
+        <Image
+          src={album.coverURL}
+          alt={`Cover art for ${album.title}.`}
+          width="800"
+          height="800"
+        />
         <ul>
           <li>
             {' '}
@@ -36,7 +75,7 @@ export default function Album({ album }) {
           </li>
           <li>
             {' '}
-            <Link href={album.link}>
+            <Link href={album.spotifyURL || ''}>
               <a target="_blank" rel="noopener noreferrer">
                 {/* <Image src={albumPhotos[album.title]} /> */}
                 <span>Listen on Spotify</span>
@@ -44,6 +83,8 @@ export default function Album({ album }) {
             </Link>
           </li>
         </ul>
+        {renderShowTracksButton()}
+        {renderTracks()}
       </Container>
     </Layout>
   );
