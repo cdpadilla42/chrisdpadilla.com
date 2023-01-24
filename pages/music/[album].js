@@ -6,11 +6,13 @@ import Header from '../../components/header';
 import { getAlbums } from '../../lib/api';
 import Link from 'next/link';
 import Image from 'next/image';
+import markdownToHtml from '../../lib/markdownToHtml';
+import Markdown from 'markdown-to-jsx';
+import NextLink from '../../components/NextLink';
 
 export default function Album({ album }) {
   const [showTracks, setShowTracks] = useState(false);
   const pageTitle = `${album.title} | Chris Padilla`;
-  console.log(album);
 
   const renderShowTracksButton = () => {
     const text = showTracks ? 'Hide Tracks' : 'Show Tracks';
@@ -54,7 +56,17 @@ export default function Album({ album }) {
       <Container>
         <Header section="music" />
         <h1>{album.title}</h1>
-        <p>{album.description}</p>
+        <p>
+          <Markdown
+            options={{
+              overrides: {
+                a: NextLink,
+              },
+            }}
+          >
+            {album.description}
+          </Markdown>
+        </p>
         <Image
           src={album.coverURL}
           alt={`Cover art for ${album.title}.`}
@@ -99,10 +111,14 @@ export async function getStaticProps({ params }) {
     };
   }
 
-  console.log(album);
+  const newAlbum = { ...album };
+
+  const newDescription = await markdownToHtml(album.description);
+  console.log(newDescription);
+  newAlbum.description = newDescription;
 
   return {
-    props: { album },
+    props: { album: newAlbum },
     // revalidate: 14400,
   };
 }

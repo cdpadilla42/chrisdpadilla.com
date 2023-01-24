@@ -2,7 +2,6 @@ import Head from 'next/head';
 import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
-import { calculateAge } from '../lib/util';
 
 const Sax = () => {
   return (
