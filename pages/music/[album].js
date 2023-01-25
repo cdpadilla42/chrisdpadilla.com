@@ -68,14 +68,14 @@ export default function Album({ album }) {
                   </a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 {' '}
                 <Link href={album.spotifyURL || ''}>
                   <a target="_blank" rel="noopener noreferrer">
                     <span>🙉 Listen on Spotify</span>
                   </a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
             <p>
               <Markdown
