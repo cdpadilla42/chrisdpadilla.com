@@ -291,7 +291,8 @@ article h1 {
 
 .bloglist,
 .bloglist_article_tags,
-.tagslist {
+.tagslist,
+.album_linkslist {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -402,6 +403,33 @@ button {
 button:hover {
   background-color: var(--light-blue);
   cursor: pointer;
+}
+
+.album_flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media all and (min-width: 800px) {
+  .album_flex {
+    flex-direction: row;
+  }
+
+  .album_text {
+    padding-right: 1rem;
+  }
+  .album_image {
+    margin-top: 1.5rem;
+  }
+}
+
+.album_flex > * {
+  flex: 1;
+}
+
+.album_linkslist > * {
+  font-weight: bold;
+  margin: 1rem 0;
 }
 
 /* .bloglist_index li:first-child {

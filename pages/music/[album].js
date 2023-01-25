@@ -16,6 +16,7 @@ export default function Album({ album }) {
 
   const renderShowTracksButton = () => {
     const text = showTracks ? 'Hide Tracks' : 'Show Tracks';
+    if (!album.tracks) return '';
     return (
       <button
         type="button"
@@ -55,48 +56,50 @@ export default function Album({ album }) {
       </Head>
       <Container>
         <Header section="music" />
-        <h1>{album.title}</h1>
-        <p>
-          <Markdown
-            options={{
-              overrides: {
-                a: NextLink,
-              },
-            }}
-          >
-            {album.description}
-          </Markdown>
-        </p>
-        <Image
-          src={album.coverURL}
-          alt={`Cover art for ${album.title}.`}
-          width="800"
-          height="800"
-        />
-        <ul>
-          <li>
-            {' '}
-            <Link href={album.link}>
-              <a target="_blank" rel="noopener noreferrer">
-                {/* <Image src={albumPhotos[album.title]} /> */}
-                <span>
-                  Support my music by purchasing the album on Bandcamp!
-                </span>
-              </a>
-            </Link>
-          </li>
-          <li>
-            {' '}
-            <Link href={album.spotifyURL || ''}>
-              <a target="_blank" rel="noopener noreferrer">
-                {/* <Image src={albumPhotos[album.title]} /> */}
-                <span>Listen on Spotify</span>
-              </a>
-            </Link>
-          </li>
-        </ul>
-        {renderShowTracksButton()}
-        {renderTracks()}
+        <div className="album_flex">
+          <div className="album_text">
+            <h1 className="album_text_heading">{album.title}</h1>
+            <ul className="album_linkslist">
+              <li>
+                {' '}
+                <Link href={album.link}>
+                  <a target="_blank" rel="noopener noreferrer">
+                    <span>🙏 Purchase on Bandcamp</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                {' '}
+                <Link href={album.spotifyURL || ''}>
+                  <a target="_blank" rel="noopener noreferrer">
+                    <span>🙉 Listen on Spotify</span>
+                  </a>
+                </Link>
+              </li>
+            </ul>
+            <p>
+              <Markdown
+                options={{
+                  overrides: {
+                    a: NextLink,
+                  },
+                }}
+              >
+                {album.description}
+              </Markdown>
+            </p>
+            {renderShowTracksButton()}
+            {renderTracks()}
+          </div>
+          <div className="album_image">
+            <Image
+              src={album.coverURL}
+              alt={`Cover art for ${album.title}.`}
+              width="500"
+              height="500"
+            />
+          </div>
+        </div>
       </Container>
     </Layout>
   );
@@ -114,7 +117,6 @@ export async function getStaticProps({ params }) {
   const newAlbum = { ...album };
 
   const newDescription = await markdownToHtml(album.description);
-  console.log(newDescription);
   newAlbum.description = newDescription;
 
   return {
