@@ -11,6 +11,6 @@ date: '2023-01-14T10:35:07.322Z'
 
 💭
 
-Little snippet fromt the gorgeous Debussy piece.
+Little snippet from the gorgeous Debussy piece. 
 
 Which was — fun fact — played in the final Anthony Hopkins scene in West World Season 1! Alongside a Radiohead string quartet cover, no less!
