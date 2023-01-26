@@ -5,6 +5,8 @@ tags:
 date: '2023-01-26T10:35:07.322Z'
 ---
 
+![Meditations](https://www.chrisdpadilla.com/_next/image?url=https%3A%2F%2Fpadilla-media.s3.amazonaws.com%2Falbums%2Fmeditationsportraitscaled.jpg&w=828&q=75)
+
 Reveries on guitar. Improvising with gestures, harmonies, and melodic lines. 🧘‍♀️💭
 
 What better way to start a new year than with some dreaming?
