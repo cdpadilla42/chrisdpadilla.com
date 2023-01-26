@@ -64,7 +64,7 @@ export default function Album({ album }) {
                 {' '}
                 <Link href={album.link}>
                   <a target="_blank" rel="noopener noreferrer">
-                    <span>🙏 Purchase on Bandcamp</span>
+                    <span>🤘 Purchase on Bandcamp</span>
                   </a>
                 </Link>
               </li>
