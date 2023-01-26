@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Container from '../../components/container';
-import Layout from '../../components/layout';
+import Container from '../components/container';
+import Layout from '../components/layout';
 import Head from 'next/head';
-import Header from '../../components/header';
-import { getAlbums } from '../../lib/api';
+import Header from '../components/header';
+import { getAlbums } from '../lib/api';
 import Link from 'next/link';
 import Image from 'next/image';
-import markdownToHtml from '../../lib/markdownToHtml';
+import markdownToHtml from '../lib/markdownToHtml';
 import Markdown from 'markdown-to-jsx';
-import NextLink from '../../components/NextLink';
+import NextLink from '../components/NextLink';
 
-export default function Album({ album }) {
+export default function AlbumPage({ album }) {
   const [showTracks, setShowTracks] = useState(false);
   const pageTitle = `${album.title} | Chris Padilla`;
 
@@ -64,18 +64,20 @@ export default function Album({ album }) {
                 {' '}
                 <Link href={album.link}>
                   <a target="_blank" rel="noopener noreferrer">
-                    <span>🤘 Purchase on Bandcamp</span>
+                    🤘 Purchase on Bandcamp
                   </a>
                 </Link>
               </li>
-              {/* <li>
-                {' '}
-                <Link href={album.spotifyURL || ''}>
-                  <a target="_blank" rel="noopener noreferrer">
-                    <span>🙉 Listen on Spotify</span>
-                  </a>
-                </Link>
-              </li> */}
+              {album.spotifyURL && (
+                <li>
+                  {' '}
+                  <Link href={album.spotifyURL}>
+                    <a target="_blank" rel="noopener noreferrer">
+                      <span>🙉 Listen on Spotify</span>
+                    </a>
+                  </Link>
+                </li>
+              )}
             </ul>
             <p>
               <Markdown

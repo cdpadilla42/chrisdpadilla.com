@@ -1,68 +1,32 @@
-import { useRouter } from 'next/router';
-import ErrorPage from 'next/error';
-import { getPostBySlug, getAllPosts } from '../lib/api';
-import Layout from '../components/layout';
-import Container from '../components/container';
-import Header from '../components/header';
-import PostTitle from '../components/post-title';
-import Head from 'next/head';
-import PostHeader from '../components/post-header';
-import PostBody from '../components/post-body';
-import Link from 'next/link';
-import { primaryTags } from '../lib/minorBlogTags';
+import AlbumPage from '/components/albumPage';
+import {
+  getPostBySlug,
+  getAllPosts,
+  getAlbumBySlug,
+  getAlbums,
+} from '../lib/api';
+import PostPage from '/components/PostPage';
+import markdownToHtml from '../lib/markdownToHtml';
 
-export default function Post({ post, morePosts, preview }) {
-  const router = useRouter();
-  const postPrimaryTags = post.tags.filter((tag) => primaryTags.includes(tag));
-  let pageTag;
-  if (postPrimaryTags.length >= 1) {
-    pageTag = postPrimaryTags[0];
-  }
-  return (
-    <Layout
-      preview={preview}
-      customOGImage={post.ogImage}
-      title={`${post.title} | Chris Padilla`}
-    >
-      <Container>
-        <Header section="blog" tag={pageTag} />
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article className="mb-32">
-              <Head>
-                <title>{post.title} | Chris Padilla</title>
-              </Head>
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                tags={post.tags}
-              />
-              <PostBody content={post.content} />
-            </article>
-            <aside className="article_end">
-              <strong>Thank you for reading!</strong> I'd love to hear your
-              thoughts. Feel free to{' '}
-              <Link href="/contact">
-                <a>drop me a line</a>
-              </Link>
-              ! You can also follow by{' '}
-              <Link href="/api/feed">
-                <a>RSS</a>
-              </Link>
-              ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
-            </aside>
-            <script src="../"></script>
-          </>
-        )}
-      </Container>
-    </Layout>
-  );
+export default function SlugPage({ post, album }) {
+  if (post) return <PostPage post={post} />;
+  if (album) return <AlbumPage album={album} />;
 }
 
 export async function getStaticProps({ params }) {
+  const album = getAlbumBySlug(params.slug);
+  if (album) {
+    const newAlbum = { ...album };
+
+    const newDescription = await markdownToHtml(album.description);
+    newAlbum.description = newDescription;
+
+    return {
+      props: { album: newAlbum },
+      // revalidate: 14400,
+    };
+  }
+
   const post = getPostBySlug(params.slug, [
     'title',
     'date',
@@ -75,27 +39,29 @@ export async function getStaticProps({ params }) {
     'hidden',
   ]);
 
-  if (!post) {
+  if (post) {
     return {
-      notFound: true,
+      props: {
+        post,
+      },
     };
   }
 
   return {
-    props: {
-      post,
-    },
+    notFound: true,
   };
 }
 
 export async function getStaticPaths() {
   const posts = getAllPosts(['slug']);
+  const albums = getAlbums();
+  const slugs = [...albums, ...posts].map((contentObj) => contentObj.slug);
 
   return {
-    paths: posts.map((post) => {
+    paths: slugs.map((slug) => {
       return {
         params: {
-          slug: post.slug,
+          slug,
         },
       };
     }),

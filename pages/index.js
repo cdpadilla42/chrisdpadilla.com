@@ -28,7 +28,7 @@ export default function Index({ allPosts, latestAlbum }) {
             </Link>
           </div>
           <article>
-            <Link href={`music/${latestAlbum.slug}`}>
+            <Link href={`${latestAlbum.slug}`}>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
                   src={latestAlbum.coverURL}

@@ -9,7 +9,7 @@ const MusicGrid = ({ albums }) => {
         {albums.map((album) => (
           <article key={album.title}>
             {/* <Link href={album.link}> */}
-            <Link href={`/music/${album.slug}`}>
+            <Link href={`/${album.slug}`}>
               <a>
                 <Image src={album.coverURL} width="245" height="245" />
                 <span>{album.title}</span>
