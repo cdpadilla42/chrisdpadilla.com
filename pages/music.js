@@ -22,7 +22,15 @@ export default function Music({ albums }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            bandcamp
+            🤘 Bandcamp
+          </a>{' '}
+          and{' '}
+          <a
+            href="https://open.spotify.com/artist/3KNN2G4RReLVKbnIfTkRFf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🙉 Spotify
           </a>
           .
         </p>
