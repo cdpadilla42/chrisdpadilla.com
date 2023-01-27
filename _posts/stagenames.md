@@ -5,7 +5,7 @@ tags:
 date: '2023-01-27T10:35:07.322Z'
 ---
 
-I'm gearing up to get my music on Spotify! A pretty exciting step!
+I'm gearing up to get [my music on Spotify](https://open.spotify.com/artist/3KNN2G4RReLVKbnIfTkRFf)! A pretty exciting step!
 
 But I've hit a problem: There are already 3 folks named Chris Padilla on Spotify.
 
