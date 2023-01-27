@@ -4,16 +4,17 @@ const baseUrl = process.env.NODE_ENV === 'production' ? BASE_URL : BASE_URL_DEV;
 
 const excludedLinks = ['bandcamp', 'linkedin', 'instagram'];
 
-describe('Test Landing Page Links', () => {
-  it('Loads the landing page', () => {
-    cy.request(baseUrl).then((res) => {
+describe('Test Blog Links', () => {
+  const blogURL = `${baseUrl}/blog`;
+  it('Loads the blog page', () => {
+    cy.request(blogURL).then((res) => {
       expect(res.status).to.eq(200);
     });
   });
 
-  it('Verify navigation across landing page links', () => {
-    cy.visit(baseUrl);
-    cy.get("a:not([href*='mailto:'])").each((linkElm) => {
+  it('Verify navigation across blog links', () => {
+    cy.visit(blogURL);
+    cy.get("a[data-test='blogPageLink'").each((linkElm) => {
       const linkPath = linkElm.attr('href');
       const shouldExclude = excludedLinks.reduce((p, c) => {
         if (p || linkPath.includes(c)) {
@@ -27,14 +28,6 @@ describe('Test Landing Page Links', () => {
           expect(res.status).to.eq(200);
         });
       }
-    });
-  });
-});
-
-describe('RSS', () => {
-  it('Loads the feed', () => {
-    cy.request(`${baseUrl}/api/feed`).then((res) => {
-      expect(res.status).to.eq(200);
     });
   });
 });

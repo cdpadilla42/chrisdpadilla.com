@@ -10,7 +10,7 @@ const MusicGrid = ({ albums }) => {
           <article key={album.title}>
             {/* <Link href={album.link}> */}
             <Link href={`/${album.slug}`}>
-              <a>
+              <a data-test="musicGridLink">
                 <Image src={album.coverURL} width="245" height="245" />
                 <span>{album.title}</span>
               </a>

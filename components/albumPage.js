@@ -63,7 +63,11 @@ export default function AlbumPage({ album }) {
               <li>
                 {' '}
                 <Link href={album.link}>
-                  <a target="_blank" rel="noopener noreferrer">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-test="musicExternalLink"
+                  >
                     🤘 Purchase on Bandcamp
                   </a>
                 </Link>
@@ -72,7 +76,11 @@ export default function AlbumPage({ album }) {
                 <li>
                   {' '}
                   <Link href={album.spotifyURL}>
-                    <a target="_blank" rel="noopener noreferrer">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-test="musicExternalLink"
+                    >
                       <span>🙉 Listen on Spotify</span>
                     </a>
                   </Link>

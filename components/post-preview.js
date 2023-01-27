@@ -29,7 +29,9 @@ export default function PostPreview({
         </span>
         <br />
         <Link href={`/${slug}`}>
-          <a className="bloglist_article_title">{title}</a>
+          <a className="bloglist_article_title" data-test="blogPageLink">
+            {title}
+          </a>
         </Link>
         <ul className="bloglist_article_tags">
           {tags.map((tag) => (
