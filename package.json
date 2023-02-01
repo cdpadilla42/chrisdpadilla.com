@@ -5,7 +5,6 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watchAll",
-    "test2": "node --experimental-vm-modules ./node_modules/.bin/jest --config=jest.config.js",
     "cypress": "npx cypress open"
   },
   "dependencies": {
