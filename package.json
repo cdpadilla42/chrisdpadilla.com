@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest --config=jest.config.js --watch",
+    "test2": "node --experimental-vm-modules ./node_modules/.bin/jest --config=jest.config.js",
+    "cypress": "npx cypress open"
   },
   "dependencies": {
     "classnames": "^2.3.2",
@@ -16,11 +19,20 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "remark": "14.0.2",
-    "remark-html": "15.0.1"
+    "remark-html": "15.0.1",
+    "ts-jest": "^29.0.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.2.0",
+    "@testing-library/user-event": "14.2.0",
     "autoprefixer": "^10.4.2",
+    "babel-jest": "28.1.0",
     "cypress": "^12.2.0",
+    "jest": "28.1.0",
+    "jest-environment-jsdom": "28.1.0",
     "postcss": "^8.4.7"
   }
 }

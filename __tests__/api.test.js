@@ -1,4 +1,12 @@
-import { getAlbums, getAllPosts } from './api';
+import { getAlbums, getAllPosts } from '../lib/api';
+import { remark } from 'remark';
+import html from 'remark-html';
+
+jest.mock('remark', () => ({
+  remark: jest.fn(() => 25),
+}));
+
+jest.mock('remark-html', () => 'Heyyo!');
 
 test('Verify no conflicting slugs', () => {
   const albums = getAlbums();

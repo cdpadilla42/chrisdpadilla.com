@@ -24,13 +24,21 @@ export default function Music({ albums }) {
           >
             🤘 Bandcamp
           </a>{' '}
-          and{' '}
+          ,{' '}
           <a
             href="https://open.spotify.com/artist/3KNN2G4RReLVKbnIfTkRFf"
             target="_blank"
             rel="noopener noreferrer"
           >
             🙉 Spotify
+          </a>{' '}
+          and even{' '}
+          <a
+            href="https://music.apple.com/ph/artist/chris-padilla/1666663546"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🍎 Apple Music
           </a>
           .
         </p>
