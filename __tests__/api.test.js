@@ -3,10 +3,10 @@ import { remark } from 'remark';
 import html from 'remark-html';
 
 jest.mock('remark', () => ({
-  remark: jest.fn(() => 25),
+  remark: jest.fn(() => ''),
 }));
 
-jest.mock('remark-html', () => 'Heyyo!');
+jest.mock('remark-html', () => '');
 
 test('Verify no conflicting slugs', () => {
   const albums = getAlbums();
