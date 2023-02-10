@@ -8,7 +8,7 @@ date: '2023-02-10T10:35:07.322Z'
 
 # Compile Error
 
-[Last week on running my jest tests](/jesttest), I got an error, but it's not related to the test. The gist of the error was:
+[Last time when running my jest tests](/jesttest), I got an error, but it's not related to the test. The gist of the error was:
 
 ```
 Cannot use import statement outside of a module.
