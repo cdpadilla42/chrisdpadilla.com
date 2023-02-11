@@ -1,7 +1,8 @@
 ---
 title: Compute! Gazette
 tags:
-  - old gold
+  - Tech
+  - oldgold
 date: '2022-05-13T05:35:07.322Z'
 ---
 
