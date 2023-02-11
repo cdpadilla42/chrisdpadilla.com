@@ -3,6 +3,7 @@ import DateFormatter from '../components/date-formatter';
 import CoverImage from '../components/cover-image';
 import PostTitle from '../components/post-title';
 import Link from 'next/link';
+import { lowercaseFirstLetter } from '../lib/util';
 
 export default function PostHeader({ title, coverImage, date, tags }) {
   return (
@@ -14,7 +15,7 @@ export default function PostHeader({ title, coverImage, date, tags }) {
         </div>
         <div className="tags">
           {tags.map((tag, i) => (
-            <Link href={`/blog/${tag}`} key={tag}>
+            <Link href={`/blog/${lowercaseFirstLetter(tag)}`} key={tag}>
               <a className="tagslist_tag" data-tag={tag}>
                 {tag}
               </a>

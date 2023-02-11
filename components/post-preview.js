@@ -3,6 +3,7 @@ import DateFormatter from '../components/date-formatter';
 import Link from 'next/link';
 import Avatar from '../components/avatar';
 import CoverImage from './cover-image';
+import { lowercaseFirstLetter } from '../lib/util';
 
 export default function PostPreview({
   title,
@@ -40,7 +41,7 @@ export default function PostPreview({
               data-tag={tag}
               key={`${title}:${tag}`}
             >
-              <Link href={`/blog/${tag}`}>
+              <Link href={`/blog/${lowercaseFirstLetter(tag)}`}>
                 <a>{tag}</a>
               </Link>
             </li>

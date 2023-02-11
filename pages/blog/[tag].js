@@ -4,7 +4,11 @@ import Layout from '../../components/layout';
 import { getAllPosts } from '../../lib/api';
 import Head from 'next/head';
 import PostPreview from '../../components/post-preview';
-import { filterBlogPosts } from '../../lib/util';
+import {
+  capitalizeFirstLetter,
+  filterBlogPosts,
+  lowercaseFirstLetter,
+} from '../../lib/util';
 import Header from '../../components/header';
 import { primaryTags } from '../../lib/minorBlogTags';
 import { useRouter } from 'next/router';
@@ -14,7 +18,10 @@ import Blog404 from '../../components/Blog404';
 export default function Blog({ allPosts }) {
   const router = useRouter();
   const { tag } = router.query;
-  const renderedPosts = allPosts.filter((post) => post.tags.includes(tag));
+  const capitalizedTag = capitalizeFirstLetter(tag);
+  const renderedPosts = allPosts.filter((post) =>
+    post.tags.includes(capitalizedTag)
+  );
 
   if (!renderedPosts.length) {
     return <Blog404 />;
@@ -30,7 +37,7 @@ export default function Blog({ allPosts }) {
         />
       </Head>
       <Container>
-        <Header section="blog" tag={tag} />
+        <Header section="blog" tag={capitalizedTag} />
         <p>Take a look by topic:</p>
         <TagsNav />
         <ul className="bloglist">
@@ -76,9 +83,10 @@ export async function getStaticProps() {
 export async function getStaticPaths() {
   return {
     paths: primaryTags.map((tag) => {
+      const tagSlug = lowercaseFirstLetter(tag);
       return {
         params: {
-          tag: tag,
+          tag: tagSlug,
         },
       };
     }),
