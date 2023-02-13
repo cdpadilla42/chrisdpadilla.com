@@ -1,11 +1,11 @@
 ---
-title: ESM Blues and Jest
+title: Caught In the ESM Migration
 tags:
   - Tech
-date: '2023-02-10T10:35:07.322Z'
+date: '2023-02-13T10:35:07.322Z'
 ---
 
-I just realized my issue last week was actually due to being caught in the great migration from ESM to CJS support:
+I was having issues with integrating packages in Jest last week and realized it's partly due to being caught in the great migration from CommonJS to ESM support:
 
 This [ESM FAQ](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) and discussion was listed on Remark's readme. Clearly, the topic is a hot button one.
 
@@ -17,6 +17,8 @@ The burden, then, is on maintainers of open source packages to wrestle with this
 
 With Jest, I had my work [confirmed](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c#im-having-problems-with-esm-and-jest) in another way — handling this is largely a config issue.
 
+Take aways? Why am I writing about this? Partly to document my learning, and also to share that if anyone else is trying to get up to speed in the current testing tooling, mind the gap of getting the tooling to play nice!
+
 All said, I feel a lot _less_ crazy knowing that it's because of a broad, industry wide gradual migration. 🙃
 
-P.S.: I understand that mocking is also probably the answer to this issue. It works for [Uncle Dave](https://daverupert.com/2023/01/using-ai-to-appease-jest/).
+P.S.: [Mocking](/mockingpackages) is also probably the best answer to this issue. It works for [Uncle Dave](https://daverupert.com/2023/01/using-ai-to-appease-jest/).
