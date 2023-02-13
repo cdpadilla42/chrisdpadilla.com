@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { lowercaseFirstLetter } from '../lib/util';
 import RssSvg from './rssSvg';
 
 export default function Header({ section, tag }) {
@@ -10,7 +11,7 @@ export default function Header({ section, tag }) {
       {tag && (
         <>
           <span className="header_divider">/</span>{' '}
-          <Link href={`/blog/${tag}`}>
+          <Link href={`/blog/${lowercaseFirstLetter(tag)}`}>
             <a data-tag={tag} className="header_tag">
               {tag}
             </a>
