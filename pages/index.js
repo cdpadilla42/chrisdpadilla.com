@@ -5,18 +5,18 @@ import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
-import { getAllPosts, getLatestAlbum } from '../lib/api';
+import { getAllPosts, getLatestAlbum, getLatestHap } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import ACNMPromo2 from '../public/assets/projects/ACNM/ACNMpromo2.jpg';
 
-export default function Index({ allPosts, latestAlbum }) {
+export default function Index({ allPosts, latestAlbum, latestHap }) {
   return (
     <Layout>
       <Head>
         <title>Chris Padilla — Developer & Musician</title>
       </Head>
       <Container>
-        <Intro />
+        <Intro latestHap={latestHap} />
         <section>
           <MoreStories posts={allPosts} />
           <div className="heading_flex">
@@ -28,7 +28,7 @@ export default function Index({ allPosts, latestAlbum }) {
             </Link>
           </div>
           <article>
-            <Link href={`${latestAlbum.slug}`}>
+            <Link href={`/${latestAlbum.slug}`}>
               <a>
                 <Image
                   src={latestAlbum.coverURL}
@@ -68,9 +68,15 @@ export async function getServerSideProps() {
     convertContentToHtml: true,
   }).slice(0, 6);
 
+  const latestHapObj = getLatestHap();
+
+  const latestHap = latestHapObj?.slug
+    ? `/${latestHapObj.slug}`
+    : '/blog/notes';
+
   const latestAlbum = getLatestAlbum();
 
   return {
-    props: { allPosts, latestAlbum },
+    props: { allPosts, latestAlbum, latestHap },
   };
 }

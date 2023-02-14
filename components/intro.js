@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Intro() {
+export default function Intro({ latestHap }) {
   return (
     <header>
       <article className="intro">
@@ -27,6 +28,10 @@ export default function Intro() {
             —{' '}
             <Link href="/contact">
               <a>Contact me</a>
+            </Link>{' '}
+            —{' '}
+            <Link href={latestHap}>
+              <a>What I'm Doing Now</a>
             </Link>
           </p>
         </div>
@@ -37,3 +42,11 @@ export default function Intro() {
     </header>
   );
 }
+
+Intro.propTypes = {
+  latestHap: PropTypes.string,
+};
+
+Intro.defaultProps = {
+  latestHap: '/blog/notes',
+};

@@ -8,6 +8,7 @@ import PostHeader from '../components/post-header';
 import PostBody from '../components/post-body';
 import Link from 'next/link';
 import { primaryTags } from '../lib/minorBlogTags';
+import { EMAIL } from '../lib/constants';
 
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
@@ -43,8 +44,9 @@ export default function Post({ post, morePosts, preview }) {
             <aside className="article_end">
               <strong>Thank you for reading!</strong> I'd love to hear your
               thoughts. Feel free to{' '}
+              <a href={`mailto:${EMAIL}?subject=${post.title}`}>email me</a> or{' '}
               <Link href="/contact">
-                <a>drop me a line</a>
+                <a>find me on the socials</a>
               </Link>
               ! You can also follow by{' '}
               <Link href="/api/feed">
