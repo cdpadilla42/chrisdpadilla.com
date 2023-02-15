@@ -1,15 +1,7 @@
-import AlbumPage from '/components/albumPage';
-import {
-  getPostBySlug,
-  getAllPosts,
-  getAlbumBySlug,
-  getAlbums,
-  getLatestHap,
-} from '../lib/api';
+import { getLatestHap } from '../lib/api';
 import PostPage from '/components/PostPage';
-import markdownToHtml from '../lib/markdownToHtml';
 
-export default function SlugPage({ post, album }) {
+export default function NowPage({ post }) {
   return <PostPage post={post} />;
 }
 
