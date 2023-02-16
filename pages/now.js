@@ -5,7 +5,7 @@ export default function NowPage({ post }) {
   return <PostPage post={post} />;
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps() {
   const post = getLatestHap([
     'title',
     'date',
