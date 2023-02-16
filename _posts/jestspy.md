@@ -2,6 +2,7 @@
 title: Spy Functions in Jest
 tags:
   - Tech
+  - React
   - Testing
 date: '2023-02-15T10:35:07.322Z'
 ---
