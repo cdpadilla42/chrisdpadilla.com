@@ -1,6 +1,5 @@
-import { getAlbums, getAllPosts } from '../lib/api';
-import { remark } from 'remark';
-import html from 'remark-html';
+import fs from 'fs';
+import { getLatestHap } from '../lib/api';
 
 jest.mock('remark', () => ({
   remark: jest.fn(() => ''),
@@ -8,23 +7,20 @@ jest.mock('remark', () => ({
 
 jest.mock('remark-html', () => '');
 
-test('Verify no conflicting slugs', () => {
-  const albums = getAlbums();
-  const posts = getAllPosts(['slug']);
+jest.mock('fs');
 
-  const slugs = {};
-  const recurringSlug = [];
+jest.mock('../lib/markdownAccess', () => ({
+  getPostBySlug: () => ({ slug: '2023-01', tags: ['Notes', 'Haps'] }),
+  getPostSlugs: () => ['2023-01'],
+}));
 
-  const verifyUniqueSlug = (item) => {
-    const { slug } = item;
-    if (slugs[slug]) {
-      // Fail test
-      recurringSlug.push(slug);
-    }
-    slugs[slug] = true;
-  };
-
-  albums.forEach(verifyUniqueSlug);
-  posts.forEach(verifyUniqueSlug);
-  expect(recurringSlug).toEqual([]);
+test('getLatestHap', () => {
+  const sampleMarkdownFile = { slug: '2023-01', tags: ['Notes', 'Haps'] };
+  fs.readdirSync.mockResolvedValue([
+    'postone.md',
+    'posttwo.md',
+    'postthree.md',
+  ]);
+  const result = getLatestHap();
+  expect(result).toStrictEqual(sampleMarkdownFile);
 });

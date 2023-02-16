@@ -1,10 +1,6 @@
 import AlbumPage from '/components/albumPage';
-import {
-  getPostBySlug,
-  getAllPosts,
-  getAlbumBySlug,
-  getAlbums,
-} from '../lib/api';
+import { getAllPosts, getAlbumBySlug, getAlbums } from '../lib/api';
+import { getPostBySlug } from '../lib/markdownAccess';
 import PostPage from '/components/PostPage';
 import markdownToHtml from '../lib/markdownToHtml';
 
