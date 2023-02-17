@@ -49,7 +49,7 @@ From there, we will need to wait for the effects to kick in from the API call an
 I found on [Tania Rascia's post on testing](https://www.taniarascia.com/how-to-test-useeffect-api-call/) that there's a slick one-liner way to do this with `findBy`, which rolls `waitFor` and `getBy` into one assertion:
 
 ```
-expect(await getByTestId('movie-title').textContent).toBe('Cool Movie');
+expect(await findByTestId('movie-title').textContent).toBe('Cool Movie');
 ```
 
 Violà! Here's the full integration test:
