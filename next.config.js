@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ['padilla-media.s3.amazonaws.com'],
+    domains: ['padilla-media.s3.amazonaws.com', 'res.cloudinary.com'],
   },
   webpack5: true,
   webpack: (config) => {
