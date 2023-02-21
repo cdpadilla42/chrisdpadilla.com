@@ -37,6 +37,7 @@ export default function Meta({ customOGImage, title }) {
         property="og:image"
         content={ogImage}
       />
+      <meta name="image" property="og:image" content={ogImage} />
       <meta
         prefix="og: http://ogp.me/ns#"
         property="og:image:secure_url"
