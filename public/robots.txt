@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /blog/tech
+
+User-agent: *
+Disallow: /blog/art
+
+User-agent: *
+Disallow: /blog/notes
+
+User-agent: *
+Disallow: /blog/books
+
+User-agent: *
+Disallow: /blog/music
