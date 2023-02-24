@@ -1,14 +1,4 @@
 User-agent: *
-Disallow: /blog/tech
+Disallow: /404
 
-User-agent: *
-Disallow: /blog/art
-
-User-agent: *
-Disallow: /blog/notes
-
-User-agent: *
-Disallow: /blog/books
-
-User-agent: *
-Disallow: /blog/music
+Sitemap: http://www.example.com/sitemap.xml
