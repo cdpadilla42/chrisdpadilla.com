@@ -18,6 +18,8 @@ export async function getStaticProps() {
     'hidden',
   ]);
 
+  const metaDescription = await markdownToString(post.content);
+
   if (post) {
     return {
       props: {

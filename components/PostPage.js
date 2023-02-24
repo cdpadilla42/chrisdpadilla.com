@@ -17,6 +17,7 @@ export default function Post({ post, morePosts, preview }) {
   if (postPrimaryTags.length >= 1) {
     pageTag = postPrimaryTags[0];
   }
+  console.log(metaDescription);
   return (
     <Layout
       preview={preview}
@@ -32,6 +33,7 @@ export default function Post({ post, morePosts, preview }) {
             <article className="mb-32">
               <Head>
                 <title>{post.title} | Chris Padilla</title>
+                <meta name="description" content={metaDescription} />
               </Head>
               <PostHeader
                 title={post.title}
