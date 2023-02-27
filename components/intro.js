@@ -30,7 +30,7 @@ export default function Intro({ latestHap }) {
               <a>Contact me</a>
             </Link>{' '}
             —{' '}
-            <Link href={latestHap}>
+            <Link href="/now">
               <a>What I'm Doing Now</a>
             </Link>
           </p>
