@@ -28,10 +28,6 @@ export default function Meta({ customOGImage, title }) {
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/api/feed" />
       <meta
-        name="description"
-        content={`Web developer, musician, human being.`}
-      />
-      <meta
         prefix="og: http://ogp.me/ns#"
         name="image"
         property="og:image"
