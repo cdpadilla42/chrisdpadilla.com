@@ -16,7 +16,13 @@ export default function Music({ albums }) {
       <Container>
         <Header section="music" />
         <p>
-          All of my newly composed music is on{' '}
+          I've been a musician for most of my life across several instruments.
+          These days, I'm on guitar, piano, and music production. I love
+          exploring genres and capturing atmsopheres through sound and story
+          telling.{' '}
+        </p>
+        <p>
+          All of my original music is on{' '}
           <a
             href="https://letsgochris.bandcamp.com/"
             target="_blank"
@@ -43,9 +49,9 @@ export default function Music({ albums }) {
           .
         </p>
         <p>
-          You can{' '}
+          My biggest chapter has been in saxophone playing. You can{' '}
           <Link href="/sax">
-            <a>hear my saxophone playing here</a>
+            <a>🎷 hear my sax recordings here</a>
           </Link>
           .
         </p>
