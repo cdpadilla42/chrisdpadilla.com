@@ -1,8 +1,16 @@
 import { getLatestHap } from '../lib/api';
 import PostPage from '/components/PostPage';
+import NextLink from '../components/NextLink';
 
 export default function NowPage({ post }) {
-  return <PostPage post={post} />;
+  const prelude = (
+    <p style={{ color: 'grey' }}>
+      (This is my{' '}
+      <NextLink href="https://nownownow.com/about">Now Page</NextLink>! Monthly
+      updates on what I'm working on.)
+    </p>
+  );
+  return <PostPage post={post} prelude={prelude} />;
 }
 
 export async function getStaticProps() {

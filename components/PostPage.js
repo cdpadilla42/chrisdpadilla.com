@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { primaryTags } from '../lib/minorBlogTags';
 import { EMAIL } from '../lib/constants';
 
-export default function Post({ post, morePosts, preview }) {
+export default function Post({ post, morePosts, preview, prelude }) {
   const router = useRouter();
   const postPrimaryTags = post.tags.filter((tag) => primaryTags.includes(tag));
   let pageTag;
@@ -38,6 +38,7 @@ export default function Post({ post, morePosts, preview }) {
                 coverImage={post.coverImage}
                 date={post.date}
                 tags={post.tags}
+                prelude={prelude}
               />
               <PostBody content={post.content} />
             </article>
