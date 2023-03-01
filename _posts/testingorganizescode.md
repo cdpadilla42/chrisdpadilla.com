@@ -1,5 +1,5 @@
 ---
-title: Writing Testable JavaScript
+title: Testing Organizes Code
 tags:
   - Tech
   - Testing
