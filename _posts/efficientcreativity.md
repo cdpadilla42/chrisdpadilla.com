@@ -5,7 +5,7 @@ tags:
 date: '2023-03-08T10:35:07.322Z'
 ---
 
-I still think regularly about Walt Stanchfield's equation: ["Impression minus expression equals depression"](/impressionminusexpression).
+I still think regularly about Walt Stanchfield's equation: ["Impression minus expression equals depression."](/impressionminusexpression)
 
 For me, I've wrestled with what that looks like. All the quirky projects I have going on — [art](/blog/art), [music](/music), [software](/software) — generally stem from the idea of taking in what I love and pouring it back out into the world.
 
