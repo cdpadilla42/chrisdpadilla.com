@@ -7,9 +7,10 @@ import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
+import featuredPostsSlugs from '../lib/featuredPosts';
 import ACNMPromo2 from '../public/assets/projects/ACNM/ACNMpromo2.jpg';
 
-export default function Index({ allPosts, latestAlbum }) {
+export default function Index({ latestPosts, featuredPosts, latestAlbum }) {
   return (
     <Layout>
       <Head>
@@ -18,7 +19,10 @@ export default function Index({ allPosts, latestAlbum }) {
       <Container>
         <Intro />
         <section>
-          <MoreStories posts={allPosts} />
+          <MoreStories
+            latestPosts={latestPosts}
+            featuredPosts={featuredPosts}
+          />
           <div className="heading_flex">
             <h2>Latest Music</h2>
             <Link href="/music">
@@ -66,11 +70,17 @@ export async function getServerSideProps() {
   const allPosts = getAllPosts(['title', 'date', 'slug', 'hidden', 'tags'], {
     filter: filterBlogPosts,
     convertContentToHtml: true,
-  }).slice(0, 6);
+  });
+
+  const latestPosts = allPosts.slice(0, 6);
+
+  const featuredPostsList = featuredPostsSlugs.map((featuredSlug) =>
+    allPosts.find((post) => post.slug === featuredSlug)
+  );
 
   const latestAlbum = getLatestAlbum();
 
   return {
-    props: { allPosts, latestAlbum },
+    props: { latestPosts, featuredPosts: featuredPostsList, latestAlbum },
   };
 }
