@@ -209,6 +209,11 @@ article h1 {
   width: 150px;
 }
 
+.markdown footer {
+  color: grey;
+  text-align: left;
+}
+
 .article-book-section {
   display: block;
 }
