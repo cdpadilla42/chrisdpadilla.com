@@ -2,7 +2,7 @@
 title: Practice or Play
 tags:
   - Notes
-date: '2023-04-16T10:35:07.322Z'
+date: '2023-04-17T10:35:07.322Z'
 ---
 
 I hear variations on this quote every now and then. Here's [Scott Adam's](goodreads.com/book/show/17859574-how-to-fail-at-almost-everything-and-still-win-big) version of it:
