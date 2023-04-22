@@ -1,5 +1,5 @@
 ---
-title: Barre Chord Imrpov
+title: Barre Chord Improv
 tags:
   - Music
 date: '2023-04-22T10:35:07.322Z'
