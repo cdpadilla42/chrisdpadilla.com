@@ -19,8 +19,9 @@ export default function Blog({ allPosts }) {
   const router = useRouter();
   const { tag } = router.query;
   const capitalizedTag = capitalizeFirstLetter(tag);
+  const regex = new RegExp(capitalizedTag, 'i');
   const renderedPosts = allPosts.filter((post) =>
-    post.tags.includes(capitalizedTag)
+    post.tags.some((e) => regex.test(e))
   );
 
   if (!renderedPosts.length) {
