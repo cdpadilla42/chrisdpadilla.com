@@ -2,7 +2,7 @@
 title: Static Methods
 tags:
   - Tech
-  - C#
+  - CSharp
   - JavaScript
 date: '2023-04-26T10:35:07.322Z'
 ---

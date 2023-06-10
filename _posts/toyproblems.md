@@ -3,11 +3,11 @@ title: Learning Syntax the Fun Way with Toy Problems
 tags:
   - Tech
   - JavaScript
-  - C#
+  - CSharp
 date: '2023-05-05T10:35:07.322Z'
 ---
 
-Yes, you *could* go through tutorials and just type along with the video. Yes you *could* read documentation.
+Yes, you _could_ go through tutorials and just type along with the video. Yes you _could_ read documentation.
 
 Most of us get into programming, though, because we like solving puzzles. It's not the only reason, but programmers are just those sort of folks that have an itch that's only scratched by seeing a destination and writing their way to it.
 

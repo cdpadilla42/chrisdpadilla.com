@@ -2,7 +2,7 @@
 title: TypeScript is Secretly Just C#
 tags:
   - Tech
-  - C#
+  - CSharp
   - TypeScript
 date: '2023-04-27T10:35:07.322Z'
 ---

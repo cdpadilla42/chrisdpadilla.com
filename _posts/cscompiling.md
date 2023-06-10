@@ -2,7 +2,7 @@
 title: How C# Compiles
 tags:
   - Tech
-  - C#
+  - CSharp
 date: '2023-04-18T10:35:07.322Z'
 ---
 

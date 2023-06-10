@@ -2,7 +2,7 @@
 title: Iterators in C#
 tags:
   - Tech
-  - C#
+  - CSharp
 date: '2023-05-11T10:35:07.322Z'
 ---
 

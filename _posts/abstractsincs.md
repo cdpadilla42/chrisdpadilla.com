@@ -2,7 +2,7 @@
 title: Polymorphism Through Abstract Classes in C#
 tags:
   - Tech
-  - C#
+  - CSharp
   - Object Oriented Programming
 date: '2023-05-19T10:35:07.322Z'
 ---
