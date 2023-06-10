@@ -6,8 +6,8 @@ export default function NowPage({ post }) {
   const prelude = (
     <p style={{ color: 'grey' }}>
       (This is my{' '}
-      <NextLink href="https://nownownow.com/about">Now Page</NextLink>! Monthly
-      updates on what I'm working on.)
+      <NextLink href="https://nownownow.com/about">Now Page</NextLink>!
+      Occasional updates on what I'm up to.)
     </p>
   );
   return <PostPage post={post} prelude={prelude} />;
