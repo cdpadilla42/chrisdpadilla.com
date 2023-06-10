@@ -8,6 +8,7 @@ import {
   GITHUB_URL,
   INSTAGRAM_URL,
   LINKEDIN_URL,
+  MASTODON_URL,
 } from '../lib/constants';
 import Link from 'next/link';
 
@@ -34,6 +35,11 @@ export default function Blog() {
               rel="noopener noreferrer"
             >
               Twitter
+            </a>
+          </li>
+          <li>
+            <a href={MASTODON_URL} target="_blank" rel="noopener noreferrer">
+              Mastodon
             </a>
           </li>
           <li>
