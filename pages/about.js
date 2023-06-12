@@ -68,8 +68,11 @@ const About = () => {
         >
           midi synth
         </a>
-        , and hosting my creative projects on my first site moomoofilms.com (now
-        defunct.)
+        , and hosting my creative projects on my first ever website:{' '}
+        <Link href="/myfirstwebsite">
+          <a>moomoofilms.com</a>
+        </Link>
+        .
       </p>
       <p>
         <strong>I love community and teaching.</strong> My career began with
@@ -78,12 +81,14 @@ const About = () => {
         creatively.
       </p>
       <p>
-        <strong>My journey into software was interesting.</strong> I eventually
-        found myself working on websites for my teaching projects and musical
-        groups just about as much as I was teaching. For a while, wanting to
-        develop full time was one of those "Unthought Knowns." After a
-        particular "A-ha" afternoon, I commited myself to teaching myself modern
-        web development in 2019.
+        <strong>
+          My journey into software as a profession was interesting.
+        </strong>{' '}
+        I eventually found myself working on websites for my teaching projects
+        and musical groups just about as much as I was teaching. For a while,
+        wanting to develop full time was one of those "Unthought Knowns." After
+        a particular "A-ha" afternoon, I commited myself to teaching myself
+        modern web development in 2019.
       </p>
       <p>
         <strong>I've been developing full time as of 2021.</strong> It's been a
