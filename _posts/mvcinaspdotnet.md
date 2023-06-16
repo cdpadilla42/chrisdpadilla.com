@@ -11,7 +11,7 @@ This week's edition of ASP.NET adventures: kick starting an MVC app with ASP.NET
 
 On the front-end side of things: Two things that make this a really delightful and smooth process are Razor Pages and Tag Helpers.
 
-My MVC experience up to this point has been with templating engines in Express. What they do well in my experience is making it dead simple to get data into the template. The limitation is flexibility and reactivity. (Especially coming from working mostly in React.)
+My MVC experience up to this point has been with templating engines in Express. What they do well is make it dead simple to get data into the template. The limitation is flexibility and reactivity. (Especially coming from working mostly in React.)
 
 ASP.NET MVC apps have a really nice in between through these two tools.
 
@@ -45,11 +45,11 @@ namespace BulkyBookWebDotNet6MVC.Models
 
 ```
 
-Nothing fancy! The code in square brackets are used by Entity Framework for field validation. `DisplayName` will affect what's rendered in the view.
+Nothing fancy! The code in square brackets are used by Entity Framework for field validation. `DisplayName` will affect what's rendered in the view, for example. Otherwise `DisplayOrder` would be the defaut.
 
 ## Controller
 
-Setting up controllers is a straight-shot. Grab what's needed from the Database and send it the view.
+Setting up controllers is a straight-shot. Grab what's needed from the database and send it the view.
 
 ```
 // GET: /<controller>/
@@ -137,7 +137,7 @@ Here's an example of a "Create Category" page for an app:
 
 At the top, we're bringing in my Category model with `@model Category`. The controller takes care of sending this to the view both on GET and POST requests:
 
-For the most part, I'm just writing regular html. If I needed to include anything from the model, I could throw `@Category.Name` anywhere and it will render to the page.
+For the most part, I'm just writing regular html. If I needed to include anything from the model, I could throw `@Category.Name` anywhere and it will render to the page. Any C# that I wanted to write just requires the `@` symbol.
 
 ## Tag Helpers
 
@@ -155,4 +155,4 @@ Take a look at the name field:
 
 `asp-for` on the label and input will know to populate the name input with the value from name, as well as pull from it when the form is submitted. Also included is client side validation _automatically_. When an error is found, the message is then passed to the `@Html.ValidationMessageFor(m => m.Name)`
 
-_That's it!_ It's a fair dose of magic, but it saves a lot of code that would normally be done by hand in JavaScript, or requiring a heavy library.
+_That's it!_ It's a fair bit of magic, but it saves a lot of code that would normally be done by hand in JavaScript, or requiring a heavy library.
