@@ -6,7 +6,7 @@ tags:
 date: '2023-06-19T10:35:07.322Z'
 ---
 
-I don't always find the inspiration I'm looking for from the bios and stories of full time artists. Those select few who can spend most of their weak in the studio. Winston Churchill, who was surprisingly an enthusiastic, self proclaimed hobby painter, can speak much more clearly to the situation of having to find time to be creative in the nooks and crannies of the day.
+I don't always find the inspiration I'm looking for from the bios and stories of full time artists. Those select few who can spend most of their week in the studio. Winston Churchill, who was surprisingly an enthusiastic, self proclaimed hobby painter, can speak much more clearly to the situation of having to find time to be creative in the nooks and crannies of the day.
 
 ![And a surprisingly sensitive painter, at that!!](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/imgs/churchillpainting_Large_u62tt7.jpg)
 
