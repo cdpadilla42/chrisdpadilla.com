@@ -3,7 +3,7 @@ title: Automatic Drawing
 tags:
   - Art
   - Notes
-date: '2023-06-19T10:35:07.322Z'
+date: '2023-06-20T10:35:07.322Z'
 ---
 
 Something I'm still learning is to keep more play in all of my creative practices.
