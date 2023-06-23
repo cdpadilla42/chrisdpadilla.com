@@ -3,6 +3,7 @@ title: Testing with Pytest
 tags:
   - Tech
   - Python
+  - Testing
 date: '2023-06-23T10:35:07.322Z'
 ---
 
@@ -25,7 +26,7 @@ import pytest
 @pytest.fixture(scope='class')
 def my_tests_init(request):
 	# Set up DB connection here
-	
+
 	try:
 		# Insert any sample date
 	except Exception as e:
@@ -37,7 +38,7 @@ def my_tests_init(request):
 	# Close DB
 ```
 
-Pytest will use decorators to add in the functionality needed to interpret your file correctly. 
+Pytest will use decorators to add in the functionality needed to interpret your file correctly.
 
 All your tests will live in a class like this one:
 
@@ -62,4 +63,3 @@ And you do your thing from there!
 Pytest, unlike testing libraries like unittest or Jest in JS, doesn't use assertion methods. Here we just have the `assert` keyword being used against a boolean expression. Even if we use a reference type, Pytest will know to assert the values of the dictionary or list deeply.
 
 Additionally: If you're not finding what you need from the command line error logs, adding the `v` flag will give you a closer look, while `vv` gives you even more details. `vv` Goes as far to show a git-like comparison, line by line, of what conflicts between your expected and actual results!
-
