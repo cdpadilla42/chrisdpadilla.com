@@ -4,6 +4,7 @@ import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import { calculateAge } from '../lib/util';
+import { INSTAGRAM_URL } from '../lib/constants';
 
 const About = () => {
   const bd = new Date('1992-06-02');
@@ -16,7 +17,7 @@ const About = () => {
       </Head>
       <Header />
       <h1>Hey, I'm Chris! </h1>
-      <p>Nice to meet you!</p>
+      <p>Nice to meet you! 👋</p>
       <h2>The Gist</h2>
       <p>
         <strong>
@@ -44,8 +45,8 @@ const About = () => {
           AptAmigo.
         </a>{' '}
       </strong>
-      I spend my days writing React and Node code, squashing bugs, and designing
-      delightful components.
+      I spend my days developing features, squashing bugs, and contributing to
+      tools that empower apartment hunters and locators.
       <p>
         <strong>I'm an avid learner and maker!</strong> I bounce between
         reading, writing, learning new instruments, composing, and trying new
@@ -78,17 +79,18 @@ const About = () => {
         <strong>I love community and teaching.</strong> My career began with
         teaching music to middle and high schoolers. I found immense fulfillment
         in helping students break down road blocks and solve problems
-        creatively.
+        creatively. When I can, I'm happy to help a colleague or friend get
+        unblocked from a technical challenge.
       </p>
       <p>
         <strong>
           My journey into software as a profession was interesting.
         </strong>{' '}
         I eventually found myself working on websites for my teaching projects
-        and musical groups just about as much as I was teaching. For a while,
-        wanting to develop full time was one of those "Unthought Knowns." After
-        a particular "A-ha" afternoon, I commited myself to teaching myself
-        modern web development in 2019.
+        and musical groups just about as much as I was giving music lessons. For
+        a while, working in software full time was one of those "Unthought
+        Knowns." After a particular "A-ha" afternoon, I commited myself to
+        teaching myself modern web development in 2019.
       </p>
       <p>
         <strong>I've been developing full time as of 2021.</strong> It's been a
@@ -98,12 +100,12 @@ const About = () => {
         You can{' '}
         <Link href="/software">
           <a>visit my portfolio here</a>
-        </Link>
-        .
+        </Link>{' '}
+        for a sampling of my skills.
       </p>
       <h2>Music</h2>
       <p>
-        <strong>I've been musicing since I was a kid.</strong> I started on
+        <strong>I've been musicing since I was a kid.</strong> I started off on
         saxophone in middle school. I took all the music classes I could and
         dabbled in writing. My biggest influences have been video game
         soundtracks, early jazz, and classical music.
@@ -123,8 +125,13 @@ const About = () => {
         <Link href="/music">
           <a>listen to my music here</a>
         </Link>
+        . I also share snippets on my{' '}
+        <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+          Instagram
+        </a>
         .
       </p>
+      <p></p>
       <h2>Life</h2>
       <p>
         <strong>
@@ -135,7 +142,22 @@ const About = () => {
       <p>
         <strong>I have a few hobbies.</strong> I fling myself against bouldering
         walls pretty regularly. I read. Tons! Lots of non-fiction, with
-        sprinkles of Terry Pratchett novels and illustrative essays.
+        sprinkles of{' '}
+        <Link href="/pratchettandinspiration">
+          <a>Terry Pratchett novels</a>
+        </Link>{' '}
+        and illustrative essays.
+      </p>
+      <p>
+        <strong>Lately I've been drawing in my spare time.</strong> I keep my{' '}
+        <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+          Instagram
+        </a>{' '}
+        and{' '}
+        <Link href="/blog/art">
+          <a>blog</a>
+        </Link>{' '}
+        updated with sketches and learning materials.
       </p>
     </Layout>
   );

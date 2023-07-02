@@ -19,13 +19,14 @@ export default function Projects({ softwareProjects }) {
         <p>
           You can find out more about my coding story on{' '}
           <Link href="/about">my about page</Link>. The gist: I'm a{' '}
-          <strong>Full Stack JavaScript developer</strong> who loves making
+          <strong>Full Stack Software Engineer</strong> who loves making
           delightful web applications that solve problems for people.
         </p>
         <p>
           My technolgoies of choice are <strong>React</strong>,{' '}
           <strong>Express</strong>, <strong>Node</strong>, <strong>AWS</strong>,{' '}
-          and <strong>MongoDB</strong>, to name a few.
+          <strong>Python</strong>, <strong>C#</strong>, and{' '}
+          <strong>MongoDB</strong>, to name a few.
         </p>
         <p>
           Most of the code I write is a part of{' '}
