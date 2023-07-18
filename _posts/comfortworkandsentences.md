@@ -13,7 +13,7 @@ When in doubt, I play scales.
 
 When in doubt, I mess around with a toy app in software.
 
-It's my vice because I'm guilty of probably practicing too much technique and not just making things more often. But there it is. It's my "comfort work" as Austin Kleon puts it.
+It's my vice because I'm guilty of probably practicing too much technique and not just making things more often. But there it is. It's my ["comfort work" as Austin Kleon](https://austinkleon.substack.com/p/comfort-work) puts it.
 
 To each their own. It gets me in the studio, in front of the piano, and in my code editor. Usually, that's where I need to start to get to the really good stuff, anyway.
 
