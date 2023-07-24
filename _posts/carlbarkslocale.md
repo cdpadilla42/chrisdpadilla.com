@@ -2,7 +2,7 @@
 title: Picking a Locale — Overcoming the Blank Page with Carl Barks
 tags:
   - Notes
-date: '2023-07-22T10:35:07.322Z'
+date: '2023-07-24T10:35:07.322Z'
 ---
 
 A fun rabbit hole I've been down is learning more about "The Good Duck Artist" [Carl Barks](https://www.siennafineart.com/carl-barks-biography).
