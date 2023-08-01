@@ -35,10 +35,10 @@ export default function Footer() {
         LinkedIn
       </a>{' '}
       •{' '}
-      <Link href="/api/feed" target="_blank" rel="noopener noreferrer">
-        
+      <Link href="/api/feed">
+        <a target="_blank" rel="noopener noreferrer">
           RSS
-        
+        </a>
       </Link>
       <br />
       <a href={BANDCAMP_URL} target="_blank" rel="noopener noreferrer">

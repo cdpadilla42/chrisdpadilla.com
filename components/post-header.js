@@ -6,29 +6,27 @@ import Link from 'next/link';
 import { lowercaseFirstLetter } from '../lib/util';
 
 export default function PostHeader({ title, coverImage, date, tags, prelude }) {
-  return <>
-    <PostTitle>{title}</PostTitle>
-    {prelude && <p>{prelude}</p>}
-    <div>
+  return (
+    <>
+      <PostTitle>{title}</PostTitle>
+      {prelude && <p>{prelude}</p>}
       <div>
-        <DateFormatter dateString={date} />
+        <div>
+          <DateFormatter dateString={date} />
+        </div>
+        <div className="tags">
+          {tags.map((tag, i) => (
+            <Link href={`/blog/${lowercaseFirstLetter(tag)}`} key={tag}>
+              <a className="tagslist_tag" data-tag={tag}>
+                {tag}
+              </a>
+            </Link>
+          ))}
+        </div>
       </div>
-      <div className="tags">
-        {tags.map((tag, i) => (
-          (<Link
-            href={`/blog/${lowercaseFirstLetter(tag)}`}
-            key={tag}
-            className="tagslist_tag"
-            data-tag={tag}>
-
-            {tag}
-
-          </Link>)
-        ))}
+      <div>
+        <CoverImage title={title} src={coverImage} height={620} width={1240} />
       </div>
-    </div>
-    <div>
-      <CoverImage title={title} src={coverImage} height={620} width={1240} />
-    </div>
-  </>;
+    </>
+  );
 }

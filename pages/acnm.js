@@ -20,13 +20,10 @@ const About = () => {
 
       <h2>I Made A Game!</h2>
       <p>
-        <Link
-          href="https://acnewmurder.com/play"
-          target="_blank"
-          rel="noopener noreferrer">
-          
+        <Link href="https://acnewmurder.com/play">
+          <a target="_blank" rel="noopener noreferrer">
             AC: New Murder
-          
+          </a>
         </Link>{' '}
         is a murder-mystery who-dun-it in the style of Phoenix Wright, featuring
         characters from Animal Crossing. The story and art are done by my sister
@@ -36,13 +33,10 @@ const About = () => {
 
       <p>
         Oh, and I{' '}
-        <Link
-          href="https://letsgochris.bandcamp.com/album/ac-new-murder-soundtrack"
-          target="_blank"
-          rel="noopener noreferrer">
-          
+        <Link href="https://letsgochris.bandcamp.com/album/ac-new-murder-soundtrack">
+          <a target="_blank" rel="noopener noreferrer">
             made the music
-          
+          </a>
         </Link>
         , too!
       </p>
@@ -51,13 +45,10 @@ const About = () => {
 
       <p>
         2 years ago, my sister{' '}
-        <Link
-          href="https://www.jennpadilla.com/"
-          target="_blank"
-          rel="noopener noreferrer">
-          
+        <Link href="https://www.jennpadilla.com/">
+          <a target="_blank" rel="noopener noreferrer">
             Jenn
-          
+          </a>
         </Link>{' '}
         approached me with an idea for a murder mystery game featuring some of
         the characters from Animal Crossing. I was looking for a fun new way to
@@ -86,13 +77,10 @@ const About = () => {
       </p>
       <p>
         You can{' '}
-        <Link
-          href="https://acnewmurder.com/play"
-          target="_blank"
-          rel="noopener noreferrer">
-          
+        <Link href="https://acnewmurder.com/play">
+          <a target="_blank" rel="noopener noreferrer">
             get started here
-          
+          </a>
         </Link>
         !
         {/* If you don't have the game, or just want to go through the web app by itself, you can click here to unlock the items ahead of time. */}
@@ -105,50 +93,41 @@ const About = () => {
         software engineering on the web: React, Redux, Node, MongoDB, and more.
         You can read about it in my{' '}
         <Link href="/acnmp">
-          blog posts
+          <a>blog posts</a>
         </Link>
         .
       </p>
 
       <h2>Links</h2>
       <p>
-        <Link
-          href="https://acnewmurder.com/play"
-          target="_blank"
-          rel="noopener noreferrer">
-          
+        <Link href="https://acnewmurder.com/play">
+          <a target="_blank" rel="noopener noreferrer">
             🕵️‍♂️ Play AC: New Murder
-          
+          </a>
         </Link>
       </p>
 
       <p>
-        <Link href="https://acnewmurder.com/" target="_blank" rel="noopener noreferrer">
-          
+        <Link href="https://acnewmurder.com/">
+          <a target="_blank" rel="noopener noreferrer">
             🔍 Visit the Official Site
-          
+          </a>
         </Link>
       </p>
 
       <p>
-        <Link
-          href="https://letsgochris.bandcamp.com/album/ac-new-murder-soundtrack"
-          target="_blank"
-          rel="noopener noreferrer">
-          
+        <Link href="https://letsgochris.bandcamp.com/album/ac-new-murder-soundtrack">
+          <a target="_blank" rel="noopener noreferrer">
             🎶 Listen to the Soundtrack
-          
+          </a>
         </Link>
       </p>
 
       <p>
-        <Link
-          href="https://github.com/cdpadilla42/AMM"
-          target="_blank"
-          rel="noopener noreferrer">
-          
+        <Link href="https://github.com/cdpadilla42/AMM">
+          <a target="_blank" rel="noopener noreferrer">
             💾 View the Code
-          
+          </a>
         </Link>
       </p>
 
@@ -156,22 +135,22 @@ const About = () => {
       <ul>
         <li>
           <Link href="/acnmp">
-            Technical Overview
+            <a>Technical Overview</a>
           </Link>
         </li>
         <li>
           <Link href="/acnmfe">
-            Developing a Game in React
+            <a>Developing a Game in React</a>
           </Link>
         </li>
         <li>
           <Link href="/acnmbe">
-            Using Sanity as a Level Maker
+            <a>Using Sanity as a Level Maker</a>
           </Link>
         </li>
         <li>
           <Link href="/acnmpm">
-            Project Management for Game Development
+            <a>Project Management for Game Development</a>
           </Link>
         </li>
       </ul>
@@ -179,22 +158,22 @@ const About = () => {
       <ul>
         <li>
           <Link href="/backgroundmusic">
-            Adding Background Music to Websites
+            <a>Adding Background Music to Websites</a>
           </Link>
         </li>
         <li>
           <Link href="/refactorredux">
-            Redux Growing Pains and React Query
+            <a>Redux Growing Pains and React Query</a>
           </Link>
         </li>
         <li>
           <Link href="/newsletterreact">
-            Creating a Newsletter Form in React
+            <a>Creating a Newsletter Form in React</a>
           </Link>
         </li>
         <li>
           <Link href="/diyanalytics">
-            Developing DIY Analytics while Navigating CORS
+            <a>Developing DIY Analytics while Navigating CORS</a>
           </Link>
         </li>
       </ul>

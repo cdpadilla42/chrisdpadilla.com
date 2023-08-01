@@ -9,23 +9,8 @@ import { getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import featuredPostsSlugs from '../lib/featuredPosts';
 import ACNMPromo2 from '../public/assets/projects/ACNM/ACNMpromo2.jpg';
-import { useEffect } from 'react';
 
 export default function Index({ latestPosts, featuredPosts, latestAlbum }) {
-  // useEffect(async () => {
-  //   try {
-  //     const response = await fetch(
-  //       // TODO URL Here
-  //       'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY'
-  //     );
-  //     const json = await response.json();
-
-  //     console.log(json.url);
-  //     console.log(json.explanation);
-  //   } catch (error) {
-  //     console.log(error.response.body);
-  //   }
-  // }, []);
   return (
     <Layout>
       <Head>
@@ -40,39 +25,37 @@ export default function Index({ latestPosts, featuredPosts, latestAlbum }) {
           />
           <div className="heading_flex">
             <h2>Latest Music</h2>
-            <Link href="/music" legacyBehavior>
+            <Link href="/music">
               <a>
                 <h2>See All</h2>
               </a>
             </Link>
           </div>
           <article>
-            <Link href={`/${latestAlbum.slug}`} legacyBehavior>
+            <Link href={`/${latestAlbum.slug}`}>
               <a>
                 <Image
                   src={latestAlbum.coverURL}
                   alt={`Cover art for ${latestAlbum.title}.`}
                   width="800"
                   height="800"
-                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </a>
             </Link>
           </article>
           <div className="heading_flex">
             <h2>
-              <Link href="/acnm" legacyBehavior>
+              <Link href="/acnm">
                 <a>I MADE A GAME — AC: NEW MURDER</a>
               </Link>
             </h2>
           </div>
           <article>
-            <Link href="/acnm" legacyBehavior>
-              <a style={{ width: '100%' }}>
+            <Link href="/acnm">
+              <a>
                 <Image
                   src={ACNMPromo2}
                   alt={`Promo banner for AC: New Mureder`}
-                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </a>
             </Link>

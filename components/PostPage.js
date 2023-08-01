@@ -47,11 +47,11 @@ export default function Post({ post, morePosts, preview, prelude }) {
               thoughts. Feel free to{' '}
               <a href={`mailto:${EMAIL}?subject=${post.title}`}>email me</a> or{' '}
               <Link href="/contact">
-                find me on the socials
+                <a>find me on the socials</a>
               </Link>
               ! You can also follow by{' '}
               <Link href="/api/feed">
-                RSS
+                <a>RSS</a>
               </Link>
               ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
             </aside>

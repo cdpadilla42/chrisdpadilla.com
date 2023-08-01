@@ -62,27 +62,27 @@ export default function AlbumPage({ album }) {
             <ul className="album_linkslist">
               <li>
                 {' '}
-                <Link
-                  href={album.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-test="musicExternalLink">
-                  
+                <Link href={album.link}>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    data-test="musicExternalLink"
+                  >
                     🤘 Purchase on Bandcamp
-                  
+                  </a>
                 </Link>
               </li>
               {album.spotifyURL && (
                 <li>
                   {' '}
-                  <Link
-                    href={album.spotifyURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-test="musicExternalLink">
-
-                    <span>🙉 Listen on Spotify</span>
-
+                  <Link href={album.spotifyURL}>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-test="musicExternalLink"
+                    >
+                      <span>🙉 Listen on Spotify</span>
+                    </a>
                   </Link>
                 </li>
               )}

@@ -61,11 +61,11 @@ export default function Blog() {
         <p>
           You can follow my{' '}
           <Link href="/blog">
-            blog
+            <a>blog</a>
           </Link>{' '}
           by{' '}
           <Link href="/api/feed">
-            RSS
+            <a>RSS</a>
           </Link>
           . (<a href="https://aboutfeeds.com/">What's RSS?</a>)
         </p>

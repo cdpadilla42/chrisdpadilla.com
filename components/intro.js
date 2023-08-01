@@ -9,25 +9,34 @@ export default function Intro({ latestHap }) {
         <div>
           <h1>Hey, I'm Chris!</h1>
           <p>
-            By day, I <Link href="/software">develop software</Link>. By night,
-            I <Link href="/music">play music</Link>. I also{' '}
-            <Link href="/blog">write about both</Link>. I laugh lots all hours
-            of the day. I live in Dallas, Texas and love to make things. Come
-            say hey!
+            By day, I{' '}
+            <Link href="/software">
+              <a>develop software</a>
+            </Link>
+            . By night, I{' '}
+            <Link href="/music">
+              <a>play music</a>
+            </Link>
+            . I also <Link href="/blog">write about both</Link>. I laugh lots
+            all hours of the day. I live in Dallas, Texas and love to make
+            things. Come say hey!
           </p>
           <p className="hero_buttons">
-            <Link href="/about">More about me</Link> —{' '}
-            <Link href="/contact">Contact me</Link> —{' '}
-            <Link href="/now">What I'm Doing Now</Link>
+            <Link href="/about">
+              <a>More about me</a>
+            </Link>{' '}
+            —{' '}
+            <Link href="/contact">
+              <a>Contact me</a>
+            </Link>{' '}
+            —{' '}
+            <Link href="/now">
+              <a>What I'm Doing Now</a>
+            </Link>
           </p>
         </div>
         <div className="headshot">
-          <Image
-            src="/assets/headshot-blue.jpg"
-            width={500}
-            height={500}
-            style={{ maxWidth: '100%', height: 'auto', minWidth: '200px' }}
-          />
+          <Image src="/assets/headshot-blue.jpg" width={500} height={500} />
         </div>
       </article>
     </header>
