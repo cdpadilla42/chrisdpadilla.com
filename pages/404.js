@@ -15,7 +15,7 @@ const FourOhFour = () => {
       <p>
         Let's mosey on back to the{' '}
         <Link href={`/`}>
-          <a>Home Page</a>
+          Home Page
         </Link>
         , cowboy! 🤠
       </p>

@@ -11,7 +11,7 @@ const NextLink = ({ children, ...props }) => {
   }
   return (
     <Link {...props}>
-      <a {...newWindowAttr}>{children}</a>
+      {children}
     </Link>
   );
 };

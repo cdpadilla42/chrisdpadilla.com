@@ -9,9 +9,9 @@ export default function MoreStories({ latestPosts, featuredPosts }) {
       <div className="heading_flex">
         <h2>Latest Posts</h2>
         <Link href="/blog">
-          <a>
-            <h2>See All</h2>
-          </a>
+
+          <h2>See All</h2>
+
         </Link>
       </div>
       <TagsNav />

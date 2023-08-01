@@ -9,7 +9,7 @@ const TagsNav = () => {
       {primaryTags.map((tag) => (
         <li className="tagslist_tag" data-tag={tag} key={tag}>
           <Link href={`/blog/${lowercaseFirstLetter(tag)}`}>
-            <a>{tag}</a>
+            {tag}
           </Link>
         </li>
       ))}

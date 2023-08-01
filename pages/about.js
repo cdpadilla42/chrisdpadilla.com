@@ -71,7 +71,7 @@ const About = () => {
         </a>
         , and hosting my creative projects on my first ever website:{' '}
         <Link href="/myfirstwebsite">
-          <a>moomoofilms.com</a>
+          moomoofilms.com
         </Link>
         .
       </p>
@@ -99,7 +99,7 @@ const About = () => {
       <p>
         You can{' '}
         <Link href="/software">
-          <a>visit my portfolio here</a>
+          visit my portfolio here
         </Link>{' '}
         for a sampling of my skills.
       </p>
@@ -123,7 +123,7 @@ const About = () => {
       <p>
         You can{' '}
         <Link href="/music">
-          <a>listen to my music here</a>
+          listen to my music here
         </Link>
         . I also share snippets on my{' '}
         <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
@@ -144,7 +144,7 @@ const About = () => {
         walls pretty regularly. I read. Tons! Lots of non-fiction, with
         sprinkles of{' '}
         <Link href="/pratchettandinspiration">
-          <a>Terry Pratchett novels</a>
+          Terry Pratchett novels
         </Link>{' '}
         and illustrative essays.
       </p>
@@ -155,7 +155,7 @@ const About = () => {
         </a>{' '}
         and{' '}
         <Link href="/blog/art">
-          <a>blog</a>
+          blog
         </Link>{' '}
         updated with sketches and learning materials.
       </p>

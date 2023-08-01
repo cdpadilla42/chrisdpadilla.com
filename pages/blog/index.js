@@ -36,14 +36,14 @@ export default function Blog({ allPosts }) {
         <p>
           Much of my technical writing is born from my{' '}
           <Link href="/software">
-            <a>personal projects</a>
+            personal projects
           </Link>
           .
         </p>
         <p>
           You can follow by{' '}
           <Link href="/api/feed">
-            <a>RSS</a>
+            RSS
           </Link>
           ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
         </p>

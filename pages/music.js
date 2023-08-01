@@ -51,7 +51,7 @@ export default function Music({ albums }) {
         <p>
           My biggest chapter has been in saxophone playing. You can{' '}
           <Link href="/sax">
-            <a>🎷 hear my sax recordings here</a>
+            🎷 hear my sax recordings here
           </Link>
           .
         </p>

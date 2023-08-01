@@ -6,15 +6,18 @@ export default function Header({ section, tag }) {
   const blogHeader = () => (
     <>
       <Link href="/blog">
-        <a>Blog</a>
+        Blog
       </Link>{' '}
       {tag && (
         <>
           <span className="header_divider">/</span>{' '}
-          <Link href={`/blog/${lowercaseFirstLetter(tag)}`}>
-            <a data-tag={tag} className="header_tag">
-              {tag}
-            </a>
+          <Link
+            href={`/blog/${lowercaseFirstLetter(tag)}`}
+            data-tag={tag}
+            className="header_tag">
+
+            {tag}
+
           </Link>{' '}
         </>
       )}
@@ -24,7 +27,7 @@ export default function Header({ section, tag }) {
   const musicHeader = () => (
     <>
       <Link href="/music">
-        <a>Music</a>
+        Music
       </Link>
     </>
   );
@@ -50,8 +53,8 @@ export default function Header({ section, tag }) {
   return (
     <header className="header">
       <h1>
-        <Link href="/">
-          <a style={{ display: 'inline-block' }}>Chris Padilla</a>
+        <Link href="/" style={{ display: 'inline-block' }}>
+          Chris Padilla
         </Link>
         {trailingHeader}
       </h1>
