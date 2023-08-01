@@ -13,7 +13,6 @@ export default function CoverImage({ title, src, slug, height, width }) {
       layout="responsive"
       width={width}
       height={height}
-      style={{ width: '100%', height: 'auto' }}
     />
   );
 

@@ -66,9 +66,10 @@ export default function AlbumPage({ album }) {
                   href={album.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  data-test="musicExternalLink"
-                >
-                  🤘 Purchase on Bandcamp
+                  data-test="musicExternalLink">
+                  
+                    🤘 Purchase on Bandcamp
+                  
                 </Link>
               </li>
               {album.spotifyURL && (
@@ -78,9 +79,10 @@ export default function AlbumPage({ album }) {
                     href={album.spotifyURL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    data-test="musicExternalLink"
-                  >
+                    data-test="musicExternalLink">
+
                     <span>🙉 Listen on Spotify</span>
+
                   </Link>
                 </li>
               )}
@@ -105,7 +107,6 @@ export default function AlbumPage({ album }) {
               alt={`Cover art for ${album.title}.`}
               width="500"
               height="500"
-              style={{ width: '100%', height: 'auto' }}
             />
           </div>
         </div>
