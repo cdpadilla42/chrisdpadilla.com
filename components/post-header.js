@@ -5,10 +5,19 @@ import PostTitle from '../components/post-title';
 import Link from 'next/link';
 import { lowercaseFirstLetter } from '../lib/util';
 
-export default function PostHeader({ title, coverImage, date, tags, prelude }) {
+export default function PostHeader({
+  title,
+  coverImage,
+  date,
+  tags,
+  prelude,
+  slug,
+}) {
   return (
     <>
-      <PostTitle>{title}</PostTitle>
+      <PostTitle>
+        {slug ? <Link href={`/${slug}`}>{title}</Link> : title}
+      </PostTitle>
       {prelude && <p>{prelude}</p>}
       <div>
         <div>

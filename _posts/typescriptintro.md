@@ -12,7 +12,7 @@ The benefits are primarily static testing: Similar to C#, you'll get compile tim
 
 Though, most folks I know that use it love it for the DX. VS Code has first class support for TypeScript, providing stellar autocomplete for all objects and classes that are typed in your codebase. Likely, you've already enjoyed the benefits of autocomplete for methods from external libraries that ship with Types.
 
-# Migrating Create React App to TypeScript
+## Migrating Create React App to TypeScript
 
 There was a time when getting the tooling for TypeScript up and running was a headache. Not anymore! Many modern frameworks can initialize a project with TypeScript using a simple options flag in the CLI.
 
@@ -22,7 +22,7 @@ If working with Create React App, [migrating is wildly easy](https://create-reac
 npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 ```
 
-# Opt In
+## Opt In
 
 It's easy to dip your toes into TypeScript because it's an opt in system. The same TypeScript project can have as many JS files in your /src.
 
@@ -40,7 +40,7 @@ import Books from './components/Books.tsx';
 import Book from './components/Book.tsx';
 ```
 
-# Package Types
+## Package Types
 
 Again — there was a time where not all packages shipped with Types. Long gone are those days now! When using an external library, you should be able to find info in their documentation about supported types. [Here's Formik](https://formik.org/docs/guides/typescript) as an example.
 
