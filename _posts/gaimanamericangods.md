@@ -9,7 +9,7 @@ Several great nuggets of writing insight from Neil Gaiman's introduction to the 
 
 ![Storm's coming...](https://m.media-amazon.com/images/I/41Zdb78xM2L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg)
 
-Like Carl Barks, Gaiman started with a locale:
+Like [Carl Barks](/carlbarkslocale), Gaiman started with a locale:
 
 > A couple of weeks later, my editor sent me a mock-up of the book cover. It showed a road, and a lightning strike, and, at the top, it said, “American Gods.” It seemed to be the cover of the book I had planned to write.
 >
