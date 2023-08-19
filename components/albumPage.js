@@ -87,17 +87,15 @@ export default function AlbumPage({ album }) {
                 </li>
               )}
             </ul>
-            <p>
-              <Markdown
-                options={{
-                  overrides: {
-                    a: NextLink,
-                  },
-                }}
-              >
-                {album.description}
-              </Markdown>
-            </p>
+            <Markdown
+              options={{
+                overrides: {
+                  a: NextLink,
+                },
+              }}
+            >
+              {album.description}
+            </Markdown>
             {renderShowTracksButton()}
             {renderTracks()}
           </div>
