@@ -26,9 +26,15 @@ const About = () => {
           </a>
         </Link>{' '}
         is a murder-mystery who-dun-it in the style of Phoenix Wright, featuring
-        characters from Animal Crossing. The story and art are done by my sister
-        Jenn. I developed the game for web browsers and built out all things
-        software related.
+        characters from Animal Crossing. The story, art, and concerpt are by my
+        sister{' '}
+        <Link href="https://www.jennpadilla.com/">
+          <a target="_blank" rel="noopener noreferrer">
+            Jenn
+          </a>
+        </Link>
+        . I helped bring the idea to reality by developing the game for web
+        browsers and built out all things software related.
       </p>
 
       <p>
@@ -44,7 +50,7 @@ const About = () => {
       <h2>The History</h2>
 
       <p>
-        2 years ago, my sister{' '}
+        In 2020, my sister{' '}
         <Link href="https://www.jennpadilla.com/">
           <a target="_blank" rel="noopener noreferrer">
             Jenn
