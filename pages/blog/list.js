@@ -33,13 +33,13 @@ export default function BlogList({ allPosts }) {
       <Container>
         <Header section="blog" />
         <p>Writings on Tech, Music, and Creativity.</p>
-        <p>
+        {/* <p>
           Much of my technical writing is born from my{' '}
           <Link href="/software">
             <a>personal projects</a>
           </Link>
           .
-        </p>
+        </p> */}
         <p>
           You can follow by{' '}
           <Link href="/api/feed">

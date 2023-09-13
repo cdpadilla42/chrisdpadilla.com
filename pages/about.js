@@ -98,10 +98,10 @@ const About = () => {
       </p>
       <p>
         You can{' '}
-        <Link href="/software">
-          <a>visit my portfolio here</a>
+        <Link href="/blog/tech">
+          <a>visit my blog</a>
         </Link>{' '}
-        for a sampling of my skills.
+        to keep up with my technical writing.
       </p>
       <h2>Music</h2>
       <p>

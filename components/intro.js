@@ -10,7 +10,7 @@ export default function Intro({ latestHap }) {
           <h1>Hey, I'm Chris!</h1>
           <p>
             By day, I{' '}
-            <Link href="/software">
+            <Link href="/blog/tech">
               <a>develop software</a>
             </Link>
             . By night, I{' '}
