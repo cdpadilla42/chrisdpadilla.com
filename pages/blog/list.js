@@ -11,7 +11,7 @@ import { primaryTags } from '../../lib/minorBlogTags';
 import { useRouter } from 'next/router';
 import TagsNav from '../../components/TagsNav';
 
-export default function Blog({ allPosts }) {
+export default function BlogList({ allPosts }) {
   const router = useRouter();
   const query = router.query;
   let renderedPosts = allPosts;
