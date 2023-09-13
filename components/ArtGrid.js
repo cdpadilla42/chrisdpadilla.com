@@ -15,7 +15,7 @@ const ArtGrid = ({ images }) => {
                     height: '250px',
                     width: '250px',
                     background: 'transparent no-repeat center',
-                    'background-size': 'cover',
+                    backgroundSize: 'cover',
                     margin: 'auto',
                     backgroundImage: `url('${image.src}')`,
                   }}
