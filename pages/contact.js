@@ -28,7 +28,7 @@ export default function Blog() {
         </p>
         <p>I'm also on the socials:</p>
         <ul>
-          <li>
+          {/* <li>
             <a
               href={MUSIC_TWITTER_URL}
               target="_blank"
@@ -41,7 +41,7 @@ export default function Blog() {
             <a href={MASTODON_URL} target="_blank" rel="noopener noreferrer">
               Mastodon
             </a>
-          </li>
+          </li> */}
           <li>
             <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
               GitHub

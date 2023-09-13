@@ -15,14 +15,14 @@ export default function Footer() {
     <footer>
       <span>© 2022-{new Date().getFullYear()} Chris Padilla</span>
       <br />
-      <a href={MUSIC_TWITTER_URL} target="_blank" rel="noopener noreferrer">
+      {/* <a href={MUSIC_TWITTER_URL} target="_blank" rel="noopener noreferrer">
         Twitter
       </a>{' '}
       •{' '}
       <a href={MASTODON_URL} target="_blank" rel="noopener noreferrer">
         Mastodon
       </a>{' '}
-      •{' '}
+      •{' '} */}
       <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
         Github
       </a>{' '}
