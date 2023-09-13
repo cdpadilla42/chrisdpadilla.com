@@ -6,7 +6,7 @@ export default function Intro({ latestHap }) {
   return (
     <header>
       <article className="intro">
-        <div>
+        <div className="intro-text">
           <h1>Hey, I'm Chris!</h1>
           <p>
             By day, I{' '}
@@ -16,10 +16,14 @@ export default function Intro({ latestHap }) {
             . By night, I{' '}
             <Link href="/music">
               <a>play music</a>
+            </Link>{' '}
+            and{' '}
+            <Link href="/blog/art">
+              <a>draw pictures</a>
             </Link>
-            . I also <Link href="/blog">write about both</Link>. I laugh lots
-            all hours of the day. I live in Dallas, Texas and love to make
-            things. Come say hey!
+            . I also <Link href="/blog">write about it all on my blog</Link>. I
+            laugh lots pretty much all hours of the day. I live in Dallas, Texas
+            and love to make things. Come say hey!
           </p>
           <p className="hero_buttons">
             <Link href="/about">
