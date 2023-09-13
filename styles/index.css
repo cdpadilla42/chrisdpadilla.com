@@ -235,6 +235,21 @@ article h1 {
   grid-gap: 1.5rem;
 }
 
+.art_display {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+}
+
+.artgridimage {
+  height: 250px;
+  width: 250px;
+  background: transparent no-repeat center;
+  background-size: cover;
+  margin: auto;
+}
+
 .softwareproject_display {
   display: flex;
   flex-direction: column;
@@ -284,14 +299,28 @@ article h1 {
   text-align: center;
 }
 
+.hideonmobile {
+  display: none;
+}
+
 @media all and (min-width: 800px) {
-  .music_display {
+  .music_display,
+  .art_display {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
   }
 
   .softwareproject_display_description {
     margin-top: 0;
+  }
+
+  .artgridimage {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hideonmobile {
+    display: block;
   }
 }
 
