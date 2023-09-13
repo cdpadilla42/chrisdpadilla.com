@@ -5,12 +5,18 @@ import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
-import { getAllPosts, getLatestAlbum } from '../lib/api';
+import ArtGrid from '../components/ArtGrid';
+import { getAllArtImages, getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import featuredPostsSlugs from '../lib/featuredPosts';
 import ACNMPromo2 from '../public/assets/projects/ACNM/ACNMpromo2.jpg';
 
-export default function Index({ latestPosts, featuredPosts, latestAlbum }) {
+export default function Index({
+  latestPosts,
+  featuredPosts,
+  latestAlbum,
+  images,
+}) {
   return (
     <Layout>
       <Head>
@@ -19,10 +25,15 @@ export default function Index({ latestPosts, featuredPosts, latestAlbum }) {
       <Container>
         <Intro />
         <section>
-          <MoreStories
-            latestPosts={latestPosts}
-            featuredPosts={featuredPosts}
-          />
+          <div className="heading_flex">
+            <h2>Latest Art</h2>
+            <Link href="/blog/art">
+              <a>
+                <h2>See All</h2>
+              </a>
+            </Link>
+          </div>
+          <ArtGrid images={images} />
           <div className="heading_flex">
             <h2>Latest Music</h2>
             <Link href="/music">
@@ -43,6 +54,10 @@ export default function Index({ latestPosts, featuredPosts, latestAlbum }) {
               </a>
             </Link>
           </article>
+          <MoreStories
+            latestPosts={latestPosts}
+            featuredPosts={featuredPosts}
+          />
           <div className="heading_flex">
             <h2>
               <Link href="/acnm">
@@ -72,6 +87,8 @@ export async function getServerSideProps() {
     convertContentToHtml: true,
   });
 
+  const images = getAllArtImages().slice(0, 6);
+
   const latestPosts = allPosts.slice(0, 6);
 
   const featuredPostsList = featuredPostsSlugs.map((featuredSlug) =>
@@ -81,6 +98,11 @@ export async function getServerSideProps() {
   const latestAlbum = getLatestAlbum();
 
   return {
-    props: { latestPosts, featuredPosts: featuredPostsList, latestAlbum },
+    props: {
+      latestPosts,
+      featuredPosts: featuredPostsList,
+      latestAlbum,
+      images,
+    },
   };
 }
