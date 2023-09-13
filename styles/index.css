@@ -90,6 +90,16 @@ nav {
   flex-direction: column;
   font-size: 1.5rem;
   line-height: 2.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  flex: 2;
+}
+
+.headshot {
+  flex: 1;
 }
 
 @media all and (min-width: 800px) {
