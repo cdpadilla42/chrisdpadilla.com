@@ -6,6 +6,7 @@ import Header from '../components/header';
 import Link from 'next/link';
 import MusicGrid from '../components/MusicGrid';
 import { getAlbums } from '../lib/api';
+import { INSTAGRAM_URL } from '../lib/constants';
 
 export default function Music({ albums }) {
   return (
@@ -47,6 +48,17 @@ export default function Music({ albums }) {
             🍎 Apple Music
           </a>
           .
+        </p>
+        <p>
+          Swing by my{' '}
+          <Link href="/blog/music">
+            <a>blog</a>
+          </Link>{' '}
+          or{' '}
+          <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>{' '}
+          for shorter recordings.
         </p>
         <p>
           My biggest chapter has been in saxophone playing. You can{' '}
