@@ -17,6 +17,8 @@ const About = () => {
         <Image
           src="https://res.cloudinary.com/cpadilla/image/upload/v1695238745/chrisdpadilla/site/acnmfrontpage_sza4ub.png"
           alt="AC: New Mureder Start Page"
+          width={500}
+          height={500}
         />
       </div>
 
