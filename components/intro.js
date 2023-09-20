@@ -40,7 +40,11 @@ export default function Intro({ latestHap }) {
           </p>
         </div>
         <div className="headshot">
-          <Image src="/assets/headshot-blue.jpg" width={500} height={500} />
+          <Image
+            src="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/site/headshot-blue_lerc2k.jpg"
+            width={500}
+            height={500}
+          />
         </div>
       </article>
     </header>

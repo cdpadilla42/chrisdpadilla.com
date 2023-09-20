@@ -141,6 +141,9 @@ footer {
   border-radius: 300px;
   object-fit: cover;
   object-position: 0 25%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .heading_flex {
@@ -190,6 +193,10 @@ strong {
 }
 article h1 {
   font-size: 2em;
+}
+
+main img {
+  max-width: 100%;
 }
 .markdown h2,
 .markdown h3 {

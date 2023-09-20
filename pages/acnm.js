@@ -4,7 +4,6 @@ import Link from 'next/link';
 import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
-import ACNMStartDisplay from '../public/assets/projects/ACNM/acnmfrontpage.png';
 
 const About = () => {
   return (
@@ -15,7 +14,10 @@ const About = () => {
       <Header />
       <h1>AC: New Murder </h1>
       <div className="center">
-        <Image src={ACNMStartDisplay} alt={`AC: New Mureder Start Page`} />
+        <Image
+          src="https://res.cloudinary.com/cpadilla/image/upload/v1695238745/chrisdpadilla/site/acnmfrontpage_sza4ub.png"
+          alt="AC: New Mureder Start Page"
+        />
       </div>
 
       <h2>I Made A Game!</h2>

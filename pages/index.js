@@ -9,7 +9,6 @@ import ArtGrid from '../components/ArtGrid';
 import { getAllArtImages, getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import featuredPostsSlugs from '../lib/featuredPosts';
-import ACNMPromo2 from '../public/assets/projects/ACNM/ACNMpromo2.jpg';
 
 export default function Index({
   latestPosts,
@@ -69,8 +68,10 @@ export default function Index({
             <Link href="/acnm">
               <a>
                 <Image
-                  src={ACNMPromo2}
-                  alt={`Promo banner for AC: New Mureder`}
+                  src="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/site/ACNMpromo2_wmgnhx.jpg"
+                  alt="Promo banner for AC: New Mureder"
+                  height="1067"
+                  width="800"
                 />
               </a>
             </Link>
