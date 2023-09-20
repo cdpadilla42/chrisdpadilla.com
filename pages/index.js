@@ -82,7 +82,7 @@ export default function Index({
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const allPosts = getAllPosts(['title', 'date', 'slug', 'hidden', 'tags'], {
     filter: filterBlogPosts,
     convertContentToHtml: true,
