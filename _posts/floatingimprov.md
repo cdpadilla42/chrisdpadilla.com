@@ -10,3 +10,5 @@ date: '2023-09-24T10:35:07.322Z'
 [Listen on Youtube](https://youtu.be/eyJ_4afBS6Q)
 
 ☁️
+
+The backing is prerecorded, but Miranda from the other room thought that I just got WAY better all of a sudden 😂
