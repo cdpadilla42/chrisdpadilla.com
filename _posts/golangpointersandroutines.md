@@ -57,7 +57,7 @@ The strengths of Go over other languages:
 - Less complex to write and manage
 - Threads in other language are more expensive as far as memory used compared to Go
 
-Goroutines are an abstraction of an actual OS thread. Cheaper and lightweight, meaning you can run hundreds of thousands or millions without affecting the performance of your application.
+Goroutines are an abstraction of an actual OS thread. They're cheaper and lightweight, meaning you can run hundreds of thousands or even millions without affecting the performance of your application.
 
 Java uses OS threads, takes a longer startup time. Additionally, those threads don't have an easy means of communicating with each other. That's made possible through channels in Go, a topic for another day!
 
@@ -106,7 +106,7 @@ Already, with this, interesting possibilities are now available! Just like in Ja
 
 Pointers are the address in memory of a variable. Pointers are used to reduce memory usage and increase performance. 
 
-The main use case is in massing large variables to functions. Just like in JavaScript, when you pass an argument to a function, a copy is made that is then used within that function.
+The main use case is in passing large variables to functions. Just like in JavaScript, when you pass an argument to a function, a copy is made that is then used within that function. If you were to pass the pointer instead here, that would be far less strain on the app's memory
 
 
 ```
