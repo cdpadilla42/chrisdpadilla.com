@@ -18,11 +18,11 @@ A few key features:
 - It is a NoSQL Key/Value Store
 - Redis has a built in master/replica pattern. Replica servers can defer to changes in master
 
-The in-memory approach to storing data, in addition to its ability to maintain a master/replica patterns makes it a great fit for being the cache server for applications. 
+The in-memory approach to storing data, in addition to its ability to maintain a master/replica patterns makes it a great fit for being the cache server for applications.
 
 Redis can support multiple database forms by expanding on the "Core" format of key-value pairs. Plugins such as RediSearch, RediGraph, RedisJSON, and RedisTimeseries can support other database models like those used by Elastisearch, Graph based such as Neo4J, and MongoDB.
 
-In a microservice environment, Redis can shine as a cache for multiple databases that have varied data models. Latency is often introduced when multiple services rely on multiple connections to different datasources on top of communicating with one another. Using Redis as a cache on request, then updating the cache if the data differs, can keep a group of microservices lean and quick. 
+In a microservice environment, Redis can shine as a cache for multiple databases that have varied data models. Latency is often introduced when multiple services rely on multiple connections to different datasources on top of communicating with one another. Using Redis as a cache on request, then updating the cache if the data differs, can keep a group of microservices lean and quick.
 
 ## How Does Data Persist?
 
@@ -32,16 +32,19 @@ The safest way is through replicas. Similar to using Redis as a distributed cach
 
 There are a couple of ways this is mitigated:
 
-1. Snapshotting (dump.rdb files)
+**Snapshotting** (dump.rdb files)
+
 - Can be stored on a disc at intervals of 5 minutes or an hour
 - These are good for backups and disaster recovery
 - You would lose an data stored between the last backup and the failure
-2. Append Only File
+
+**Append Only File**
+
 - Logs every write operation continuously to the disk
 - When restarting, it will use the AOF to rebuild the DB
 - Slower restarts
 - Potential for bugs in the AOF engine.
- 
+
 The best approach is to use both. Redis recommends a mixed approach and goes into great detail on persistence [in their documentation](https://redis.io/docs/management/persistence/).
 
 From here, you can store those persisted files in a cloud environment separate from Redis. The multiple-location approach firms up the reliability of the system.
