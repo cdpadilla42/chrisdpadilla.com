@@ -2,12 +2,12 @@
 title: Structs in Go
 tags:
   - Go
-date: '2023-10-26T10:35:07.322Z'
+date: '2023-11-17T10:35:07.322Z'
 ---
 
 There are two ways of creating datatypes similar to JavaScript Objects and Python Dictionaries in Go: Structs and Maps.
 
-**Structs** are a collection of data that are related. Values are stored next to each other in memory. Structs are also a value type. 
+**Structs** are a collection of data that are related. Values are stored next to each other in memory. Structs are also a value type.
 
 **Maps** are a hash map data type. They are a key value pair where both keys and values are statically typed individually. So all keys need to be of the same type, and all values need to be the same type. The main benefit is that, as a hash map, indexing and look up is much faster.
 
@@ -53,7 +53,7 @@ c.floorIt() // 120
 
 ## Embedding
 
-Another OOP principle borrowed in Go is *composition*. In Go, we can embed structs to create more complex types while still maintaining the flexibility of smaller pieces available as individual structs.
+Another OOP principle borrowed in Go is _composition_. In Go, we can embed structs to create more complex types while still maintaining the flexibility of smaller pieces available as individual structs.
 
 ```
 type car struct {
