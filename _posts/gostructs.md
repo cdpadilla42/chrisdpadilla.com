@@ -1,6 +1,7 @@
 ---
 title: Structs in Go
 tags:
+  - Tech
   - Go
 date: '2023-11-17T10:35:07.322Z'
 ---
