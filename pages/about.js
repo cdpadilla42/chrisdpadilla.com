@@ -49,8 +49,7 @@ const About = () => {
       tools that empower apartment hunters and locators.
       <p>
         <strong>I'm an avid learner and maker!</strong> I bounce between
-        reading, writing, learning new instruments, composing, and trying new
-        things. There's always something new to try!
+        reading, writing, learning new instruments, and composing. There's always something new to try!
       </p>
       <h2>Coding Origin Story</h2>
       <p>
