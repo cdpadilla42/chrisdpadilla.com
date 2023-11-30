@@ -486,3 +486,8 @@ button:hover {
 /* .bloglist_index li:first-child {
   margin-top: 0;
 } */
+
+.center {
+  margin: 0 auto;
+  max-width: 547px;
+}
