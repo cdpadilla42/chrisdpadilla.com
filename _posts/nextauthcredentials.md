@@ -106,3 +106,8 @@ Additionally, Next auth already takes many security steps out of the box. [On th
 
 CSRF is the main concern here, and they have us covered!
 
+## Integrating With Other Providers
+
+Next Auth also allows for using OAuth sign in as well as tokens emailed to the clients. However, it's not a straight shot. Next requires a JWT strategy, while emailing tokens requires a database strategy.
+
+There's some glue that needs adding from here. A post for another day!
