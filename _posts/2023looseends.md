@@ -10,6 +10,6 @@ I wrote several articles for the blog this year! At some point, I had a few piec
 On the finished ones, I'm hitting the publish button, but am leaving the original date written. Here they are in list form so that these don't fall through the cracks. They make an interesting sample of where my head has been this year:
 
 - [Music Teachers Expand Dreams](/musicteachersexpanddreams). On Seth Godin's "Stop Stealing Dreams"
-- [250 Box Challenge Complete](/250boxchallengecomplete). Victory post after completing the [drawabox](https://www.drawabox.com). namesake challenge.
+- [250 Box Challenge Complete](/250boxchallengecomplete). Victory post after completing the [drawabox](https://www.drawabox.com) namesake challenge.
 - [Creative Legacy](creativelegacy). On originality and creativity.
 - [Folk Music](/folkmusic). On creating online, my personal favorite.
