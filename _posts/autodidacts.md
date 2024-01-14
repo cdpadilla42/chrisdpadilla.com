@@ -16,7 +16,7 @@ Here are a few of my favorites:
 
 > Libraries raised me. I don't believe in colleges and universities. I believe in libraries because most students don't have any money. When I graduated from high school, it was during the Depression and we had no money. I couldn't go to college, so I went to the library three days a week for 10 years. — **Ray Bradbury**
 
-Here's **Terry Pratchett** on his schooling:
+Here's **Terry Pratchett**, a great autodidact, on his schooling:
 
 > I didn't go to university. Didn't even finish A-levels. But I have sympathy for those who did.
 
