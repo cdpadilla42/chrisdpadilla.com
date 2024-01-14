@@ -11,4 +11,4 @@ date: '2024-01-14T10:35:07.322Z'
 
 An oldie, but a goodie.
 
-I'm really tempted to run this video through a greens screen effect! We could launch this video INTO SPAAAACE!
+I'm really tempted to run this video through a green screen effect! We could launch this video INTO SPAAAACE!
