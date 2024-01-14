@@ -32,7 +32,7 @@ Stories like this inspire me because it's where my mind bends. I'm always fallin
 
 [I taught myself web development](/learntodev), but then again, we're all teaching ourselves on the job. The learning never stops.
 
-The same is true in art and music. I went to music school, but my day to day musicing is a result of learning new instruments and styles everyday. SO MANY visual artists are largely self taught these days, [myself included](/art).
+The same is true in art and music. I went to music school, but my day to day musicing is a result of learning new instruments and styles everyday. SO MANY visual artists are largely self taught these days, [myself included](/blog/art).
 
 Creative work today, in software or music, leads to constantly evolving inherently. We're also living in the absolute best time to learn new things all the time with having access to the internet. Y'know, the world's repository of knowledge.
 
