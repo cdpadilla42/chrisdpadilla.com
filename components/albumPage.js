@@ -86,6 +86,20 @@ export default function AlbumPage({ album }) {
                   </Link>
                 </li>
               )}
+              {album.youtubeURL && (
+                <li>
+                  {' '}
+                  <Link href={album.youtubeURL}>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      data-test="musicExternalLink"
+                    >
+                      <span>📺 Listen on YouTube</span>
+                    </a>
+                  </Link>
+                </li>
+              )}
             </ul>
             <Markdown
               options={{
