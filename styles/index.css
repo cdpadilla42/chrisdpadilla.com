@@ -219,6 +219,11 @@ main img {
   margin: 0 auto;
 }
 
+figcaption {
+  color: #b3b9c5;
+  font-style: italic
+}
+
 .markdown .article-book-image {
   float: left;
   margin-right: 1rem;
