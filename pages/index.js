@@ -57,7 +57,7 @@ export default function Index({
             latestPosts={latestPosts}
             featuredPosts={featuredPosts}
           />
-          <div className="heading_flex">
+          {/* <div className="heading_flex">
             <h2>
               <Link href="/acnm">
                 <a>I MADE A GAME — AC: NEW MURDER</a>
@@ -75,7 +75,7 @@ export default function Index({
                 />
               </a>
             </Link>
-          </article>
+          </article> */}
         </section>
       </Container>
     </Layout>
