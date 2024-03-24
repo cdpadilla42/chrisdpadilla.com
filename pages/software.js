@@ -40,7 +40,7 @@ export default function Projects({ softwareProjects }) {
           , where I work.
         </p>
         <p>
-          I write technical articles on <Link href="/blog">my blog</Link>. Most
+          I write technical articles on <Link href="/blog/tech">my blog</Link>. Most
           of my posts are tutorials and dev journals from my personal projects.
         </p>
         <p>
