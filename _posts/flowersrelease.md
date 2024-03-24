@@ -2,7 +2,7 @@
 title: New Album — Flowers 🌸
 tags:
   - Music
-date: '2024-03-23T10:35:07.322Z'
+date: '2024-03-23T08:35:07.322Z'
 ---
 
 ![🌼](http://res.cloudinary.com/cpadilla/image/upload/v1707148977/chrisdpadilla/albums/rgccmav9xrwqo45mcmvn.jpg)
