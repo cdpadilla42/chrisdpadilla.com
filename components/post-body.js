@@ -3,6 +3,7 @@ import Markdown from 'markdown-to-jsx';
 import Link from 'next/link';
 import Image from 'next/image';
 import NextLink from './NextLink';
+import hljs from 'highlight.js';
 
 export default function PostBody({ content }) {
   return (
@@ -12,6 +13,7 @@ export default function PostBody({ content }) {
           overrides: {
             a: NextLink,
             img: BlogImage,
+            pre: PreBlock,
           },
         }}
       >
@@ -27,3 +29,22 @@ const BlogImage = (props) => (
     <img {...props} />
   </a>
 );
+
+const CodeBlock = ({className, children}) => {
+  children = hljs.highlightAuto(children, ['java', 'javascript', 'python', 'react', 'yaml']).value;
+  return (
+    <pre>
+      <code dangerouslySetInnerHTML={{__html: children}} />
+    </pre>
+  );
+}
+
+const PreBlock = ({children, ...rest}) => {
+  if ('type' in children && children ['type'] === 'code') {
+    return CodeBlock(children['props']);
+  }
+  
+  return <pre {...rest}>{children}</pre>;
+};
+
+
