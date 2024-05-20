@@ -38,4 +38,4 @@ Creative work today, in software or music, leads to constantly evolving inherent
 
 Because it's so easy to self teach, it's _also_ easier than ever to be a multifaceted creative.
 
-These fancy words — _Autodidact_ and _Polymath_ — felt more like excpetions. Now, the thrilling thing to me is that we all can wear those fancy labels.
+These fancy words — _Autodidact_ and _Polymath_ — felt more like exceptions. Now, the thrilling thing to me is that we all can wear those fancy labels.
