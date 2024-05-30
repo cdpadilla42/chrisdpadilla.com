@@ -18,7 +18,7 @@ export default function PostHeader({
       <PostTitle>
         {slug ? <Link href={`/${slug}`}>{title}</Link> : title}
       </PostTitle>
-      {prelude && <p>{prelude}</p>}
+      {prelude ? prelude : ''}
       <div>
         <div>
           <DateFormatter dateString={date} />
