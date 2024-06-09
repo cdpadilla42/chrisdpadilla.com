@@ -1,5 +1,5 @@
 ---
-title: Generating Posts Programmatically with Python
+title: Generating Post Templates Programmatically with Python
 tags:
   - Tech
 date: '2023-12-20T10:35:07.322Z'
