@@ -9,4 +9,4 @@ date: '2024-06-09T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/3IVHJkcO-T8)
 
-From FFX! Wildly beautiful.  For 9 year old Chris, this was the midi arrangement that played on his Neopets page! 😂
+From FFX! Wildly beautiful. For 9 year old Chris, this was the midi arrangement that played on his Neopets page! 😂
