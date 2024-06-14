@@ -2,7 +2,7 @@
 title: New Album — Jam 3D 🟢
 tags:
   - Music
-date: '2023-06-14T07:35:07.322Z'
+date: '2024-06-14T07:35:07.322Z'
 ---
 
 ![🔵](http://res.cloudinary.com/cpadilla/image/upload/v1715540106/chrisdpadilla/albums/gjtaih6mu4n3b7waq5bt.jpg)
