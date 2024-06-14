@@ -11,4 +11,4 @@ Collectathon Island's magical power-orbs have been scattered all over the place!
 
 Inspired by Richard Jacques, David Wise, and countless summers playing platformers.
 
-Purchase on [🤘 Bandcamp](https://letsgochris.bandcamp.com/album/jam-3d) and Listen on [🙉 Spotify](https://open.spotify.com/album/18LcJLrmBcc5uHT7KbttgX) or any of your favorite streaming services!
+Purchase on [🤘 Bandcamp](https://letsgochris.bandcamp.com/album/jam-3d) and Listen on [🙉 Spotify](https://open.spotify.com/album/293UUHqalwPdaIIrDzlD0C) or any of your favorite streaming services!
