@@ -23,17 +23,25 @@ export default function Footer() {
         Mastodon
       </a>{' '}
       •{' '} */}
-      <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
-        Github
-      </a>{' '}
+      <Link href="/subscribe">
+          Newsletter
+      </Link>{' '}
       •{' '}
-      <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-        Instagram
-      </a>{' '}
+      <Link href="/blog">
+          Blog
+      </Link>{' '}
       •{' '}
-      <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
-        LinkedIn
-      </a>{' '}
+      <Link href="/music">
+          Music
+      </Link>{' '}
+      •{' '}
+      <Link href="/about">
+          About
+      </Link>{' '}
+      •{' '}
+      <Link href="/contact">
+          Contact
+      </Link>{' '}
       •{' '}
       <Link href="/api/feed">
         <a target="_blank" rel="noopener noreferrer">
@@ -52,6 +60,18 @@ export default function Footer() {
       <a href={APPLE_MUSIC} target="_blank" rel="noopener noreferrer">
         Apple Music
       </a>
+      •{' '}
+      <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
+        Github
+      </a>{' '}
+      •{' '}
+      <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+        Instagram
+      </a>{' '}
+      •{' '}
+      <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>{' '}
     </footer>
   );
 }

@@ -43,17 +43,24 @@ export default function Post({ post, morePosts, preview, prelude }) {
               <PostBody content={post.content} />
             </article>
             <aside className="article_end">
+             <p>
               <strong>Thank you for reading!</strong> I'd love to hear your
               thoughts. Feel free to{' '}
               <a href={`mailto:${EMAIL}?subject=${post.title}`}>email me</a> or{' '}
               <Link href="/contact">
                 <a>find me on the socials</a>
-              </Link>
-              ! You can also follow by{' '}
+              </Link>!
+              </p>
+              <p>
+              If you'd like to follow what I do, you can join my quiet <Link href="/subscribe">
+                <a>newsletter</a>
+              </Link>. Just a handful of updates a year!
+              You can also follow by{' '}
               <Link href="/api/feed">
                 <a>RSS</a>
               </Link>
               ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
+              </p>
             </aside>
             <script src="../"></script>
           </>

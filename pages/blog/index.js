@@ -34,6 +34,9 @@ export default function Blog({ allPosts, count }) {
         <Header section="blog" />
         <p>
           You can follow by{' '}
+          <Link href="/subscribe">
+            <a>Newsletter</a>
+          </Link>{' '}or{' '}
           <Link href="/api/feed">
             <a>RSS</a>
           </Link>

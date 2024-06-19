@@ -1,0 +1,9 @@
+{
+    "email": {
+        "template": {
+            "subject": "Thanks for Subscribing! Tell me more?",
+            "from_name": "Chris Padilla"
+        }
+    }
+}
+

@@ -12,6 +12,7 @@ import TagsNav from '../../components/TagsNav';
 import Blog404 from '../../components/Blog404';
 import ArtGrid from '/components/ArtGrid';
 import FullPostPreviews from '../../components/FullPostPreviews';
+import Link from 'next/link';
 
 export default function Blog({ allPosts, images, count }) {
   const router = useRouter();
@@ -20,7 +21,8 @@ export default function Blog({ allPosts, images, count }) {
   const renderedPosts = allPosts;
   const capitalizedTag = capitalizeFirstLetter(tag);
 
-  const showGrid = tag === 'art' && gridFromQueryParams;
+  // const showGrid = tag === 'art' && gridFromQueryParams;
+  const showGrid = tag === 'art'
   const showFullPost = tag === 'music' || (tag === 'art' && !showGrid);
   const showPreview = !showGrid && !showFullPost;
 
@@ -39,7 +41,20 @@ export default function Blog({ allPosts, images, count }) {
       </Head>
       <Container>
         <Header section="blog" tag={capitalizedTag} />
-        <p>Take a look by topic:</p>
+        <p>
+          You can follow by{' '}
+          <Link href="/subscribe">
+            <a>Newsletter</a>
+          </Link>{' '}or{' '}
+          <Link href="/api/feed">
+            <a>RSS</a>
+          </Link>
+          ! (<a href="https://aboutfeeds.com/">What's RSS?</a>) Full posts list{' '}
+          <Link href="/blog/list">
+            <a>here</a>
+          </Link>
+          .
+        </p>
         <TagsNav />
         {showFullPost && renderedPosts.length > 0 && (
           <FullPostPreviews posts={renderedPosts} count={count} />
@@ -73,7 +88,8 @@ export default function Blog({ allPosts, images, count }) {
 export async function getServerSideProps(context) {
   // Art Grid
 
-  if (context.query.grid) {
+  // if (context.query.grid) {
+  if (context.params.tag === 'art') {
     const images = getAllArtImages().slice(0, 30);
     return {
       props: { images },
