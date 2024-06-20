@@ -54,7 +54,7 @@ export default function Post({ post, morePosts, preview, prelude }) {
               <p>
               If you'd like to follow what I do, you can join my quiet <Link href="/subscribe">
                 <a>newsletter</a>
-              </Link>. Just a handful of updates a year!
+              </Link>.{' '}
               You can also follow by{' '}
               <Link href="/api/feed">
                 <a>RSS</a>
