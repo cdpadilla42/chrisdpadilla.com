@@ -24,7 +24,7 @@ export default function BookShelf({ allPosts }) {
   return (
     <Layout>
       <Head>
-        <title>Chris Padilla — Developer & Musician</title>
+        <title>Chris Padilla — Developer, Musician, etc.</title>
         <meta
           property="og:title"
           content="Chris Padilla — Developer & Musician"

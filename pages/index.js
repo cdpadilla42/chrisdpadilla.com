@@ -19,7 +19,7 @@ export default function Index({
   return (
     <Layout>
       <Head>
-        <title>Chris Padilla — Developer & Musician</title>
+        <title>Chris Padilla — Developer, Musician, etc.</title>
       </Head>
       <Container>
         <Intro />
