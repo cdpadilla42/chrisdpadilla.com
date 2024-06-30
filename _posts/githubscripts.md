@@ -3,6 +3,7 @@ title: Triggering Notifications through Github Actions
 tags:
   - Tech
   - Architecture
+  - This Website
 date: '2024-02-23T10:35:07.322Z'
 ---
 

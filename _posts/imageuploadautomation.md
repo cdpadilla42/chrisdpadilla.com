@@ -3,6 +3,7 @@ title: Automating Image Uploads to Cloudinary with Python
 tags:
   - Tech
   - Python
+  - This Website
 date: '2023-12-08T10:35:07.322Z'
 ---
 

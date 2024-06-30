@@ -2,6 +2,8 @@
 title: Automating YouTube Uploads in Python
 tags:
   - Tech
+  - This Website
+  - Python
 date: '2024-01-04T10:35:07.322Z'
 ---
 

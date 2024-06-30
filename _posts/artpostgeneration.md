@@ -2,6 +2,8 @@
 title: Generating Post Templates Programmatically with Python
 tags:
   - Tech
+  - This Website
+  - Python
 date: '2023-12-20T10:35:07.322Z'
 ---
 
