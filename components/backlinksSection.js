@@ -6,7 +6,7 @@ const BacklinksSection = ({pagesLinkingBackTo}) => {
 	return (
 		<aside>
 			<h4>
-				Pages refferencing this post:
+				Pages referencing this post:
 				<ul>
 
 				{pagesLinkingBackTo.map(link => (
