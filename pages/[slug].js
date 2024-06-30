@@ -3,9 +3,10 @@ import { getAllPosts, getAlbumBySlug, getAlbums } from '../lib/api';
 import { getPostBySlug } from '../lib/markdownAccess';
 import PostPage from '/components/PostPage';
 import markdownToHtml from '../lib/markdownToHtml';
+import { promises as fs } from 'fs';
 
-export default function SlugPage({ post, album }) {
-  if (post) return <PostPage post={post} />;
+export default function SlugPage({ post, album, pagesLinkingBackTo }) {
+  if (post) return <PostPage post={post} pagesLinkingBackTo={pagesLinkingBackTo}/>;
   if (album) return <AlbumPage album={album} />;
 }
 
@@ -36,9 +37,18 @@ export async function getStaticProps({ params }) {
   ]);
 
   if (post) {
+    const file = await fs.readFile(process.cwd() + '/_cache/backlinks.json', 'utf8');
+    const backlinks = JSON.parse(file);
+    let pagesLinkingBackTo = null;
+
+    if (backlinks[params.slug]) {
+      pagesLinkingBackTo = backlinks[params.slug];
+    }
+    
     return {
       props: {
         post,
+        pagesLinkingBackTo,
       },
     };
   }

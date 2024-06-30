@@ -9,8 +9,9 @@ import PostBody from '../components/post-body';
 import Link from 'next/link';
 import { primaryTags } from '../lib/minorBlogTags';
 import { EMAIL } from '../lib/constants';
+import BacklinksSection from '../components/backlinksSection'
 
-export default function Post({ post, morePosts, preview, prelude }) {
+export default function Post({ post, morePosts, preview, prelude, pagesLinkingBackTo }) {
   const router = useRouter();
   const postPrimaryTags = post.tags.filter((tag) => primaryTags.includes(tag));
   let pageTag;
@@ -57,6 +58,7 @@ export default function Post({ post, morePosts, preview, prelude }) {
               ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
               </p>
             </aside>
+            <BacklinksSection pagesLinkingBackTo={pagesLinkingBackTo}/>
             <script src="../"></script>
           </>
         )}

@@ -9,6 +9,7 @@ import ArtGrid from '../components/ArtGrid';
 import { getAllArtImages, getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import featuredPostsSlugs from '../lib/featuredPosts';
+import { getRefs } from '../lib/biDirectionlLink';
 
 export default function Index({
   latestPosts,
@@ -87,6 +88,12 @@ export async function getStaticProps() {
     filter: filterBlogPosts,
     convertContentToHtml: true,
   });
+
+  const env = process.env.NODE_ENV
+  if(env == "development"){
+    getRefs();
+  
+}
 
   const images = getAllArtImages().slice(0, 6);
 
