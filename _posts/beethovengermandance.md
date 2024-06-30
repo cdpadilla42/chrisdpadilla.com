@@ -2,6 +2,8 @@
 title: Beethoven - German Dance
 tags:
   - Music
+  - Beethoven
+  - Piano
 date: '2023-05-13T10:35:07.322Z'
 ---
 

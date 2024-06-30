@@ -11,5 +11,5 @@ On the finished ones, I'm hitting the publish button, but am leaving the origina
 
 - [Music Teachers Expand Dreams](/musicteachersexpanddreams). On Seth Godin's "Stop Stealing Dreams"
 - [250 Box Challenge Complete](/250boxchallengecomplete). Victory post after completing the [drawabox](https://www.drawabox.com) namesake challenge.
-- [Creative Legacy](creativelegacy). On originality and creativity.
+- [Creative Legacy](/creativelegacy). On originality and creativity.
 - [Folk Music](/folkmusic). On creating online, my personal favorite.

@@ -3,6 +3,7 @@ title: Winston Churchill on Painting as a Pastime
 tags:
   - Books
   - Notes
+  - Creativity
 date: '2023-06-19T10:35:07.322Z'
 ---
 

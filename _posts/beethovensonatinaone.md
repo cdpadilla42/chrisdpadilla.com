@@ -2,6 +2,8 @@
 title: Beethoven – Sonatina No 1 Exposition
 tags:
   - Music
+  - Beethoven
+  - Piano
 date: '2024-06-30T10:35:07.322Z'
 ---
 
