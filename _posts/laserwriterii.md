@@ -28,4 +28,4 @@ On the internet in 2023, _that's a pretty big deal!_ When everything is immediat
 
 _And_ best of all, it's not all just for fun and gags! Everything I mentioned above ties in so well with the book. It's referential and matches tone superbly.
 
-Honestly, the website alone sold me on the book. I then loved the book so much that I wrote an [album based on it](https://letsgochris.bandcamp.com/album/tek-serve).
+Honestly, the website alone sold me on the book. I then loved the book so much that I wrote an [album based on it](/tekserve).
