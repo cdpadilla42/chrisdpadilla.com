@@ -52,6 +52,7 @@ export default function Subscribe() {
       <Container>
         <h1>Email Newsletter</h1>
         <p>A quiet set of updates — just a couple a year — on what I'm up to. Unsubscribe anytime.</p>
+        <p>Looing to update your subscription? <Link href={`/update-sub`}>Click here</Link>.</p>
 				<form onSubmit={onSubmit}>
           <label htmlFor="firstName">First name:</label><br />
           <input type="text" id="firstName" name="firstName" required value={firstName} onChange={e => setFirstName(e.currentTarget.value)} /><br />
