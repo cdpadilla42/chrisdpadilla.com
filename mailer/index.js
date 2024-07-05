@@ -15,7 +15,7 @@ var transporter = nodemailer.createTransport({
 
 var mailer = {};
 
-mailer.send = function (user, cb) {
+mailer.send = async function (user, cb) {
     var message = {
         "html": generateInitialEmail({
             firstName: user.firstName,
@@ -36,14 +36,23 @@ mailer.send = function (user, cb) {
         },
     };
 
-    transporter.sendMail(message, function(error, info){
-        if (error) {
-            cb(error);
-        } else {
-            cb(null, info.response)
-            console.log('Email sent: ' + info.response);
-        }
-      });
+    console.log(message);
+
+    const res = await new Promise((res, rej) => {
+        transporter.sendMail(message, function(error, info){
+            if (error) {
+                cb(error);
+                rej(error);
+            } else {
+                cb(null, info.response)
+                console.log('Email sent: ' + info.response);
+                res(info.response)
+            }
+        });
+    })
+    
+    console.log(res);
+    return res;
 };
 
 mailer.blog = function (subs, post) {
