@@ -3,8 +3,6 @@ import mailer from "../../mailer";
 
 
 export default async function handler(req, res) {
-	console.log(req)
-	
 	const existingSub = await Subscription.findOne({email: req.body.email}, {frequency: req.body.frequency});
 
 	if (existingSub) {
