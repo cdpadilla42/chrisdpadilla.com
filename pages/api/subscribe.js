@@ -3,6 +3,7 @@ import mailer from "../../mailer";
 
 
 export default async function handler(req, res) {
+	console.log(req)
 	var user = {
 		firstName: req.body.firstName,
 		lastName: req.body.lastName,

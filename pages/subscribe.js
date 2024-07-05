@@ -37,6 +37,7 @@ export default function Subscribe() {
 
     if (res.ok) {
       router.push(`/subscribed?n=${firstName}`);
+      console.log(res);
     } else {
       setError(true);
       setSubmitting(false);
