@@ -49,12 +49,11 @@ export default function Subscribe() {
   return (
     <Layout noFooter>
       <Head>
-        <title>Newsletter | Chris Padilla</title>
+        <title>Update Subscription | Chris Padilla</title>
       </Head>
       <Header />
       <Container>
-        <h1>Email Newsletter</h1>
-        <p>A quiet set of updates — just a couple a year — on what I'm up to. Unsubscribe anytime.</p>
+        <h1>Update Subscription</h1>
 				<form onSubmit={onSubmit}>
           <label htmlFor="email">Email:</label><br />
           <input type="email" id="email" name="email" required value={email} onChange={e => setEmail(e.currentTarget.value)} /><br />
