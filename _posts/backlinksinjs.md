@@ -195,4 +195,4 @@ export default BacklinksSection;
 
 Assuming I haven't link to this page yet, you can see this in action at the bottom of my [Parsing Mardkown in Node](/parsemd) post. Now with handy links to click and explore related topics.
 
-Now that I have this in place, I'm excited to keep tending the garden! I've already seen themes emerge through the regular tags I use. Here's to a great harvest someday!
+I'm excited to keep tending the garden! I've already seen themes emerge through the regular tags I use. Here's to a great harvest someday!
