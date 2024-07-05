@@ -1,16 +1,25 @@
-import subscription from "../../database/subscription";
+import Subscription from "../../database/subscription";
 import mailer from "../../mailer";
 
 
 export default async function handler(req, res) {
 	console.log(req)
+	
+	const existingSub = await Subscription.findOne({email: req.body.email}, {frequency: req.body.frequency});
+
+	if (existingSub) {
+		const updateRes = await Subscription.findOneAndUpdate({email: req.body.email}, {frequency: req.body.frequency});
+		return res.status(200).json({message: `Updated subscription: ${JSON.stringify(updateRes)}`})
+	}
+
 	var user = {
 		firstName: req.body.firstName,
 		lastName: req.body.lastName,
-		email: req.body.email
+		email: req.body.email,
+		frequency: req.body.frequency,
 	};
-
-	var sub = new subscription({
+	
+	var sub = new Subscription({
 			firstName: user.firstName,
 			lastName: user.lastName,
 			email: user.email

@@ -5,7 +5,7 @@ const generateInitialEmail = ({firstName, email}) => `<p>Hi ${firstName},</p>
 <p>I would love to hear more about you! Something like where you are and what you do.</p>
 <p>I'm just a guy on the internet, and meeting people is my favorite part of being online. So thanks in advance for sharing!</p>
 
-<p>If you'd like to unsubscibe, you can do so anytime by sending me an email saying so.</p>
+<p>You can updated your subscription anytime <a href="https://chrisdpadilla.com/update-sub">chrisdpadilla.com</a>.</p>
 
 <p>Sincerely,</p>
 <p>
