@@ -3,6 +3,7 @@ title: Love for Neon Genesis Evangelion Colors
 tags:
   - Anime
   - Color
+  - Neon Genesis Evangelion
 date: '2024-06-21T00:35:07.322Z'
 ---
 
