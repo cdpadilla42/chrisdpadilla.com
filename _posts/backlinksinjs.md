@@ -5,7 +5,7 @@ tags:
   - Digital Garden
   - JavaScript
   - React
-  - NextJS
+  - Next
   - This Website
 date: '2024-07-05T10:35:07.322Z'
 ---
