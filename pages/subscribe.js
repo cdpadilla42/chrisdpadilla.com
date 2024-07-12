@@ -62,7 +62,7 @@ export default function Subscribe() {
           <input type="email" id="email" name="email" required value={email} onChange={e => setEmail(e.currentTarget.value)} /><br />
           
           <fieldset value={frequency}>
-          <legend>How often would you like to recieve emails?</legend>
+          <legend>How often would you like to receive emails?</legend>
             <input type="radio" id="contactChoice1" name="frequency" value="ALL" checked={frequency === 'ALL'} onChange={e => setFrequency("ALL")}/>
             <label htmlFor="contactChoice1">Sometimes (a few times a year)</label>
 
