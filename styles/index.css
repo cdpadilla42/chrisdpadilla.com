@@ -498,3 +498,15 @@ button:hover {
   margin: 0 auto;
   max-width: 547px;
 }
+
+
+.bookshelf_image {
+  max-width: 120px;
+}
+
+figure.bookshelf_image_wrapper {
+  margin: 0;
+  margin-right: 1.5rem;
+  float: left;
+}
+

@@ -1,25 +1,15 @@
 import React from 'react';
+import { bookshelf } from '../../lib/bookshelf';
 import Container from '../../components/container';
 import Layout from '../../components/layout';
-import { getAllPosts } from '../../lib/api';
 import Head from 'next/head';
-import PostPreview from '../../components/post-preview';
-import { filterBlogPosts } from '../../lib/util';
 import Link from 'next/link';
 import Header from '../../components/header';
-import { primaryTags } from '../../lib/minorBlogTags';
 import { useRouter } from 'next/router';
-import TagsNav from '../../components/TagsNav';
+import BookshelfItem from '/components/bookshelfItem'
 
-export default function BookShelf({ allPosts }) {
+export default function BookShelf({ books }) {
   const router = useRouter();
-  const query = router.query;
-  let renderedPosts = allPosts;
-  if (query.tag) {
-    renderedPosts = renderedPosts.filter((post) =>
-      post.tags.includes(query.tag)
-    );
-  }
 
   return (
     <Layout>
@@ -34,42 +24,22 @@ export default function BookShelf({ allPosts }) {
         <Header />
         <h2>Bookshelf</h2>
         <p>My words on other people's words.</p>
-        <ul className="bloglist">
-          {renderedPosts.length > 0 &&
-            renderedPosts.map((post) => (
-              <PostPreview
-                key={post.slug}
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
-                slug={post.slug}
-                excerpt={post.excerpt}
-                tags={post.tags.filter((tag) => primaryTags.includes(tag))}
-              />
-            ))}
-        </ul>
+        <section>
+        {books.map((book) => (
+         <BookshelfItem book={book} />
+        ))}
+      </section>
       </Container>
     </Layout>
   );
 }
 
 export async function getServerSideProps() {
-  const allPosts = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-    'hidden',
-    'tags',
-  ]);
-
-  const publishedPosts = allPosts.filter(filterBlogPosts);
-
+  const books = bookshelf;
   return {
-    props: { allPosts: publishedPosts },
-    // revalidate: 14400,
+    props: {
+      books,
+    },
   };
 }
+
