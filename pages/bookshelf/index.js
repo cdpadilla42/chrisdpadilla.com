@@ -8,6 +8,7 @@ import Link from 'next/link';
 import Header from '../../components/header';
 import { useRouter } from 'next/router';
 import BookshelfItem from '/components/bookshelfItem'
+import path from 'path';
 
 export default function BookShelf({ books }) {
   const router = useRouter();
@@ -36,7 +37,7 @@ export default function BookShelf({ books }) {
 
 export async function getServerSideProps() {
   const books = bookshelf;
-  const file = await fs.readFile(process.cwd() + '/_cache/bookshelfLinks.json', 'utf8');
+  const file = await fs.readFile(path.resolve(process.cwd() + '/_cache/bookshelfLinks.json'), 'utf8');
   const bookshelfLinks = JSON.parse(file);
 
   for (const key of Object.keys(bookshelfLinks)) {
