@@ -3,6 +3,8 @@ title: Two Years of Blogging
 tags:
   - Notes
 date: '2024-05-17T10:35:07.322Z'
+bookshelf:
+  - FindingMeaningInTheSecondHalfOfLife
 ---
 
 From [Austin Kleon](https://austinkleon.com/2023/08/31/make-an-appointment-with-yourself/):
