@@ -10,8 +10,9 @@ import Link from 'next/link';
 import { primaryTags } from '../lib/minorBlogTags';
 import { EMAIL } from '../lib/constants';
 import BacklinksSection from '../components/backlinksSection'
+import BookshelfSection from './bookshelfSection';
 
-export default function Post({ post, morePosts, preview, prelude, pagesLinkingBackTo }) {
+export default function Post({ post, morePosts, preview, prelude, pagesLinkingBackTo, bookshelf }) {
   const router = useRouter();
   const postPrimaryTags = post.tags.filter((tag) => primaryTags.includes(tag));
   let pageTag;
@@ -59,6 +60,7 @@ export default function Post({ post, morePosts, preview, prelude, pagesLinkingBa
               </p>
             </aside>
             <BacklinksSection pagesLinkingBackTo={pagesLinkingBackTo}/>
+            <BookshelfSection bookshelf={bookshelf} bookshelfPostList={post.bookshelf}/>
             <script src="../"></script>
           </>
         )}

@@ -1,8 +1,9 @@
 import { getLatestHap } from '../lib/api';
 import PostPage from '/components/PostPage';
 import NextLink from '../components/NextLink';
+import { bookshelf } from '../lib/bookshelf';
 
-export default function NowPage({ post }) {
+export default function NowPage({ post, bookshelf, }) {
   const prelude = (
     <p style={{ color: 'grey' }}>
       (This is my{' '}
@@ -10,7 +11,7 @@ export default function NowPage({ post }) {
       Occasional updates on what I'm up to.)
     </p>
   );
-  return <PostPage post={post} prelude={prelude} />;
+  return <PostPage post={post} prelude={prelude} bookshelf={bookshelf}/>;
 }
 
 export async function getStaticProps() {
@@ -24,12 +25,14 @@ export async function getStaticProps() {
     'coverImage',
     'tags',
     'hidden',
+    'bookshelf',
   ]);
 
   if (post) {
     return {
       props: {
         post,
+        bookshelf,
       },
     };
   }

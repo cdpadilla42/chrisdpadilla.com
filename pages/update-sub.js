@@ -40,7 +40,6 @@ export default function Subscribe() {
 
     if (res.ok) {
       router.push(`/sub-updated`);
-      console.log(res);
     } else {
       setError(true);
       setSubmitting(false);

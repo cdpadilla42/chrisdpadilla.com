@@ -4,9 +4,10 @@ import { getPostBySlug } from '../lib/markdownAccess';
 import PostPage from '/components/PostPage';
 import markdownToHtml from '../lib/markdownToHtml';
 import { promises as fs } from 'fs';
+import { bookshelf } from '../lib/bookshelf';
 
-export default function SlugPage({ post, album, pagesLinkingBackTo }) {
-  if (post) return <PostPage post={post} pagesLinkingBackTo={pagesLinkingBackTo}/>;
+export default function SlugPage({ post, album, pagesLinkingBackTo, bookshelf }) {
+  if (post) return <PostPage post={post} pagesLinkingBackTo={pagesLinkingBackTo} bookshelf={bookshelf}/>;
   if (album) return <AlbumPage album={album} />;
 }
 
@@ -34,6 +35,7 @@ export async function getStaticProps({ params }) {
     'coverImage',
     'tags',
     'hidden',
+    'bookshelf',
   ]);
 
   if (post) {
@@ -49,6 +51,7 @@ export async function getStaticProps({ params }) {
       props: {
         post,
         pagesLinkingBackTo,
+        bookshelf,
       },
     };
   }

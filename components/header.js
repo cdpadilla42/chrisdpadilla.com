@@ -29,6 +29,14 @@ export default function Header({ section, tag }) {
     </>
   );
 
+  const bookshelfHeader = () => (
+    <>
+      <Link href="/bookshelf">
+        <a>Bookshelf</a>
+      </Link>
+    </>
+  );
+
   let trailingHeader = '.';
 
   if (section === 'blog') {
@@ -36,6 +44,13 @@ export default function Header({ section, tag }) {
       <>
         <span className="header_divider">/</span>
         {blogHeader()}
+      </>
+    );
+  } else if (section === 'bookshelf') {
+    trailingHeader = (
+      <>
+        <span className="header_divider">/</span>
+        {bookshelfHeader()}
       </>
     );
   } else if (section) {
