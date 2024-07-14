@@ -9,4 +9,4 @@ date: '2024-07-14T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/os9zPoqv-Pw)
 
-Recording a new album! Bit of a rock ballade vibe
+Recording a new album! Bit of a rock ballad vibe
