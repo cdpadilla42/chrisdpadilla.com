@@ -90,7 +90,8 @@ export async function getServerSideProps(context) {
 
   // if (context.query.grid) {
   if (context.params.tag === 'art') {
-    const images = getAllArtImages().slice(0, 30);
+    const images = getAllArtImages();
+    // const images = getAllArtImages().slice(0, 30);
     return {
       props: { images },
       // revalidate: 14400,
