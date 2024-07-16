@@ -6,6 +6,9 @@ tags:
   - Art
   - Tech
 date: '2023-02-17T10:35:07.322Z'
+bookshelf:
+  - GestureDrawingForAnimation
+
 ---
 
 _Autodidact_ is the 10 dollar word for saying someone is self taught. _Polymath_ is the one for someone who's know-how spans multiple subjects.

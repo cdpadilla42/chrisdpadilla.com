@@ -5,6 +5,9 @@ tags:
   - OddEnd
   - Beethoven
 date: '2023-04-20T10:35:07.322Z'
+bookshelf:
+  - GestureDrawingForAnimation
+
 ---
 
 Doing creative work gets pitched as this "Exertion of the ego" or "One bold director's vision." Iwata himself said "[Creativity, after all, is an expression of the ego.](/iwataonpeople)"

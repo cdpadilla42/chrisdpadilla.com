@@ -3,6 +3,9 @@ title: Writing is Efficient Creativity
 tags:
   - Notes
 date: '2023-03-08T10:35:07.322Z'
+bookshelf:
+  - GestureDrawingForAnimation
+
 ---
 
 I still think regularly about Walt Stanchfield's equation: ["Impression minus expression equals depression."](/impressionminusexpression)

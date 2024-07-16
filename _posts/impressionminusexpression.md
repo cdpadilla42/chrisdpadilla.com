@@ -4,6 +4,8 @@ tags:
   - Art
   - Books
 date: '2023-01-16T10:35:07.322Z'
+bookshelf:
+  - GestureDrawingForAnimation
 ---
 
 That equation feels right.
