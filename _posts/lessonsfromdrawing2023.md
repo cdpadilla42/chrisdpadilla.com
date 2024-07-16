@@ -61,7 +61,7 @@ But once you start learning about right and wrong, good and bad, staying loose g
 
 ![Later on](https://res.cloudinary.com/cpadilla/image/upload/v1697226818/chrisdpadilla/blog/art/mst3ksketches_q8cemc.jpg)
 
-Two things helped: Exposure therapy and automatic drawing. Forcing myself to draw no matter the result helped me realize that nobody died if I quietly drew something poorly in my sketchbook, never to be seen by anyone (shocking, I know!) And, on the days where coming up with anything to draw was challenge, falling back on automatic drawing helped me reset the bar down low. On those days, usually something more solid formed, like flowers or an idea for a character drawing.
+Two things helped: Exposure therapy and [automatic drawing](/automaticdrawing). Forcing myself to draw no matter the result helped me realize that nobody died if I quietly drew something poorly in my sketchbook, never to be seen by anyone (shocking, I know!) And, on the days where coming up with anything to draw was challenge, falling back on automatic drawing helped me reset the bar down low. On those days, usually something more solid formed, like flowers or an idea for a character drawing.
 
 ## So Yeah
 
