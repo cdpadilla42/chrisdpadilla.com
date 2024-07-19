@@ -3,6 +3,8 @@ title: Childhood's End
 tags:
   - Books
 date: '2024-02-13T05:35:07.322Z'
+bookshelf:
+  - FreePlay
 ---
 
 Thinking a great deal lately about the obstacles to play in art. Namely, though, how they aren't so much obstacles as much as they are just part of the journey. 

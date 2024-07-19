@@ -3,6 +3,8 @@ title: Neil Gaiman on Writing
 tags:
   - Notes
 date: '2023-08-10T10:35:07.322Z'
+bookshelf:
+  - AmericanGods
 ---
 
 Several great nuggets of writing insight from Neil Gaiman's introduction to the 10th Anniversary Edition of American Gods.

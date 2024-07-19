@@ -4,6 +4,9 @@ tags:
   - Notes
   - Creativity
 date: '2024-06-24T10:35:07.322Z'
+bookshelf:
+  - AmericanGods
+  - FreePlay
 ---
 
 Austin Kleon lately has written a few pieces on how "[you don't need a vision](https://austinkleon.substack.com/p/you-dont-need-a-vision)." He makes the case that visions are for things that already exist in the world, where art is the process of creating what _doesn't_ already exist. In response to "Vision is everything:"
