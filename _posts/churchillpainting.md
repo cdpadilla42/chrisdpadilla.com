@@ -5,6 +5,8 @@ tags:
   - Notes
   - Creativity
 date: '2023-06-19T10:35:07.322Z'
+bookshelf:
+  - PaintingAsAPastime
 ---
 
 I don't always find the inspiration I'm looking for from the bios and stories of full time artists. Those select few who can spend most of their week in the studio. Winston Churchill, who was surprisingly an enthusiastic, self proclaimed hobby painter, can speak much more clearly to the situation of having to find time to be creative in the nooks and crannies of the day.
