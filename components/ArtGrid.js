@@ -1,19 +1,17 @@
 import Link from 'next/link';
 import React from 'react';
 
-const ArtGrid = ({ images }) => {
+const ArtGrid = ({ images, page }) => {
   return (
     <>
       <section className="art_display">
         {images.map((image, i) => (
-          <article key={image.src} className={`${i > 0 ? 'hideonmobile' : ''}`}>
+          <article key={image.src} className={`${(i > 0 && page === 'home') ? 'hideonmobile' : ''}`}>
             <Link href={`/${image.slug}`}>
               <a data-test="musicGridLink">
                 <div
-                  className={`artgridimage`}
+                  className={`artgridimage ${page}`}
                   style={{
-                    height: '250px',
-                    width: '250px',
                     background: 'transparent no-repeat center',
                     backgroundSize: 'cover',
                     margin: 'auto',

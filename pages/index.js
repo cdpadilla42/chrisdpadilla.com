@@ -33,7 +33,7 @@ export default function Index({
               </a>
             </Link>
           </div>
-          <ArtGrid images={images} />
+          <ArtGrid images={images} page={"home"}/>
           <div className="heading_flex">
             <h2>Latest Music</h2>
             <Link href="/music">

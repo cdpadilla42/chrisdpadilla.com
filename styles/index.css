@@ -272,6 +272,24 @@ figcaption {
   background-size: cover;
   margin: auto;
 }
+.artgridimage {
+  height: 500px;
+  width: 250px;
+  min-width: 100%;
+  min-height: 100%;
+  background: transparent no-repeat center;
+  background-size: cover;
+  margin: auto;
+}
+@media all and (min-width: 800px) {
+  .artgridimage, .artgridimage.home {
+    height: 250px;
+    width: 250px;
+    background: transparent no-repeat center;
+    background-size: cover;
+    margin: auto;
+  }
+}
 
 .softwareproject_display {
   display: flex;

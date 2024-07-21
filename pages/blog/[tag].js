@@ -49,7 +49,7 @@ export default function Blog({ allPosts, images, count }) {
           <Link href="/api/feed">
             <a>RSS</a>
           </Link>
-          ! (<a href="https://aboutfeeds.com/">What's RSS?</a>) Full posts list{' '}
+          ! (<a href="https://aboutfeeds.com/">What's RSS?</a>) Full archive{' '}
           <Link href="/blog/list">
             <a>here</a>
           </Link>
