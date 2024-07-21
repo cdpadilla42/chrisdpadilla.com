@@ -2,6 +2,7 @@
 title: Foolin' With Funk
 tags:
   - Music
+  - Guitar
 date: '2024-07-21T10:35:07.322Z'
 ---
 
