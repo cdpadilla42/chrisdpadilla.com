@@ -272,7 +272,7 @@ figcaption {
   background-size: cover;
   margin: auto;
 }
-.artgridimage {
+/* .artgridimage.home {
   height: 500px;
   width: 250px;
   min-width: 100%;
@@ -280,15 +280,14 @@ figcaption {
   background: transparent no-repeat center;
   background-size: cover;
   margin: auto;
-}
-@media all and (min-width: 800px) {
-  .artgridimage, .artgridimage.home {
-    height: 250px;
-    width: 250px;
-    background: transparent no-repeat center;
-    background-size: cover;
-    margin: auto;
-  }
+} */
+
+.artgridimage, .artgridimage.home {
+  height: 250px;
+  width: 250px;
+  background: transparent no-repeat center;
+  background-size: cover;
+  margin: auto;
 }
 
 .softwareproject_display {
