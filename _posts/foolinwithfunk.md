@@ -9,4 +9,4 @@ date: '2024-07-21T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/ftAD-41lVEw)
 
-Groovin' on a Sunday Mornin'
+Groovin' on a Sunday mornin'
