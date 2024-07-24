@@ -9,6 +9,7 @@ import { filterBlogPosts } from '../../lib/util';
 import Header from '../../components/header';
 import TagsNav from '../../components/TagsNav';
 import FullPostPreviews from '../../components/FullPostPreviews';
+import BlogPageIntro from './blogPageIntro';
 
 export default function Blog({ allPosts, count }) {
   const router = useRouter();
@@ -33,6 +34,7 @@ export default function Blog({ allPosts, count }) {
       <Container>
         <Header section="blog" />
         <p>
+          <BlogPageIntro />
           You can follow by{' '}
           <Link href="/subscribe">
             <a>Newsletter</a>
