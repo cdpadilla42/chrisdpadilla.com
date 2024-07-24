@@ -45,8 +45,10 @@ const BlogPageIntro = ({tag}) => {
 		)
 	}
 	return (
-		<></>
-	);
+		<>
+		<span>My passion project! Posts spanning music, art, software, books, and more</span><br />
+		</>
+	)
 };
 
 export default BlogPageIntro;
