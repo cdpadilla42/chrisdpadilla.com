@@ -7,6 +7,9 @@ tags:
   - Creativity
   - Digital Garden
 date: '2024-06-30T10:35:07.322Z'
+bookshelf:
+  - ASlipOfTheKeyboard
+
 ---
 
 ![🌱](http://res.cloudinary.com/cpadilla/image/upload/v1719764149/chrisdpadilla/blog/art/jaajckgqppxeu4rasrbc.jpg)
