@@ -446,6 +446,13 @@ figcaption {
   color: var(--purple);
 }
 
+.bloglist_article_tag[data-tag='Scrapbook'] a,
+.tagslist_tag[data-tag='Scrapbook'] a,
+.tagslist_tag[data-tag='Scrapbook'],
+.header_tag[data-tag='Scrapbook'] {
+  color: var(--cream);
+}
+
 .article_end {
   margin-top: 4rem;
 }
