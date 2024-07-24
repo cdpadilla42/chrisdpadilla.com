@@ -1,6 +1,7 @@
 ---
 title: Love for Neon Genesis Evangelion Colors
 tags:
+  - Scrapbook
   - Anime
   - Color
   - Neon Genesis Evangelion
