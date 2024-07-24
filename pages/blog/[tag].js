@@ -13,6 +13,8 @@ import Blog404 from '../../components/Blog404';
 import ArtGrid from '/components/ArtGrid';
 import FullPostPreviews from '../../components/FullPostPreviews';
 import Link from 'next/link';
+import TagIntro from './blogPageIntro';
+import BlogPageIntro from './blogPageIntro';
 
 export default function Blog({ allPosts, images, count }) {
   const router = useRouter();
@@ -42,6 +44,7 @@ export default function Blog({ allPosts, images, count }) {
       <Container>
         <Header section="blog" tag={capitalizedTag} />
         <p>
+          <BlogPageIntro tag={capitalizedTag} />
           You can follow by{' '}
           <Link href="/subscribe">
             <a>Newsletter</a>
