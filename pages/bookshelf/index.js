@@ -24,7 +24,7 @@ export default function BookShelf({ books }) {
       </Head>
       <Container>
         <Header section="bookshelf" />
-        <p>My words on other people's words. Currently a pile in progress.</p>
+        <p>My words on other people's words. Currently a pile in progress.<br />None of the links included are affiliate links. Sharing these is payment enough!</p>
         <section>
         {Object.values(books).map((book) => (
          <BookshelfItem book={book} />

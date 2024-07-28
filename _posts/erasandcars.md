@@ -4,6 +4,8 @@ tags:
   - Notes
   - Books
 date: '2023-02-20T10:35:07.322Z'
+bookshelf:
+  - ALifeInFootnotes
 ---
 
 I'm [still](/pratchettandinspiration) [enjoying](/pratchettandlibraries) Terry Pratchett's [Biography](https://www.discworldemporium.com/product/terry-pratchett-a-life-with-footnotes/).

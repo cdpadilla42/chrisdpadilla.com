@@ -5,6 +5,8 @@ tags:
   - Notes
   - Terry Pratchett
 date: '2023-01-13T10:35:07.322Z'
+bookshelf:
+  - ALifeInFootnotes
 ---
 
 It never really occurred to me growing up that I could work in software.
@@ -19,11 +21,11 @@ It wasn't until I met living, breathing people that were making a career of work
 
 # Pratchett and Inspiration
 
-I mentioned I'm reading Terry Pratchett's autobiography. I even wrote a bit about how he [gains great satisfaction from the cycle of being a reader and writing for readers](/pratchettandlibraries).
+I mentioned I'm reading Terry Pratchett's biography. I even wrote a bit about how he [gains great satisfaction from the cycle of being a reader and writing for readers](/pratchettandlibraries).
 
 To continue the conversation - sharing things online helps a great deal. Here's further validation. This time, from the angle of the importance of having heroes that feel real.
 
-Pratchett talks about writing fan mail to Tolkien in his autobiography, but I like this heartfelt clip from _From A Slip of the Keyboard: Collected Non-Fiction_ :
+Pratchett talks about writing fan mail to Tolkien in his biography, but I like this heartfelt clip from _From A Slip of the Keyboard: Collected Non-Fiction_ :
 
 > [W]hen I was young I wrote a letter to J.R.R. Tolkien, just as he was becoming extravagantly famous. I think the book that impressed me was Smith of Wootton Major. Mine must have been among hundreds or thousands of letters he received every week. I got a reply. It might have been dictated. For all I know, it might have been typed to a format. But it was signed. He must have had a sackful of letters from every commune and university in the world, written by people whose children are now grown-up and trying to make a normal life while being named Galadriel or Moonchild. It wasn’t as if I’d said a lot. There were no numbered questions. I just said that I’d enjoyed the book very much. And he said thank you. For a moment, it achieved the most basic and treasured of human communications: you are real, and therefore so am I.
 

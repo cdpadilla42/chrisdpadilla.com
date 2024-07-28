@@ -21,8 +21,8 @@ const BookshelfItem = ({book}) => {
 				<img src={book.image} className='bookshelf_image'/>
 			</figure>
 			<h3 id={book.slug}>{book.name} – By {book.author}</h3>
-			<small>Date Read: <strong>{book.date}</strong> | Status: <strong>{capitalizeFirstLetter(book.progress)}</strong>{book.rating && <> | Rating: <strong>{book.rating}/10</strong></>}{book.amazon && <> | <strong>
-				<NextLink href={book.amazon} >Amazon</NextLink>
+			<small>Date Read: <strong>{book.date}</strong> | Status: <strong>{capitalizeFirstLetter(book.progress)}</strong>{book.rating && <> | Rating: <strong>{book.rating}/10</strong></>}{book.purchase && <> | <strong>
+				<NextLink href={book.purchase} >Purchase</NextLink>
 			</strong></>}</small>
 			{book.desc && (
 				<p>
