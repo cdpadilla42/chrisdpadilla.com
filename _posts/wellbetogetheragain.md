@@ -9,7 +9,7 @@ date: '2024-07-28T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/HjRdm6XOXzk)
 
-_No tears, no fears. Remember, there's awlays tomorrow... ~_
+_No tears, no fears. Remember, there's always tomorrow... ~_
 
 Had the pleasure of playing this beautiful piano just outside of the [Frisco Discovery Center](https://mindstretchingfun.org/):
 
