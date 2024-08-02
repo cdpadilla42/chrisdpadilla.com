@@ -3,6 +3,8 @@ title: Holding With a Loose Grip
 tags:
   - Notes
 date: '2023-05-15T10:35:07.322Z'
+bookshelf:
+  - ListeningBook
 ---
 
 I have a nasty habit of holding my pencil with a mean pinch. I can't write for too long because my palm will get sore.

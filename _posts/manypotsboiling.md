@@ -4,6 +4,8 @@ tags:
   - Notes
   - Books
 date: '2023-03-31T10:35:07.322Z'
+bookshelf:
+  - ListeningBook
 ---
 
 Focus is a really big deal. 
