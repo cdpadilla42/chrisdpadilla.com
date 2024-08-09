@@ -2,6 +2,9 @@
 title: Cussedness in Art
 tags:
   - Scrapbook
+  - Creativity
+  - Painting
+  - Art
 date: '2024-08-09T10:35:07.322Z'
 ---
 
