@@ -2,6 +2,7 @@
 title: Punk Solo Snippet
 tags:
   - Music
+  - Guitar
 date: '2024-08-25T10:35:07.322Z'
 ---
 
