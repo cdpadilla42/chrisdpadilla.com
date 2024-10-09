@@ -4,6 +4,9 @@ tags:
   - Notes
   - Books
 date: '2024-10-09T10:35:07.322Z'
+bookshelf:
+  - HappinessHypothesis
+
 ---
 
 Many varieties of creative work require a great deal of solitude. Some like software, writing, composing, and art, are often done [without an audience](/stanchfield) when performing. 
