@@ -9,4 +9,4 @@ date: '2024-10-13T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/43-UrzBZymA)
 
-Finishing out this bossa 🏝️
+Finishing out [this bossa](/onceiloved) 🏝️
