@@ -4,6 +4,7 @@ tags:
   - Tech
   - Java
   - OOP
+  - Polymorphism
 date: '2024-05-10T10:35:07.322Z'
 ---
 
