@@ -1,5 +1,5 @@
 ---
-title: The Retrieval-Augmented Generation patern for AI Development
+title: The Retrieval-Augmented Generation Pattern for AI Development
 tags:
   - Tech
   - AI
