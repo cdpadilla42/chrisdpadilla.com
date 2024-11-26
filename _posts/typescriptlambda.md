@@ -107,7 +107,7 @@ esbuild ./src/index.ts --bundle --sourcemap --platform=neutral --target=es2020 -
 ```
 A couple of options to explain:
 
-- `sourcemap`: This generates a .map.js file which is used for error handling. This makes sane debugging possible even after bundling and minifying.
+- `sourcemap`: This generates a `.map.js` file which is used for error handling. This makes sane debugging possible even after bundling and minifying.
 - `platform=neutral`: Sets default output to `esm`, using the `export` syntax.
 - `target=es20202`: Targets a specific JS spec, also including `esm` modules.
 
