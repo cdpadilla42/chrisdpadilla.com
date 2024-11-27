@@ -7,7 +7,7 @@ tags:
 date: '2024-11-27T10:35:07.322Z'
 ---
 
-A wonderful read in it's entirety on James Gurney's Substask. From ["Should Art Be About Personal Expression?"](https://jamesgurney.substack.com/p/should-art-be-about-personal-expression):
+A wonderful read in it's entirety on James Gurney's Substack. From ["Should Art Be About Personal Expression?"](https://jamesgurney.substack.com/p/should-art-be-about-personal-expression):
 
 > Many of the greatest works of art have come from enigmatic individuals like Shakespeare, Vermeer, and Homer, about whom we know very little. And perhaps it doesn’t matter. The miracle of their work is that the range of their emotional expression seems to extend beyond the scope of a single person’s experience.
 > 
