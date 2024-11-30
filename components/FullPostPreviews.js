@@ -25,6 +25,7 @@ const FullPostPreviews = ({ posts, count }) => {
                 slug={post.slug}
               />
               <PostBody content={post.content} />
+              <hr style={{'margin': '4rem 0'}}></hr>
             </>
           ))}
       </ul>
