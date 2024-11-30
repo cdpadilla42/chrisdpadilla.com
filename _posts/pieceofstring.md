@@ -3,7 +3,7 @@ title: How Long Is a Piece of String?
 tags:
   - Notes
   - Creativity
-date: '2024-11-27T10:35:07.322Z'
+date: '2024-11-29T10:35:07.322Z'
 ---
 
 How much time does it really take to get fulfillment out of a creative practice?
