@@ -124,7 +124,7 @@ export async function getServerSideProps(context) {
   const allPosts = getAllPosts(allPostFields);
 
   const capitalizedTag = capitalizeFirstLetter(context.params.tag);
-  const regex = new RegExp(capitalizedTag, 'i');
+  const regex = new RegExp(`^${capitalizedTag}$`, 'i');
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
   const skip = (page - 1) * 5;
