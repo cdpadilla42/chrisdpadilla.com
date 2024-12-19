@@ -2,7 +2,7 @@ import React from 'react';
 import NextLink from '../../components/NextLink';
 
 const BlogPageIntro = ({tag}) => {
-	if (tag === 'Scrapbook') {
+	if (tag === 'Clippings') {
 		return (
 			<>
 			<span>Links and snippets from across the web.</span><br />

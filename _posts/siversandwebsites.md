@@ -1,7 +1,7 @@
 ---
 title: Derek Sivers and Websites
 tags:
-  - Scrapbook
+  - Clippings
 date: '2024-12-18T10:35:07.322Z'
 ---
 

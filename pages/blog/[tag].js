@@ -25,7 +25,7 @@ export default function Blog({ allPosts, images, count }) {
 
   // const showGrid = tag === 'art' && gridFromQueryParams;
   const showGrid = tag === 'art'
-  const showFullPost = tag === 'music' || tag === 'scrapbook' || (tag === 'art' && !showGrid);
+  const showFullPost = tag === 'music' || tag === 'clippings' || (tag === 'art' && !showGrid);
   const showPreview = !showGrid && !showFullPost;
 
   if (!renderedPosts?.length && !showGrid) {
@@ -117,7 +117,7 @@ export async function getServerSideProps(context) {
   const page = context.query?.p || 1;
   let limit = null;
 
-  if (context.params.tag === 'art' || context.params.tag === 'music' || context.params.tag === 'scrapbook') {
+  if (context.params.tag === 'art' || context.params.tag === 'music' || context.params.tag === 'clippings') {
     allPostFields.push('content');
     limit = 5;
   }

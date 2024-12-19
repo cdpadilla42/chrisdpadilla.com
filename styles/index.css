@@ -446,10 +446,10 @@ figcaption {
   color: var(--purple);
 }
 
-.bloglist_article_tag[data-tag='Scrapbook'] a,
-.tagslist_tag[data-tag='Scrapbook'] a,
-.tagslist_tag[data-tag='Scrapbook'],
-.header_tag[data-tag='Scrapbook'] {
+.bloglist_article_tag[data-tag='Clippings'] a,
+.tagslist_tag[data-tag='Clippings'] a,
+.tagslist_tag[data-tag='Clippings'],
+.header_tag[data-tag='Clippings'] {
   color: var(--cream);
 }
 

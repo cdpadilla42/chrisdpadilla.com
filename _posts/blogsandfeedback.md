@@ -1,7 +1,7 @@
 ---
 title: Blogs, Social Media, and Feedback
 tags:
-  - Scrapbook
+  - Clippings
   - Blogging
 date: '2024-05-04T10:35:07.322Z'
 ---
@@ -11,5 +11,5 @@ _You_ should blog! I've shared my [thoughts on why](findyourpeople) before. [Her
 Here's my favorite bit on the difference between social media and blogging:
 
 > Q: Why would I blog if I get more feedback on social media than I do whenever I’ve blogged?
-> 
+>
 > A: It’s in the terminology: Social media is “social.” Blogs are “web logs.” Social media expects feedback (not just comments, but likes and follows). Blogs are you getting your ideas down; feedback is a byproduct, not a goal.
