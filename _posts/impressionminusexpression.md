@@ -21,7 +21,7 @@ This comes from the legendary Disney animator and teacher Walt Stanchfield (A le
 > equals depression". This is especially applicable to artists. We have trained ourselves to be
 > impressed (aware) of all the things around us, and in the natural course of our lives those
 > impressions cry out to be expressed - on paper, on canvas, in music, in poetry, in an
-> animated film. So shape up
+> animated film. So shape up.
 
 Ain't that the truth?
 
