@@ -10,8 +10,6 @@ bookshelf:
 
 That equation feels right.
 
-(And it's, of course, a _saying_. We're not talking about the actual psychological diagnosis here.)
-
 This comes from the legendary Disney animator and teacher Walt Stanchfield (A lead character animator for the Aristocats, to name one.) I've written before about how Walt Describes [the curious act of performing with no audience](/stanchfield). This equation come in context from [his handouts for gesture drawing](https://ia601302.us.archive.org/15/items/Gesture_Drawing_for_Animation/Gesture_Drawing_for_Animation.pdf):
 
 (Here, Walt is talking about the benefits of staying healthy enough to have the energy to create, another juicy point)
