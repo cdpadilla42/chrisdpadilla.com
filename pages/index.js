@@ -25,15 +25,10 @@ export default function Index({
       <Container>
         <Intro />
         <section>
-          <div className="heading_flex">
-            <h2>Latest Art</h2>
-            <Link href="/blog/art">
-              <a>
-                <h2>See All</h2>
-              </a>
-            </Link>
-          </div>
-          <ArtGrid images={images} page={"home"}/>
+        <MoreStories
+            latestPosts={latestPosts}
+            featuredPosts={featuredPosts}
+          />
           <div className="heading_flex">
             <h2>Latest Music</h2>
             <Link href="/music">
@@ -54,10 +49,15 @@ export default function Index({
               </a>
             </Link>
           </article>
-          <MoreStories
-            latestPosts={latestPosts}
-            featuredPosts={featuredPosts}
-          />
+          <div className="heading_flex">
+            <h2>Latest Art</h2>
+            <Link href="/blog/art">
+              <a>
+                <h2>See All</h2>
+              </a>
+            </Link>
+          </div>
+          <ArtGrid images={images} page={"home"}/>
           {/* <div className="heading_flex">
             <h2>
               <Link href="/acnm">

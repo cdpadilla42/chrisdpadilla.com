@@ -23,7 +23,7 @@ export default function Intro({ latestHap }) {
             </Link>
             . I also <Link href="/blog">write about it all on my blog</Link>. I
             laugh all hours of the day. I live in Dallas, Texas
-            and love to make things. Come say hey!
+            and love to make things. 
           </p>
           <p className="hero_buttons">
             <Link href="/about">
