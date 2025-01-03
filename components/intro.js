@@ -19,7 +19,7 @@ export default function Intro({ latestHap }) {
             </Link>{' '}
             and{' '}
             <Link href="/blog/art">
-              <a>draw pictures</a>
+              <a>make pictures</a>
             </Link>
             . I also <Link href="/blog">write about it all on my blog</Link>. I
             laugh all hours of the day. I live in Dallas, Texas
