@@ -31,7 +31,7 @@ const BlogImage = (props) => (
 );
 
 const CodeBlock = ({className, children}) => {
-  children = hljs.highlightAuto(children, ['java', 'javascript', 'python', 'react', 'yaml', 'dockerfile', 'bash']).value;
+  children = hljs.highlightAuto(children, ['javascript', 'typescript', 'java', 'python', 'react', 'yaml', 'dockerfile', 'bash']).value;
   return (
     <pre>
       <code dangerouslySetInnerHTML={{__html: children}} />
