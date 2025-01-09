@@ -2,6 +2,7 @@
 title: Stewart Copeland Composing for Spryo
 tags:
   - Clippings
+  - Composing
 date: '2025-01-09T10:35:07.322Z'
 ---
 
