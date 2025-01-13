@@ -6,7 +6,7 @@ tags:
   - Database
   - JavaScript
   - TypeScript
-date: '2025-13-27T11:35:07.322Z'
+date: '2025-01-27T11:35:07.322Z'
 ---
 
 Documents in MongoDB automatically generate a unique key on the `_id` field. The value is an `ObjectId`, a byte data type that is very lightweight. (More details in [the docs](https://www.mongodb.com/docs/manual/reference/bson-types/#std-label-objectid).)
