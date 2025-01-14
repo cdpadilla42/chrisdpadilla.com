@@ -2,6 +2,9 @@
 title: Spanish Melody
 tags:
   - Music
+  - Guitar
+  - Acoustic Guitar
+  - Fingerstyle
 date: '2023-07-23T10:35:07.322Z'
 ---
 

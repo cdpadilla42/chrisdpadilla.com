@@ -2,6 +2,9 @@
 title: Folkin' in G
 tags:
   - Music
+  - Guitar
+  - Acoustic Guitar
+  - Improv
 date: '2023-05-06T10:35:07.322Z'
 ---
 

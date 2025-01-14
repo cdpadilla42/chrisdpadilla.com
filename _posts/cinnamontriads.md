@@ -2,6 +2,8 @@
 title: Cinnamon Triads
 tags:
   - Music
+  - Guitar
+  - Improv
 date: '2023-10-29T10:35:07.322Z'
 ---
 

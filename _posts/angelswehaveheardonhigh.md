@@ -2,6 +2,8 @@
 title: Angels We Have Heard on High
 tags:
   - Music
+  - Piano
+  - Christmas
 date: '2023-12-18T10:35:07.322Z'
 ---
 

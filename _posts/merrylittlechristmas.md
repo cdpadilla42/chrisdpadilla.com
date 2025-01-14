@@ -2,6 +2,8 @@
 title: Have Yourself a Merry Little Christmas
 tags:
   - Music
+  - Piano
+  - Christmas
 date: '2024-12-25T10:35:07.322Z'
 ---
 

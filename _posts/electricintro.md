@@ -2,6 +2,9 @@
 title: Electric Intro
 tags:
   - Music
+  - Guitar
+  - Electric Guitar
+  - Improv
 date: '2024-08-18T10:35:07.322Z'
 ---
 

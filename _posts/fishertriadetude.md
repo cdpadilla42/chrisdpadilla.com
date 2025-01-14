@@ -2,6 +2,8 @@
 title: Jody Fisher – Triad Etude
 tags:
   - Music
+  - Guitar
+  - Acoustic Guitar
 date: '2024-04-07T10:35:07.322Z'
 ---
 

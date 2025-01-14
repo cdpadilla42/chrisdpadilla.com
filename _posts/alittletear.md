@@ -2,6 +2,9 @@
 title: A Little Tear
 tags:
   - Music
+  - Piano
+  - Jazz
+  - Latin Jazz
 date: '2024-12-15T10:35:07.322Z'
 ---
 

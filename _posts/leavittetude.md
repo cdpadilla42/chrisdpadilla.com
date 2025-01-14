@@ -2,6 +2,7 @@
 title: Leavitt – Etude
 tags:
   - Music
+  - Guitar
 date: '2024-06-23T10:35:07.322Z'
 ---
 

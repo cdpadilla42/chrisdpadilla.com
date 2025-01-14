@@ -2,6 +2,9 @@
 title: Lazy Sunday Improv
 tags:
   - Music
+  - Improv
+  - Guitar
+  - Electric Guitar
 date: '2024-03-10T10:35:07.322Z'
 ---
 

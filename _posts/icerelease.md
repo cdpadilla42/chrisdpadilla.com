@@ -2,6 +2,7 @@
 title: New Album — Ice 🧊
 tags:
   - Music
+  - Album
 date: '2023-12-15T10:35:07.322Z'
 ---
 

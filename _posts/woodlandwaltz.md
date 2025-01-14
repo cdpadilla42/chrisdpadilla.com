@@ -2,6 +2,8 @@
 title: Gwynn — Woodland Waltz
 tags:
   - Music
+  - Piano
+  - Classical
 date: '2024-05-05T10:35:07.322Z'
 ---
 

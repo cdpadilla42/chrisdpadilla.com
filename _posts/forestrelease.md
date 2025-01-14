@@ -2,6 +2,7 @@
 title: New Album — Forest 🌳
 tags:
   - Music
+  - Album
 date: '2023-04-19T10:35:07.322Z'
 ---
 

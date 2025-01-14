@@ -2,6 +2,8 @@
 title: Faber - This One is About Cats
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-06-18T10:35:07.322Z'
 ---
 

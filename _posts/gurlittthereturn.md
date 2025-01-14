@@ -2,6 +2,8 @@
 title: Gurlitt – The Return
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-08-20T10:35:07.322Z'
 ---
 

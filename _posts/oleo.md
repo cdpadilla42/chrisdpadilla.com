@@ -2,6 +2,8 @@
 title: Sonny Rollins – Oleo
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-10-20T10:35:07.322Z'
 ---
 

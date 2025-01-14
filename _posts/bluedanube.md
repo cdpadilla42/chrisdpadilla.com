@@ -2,6 +2,9 @@
 title: Strauss - Blue Danube Waltz
 tags:
   - Music
+  - Piano
+  - Classical
+  - Chris Learns Piano
 date: '2023-08-13T10:35:07.322Z'
 ---
 

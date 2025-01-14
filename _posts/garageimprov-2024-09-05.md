@@ -2,6 +2,8 @@
 title: Garage Improv 1
 tags:
   - Music
+  - Improv
+  - Saxophone
 date: '2024-09-08T10:35:07.322Z'
 ---
 

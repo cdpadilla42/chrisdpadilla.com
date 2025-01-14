@@ -2,6 +2,9 @@
 title: Carl Fischer – We'll Be Together Again
 tags:
   - Music
+  - Piano
+  - Acoustic Piano
+  - Jazz
 date: '2024-07-28T10:35:07.322Z'
 ---
 

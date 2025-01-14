@@ -2,6 +2,8 @@
 title: Billy Strayhorn — Take the "A" Train
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-05-19T10:35:07.322Z'
 ---
 

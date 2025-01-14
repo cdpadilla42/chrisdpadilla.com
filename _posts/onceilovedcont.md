@@ -2,6 +2,9 @@
 title: Antônio Carlos Jobim – Once I Loved... Continued!
 tags:
   - Music
+  - Piano
+  - Jazz
+  - Latin Jazz
 date: '2024-10-13T10:35:07.322Z'
 ---
 

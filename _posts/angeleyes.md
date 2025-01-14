@@ -2,6 +2,8 @@
 title: Angel Eyes
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-11-03T10:35:07.322Z'
 ---
 

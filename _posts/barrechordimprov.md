@@ -2,6 +2,9 @@
 title: Barre Chord Improv
 tags:
   - Music
+  - Guitar
+  - Improv
+  - Acoustic Guitar
 date: '2023-04-22T10:35:07.322Z'
 ---
 

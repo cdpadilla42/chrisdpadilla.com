@@ -3,6 +3,7 @@ title: Hoagy Carmichael – Skylark
 tags:
   - Music
   - Piano
+  - Jazz
 date: '2024-09-01T10:35:07.322Z'
 ---
 

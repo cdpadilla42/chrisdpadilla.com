@@ -2,6 +2,8 @@
 title: Faber - Wild Flowers
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-04-01T10:35:07.322Z'
 ---
 

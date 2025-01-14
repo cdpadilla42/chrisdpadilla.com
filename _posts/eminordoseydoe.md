@@ -2,6 +2,9 @@
 title: E Minor Cowboy Waltz 🤠
 tags:
   - Music
+  - Improv
+  - Guitar
+  - Acoustic Guitar
 date: '2023-05-20T10:35:07.322Z'
 ---
 

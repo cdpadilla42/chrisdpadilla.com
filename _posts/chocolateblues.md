@@ -2,6 +2,8 @@
 title: Faber - Chocolate Blues
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-07-29T10:35:07.322Z'
 ---
 

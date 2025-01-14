@@ -2,6 +2,8 @@
 title: Alt Guitar Idea
 tags:
   - Music
+  - Improv
+  - Electric Guitar
 date: '2023-03-18T10:35:07.322Z'
 ---
 

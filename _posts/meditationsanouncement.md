@@ -2,6 +2,9 @@
 title: New Album - Meditations
 tags:
   - Music
+  - Album
+  - Guitar
+  - Electric Guitar
 date: '2023-01-26T10:35:07.322Z'
 ---
 

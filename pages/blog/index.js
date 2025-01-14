@@ -33,12 +33,12 @@ export default function Blog({ allPosts, count }) {
       </Head>
       <Container>
         <Header section="blog" />
-        <p>
-          <BlogPageIntro />
+          <aside>
+          <TagsNav />
           You can follow by{' '}
           {/* <Link href="/subscribe">
             <a>Newsletter</a>
-          </Link>{' '}or{' '} */}
+            </Link>{' '}or{' '} */}
           <Link href="/api/feed">
             <a>RSS</a>
           </Link>
@@ -47,8 +47,8 @@ export default function Blog({ allPosts, count }) {
             <a>here</a>
           </Link>
           .
-        </p>
-        <TagsNav />
+        </aside>
+          <BlogPageIntro />
         <FullPostPreviews posts={renderedPosts} count={count} />
       </Container>
     </Layout>

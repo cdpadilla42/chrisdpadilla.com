@@ -2,6 +2,8 @@
 title: Faber – The Medieval Piper
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2024-04-14T10:35:07.322Z'
 ---
 

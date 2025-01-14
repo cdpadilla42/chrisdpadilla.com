@@ -2,6 +2,8 @@
 title: New Album — Dog Angst 🐶
 tags:
   - Music
+  - Album
+  - Lucy
 date: '2024-04-25T10:35:07.322Z'
 ---
 

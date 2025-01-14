@@ -2,6 +2,11 @@
 title: Parkening - A Minor Study
 tags:
   - Music
+  - Guitar
+  - Classical
+  - Fingerstyle
+  - Acoustic Guitar
+  - Lucy
 date: '2023-11-05T10:35:07.322Z'
 ---
 

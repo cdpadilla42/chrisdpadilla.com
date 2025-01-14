@@ -2,6 +2,8 @@
 title: Fly Me To The Moon
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-02-25T10:35:07.322Z'
 ---
 

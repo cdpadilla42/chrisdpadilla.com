@@ -2,6 +2,9 @@
 title: Junkyard Jam
 tags:
   - Music
+  - Improv
+  - Guitar
+  - Electric Guitar
 date: '2023-01-28T10:35:07.322Z'
 ---
 

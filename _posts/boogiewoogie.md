@@ -2,6 +2,8 @@
 title: Time to Boogie Woogie!
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-03-24T10:35:07.322Z'
 ---
 
@@ -9,6 +11,6 @@ date: '2024-03-24T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/_D9dOCTmPcw)
 
-Walking that bass! Trying out playing without looking at my hands as well. 
+Walking that bass! Trying out playing without looking at my hands as well.
 
 Followed this [great video tutorial](https://www.youtube.com/watch?v=jsCiyPHI3kI&ab_channel=ArthurMigliazza) for the tune

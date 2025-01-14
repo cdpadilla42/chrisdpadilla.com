@@ -2,6 +2,8 @@
 title: Brunner - Rondoletto
 tags:
   - Music
+  - Piano
+  - Classical
 date: '2023-11-19T10:35:07.322Z'
 ---
 

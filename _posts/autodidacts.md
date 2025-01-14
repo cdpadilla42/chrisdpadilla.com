@@ -2,9 +2,8 @@
 title: The Best Time To Be an Autodidactic Polymath
 tags:
   - Notes
-  - Music
-  - Art
-  - Tech
+  - Creativity
+  - The Web
 date: '2023-02-17T10:35:07.322Z'
 bookshelf:
   - GestureDrawingForAnimation

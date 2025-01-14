@@ -2,6 +2,8 @@
 title: Satin Doll
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-03-31T10:35:07.322Z'
 ---
 

@@ -2,6 +2,9 @@
 title: Lucy Knows We'll Be Together Again...
 tags:
   - Music
+  - Piano
+  - Jazz
+  - Lucy
 date: '2024-08-11T10:35:07.322Z'
 ---
 

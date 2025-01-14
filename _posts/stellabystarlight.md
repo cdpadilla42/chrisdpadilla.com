@@ -2,6 +2,9 @@
 title: Stella By Starlight
 tags:
   - Music
+  - Piano
+  - Jazz
+  - Acoustic Piano
 date: '2024-02-18T10:35:07.322Z'
 ---
 

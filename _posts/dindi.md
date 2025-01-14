@@ -2,6 +2,9 @@
 title: Dindi
 tags:
   - Music
+  - Piano
+  - Jazz
+  - Latin Jazz
 date: '2024-12-01T10:35:07.322Z'
 ---
 

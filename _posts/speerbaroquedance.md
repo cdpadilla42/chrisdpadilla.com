@@ -2,6 +2,9 @@
 title: Speer - Baroque Dance
 tags:
   - Music
+  - Piano
+  - Classical
+  - Chris Learns Piano
 date: '2023-06-24T10:35:07.322Z'
 ---
 

@@ -2,6 +2,7 @@
 title: New Album — Space Frog 64 🐸
 tags:
   - Music
+  - Album
 date: '2024-01-19T10:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: Faber - Ceremony for Peace
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-04-15T10:35:07.322Z'
 ---
 

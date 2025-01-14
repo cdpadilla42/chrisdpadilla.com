@@ -2,6 +2,8 @@
 title: Minako Adachi — Iki Town from Pokemon Sun & Moon
 tags:
   - Music
+  - Guitar
+  - Video Games
 date: '2024-05-12T10:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: Raymond Hubbell – Poor Butterfly
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-08-04T10:35:07.322Z'
 ---
 

@@ -2,6 +2,10 @@
 title: Lady Be Good
 tags:
   - Music
+  - Guitar
+  - Acoustic Guitar
+  - Jazz
+  - Chord Melody
 date: '2025-01-05T10:35:07.322Z'
 ---
 

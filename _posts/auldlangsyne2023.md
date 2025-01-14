@@ -2,6 +2,8 @@
 title: Auld Lang Syne
 tags:
   - Music
+  - Guitar
+  - Singing
 date: '2023-12-31T10:35:07.322Z'
 ---
 

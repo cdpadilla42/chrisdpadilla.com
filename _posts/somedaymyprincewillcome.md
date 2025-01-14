@@ -2,6 +2,8 @@
 title: Someday My Prince Will Come - Churchill
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2023-10-15T10:35:07.322Z'
 ---
 

@@ -4,6 +4,8 @@ tags:
   - Music
   - Beethoven
   - Piano
+  - Chris Learns Piano
+  - Classical
 date: '2023-10-22T10:35:07.322Z'
 ---
 

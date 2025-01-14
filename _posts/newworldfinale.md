@@ -2,6 +2,9 @@
 title: Dvorak — New World Finale
 tags:
   - Music
+  - Piano
+  - Classical
+  - Chris Learns Piano
 date: '2023-06-10T10:35:07.322Z'
 ---
 

@@ -15,6 +15,8 @@ import FullPostPreviews from '../../components/FullPostPreviews';
 import Link from 'next/link';
 import TagIntro from './blogPageIntro';
 import BlogPageIntro from './blogPageIntro';
+import { FULL_POST_PAGE_LIMIT, FULL_POST_TAGS } from '../../lib/constants';
+
 
 export default function Blog({ allPosts, images, count }) {
   const router = useRouter();
@@ -25,7 +27,7 @@ export default function Blog({ allPosts, images, count }) {
 
   // const showGrid = tag === 'art' && gridFromQueryParams;
   const showGrid = tag === 'art'
-  const showFullPost = tag === 'music' || tag === 'clippings' || (tag === 'art' && !showGrid);
+  const showFullPost = FULL_POST_TAGS.includes(tag) || (tag === 'art' && !showGrid);
   const showPreview = !showGrid && !showFullPost;
 
   if (!renderedPosts?.length && !showGrid) {
@@ -43,9 +45,9 @@ export default function Blog({ allPosts, images, count }) {
       </Head>
       <Container>
         <Header section="blog" tag={capitalizedTag} />
-        <p>
-          <BlogPageIntro tag={capitalizedTag} />
-          You can follow by{' '}
+        <aside>
+          <TagsNav />
+          Follow by{' '}
           {/* <Link href="/subscribe">
             <a>Newsletter</a>
           </Link>{' '}or{' '} */}
@@ -57,8 +59,9 @@ export default function Blog({ allPosts, images, count }) {
             <a>here</a>
           </Link>
           .
-        </p>
-        <TagsNav />
+        </aside>
+          <BlogPageIntro tag={capitalizedTag} />
+          <hr />
         {showFullPost && renderedPosts.length > 0 && (
           <FullPostPreviews posts={renderedPosts} count={count} />
         )}
@@ -117,9 +120,10 @@ export async function getServerSideProps(context) {
   const page = context.query?.p || 1;
   let limit = null;
 
-  if (context.params.tag === 'art' || context.params.tag === 'music' || context.params.tag === 'clippings') {
+  if (FULL_POST_TAGS.includes(context.params.tag)) {
     allPostFields.push('content');
-    limit = 5;
+    limit = FULL_POST_PAGE_LIMIT;
+
   }
   const allPosts = getAllPosts(allPostFields);
 
@@ -127,7 +131,7 @@ export async function getServerSideProps(context) {
   const regex = new RegExp(`^${capitalizedTag}$`, 'i');
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
-  const skip = (page - 1) * 5;
+  const skip = (page - 1) * FULL_POST_PAGE_LIMIT;
 
   let resPosts = publishedPosts.filter((post) =>
     post.tags.some((e) => regex.test(e))
@@ -139,7 +143,8 @@ export async function getServerSideProps(context) {
       // Skip
       .slice(skip)
       // Limit
-      .slice(0, 5);
+      .slice(0, FULL_POST_PAGE_LIMIT);
+  
   }
 
   return {

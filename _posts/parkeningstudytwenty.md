@@ -2,6 +2,10 @@
 title: Parkening – Study No. 20
 tags:
   - Music
+  - Guitar
+  - Classical
+  - Fingerstyle
+  - Acoustic Guitar
 date: '2023-09-02T10:35:07.322Z'
 ---
 

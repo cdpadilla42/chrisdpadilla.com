@@ -2,6 +2,9 @@
 title: Fingerstyle Prelude
 tags:
   - Music
+  - Guitar
+  - Electric Guitar
+  - Fingerstyle
 date: '2023-02-25T10:35:07.322Z'
 ---
 

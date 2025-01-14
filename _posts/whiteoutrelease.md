@@ -2,6 +2,8 @@
 title: New Album — Whiteout ❄️
 tags:
   - Music
+  - Album
+  - Piano
 date: '2023-03-23T10:35:07.322Z'
 ---
 

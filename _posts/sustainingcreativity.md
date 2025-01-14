@@ -2,8 +2,7 @@
 title: Sustaining Creativity
 tags:
   - Notes
-  - Music
-  - Art
+  - Creativity
 date: '2022-11-22T05:35:07.322Z'
 ---
 

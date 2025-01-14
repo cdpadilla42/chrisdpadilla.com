@@ -2,7 +2,7 @@
 title: Creative Insights from Miyamoto and Game Composers
 tags:
   - Notes
-  - Music
+  - Composing
 date: '2023-03-21T05:35:07.322Z'
 ---
 

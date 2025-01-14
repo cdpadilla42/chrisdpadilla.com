@@ -2,7 +2,7 @@
 title: Fluency
 tags:
   - Notes
-  - Music
+  - Creativity
 date: '2022-08-22T05:35:07.322Z'
 twitter: Musings on a twitter thread by @insaneintherain on musical fluency.
 ---

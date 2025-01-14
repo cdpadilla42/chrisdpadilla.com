@@ -2,6 +2,9 @@
 title: Pachabel - Canon in D
 tags:
   - Music
+  - Piano
+  - Classical
+  - Acoustic Piano
 date: '2024-01-14T10:35:07.322Z'
 ---
 

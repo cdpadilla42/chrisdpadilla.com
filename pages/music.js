@@ -58,7 +58,7 @@ export default function Music({ albums }) {
           <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
             Instagram
           </a>{' '}
-          for shorter recordings.
+          for more recordings.
         </p>
         <p>
           My biggest chapter has been in saxophone playing. You can{' '}

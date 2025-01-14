@@ -2,6 +2,9 @@
 title: Raspberry Snow Cone
 tags:
   - Music
+  - Guitar
+  - Electric Guitar
+  - Improv
 date: '2024-07-14T10:35:07.322Z'
 ---
 

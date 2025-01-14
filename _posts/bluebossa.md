@@ -2,6 +2,9 @@
 title: Blue Bossa
 tags:
   - Music
+  - Piano
+  - Jazz
+  - Latin Jazz
 date: '2024-03-03T10:35:07.322Z'
 ---
 

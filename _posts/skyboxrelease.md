@@ -2,6 +2,7 @@
 title: New Album — SkyBox 🫧🐠
 tags:
   - Music
+  - Album
 date: '2024-12-20T10:35:07.322Z'
 ---
 

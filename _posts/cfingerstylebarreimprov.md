@@ -2,6 +2,8 @@
 title: C Fingerstyle Barre Improv
 tags:
   - Music
+  - Guitar
+  - Improv
 date: '2023-07-02T10:35:07.322Z'
 ---
 

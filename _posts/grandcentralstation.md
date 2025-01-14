@@ -2,6 +2,8 @@
 title: Faber — Grand Central Station
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-03-04T10:35:07.322Z'
 ---
 

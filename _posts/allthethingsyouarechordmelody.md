@@ -2,6 +2,8 @@
 title: All the Things You Are Chord Melody
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-10-27T10:35:07.322Z'
 ---
 

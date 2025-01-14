@@ -2,6 +2,9 @@
 title: Money Jam
 tags:
   - Music
+  - Guitar
+  - Electric Guitar
+  - Improv
 date: '2023-02-11T10:35:07.322Z'
 ---
 

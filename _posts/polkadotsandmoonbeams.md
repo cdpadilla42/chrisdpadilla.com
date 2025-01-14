@@ -2,6 +2,8 @@
 title: Jimmy Van Heusen – Polka Dots and Moonbeams
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-09-15T10:35:07.322Z'
 ---
 

@@ -2,6 +2,9 @@
 title: Floating Improv
 tags:
   - Music
+  - Guitar
+  - Acoustic Guitar
+  - Improv
 date: '2023-09-24T10:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: Faber - Chanson
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-03-11T10:35:07.322Z'
 ---
 

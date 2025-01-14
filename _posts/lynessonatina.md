@@ -2,6 +2,9 @@
 title: Lynes – Sonatina in C
 tags:
   - Music
+  - Piano
+  - Classical
+  - Chris Learns Piano
 date: '2024-01-28T10:35:07.322Z'
 ---
 

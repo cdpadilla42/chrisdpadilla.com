@@ -2,6 +2,9 @@
 title: Bach - Prelude in C
 tags:
   - Music
+  - Piano
+  - Classical
+  - Acoustic Piano
 date: '2023-03-25T10:35:07.322Z'
 ---
 

@@ -2,6 +2,10 @@
 title: Parkening - Spanish Dance
 tags:
   - Music
+  - Guitar
+  - Classical
+  - Fingerstyle
+  - Acoustic Guitar
 date: '2023-10-01T10:35:07.322Z'
 ---
 

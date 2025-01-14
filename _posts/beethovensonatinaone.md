@@ -4,6 +4,7 @@ tags:
   - Music
   - Beethoven
   - Piano
+  - Classical
 date: '2024-06-30T10:35:07.322Z'
 ---
 

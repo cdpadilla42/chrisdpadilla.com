@@ -4,12 +4,20 @@ import Link from 'next/link';
 import queryString from 'query-string';
 import PostHeader from './post-header';
 import PostBody from './post-body';
+import { FULL_POST_PAGE_LIMIT } from '../lib/constants';
 
 const FullPostPreviews = ({ posts, count }) => {
   const router = useRouter();
   const query = { ...router.query };
   const currentPage = parseInt(query.p) || 1;
-  const lastPage = Math.ceil(count / 5);
+  const lastPage = Math.ceil(count / FULL_POST_PAGE_LIMIT);
+
+  const parseQuery = {...query};
+  delete parseQuery.tag;
+
+  const basePath = router.asPath.split("?")[0]; 
+
+
 
   return (
     <div>
@@ -32,26 +40,26 @@ const FullPostPreviews = ({ posts, count }) => {
       <div className="pagination-controller" style={{ display: 'flex' }}>
         <div className="left" style={{ flex: '1' }}>
           {currentPage !== 1 && (
-            <Link
-              href={`${router.pathname}?${queryString.stringify({
-                ...query,
+            <a
+              href={`${basePath}?${queryString.stringify({
+                ...parseQuery,
                 p: parseInt(query.p) - 1,
               })}`}
             >
               Back
-            </Link>
+            </a>
           )}
         </div>
         <div className="right" style={{ flex: '1', textAlign: 'right' }}>
           {currentPage < lastPage && (
-            <Link
-              href={`${router.pathname}?${queryString.stringify({
-                ...query,
+            <a
+              href={`${basePath}?${queryString.stringify({
+                ...parseQuery,
                 p: parseInt(query.p || 1) + 1,
               })}`}
             >
               Next
-            </Link>
+            </a>
           )}
         </div>
       </div>

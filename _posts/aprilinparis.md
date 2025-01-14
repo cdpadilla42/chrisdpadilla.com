@@ -2,6 +2,8 @@
 title: April In Paris
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-01-21T10:35:07.322Z'
 ---
 

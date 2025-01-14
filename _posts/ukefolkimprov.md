@@ -2,6 +2,10 @@
 title: Uke Folk Improv
 tags:
   - Music
+  - Guitar
+  - Ukelele
+  - Improv
+  - Folk
 date: '2024-06-02T10:35:07.322Z'
 ---
 

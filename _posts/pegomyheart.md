@@ -2,6 +2,10 @@
 title: Peg O My Heart
 tags:
   - Music
+  - Guitar
+  - Jazz
+  - Chord Melody
+  - Acoustic Guitar
 date: '2024-11-24T10:35:07.322Z'
 ---
 

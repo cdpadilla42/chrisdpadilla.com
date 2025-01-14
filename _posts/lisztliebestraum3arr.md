@@ -2,6 +2,8 @@
 title: Liszt – Liebestraum No  3 (arranged)
 tags:
   - Music
+  - Piano
+  - Classical
 date: '2023-07-16T10:35:07.322Z'
 ---
 

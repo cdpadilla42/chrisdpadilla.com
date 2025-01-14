@@ -2,6 +2,8 @@
 title: All The Things You Are Comping
 tags:
   - Music
+  - Guitar
+  - Jazz
 date: '2024-09-22T10:35:07.322Z'
 ---
 

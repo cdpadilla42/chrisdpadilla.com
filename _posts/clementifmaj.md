@@ -2,6 +2,8 @@
 title: Clementi - Sonatina in F Maj Exposition
 tags:
   - Music
+  - Piano
+  - Classical
 date: '2023-12-03T10:35:07.322Z'
 ---
 

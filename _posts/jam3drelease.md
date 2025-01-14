@@ -2,6 +2,7 @@
 title: New Album — Jam 3D 🟢
 tags:
   - Music
+  - Album
 date: '2024-06-14T07:35:07.322Z'
 ---
 

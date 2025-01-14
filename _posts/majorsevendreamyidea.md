@@ -2,6 +2,9 @@
 title: Major Seven Dreamy Idea
 tags:
   - Music
+  - Guitar
+  - Electric Guitar
+  - Improv
 date: '2023-01-21T10:35:07.322Z'
 ---
 

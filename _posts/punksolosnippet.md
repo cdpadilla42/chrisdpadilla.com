@@ -3,6 +3,8 @@ title: Punk Solo Snippet
 tags:
   - Music
   - Guitar
+  - Electric Guitar
+  - Improv
 date: '2024-08-25T10:35:07.322Z'
 ---
 

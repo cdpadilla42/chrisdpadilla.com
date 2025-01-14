@@ -2,6 +2,8 @@
 title: Faber - 100 Degree Blues
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-08-06T10:35:07.322Z'
 ---
 

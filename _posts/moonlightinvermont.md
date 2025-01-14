@@ -3,6 +3,7 @@ title: Moonlight In Vermont
 tags:
   - Music
   - Piano
+  - Jazz
 date: '2025-01-12T10:35:07.322Z'
 ---
 

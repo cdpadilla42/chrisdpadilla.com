@@ -2,6 +2,10 @@
 title: Swing Low
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
+  - Singing
+  - Lucy
 date: '2023-09-17T10:35:07.322Z'
 ---
 

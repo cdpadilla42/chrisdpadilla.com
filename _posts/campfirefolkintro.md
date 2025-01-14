@@ -2,6 +2,8 @@
 title: Campfire Folk Intro
 tags:
   - Music
+  - Guitar
+  - Improv
 date: '2024-11-20T10:30:07.322Z'
 ---
 

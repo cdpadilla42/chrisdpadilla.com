@@ -2,6 +2,8 @@
 title: Faber - Fantasia Con Spirito
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-10-08T10:35:07.322Z'
 ---
 

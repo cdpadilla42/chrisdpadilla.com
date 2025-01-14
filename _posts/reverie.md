@@ -2,6 +2,9 @@
 title: Debussy - Rêverie
 tags:
   - Music
+  - Piano
+  - Classical
+  - Chris Learns Piano
 date: '2023-01-14T10:35:07.322Z'
 ---
 

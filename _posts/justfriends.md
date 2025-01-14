@@ -2,6 +2,8 @@
 title: Just Friends
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2023-11-26T10:35:07.322Z'
 ---
 

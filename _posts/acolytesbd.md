@@ -2,6 +2,8 @@
 title: Slaughter Beach, Dog – Acolyte
 tags:
   - Music
+  - Guitar
+  - Midwest Emo
 date: '2024-02-11T10:35:07.322Z'
 ---
 

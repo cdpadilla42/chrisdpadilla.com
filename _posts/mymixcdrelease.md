@@ -2,6 +2,9 @@
 title: New Album — My Mix CD 💿
 tags:
   - Music
+  - Album
+  - Guitar
+  - Electric Guitar
 date: '2024-09-27T10:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: New Album — Flowers 🌸
 tags:
   - Music
+  - Album
+  - Piano
 date: '2024-03-23T08:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: Faber - Energico!
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-04-29T10:35:07.322Z'
 ---
 

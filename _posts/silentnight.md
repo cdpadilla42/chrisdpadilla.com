@@ -2,6 +2,9 @@
 title: Silent Night
 tags:
   - Music
+  - Piano
+  - Christmas
+  - Acoustic Piano
 date: '2023-12-24T10:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: February Blues
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2024-02-04T10:35:07.322Z'
 ---
 

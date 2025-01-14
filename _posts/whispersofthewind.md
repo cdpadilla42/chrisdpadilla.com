@@ -2,6 +2,8 @@
 title: Faber — Whispers of the Wind
 tags:
   - Music
+  - Piano
+  - Chris Learns Piano
 date: '2023-06-03T10:35:07.322Z'
 ---
 

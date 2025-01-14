@@ -2,6 +2,10 @@
 title: Greensleeves
 tags:
   - Music
+  - Piano
+  - Classical
+  - Christmas
+  - Chris Learns Piano
 date: '2023-01-07T10:35:07.322Z'
 ---
 

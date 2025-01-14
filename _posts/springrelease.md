@@ -2,6 +2,7 @@
 title: New Album — Spring ☀️
 tags:
   - Music
+  - Album
 date: '2023-02-23T10:35:07.322Z'
 ---
 
