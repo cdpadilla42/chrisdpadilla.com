@@ -10,6 +10,7 @@ import Header from '../../components/header';
 import TagsNav from '../../components/TagsNav';
 import FullPostPreviews from '../../components/FullPostPreviews';
 import BlogPageIntro from './blogPageIntro';
+import { FULL_POST_PAGE_LIMIT } from '../../lib/constants';
 
 export default function Blog({ allPosts, count }) {
   const router = useRouter();
@@ -60,7 +61,7 @@ export async function getServerSideProps(context) {
   const page = context.query.p || 1;
   const count = getPostsCount();
 
-  const skip = (page - 1) * 5;
+  const skip = (page - 1) * FULL_POST_PAGE_LIMIT;
   const allPosts = getAllPosts(
     [
       'title',
@@ -75,7 +76,7 @@ export async function getServerSideProps(context) {
     ],
     {
       skip,
-      limit: 5,
+      limit: FULL_POST_PAGE_LIMIT,
     }
   );
 
