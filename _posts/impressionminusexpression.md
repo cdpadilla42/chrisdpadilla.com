@@ -1,8 +1,8 @@
 ---
 title: Impression Minus Expression Equals Depression
 tags:
-  - Art
   - Books
+  - Creativity
 date: '2023-01-16T10:35:07.322Z'
 bookshelf:
   - GestureDrawingForAnimation

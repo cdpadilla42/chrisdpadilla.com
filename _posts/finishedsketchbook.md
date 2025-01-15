@@ -3,6 +3,8 @@ title: Finishing a Sketchbook
 tags:
   - Art
   - Notes
+  - Line Drawing
+  - Chris Learns to Draw
 date: '2023-01-08T10:35:07.322Z'
 ---
 

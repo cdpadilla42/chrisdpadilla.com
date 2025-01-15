@@ -2,6 +2,8 @@
 title: Birds and Texture Sketches
 tags:
   - Art
+  - Line Drawing
+  - Chris Learns to Draw
 date: '2023-01-22T10:35:07.322Z'
 ---
 

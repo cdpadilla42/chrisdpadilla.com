@@ -3,6 +3,7 @@ title: Automatic Drawing
 tags:
   - Art
   - Notes
+  - Chris Learns to Draw
 date: '2023-06-20T10:35:07.322Z'
 ---
 

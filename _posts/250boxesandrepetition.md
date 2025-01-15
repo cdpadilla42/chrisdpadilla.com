@@ -2,6 +2,9 @@
 title: 250 Box Challenge and Repetition
 tags:
   - Art
+  - Line Drawing
+  - Drawabox
+  - Chris Learns to Draw
 date: '2023-06-14T10:35:07.322Z'
 ---
 
