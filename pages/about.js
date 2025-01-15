@@ -127,7 +127,10 @@ const About = () => {
         . I also share snippets on my{' '}
         <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
           Instagram
-        </a>
+        </a>{' '}and{' '}
+        <Link href="/blog/music">
+          <a>blog</a>
+        </Link>{' '}
         .
       </p>
       <p></p>
