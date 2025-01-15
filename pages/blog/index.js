@@ -49,6 +49,7 @@ export default function Blog({ allPosts, count }) {
           .
         </aside>
           <BlogPageIntro />
+          <hr />
         <FullPostPreviews posts={renderedPosts} count={count} />
       </Container>
     </Layout>
