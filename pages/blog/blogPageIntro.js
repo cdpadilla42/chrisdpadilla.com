@@ -1,20 +1,36 @@
 import React from 'react';
 import NextLink from '../../components/NextLink';
 import Link from 'next/link';
-import { lowercaseFirstLetter } from '../../lib/util';
+import { capitalizeFirstLetter, lowercaseFirstLetter } from '../../lib/util';
+import { ART_SUB_TAGS } from '../../lib/constants';
 
 const BlogPageIntro = ({tag}) => {
 	if (tag === 'Clippings') {
 		return (
 			<>
+			<hr />
 			<p><span>Links and snippets from across the web.</span><br /></p>
 			</>
 		)
 	}
 	if (tag === 'Art') {
+		
 		return (
 			<>
-			<p><span>My sketches and illustrations!</span><br /></p>
+			<hr />
+			<p>Making pictures!</p>
+			<p> I doodled some as a kid, but assumed <a href="https://www.jennpadilla.com/" target="_blank" rel="noopener noreferrer">my sister</a> had all the talent, so I never pursued it seriously. But in 2022, inspiration struck, and I decided to take a swing at learning the craft!</p>
+			<p>I've been documenting my journey ever since. I've written about the lessons I've learned from <a href="/lessonsfromdrawing2023">drawing in 2023</a> and <a href="/lessonsfrompainting2024">digital painting in 2024</a> as Notes on this blog.</p>
+			<p>Some common themes:</p>
+			 <ul className="tagslist">
+				{ART_SUB_TAGS.map((tag) => (
+					<li className="tagslist_tag" data-tag={tag} key={tag}>
+						<a href={`/blog/${lowercaseFirstLetter(tag)}`} passHref>
+							{capitalizeFirstLetter(tag)}
+						</a>
+					</li>
+				))}
+			</ul>
 			</>
 		)
 	}
@@ -22,6 +38,7 @@ const BlogPageIntro = ({tag}) => {
 		const musicTags = ['Piano', 'Guitar', 'Jazz', 'Improv'];
 		return (
 			<>
+			<hr />
 			<p>Regular recordings across instruments!<br/>
 			Here are some common themes that you can explore:
 			</p>
@@ -41,6 +58,7 @@ const BlogPageIntro = ({tag}) => {
 		const musicTags = ['Electric Guitar', 'Acoustic Guitar', 'Chord Melody', 'Improv'];
 		return (
 			<>
+			<hr />
 			<p>Noodles across strings.<br/>
 			Here are some common themes that you can explore:
 			</p>
@@ -59,6 +77,7 @@ const BlogPageIntro = ({tag}) => {
 	if (tag === 'Books') {
 		return (
 			<>
+			<hr />
 			<p><span>Notes on favorite books. Full reading list on my <NextLink href="/bookshelf">Bookshelf</NextLink>.</span><br /></p>
 			</>
 		)
@@ -66,6 +85,7 @@ const BlogPageIntro = ({tag}) => {
 	if (tag === 'Chris Learns Piano') {
 		return (
 			<>
+			<hr />
 			<p>I've been dabbling most of my life, but I decided to really go in on learning piano in 2022. Here are my first few forays!</p>
 			</>
 		)
@@ -74,6 +94,7 @@ const BlogPageIntro = ({tag}) => {
 		const pianoTags = ['Jazz', 'Acoustic Piano', 'Chris Learns Piano']
 		return (
 			<>
+			<hr />
 			<p>Ebony and Ivory...<br/>
 			Here are some common themes that you can explore:
 			</p>
@@ -92,6 +113,7 @@ const BlogPageIntro = ({tag}) => {
 	if (tag === 'Notes') {
 		return (
 			<>
+			<hr />
 			<p><span>Personal essays.</span><br /></p>
 			</>
 		)
@@ -99,6 +121,7 @@ const BlogPageIntro = ({tag}) => {
 	if (tag === 'Tech') {
 		return (
 			<>
+			<hr />
 			<p><span>Articles on all things software!</span><br /></p>
 			</>
 		)
@@ -107,6 +130,7 @@ const BlogPageIntro = ({tag}) => {
 
 		return (
 			<>
+			<hr />
 		<p><span>My passion project! Posts spanning music, art, software, books, and more</span><br /></p>
 		</>
 			)

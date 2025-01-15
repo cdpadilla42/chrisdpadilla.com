@@ -15,10 +15,12 @@ import FullPostPreviews from '../../components/FullPostPreviews';
 import Link from 'next/link';
 import TagIntro from './blogPageIntro';
 import BlogPageIntro from './blogPageIntro';
-import { FULL_POST_PAGE_LIMIT, FULL_POST_TAGS } from '../../lib/constants';
+import { ART_SUB_TAGS, FULL_POST_PAGE_LIMIT, FULL_POST_TAGS } from '../../lib/constants';
 
+const targetArtGridTags = ['art', ...ART_SUB_TAGS]
 
 export default function Blog({ allPosts, images, count }) {
+  console.log(images)
   const router = useRouter();
   const { tag, grid: gridFromQueryParams } = router.query;
 
@@ -26,7 +28,7 @@ export default function Blog({ allPosts, images, count }) {
   const capitalizedTag = capitalizeFirstLetter(tag);
 
   // const showGrid = tag === 'art' && gridFromQueryParams;
-  const showGrid = tag === 'art'
+  const showGrid = targetArtGridTags.includes(tag);
   const showFullPost = FULL_POST_TAGS.includes(tag) || (tag === 'art' && !showGrid);
   const showPreview = !showGrid && !showFullPost;
 
@@ -93,12 +95,15 @@ export default function Blog({ allPosts, images, count }) {
 
 export async function getServerSideProps(context) {
   // Art Grid
+  
 
+  console.log(context.params.tag)
   // if (context.query.grid) {
-  if (context.params.tag === 'art') {
-    const images = getAllArtImages();
+  if (targetArtGridTags.includes(context.params.tag)) {
+    const images = getAllArtImages(['content', 'slug', 'tags', 'date', 'artGridIgnore'], {filter: (post) => post.tags.includes(capitalizeFirstLetter(context.params.tag))});
     // const images = getAllArtImages().slice(0, 30);
     return {
+
       props: { images },
       // revalidate: 14400,
     };
