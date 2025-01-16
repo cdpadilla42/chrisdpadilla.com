@@ -19,7 +19,7 @@ const BlogPageIntro = ({tag}) => {
 			<>
 			<hr />
 			<p>Making pictures!</p>
-			<p> I doodled some as a kid, but assumed <a href="https://www.jennpadilla.com/" target="_blank" rel="noopener noreferrer">my sister</a> had all the talent, so I never pursued it seriously. But in 2022, inspiration struck, and I decided to take a swing at learning the craft!</p>
+			<p> I doodled some as a kid, but assumed I didn't have talent, so I never pursued it seriously. In 2022, inspiration struck, and I decided to take a swing at learning the craft!</p>
 			<p>I've been documenting my journey ever since. I've written about the lessons I've learned from <a href="/lessonsfromdrawing2023">drawing in 2023</a> and <a href="/lessonsfrompainting2024">digital painting in 2024</a> as Notes on this blog.</p>
 			<p>Some common themes:</p>
 			 <ul className="tagslist">
