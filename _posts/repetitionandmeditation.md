@@ -3,7 +3,7 @@ title: Repetition and Meditation
 tags:
   - Notes
   - Creativity
-date: '2025-01-17T10:35:07.322Z'
+date: '2025-01-17T11:35:07.322Z'
 ---
 
 A big reason I still play instruments is for how genuinely soothing it is.
