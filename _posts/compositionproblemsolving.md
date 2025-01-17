@@ -3,6 +3,7 @@ title: Writing Music is Just Problem Solving
 tags:
   - Notes
   - Composing
+  - Creativity
 date: '2023-03-10T10:35:07.322Z'
 ---
 

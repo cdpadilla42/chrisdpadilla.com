@@ -2,6 +2,7 @@
 title: Holding With a Loose Grip
 tags:
   - Notes
+  - Creativity
 date: '2023-05-15T10:35:07.322Z'
 bookshelf:
   - ListeningBook

@@ -2,6 +2,8 @@
 title: Transience
 tags:
   - Notes
+  - Creativity
+  - The Web
 date: '2023-04-24T10:35:07.322Z'
 ---
 

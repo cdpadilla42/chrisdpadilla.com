@@ -2,6 +2,7 @@
 title: Picking a Locale — Overcoming the Blank Page with Carl Barks
 tags:
   - Notes
+  - Creativity
 date: '2023-07-24T10:35:07.322Z'
 ---
 

@@ -2,14 +2,13 @@
 title: Walt Stanchfield & Performing with No Audience
 tags:
   - Notes
-  - Art
+  - Creativity
   - Books
 date: '2022-11-04T05:35:07.322Z'
 ogImage: https://padilla-media.s3.amazonaws.com/blog/imgs/waltstanchfield.jpeg
 bookshelf:
   - GestureDrawingForAnimation
 artGridIgnore: true
-
 ---
 
 Switching from a performance art to a creating medium has been **weird**.

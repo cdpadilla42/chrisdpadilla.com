@@ -2,6 +2,8 @@
 title: 5 Years of Programming and Leading With Curiosity
 tags:
   - Notes
+  - Annuals
+  - Tech
 date: '2024-06-19T10:35:07.322Z'
 ---
 
@@ -9,19 +11,18 @@ This month marks five years since I decided to crack my knuckles and learn JavaS
 
 Now firmly settled into the field, I'm surprised with how much I've learned about myself. Particularly, how I _never_ expected to be doing this kind of work growing up, how it's been even more fulfilling than teaching music, and how well the field supports a life of exploration.
 
-
 ## Life Can Only Be Understood Backwards
 
 I'm grateful to have [grown up alongside the web](/myfirstwebsite). Heck, I was born just a few years before Windows 95!
 
-Now in retrospect, it almost seems inevitable I'd end up in software. But at the time, when I was younger, it was just a fun hobby with infinite ways to play around. 
+Now in retrospect, it almost seems inevitable I'd end up in software. But at the time, when I was younger, it was just a fun hobby with infinite ways to play around.
 
 I find myself stunned by how well the timing of my life worked out to bring me here. Firstly, by how open and experimental building online was back in the 90's and 2000's.
 
 Jim Nielsen illustrates this in "[Making a Website is for Everyone](https://blog.jim-nielsen.com/2023/websites-are-for-normies/)":
 
 > I made my first website as a young teenager because the barrier was so low (and I dropped out of my very first computer science course after the very first class because the barrier seemed so high)... I absolutely love the idea of actively preserving a low barrier to entry for future generations of people.
-> 
+>
 > The web’s low barrier to entry led me to a career that has been a boon for my life. I hope it can do the same for others.
 
 It didn't even take JavaScript to get a website going then! It was accessible and free. Something very down to earth while also being exciting and full of places to explore!
@@ -40,13 +41,13 @@ Artist [Carolyn Yoo](https://carolynyoo.com/) and I are both 32. My favorite lin
 
 > Give however you enjoy giving, whether that’s through food, money, knowledge, or presence. All forms of giving have immense value depending on the recipient.
 
-I have the good fortune of knowing many people for whom **Service** means a direct, one on one connection. Teaching, chiropractic, volunteering. 
+I have the good fortune of knowing many people for whom **Service** means a direct, one on one connection. Teaching, chiropractic, volunteering.
 
 I've felt at odds for a while. The type of service I give isn't that obvious on the surface. This was especially poignant when I left teaching. How could anything beat shaping the next generation?
 
-However, Carolyn's perspective here mirrors what I've come to find in software. There are some people who's greatest gifts are in engaging with the process of creation and sharing what they make. And hey, wouldn't you know it, that's me! 
+However, Carolyn's perspective here mirrors what I've come to find in software. There are some people who's greatest gifts are in engaging with the process of creation and sharing what they make. And hey, wouldn't you know it, that's me!
 
-There are many ways to create things that serve people. What I've found, though, is that software is one of the most well supported, widely appreciated, and broadly impactful mediums to create through.  Likely, if this is your chosen field, your gift is in making.
+There are many ways to create things that serve people. What I've found, though, is that software is one of the most well supported, widely appreciated, and broadly impactful mediums to create through. Likely, if this is your chosen field, your gift is in making.
 
 ## Lead With Curiosity
 

@@ -4,6 +4,7 @@ tags:
   - Notes
   - Books
   - Tech
+  - Annuals
 date: '2022-12-09T05:35:07.322Z'
 ---
 

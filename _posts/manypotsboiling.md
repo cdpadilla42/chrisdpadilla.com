@@ -3,12 +3,13 @@ title: Many Pots Boiling
 tags:
   - Notes
   - Books
+  - Creativity
 date: '2023-03-31T10:35:07.322Z'
 bookshelf:
   - ListeningBook
 ---
 
-Focus is a really big deal. 
+Focus is a really big deal.
 
 Minimalism is a movement to live with only what's essential, [Essentialism](https://www.goodreads.com/book/show/18077875-essentialism?from_search=true&from_srp=true&qid=rM7v003GvZ&rank=1) and [The One Thing](https://www.goodreads.com/book/show/16256798-the-one-thing), and [4,000 Weeks](https://www.chrisdpadilla.com/books2022) are books about honing in on only what's most important. Speaking as a former musician, there are even cultural precedents to go all in on whatever you are most passionate about.
 

@@ -2,6 +2,7 @@
 title: A Love Letter to 2000's YouTube
 tags:
   - Notes
+  - The Web
 date: '2023-01-23T10:35:07.322Z'
 ---
 

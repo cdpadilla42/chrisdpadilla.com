@@ -115,7 +115,7 @@ const BlogPageIntro = ({tag}) => {
 		return (
 			<>
 			<hr />
-			<p><span>Personal essays.</span><br /></p>
+			<p><span>Personal essays. I write often on <a href="/blog/creativity">creativity</a>. I also write <a href="/blog/annuals">annual reflections</a> for key milestones.</span><br /></p>
 			</>
 		)
 	}

@@ -2,6 +2,9 @@
 title: Lessons From a Year of Blogging
 tags:
   - Notes
+  - Annuals
+  - Blogging
+  - Creativity
 date: '2023-05-16T10:35:07.322Z'
 ---
 

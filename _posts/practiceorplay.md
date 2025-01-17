@@ -2,6 +2,7 @@
 title: Practice or Play
 tags:
   - Notes
+  - Creativity
 date: '2023-04-17T10:35:07.322Z'
 ---
 

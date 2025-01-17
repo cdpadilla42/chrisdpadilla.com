@@ -2,6 +2,7 @@
 title: How To Make (Anything) In 3 Steps
 tags:
   - Notes
+  - Creativity
 date: '2023-06-28T10:35:07.322Z'
 ---
 

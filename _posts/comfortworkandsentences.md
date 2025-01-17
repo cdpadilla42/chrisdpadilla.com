@@ -2,6 +2,7 @@
 title: My Comfort Work and "Do You Like Sentences?"
 tags:
   - Notes
+  - Creativity
 date: '2023-07-18T10:35:07.322Z'
 ---
 

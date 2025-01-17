@@ -3,6 +3,7 @@ title: Dynamo
 tags:
   - Notes
   - Books
+  - Creativity
 date: '2024-12-26T10:39:07.322Z'
 bookshelf:
   - GestureDrawingForAnimation

@@ -6,7 +6,7 @@ tags:
   - Creativity
   - Terry Pratchett
 date: '2023-01-09T10:35:07.322Z'
-Bookshelf:
+bookshelf:
   - ALifeInFootnotes
 ---
 

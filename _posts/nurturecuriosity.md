@@ -2,6 +2,7 @@
 title: Nurturing Curiosity
 tags:
   - Notes
+  - Creativity
 date: '2023-04-27T10:35:07.322Z'
 ---
 

@@ -3,6 +3,7 @@ title: Creativity as Conversation
 tags:
   - Books
   - Notes
+  - Creativity
 date: '2023-03-15T10:35:07.322Z'
 ---
 

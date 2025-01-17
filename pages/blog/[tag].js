@@ -20,7 +20,6 @@ import { ART_SUB_TAGS, FULL_POST_PAGE_LIMIT, FULL_POST_TAGS } from '../../lib/co
 const targetArtGridTags = ['art', ...ART_SUB_TAGS]
 
 export default function Blog({ allPosts, images, count }) {
-  console.log(images)
   const router = useRouter();
   const { tag, grid: gridFromQueryParams } = router.query;
 
@@ -95,9 +94,6 @@ export default function Blog({ allPosts, images, count }) {
 
 export async function getServerSideProps(context) {
   // Art Grid
-  
-
-  console.log(context.params.tag)
   // if (context.query.grid) {
   if (targetArtGridTags.includes(context.params.tag)) {
     const images = getAllArtImages(['content', 'slug', 'tags', 'date', 'artGridIgnore'], {filter: (post) => post.tags.includes(capitalizeFirstLetter(context.params.tag))});

@@ -2,6 +2,7 @@
 title: Deadlines as a Creative Tool
 tags:
   - Notes
+  - Creativity
 date: '2023-05-08T10:35:07.322Z'
 ---
 

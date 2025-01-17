@@ -3,6 +3,8 @@ title: Lessons From a Year of Painting
 tags:
   - Notes
   - Lucy
+  - Annuals
+  - Creativity
 date: '2024-09-20T10:35:07.322Z'
 bookshelf:
   - HarmonicExperience
