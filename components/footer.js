@@ -8,6 +8,7 @@ import {
   BANDCAMP_URL,
   APPLE_MUSIC,
   MASTODON_URL,
+  BLUESKY_YRL,
 } from '../lib/constants';
 
 export default function Footer() {
@@ -59,14 +60,21 @@ export default function Footer() {
       •{' '}
       <a href={APPLE_MUSIC} target="_blank" rel="noopener noreferrer">
         Apple Music
-      </a>
-      •{' '}
+      </a><br/>
       <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
         Github
       </a>{' '}
       •{' '}
       <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
         Instagram
+      </a>{' '}
+      •{' '}
+      <a href={BLUESKY_YRL} target="_blank" rel="noopener noreferrer">
+        Bluesky
+      </a>{' '}
+      •{' '}
+      <a href={MUSIC_TWITTER_URL} target="_blank" rel="noopener noreferrer">
+        Twitter
       </a>{' '}
       •{' '}
       <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
