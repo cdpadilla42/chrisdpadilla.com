@@ -7,8 +7,7 @@ import {
   SPOTIFY_URL,
   BANDCAMP_URL,
   APPLE_MUSIC,
-  MASTODON_URL,
-  BLUESKY_YRL,
+  BLUESKY_URL,
 } from '../lib/constants';
 
 export default function Footer() {
@@ -69,7 +68,7 @@ export default function Footer() {
         Instagram
       </a>{' '}
       •{' '}
-      <a href={BLUESKY_YRL} target="_blank" rel="noopener noreferrer">
+      <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
         Bluesky
       </a>{' '}
       •{' '}

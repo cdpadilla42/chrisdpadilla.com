@@ -9,6 +9,7 @@ import {
   INSTAGRAM_URL,
   LINKEDIN_URL,
   MASTODON_URL,
+  BLUESKY_YRL,
 } from '../lib/constants';
 import Link from 'next/link';
 
@@ -23,7 +24,7 @@ export default function Blog() {
         <h1>Contact.</h1>
         <p>
           You can reach me at <strong>cdpadilla42</strong> at{' '}
-          <strong>gmail</strong> dot <strong>com</strong>. It's honestly the
+          <strong>gmail</strong> dot <strong>com</strong>. It's the
           most reliable way to get to me.
         </p>
         {/* <p>
@@ -36,7 +37,7 @@ export default function Blog() {
         </p> */}
         <p>I'm also on the socials:</p>
         <ul>
-          {/* <li>
+          <li>
             <a
               href={MUSIC_TWITTER_URL}
               target="_blank"
@@ -46,23 +47,23 @@ export default function Blog() {
             </a>
           </li>
           <li>
-            <a href={MASTODON_URL} target="_blank" rel="noopener noreferrer">
-              Mastodon
+            <a href={BLUESKY_YRL} target="_blank" rel="noopener noreferrer">
+              Bluesky
             </a>
-          </li> */}
+          </li>
           <li>
             <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </li>
           <li>
-            <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
-              LinkedIn
+            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+              Instagram
             </a>
           </li>
           <li>
-            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-              Instagram
+            <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
+              LinkedIn
             </a>
           </li>
         </ul>
