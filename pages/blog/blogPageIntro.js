@@ -115,7 +115,7 @@ const BlogPageIntro = ({tag}) => {
 		return (
 			<>
 			<hr />
-			<p><span>Personal essays. I write often on <a href="/blog/creativity">creativity</a>. I also write <a href="/blog/annuals">annual reflections</a> for key milestones.</span><br /></p>
+			<p><span>Personal essays. I write often on <a href="/blog/creativity">creativity</a>. I also write <a href="/blog/annuals">annual reflections</a> for key milestones.</span> When I have a chance to read a good book, I <a href="/blog/books">share my favorite bits</a>.</p>
 			</>
 		)
 	}
@@ -123,7 +123,8 @@ const BlogPageIntro = ({tag}) => {
 		return (
 			<>
 			<hr />
-			<p><span>Articles on all things software!</span><br /></p>
+			<p><span>Articles on all things software! </span>
+			You can peruse by programming language, such as <a href="/blog/javaScript">JavaScript</a> or <a href="/blog/python">Python</a>. Or perhaps domain, such as <a href="/blog/testing">testing</a> or <a href="/blog/architecture">architecture</a>.</p>
 			</>
 		)
 	}
