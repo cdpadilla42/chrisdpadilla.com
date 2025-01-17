@@ -4,6 +4,7 @@ tags:
   - Music
   - Piano
   - Jazz
+  - Acoustic Piano
 date: '2024-01-21T10:35:07.322Z'
 ---
 

@@ -128,12 +128,20 @@ const BlogPageIntro = ({tag}) => {
 			</>
 		)
 	}
+	if (tag === 'Lucy') {
+		return (
+			<>
+			<hr />
+			<p><span>Sweet pup. A dear muse.</span></p>
+			</>
+		)
+	}
 	if (!tag) {
 
 		return (
 			<>
 			<hr />
-		<p><span>My passion project! Posts spanning music, art, software, books, and more</span><br /></p>
+		<p><span>My passion project! Posts spanning music, art, software, books, and more.</span><br /></p>
 		</>
 			)
 		}

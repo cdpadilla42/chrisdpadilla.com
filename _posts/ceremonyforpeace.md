@@ -4,6 +4,7 @@ tags:
   - Music
   - Piano
   - Chris Learns Piano
+  - Acoustic Piano
 date: '2023-04-15T10:35:07.322Z'
 ---
 
