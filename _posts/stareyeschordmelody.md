@@ -13,6 +13,11 @@ date: '2025-01-19T11:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/ZEjkpQvXMqs)
 
+Star eyes, flashing eyes in which my hopes rise<br/>
+Let me show you where my heart lies<br/>
+Let me prove that it adores<br/>
+That lovingness of yours
+
 🤩
 
 Enjoying [this lovely arrangement](https://youtu.be/ZOOw0S77jA0) with Helen O'Connell & Jimmy Dorsey.
