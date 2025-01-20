@@ -16,7 +16,7 @@ bookshelf:
 <figcaption>_Blue Sky Thinking — [09/20/24](/sketches-2024-09-20)_</figcaption>
 </figure>
 
-I had a blast spending time creating digital paintings this year!
+I had a blast spending time [creating digital paintings](/blog/chris%20Learns%20Digital%20Painting) this year!
 
 A couple of years ago, I was overcome with the desire to _really_ learn to draw. I made crude comics as a kid, but I was itching to really figure out how it's done. And so I did, and [I learned a lot about art and creativity from it](/lessonsfromdrawing2023)!
 
