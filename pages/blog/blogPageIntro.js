@@ -136,6 +136,22 @@ const BlogPageIntro = ({tag}) => {
 			</>
 		)
 	}
+	if (tag === 'Chris Learns to Draw') {
+		return (
+			<>
+			<hr />
+			<p><span>In 2022, I went from only having ever doodled as a kid to learning to draw. I had a blast and it really freed up the looseness in all of my creative practices (including software!) Here is my journey documented. You can read my reflection on <a href="/lessonsfromdrawing2023">Lessons From A Year of Drawing here</a>.</span></p>
+			</>
+		)
+	}
+	if (tag === 'Chris Learns Digital Painting') {
+		return (
+			<>
+			<hr />
+			<p><span>I had so much fun <a href="/blog/chris%20Learns%20to%20Draw">learning to draw</a> that I wanted to explore another visual medium! In 2023, I dove into digital art. You can read my <a href="/lessonsfrompainting2024">Lessons From A Year of Digital Painting here</a>.</span></p>
+			</>
+		)
+	}
 	if (!tag) {
 
 		return (
