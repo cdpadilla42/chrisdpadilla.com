@@ -9,7 +9,7 @@ date: '2023-12-30T10:35:07.322Z'
 
 ![Biiiig pile!](https://res.cloudinary.com/cpadilla/image/upload/v1701459740/chrisdpadilla/blog/imgs/Sketchbooks2023_l3k5g5.jpg)
 
-This year I drew! A LOT! in September of 2022 I committed to drawing daily and learning some technique. This year I stuck with it, finding time everyday to sketch.
+This year I drew! [A LOT](/blog/chris%20Learns%20to%20Draw)! in September of 2022 I committed to drawing daily and learning some technique. This year I stuck with it, finding time everyday to sketch.
 
 A year ago, it was life changing to be making music regularly - having a new voice to express through. I realized that you don't have to have "The Gift" to compose. You just... do it!
 
