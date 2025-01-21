@@ -9,6 +9,7 @@ import Image from 'next/image';
 import markdownToHtml from '../lib/markdownToHtml';
 import Markdown from 'markdown-to-jsx';
 import NextLink from '../components/NextLink';
+import { convertCamelCaseToTitleCase } from '../lib/util';
 
 export default function AlbumPage({ album }) {
   const [showTracks, setShowTracks] = useState(false);
@@ -47,6 +48,23 @@ export default function AlbumPage({ album }) {
       );
     }
   };
+
+  const renderGenres = () => {
+    if (album.genres) {
+      return (
+        <>
+          <p>
+            <i>Genres:</i> {album.genres.map((genre, i) => {
+              let genreName = convertCamelCaseToTitleCase(genre);
+              if (genre === 'OST') genreName = 'OST';
+              return (
+              <span key={genre}>{genreName}{(i < album.genres.length - 1) ? ', ' : '.'}</span>
+            )})}
+          </p>
+        </>
+      )
+    }
+  }
 
   return (
     <Layout>
@@ -110,6 +128,7 @@ export default function AlbumPage({ album }) {
             >
               {album.description}
             </Markdown>
+            {renderGenres()}
             {renderShowTracksButton()}
             {renderTracks()}
           </div>
