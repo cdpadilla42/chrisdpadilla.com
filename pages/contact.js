@@ -9,7 +9,7 @@ import {
   INSTAGRAM_URL,
   LINKEDIN_URL,
   MASTODON_URL,
-  BLUESKY_YRL,
+  BLUESKY_URL,
 } from '../lib/constants';
 import Link from 'next/link';
 
@@ -47,7 +47,7 @@ export default function Blog() {
             </a>
           </li>
           <li>
-            <a href={BLUESKY_YRL} target="_blank" rel="noopener noreferrer">
+            <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
               Bluesky
             </a>
           </li>
