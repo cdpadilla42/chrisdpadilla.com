@@ -4,7 +4,7 @@ tags:
   - Tech
   - Clippings
   - Testing
-date: '2025-01-21T10:35:07.322Z'
+date: '2025-01-22T10:35:07.322Z'
 ---
 
 From [Justin Weiss](https://www.justinweiss.com/articles/writing-better-tests-with-the-three-phase-pattern/) on how your tests should work in phases:
