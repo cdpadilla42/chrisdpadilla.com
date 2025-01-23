@@ -18,7 +18,7 @@ There are several ingredients to reaching that state. When it comes to ability, 
 
 Is it challenging enough where you're doing a bit of reaching?
 
-Is it easy enough where you don't feel totally overwhelmed by what you're doing.
+Is it easy enough where you don't feel totally overwhelmed by what you're doing?
 
 That's it. And it's relative.
 
