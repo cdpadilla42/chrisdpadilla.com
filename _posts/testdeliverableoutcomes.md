@@ -275,7 +275,7 @@ describe('<ClientUpsert/ >', () => {
 });
 ```
 
-I want this to be a true unit test of the component, so I'm going to mock the `upsertClient` call. We'll handle seeing the two interact in my end-to-end test.
+Here I'm implmenting a [three-phased test](/threephasetests). I want this to be a true unit test of the component, so I'm going to mock the `upsertClient` call. We'll handle seeing the two interact in my end-to-end test.
 
 The nice thing about doing so is that, should the logic of this component be used elsewhere with another method passed to the `onSubmit`, I don't have to worry about writing a whole new set of tests for it. We can simply focus on the UI performing as it should.
 
