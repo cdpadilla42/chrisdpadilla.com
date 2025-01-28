@@ -2,7 +2,7 @@
 title: Value Engineers
 tags:
   - Clippings
-date: '2025-01-29T10:35:07.322Z'
+date: '2025-01-28T10:35:07.322Z'
 ---
 
 A [great write up](https://articles.pragdave.me/p/we-need-a-better-term-than-software) by Dave Thomas on how the title "Software Engineer" simply doesn't cut it when it comes to sucinctly describing what the people in these roles provide:
