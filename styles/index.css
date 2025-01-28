@@ -457,15 +457,22 @@ figcaption {
   margin-top: 4rem;
 }
 
-iframe.youtube_video {
+iframe.youtube_video,
+iframe.internet_archive_video {
   display: block;
   margin: 0 auto;
   width: 90vw;
   height: auto;
 }
 
+iframe.internet_archive_audo {
+  display: block;
+  margin: 0 auto;
+}
+
 @media all and (min-width: 800px) {
-  iframe.youtube_video {
+  iframe.youtube_video,
+  iframe.internet_archive_video {
     width: 560px;
     height: 315px;
   }
