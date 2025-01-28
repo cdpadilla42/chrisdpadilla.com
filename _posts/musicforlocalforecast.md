@@ -13,7 +13,7 @@ The Weather Channel, as you can image, only added fuel to the fire of passion. A
 Here's his collection "Music For Local Forecast."
 
 <figure>
-<iframe src="https://archive.org/embed/lfset1" width="500" height="60" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen className="internet_archive_audo" ></iframe>
+<iframe src="https://archive.org/embed/lfset1" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen className="internet_archive_audio" ></iframe>
 <figcaption>[Listen on The Internet Archive](https://archive.org/details/lfset1)</figcaption>
 </figure>
 
