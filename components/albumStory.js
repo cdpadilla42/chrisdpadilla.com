@@ -16,6 +16,7 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
     new Howl({
       src: [audioSrc],
       loop: true,
+      html5: true,
     })
   );
 
@@ -57,33 +58,41 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
   return (
     <div className="album-story">
       <div className="album-story-page">
-        <video
-          preload="auto"
-          loop
-          muted
-          type="video/mp4"
-          playsInline
-          ref={videoRef}
-          className="album-story-video"
+        <div
+          className="album-story-video-wrapper"
           style={{ display: mediumSize ? 'block' : 'none' }}
-          key={horizontalVideoSrc}
         >
-          <source src={horizontalVideoSrc} type="video/mp4" />
-        </video>
+          <video
+            preload="auto"
+            loop
+            muted
+            type="video/mp4"
+            playsInline
+            ref={videoRef}
+            className="album-story-video"
+            key={horizontalVideoSrc}
+          >
+            <source src={horizontalVideoSrc} type="video/mp4" />
+          </video>
+        </div>
 
-        <video
-          preload="auto"
-          loop
-          muted
-          type="video/mp4"
-          playsInline
-          ref={videoRefTwo}
-          className="album-story-video"
+        <div
+          className="album-story-video-wrapper"
           style={{ display: mediumSize ? 'none' : 'block' }}
-          key={verticalVideoSrc}
         >
-          <source src={verticalVideoSrc} type="video/mp4" />
-        </video>
+          <video
+            preload="auto"
+            loop
+            muted
+            type="video/mp4"
+            playsInline
+            ref={videoRefTwo}
+            className="album-story-video"
+            key={verticalVideoSrc}
+          >
+            <source src={verticalVideoSrc} type="video/mp4" />
+          </video>
+        </div>
         <CSSTransition in={show} timeout={300} classNames="fade" unmountOnExit>
           <button className="album-story-play" onClick={onClick}>
             play
