@@ -2,8 +2,11 @@ import Head from 'next/head';
 import React, { useMemo, useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { useThrottledCallback } from 'use-debounce';
+import { amethystPages } from './amethyst';
 
 const TapEssay = ({ onComplete }) => {
+  const pages = amethystPages;
+  console.log(pages);
   const [currentPage, setCurrentPage] = useState(0);
   const [currentParagraph, setCurrentParagraph] = useState(0);
 
@@ -25,15 +28,6 @@ const TapEssay = ({ onComplete }) => {
   };
 
   const throttledOnClick = useThrottledCallback(onClick, 2000);
-
-  const pages = [
-    [
-      `
-You feel the opening. A familiar sense of gently being called. This time only in a whisper, but you've become sensitive to the voice.`,
-    ],
-    ['This is a single page'],
-    ['This, however... ', 'is a multipage!'],
-  ];
 
   return (
     <>

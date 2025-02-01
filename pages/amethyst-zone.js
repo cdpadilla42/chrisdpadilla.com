@@ -2,7 +2,7 @@ import React from 'react';
 import AlbumStory from '../components/albumStory';
 import Head from 'next/head';
 import Meta from '../components/meta';
-import TapEssay from '../components/tapEssay';
+import TapEssay from '../components/tapEssay/tapEssay';
 
 const verticalVideoSrc =
   'https://res.cloudinary.com/cpadilla/video/upload/v1738379301/chrisdpadilla/blog/video/LiquidDnBVideoVerticalVideoOnlyCompressed_gobbfw.mp4';

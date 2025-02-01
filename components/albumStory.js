@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { useWindowSize } from '../lib/useWindowSize';
 import { Howl } from 'howler';
-import TapEssay from './tapEssay';
+import TapEssay from './tapEssay/tapEssay';
 
 const AlbumStory = ({
   verticalVideoSrc,
@@ -17,7 +17,7 @@ const AlbumStory = ({
   const videoRefTwo = useRef();
   const pageLoaded = useRef(0);
   const [showPlayButton, setShowPlayButton] = useState(true);
-  const [showTapStory, setShowTapStory] = useState(true);
+  const [showTapStory, setShowTapStory] = useState(false);
   const [mediumSize, setMediumSize] = useState(false);
   const { width } = useWindowSize();
   const song = useRef();
@@ -42,15 +42,16 @@ const AlbumStory = ({
 
   const onClick = () => {
     if (!isPlaying.current) {
+      isPlaying.current = true;
       // audioRef.current.play();
       song.current.play();
       if (videoRef.current) videoRef.current.play();
       if (videoRefTwo.current) videoRefTwo.current.play();
-      isPlaying.current = true;
       setShowPlayButton(false);
+      setTimeout(() => setShowTapStory(true), 2000);
     } else {
-      if (videoRef) audioRef.current.pause();
-      if (videoRefTwo) videoRef.current.pause();
+      if (videoRef) videoRef.current.pause();
+      if (videoRefTwo) videoRefTwo.current.pause();
       videoRefTwo.current.pause();
       isPlaying.current = false;
     }
@@ -125,7 +126,11 @@ const AlbumStory = ({
               classNames="fade"
               unmountOnExit
             >
-              <button className="album-story-play" onClick={onClick}>
+              <button
+                className="album-story-play"
+                onClick={onClick}
+                disabled={isPlaying.current}
+              >
                 play
               </button>
             </CSSTransition>
