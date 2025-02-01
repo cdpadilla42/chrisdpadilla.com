@@ -54,17 +54,22 @@ export default function AlbumPage({ album }) {
       return (
         <>
           <p>
-            <i>Genres:</i> {album.genres.map((genre, i) => {
+            <i>Genres:</i>{' '}
+            {album.genres.map((genre, i) => {
               let genreName = convertCamelCaseToTitleCase(genre);
               if (genre === 'OST') genreName = 'OST';
               return (
-              <span key={genre}>{genreName}{(i < album.genres.length - 1) ? ', ' : '.'}</span>
-            )})}
+                <span key={genre}>
+                  {genreName}
+                  {i < album.genres.length - 1 ? ', ' : '.'}
+                </span>
+              );
+            })}
           </p>
         </>
-      )
+      );
     }
-  }
+  };
 
   return (
     <Layout>
@@ -78,6 +83,21 @@ export default function AlbumPage({ album }) {
           <div className="album_text">
             <h1 className="album_text_heading">{album.title}</h1>
             <ul className="album_linkslist">
+              {album.specialLinks &&
+                album.specialLinks.map((link) => (
+                  <li>
+                    {' '}
+                    <Link href={link.link}>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-test="musicExternalLink"
+                      >
+                        {link.text}
+                      </a>
+                    </Link>
+                  </li>
+                ))}
               <li>
                 {' '}
                 <Link href={album.link}>
