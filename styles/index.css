@@ -552,7 +552,7 @@ figure.bookshelf_image_wrapper {
 .album-story {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   flex-direction: column;
   min-width: calc(100vw - 16px);
   min-height: calc(100vh - 16px);
@@ -560,9 +560,9 @@ figure.bookshelf_image_wrapper {
 }
 
 .album-story-page {
-  object-fit: contain;
+  /* object-fit: contain; */
   flex-grow: 1;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   flex-basis: 100%;
 }
 

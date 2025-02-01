@@ -9,12 +9,19 @@ const horizontalVideoSrc =
 const audioSrc =
   'https://res.cloudinary.com/cpadilla/video/upload/v1738379392/chrisdpadilla/blog/audio/LiquidDnBASide_uvmed8.mp3';
 
+const horizontalBgImageSrc =
+  'https://res.cloudinary.com/cpadilla/image/upload/v1738425039/chrisdpadilla/blog/imgs/LiquidDnBHorizontalImage_pty9cl.jpg';
+const verticalBgImageSrc =
+  'https://res.cloudinary.com/cpadilla/image/upload/v1738425039/chrisdpadilla/blog/imgs/LiquidDnBVerticalImage_zs8xvl.jpg';
+
 const AmethystZone = () => {
   return (
     <AlbumStory
       verticalVideoSrc={verticalVideoSrc}
       horizontalVideoSrc={horizontalVideoSrc}
       audioSrc={audioSrc}
+      horizontalBgImageSrc={horizontalBgImageSrc}
+      verticalBgImageSrc={verticalBgImageSrc}
     />
   );
 };

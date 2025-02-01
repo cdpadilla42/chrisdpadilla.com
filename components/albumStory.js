@@ -3,7 +3,13 @@ import { CSSTransition } from 'react-transition-group';
 import { useWindowSize } from '../lib/useWindowSize';
 import { Howl } from 'howler';
 
-const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
+const AlbumStory = ({
+  verticalVideoSrc,
+  horizontalVideoSrc,
+  audioSrc,
+  verticalBgImageSrc = '',
+  horizontalBgImageSrc = '',
+}) => {
   const isPlaying = useRef(false);
   const audioRef = useRef();
   const videoRef = useRef();
@@ -12,13 +18,17 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
   const [show, setShow] = useState(true);
   const [mediumSize, setMediumSize] = useState(false);
   const { width } = useWindowSize();
-  const song = useRef(
-    new Howl({
-      src: [audioSrc],
-      loop: true,
-      html5: true,
-    })
-  );
+  const song = useRef();
+
+  useEffect(() => {
+    if (!song.current) {
+      song.current = new Howl({
+        src: [audioSrc],
+        loop: true,
+        html5: true,
+      });
+    }
+  }, []);
 
   const isVideoPlaying = (video) =>
     !!(
@@ -55,9 +65,18 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
     }
   }, [width]);
 
+  const bgImageUr = mediumSize ? horizontalBgImageSrc : verticalBgImageSrc;
+
   return (
     <div className="album-story">
-      <div className="album-story-page">
+      <div
+        className="album-story-page"
+        style={{
+          backgroundImage: `url('${bgImageUr}')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
         <div
           className="album-story-video-wrapper"
           style={{ display: mediumSize ? 'block' : 'none' }}
