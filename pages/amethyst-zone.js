@@ -23,6 +23,12 @@ const AmethystZone = () => {
       <Meta favicon="AmethystFavicon-16x16.png" />
       <Head>
         <title>A m e t h y s t ⋆.˚ ₊ ⊹</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
       <AlbumStory
         verticalVideoSrc={verticalVideoSrc}
