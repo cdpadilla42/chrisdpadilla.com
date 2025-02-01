@@ -60,8 +60,8 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
         <video
           preload="auto"
           loop
-          poster=""
-          muted=""
+          muted
+          type="video/mp4"
           ref={videoRef}
           className="album-story-video"
           style={{ display: mediumSize ? 'block' : 'none' }}
@@ -73,8 +73,8 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
         <video
           preload="auto"
           loop
-          poster=""
-          muted=""
+          muted
+          type="video/mp4"
           ref={videoRefTwo}
           className="album-story-video"
           style={{ display: mediumSize ? 'none' : 'block' }}
