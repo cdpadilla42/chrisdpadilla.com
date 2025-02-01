@@ -115,11 +115,18 @@ const AlbumStory = ({
             <source src={verticalVideoSrc} type="video/mp4" />
           </video>
         </div>
-        <CSSTransition in={show} timeout={300} classNames="fade" unmountOnExit>
-          <button className="album-story-play" onClick={onClick}>
-            play
-          </button>
-        </CSSTransition>
+        <div className="album-story-play-button-container">
+          <CSSTransition
+            in={show}
+            timeout={300}
+            classNames="fade"
+            unmountOnExit
+          >
+            <button className="album-story-play" onClick={onClick}>
+              play
+            </button>
+          </CSSTransition>
+        </div>
       </div>
       {/* <audio preload="auto" loop src={audioSrc} ref={audioRef} /> */}
     </div>
