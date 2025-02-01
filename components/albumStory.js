@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { useWindowSize } from '../lib/useWindowSize';
 import { Howl } from 'howler';
+import TapEssay from './tapEssay';
 
 const AlbumStory = ({
   verticalVideoSrc,
@@ -15,7 +16,8 @@ const AlbumStory = ({
   const videoRef = useRef();
   const videoRefTwo = useRef();
   const pageLoaded = useRef(0);
-  const [show, setShow] = useState(true);
+  const [showPlayButton, setShowPlayButton] = useState(true);
+  const [showTapStory, setShowTapStory] = useState(true);
   const [mediumSize, setMediumSize] = useState(false);
   const { width } = useWindowSize();
   const song = useRef();
@@ -45,7 +47,7 @@ const AlbumStory = ({
       if (videoRef.current) videoRef.current.play();
       if (videoRefTwo.current) videoRefTwo.current.play();
       isPlaying.current = true;
-      setShow(false);
+      setShowPlayButton(false);
     } else {
       if (videoRef) audioRef.current.pause();
       if (videoRefTwo) videoRef.current.pause();
@@ -68,68 +70,80 @@ const AlbumStory = ({
   const bgImageUr = mediumSize ? horizontalBgImageSrc : verticalBgImageSrc;
 
   return (
-    <div className="album-story">
-      <div className="album-story-page">
-        <div
-          className="album-story-video-wrapper"
-          style={{ display: mediumSize ? 'block' : 'none' }}
-        >
+    <>
+      <div className="album-story">
+        <div className="album-story-page">
           <div
-            className="album-story-bg-image"
-            style={{ backgroundImage: `url('${horizontalBgImageSrc}')` }}
-          />
-          <video
-            preload="auto"
-            loop
-            muted
-            type="video/mp4"
-            playsInline
-            ref={videoRef}
-            className="album-story-video"
-            key={horizontalVideoSrc}
+            className="album-story-video-wrapper"
+            style={{ display: mediumSize ? 'block' : 'none' }}
           >
-            <source src={horizontalVideoSrc} type="video/mp4" />
-          </video>
-        </div>
+            <div
+              className="album-story-bg-image"
+              style={{ backgroundImage: `url('${horizontalBgImageSrc}')` }}
+            />
+            <video
+              preload="auto"
+              loop
+              muted
+              type="video/mp4"
+              playsInline
+              ref={videoRef}
+              className="album-story-video"
+              key={horizontalVideoSrc}
+            >
+              <source src={horizontalVideoSrc} type="video/mp4" />
+            </video>
+          </div>
 
-        <div
-          className="album-story-video-wrapper"
-          style={{ display: mediumSize ? 'none' : 'block' }}
-        >
           <div
-            className="album-story-bg-image"
-            style={{
-              backgroundImage: `url('${verticalBgImageSrc}')`,
-            }}
-          />
-          <video
-            preload="auto"
-            loop
-            muted
-            type="video/mp4"
-            playsInline
-            ref={videoRefTwo}
-            className="album-story-video"
-            key={verticalVideoSrc}
+            className="album-story-video-wrapper"
+            style={{ display: mediumSize ? 'none' : 'block' }}
           >
-            <source src={verticalVideoSrc} type="video/mp4" />
-          </video>
+            <div
+              className="album-story-bg-image"
+              style={{
+                backgroundImage: `url('${verticalBgImageSrc}')`,
+              }}
+            />
+            <video
+              preload="auto"
+              loop
+              muted
+              type="video/mp4"
+              playsInline
+              ref={videoRefTwo}
+              className="album-story-video"
+              key={verticalVideoSrc}
+            >
+              <source src={verticalVideoSrc} type="video/mp4" />
+            </video>
+          </div>
+          <div className="album-story-play-button-container">
+            <CSSTransition
+              in={showPlayButton}
+              PlayButton
+              timeout={2000}
+              classNames="fade"
+              unmountOnExit
+            >
+              <button className="album-story-play" onClick={onClick}>
+                play
+              </button>
+            </CSSTransition>
+          </div>
         </div>
-        <div className="album-story-play-button-container">
-          <CSSTransition
-            in={show}
-            timeout={300}
-            classNames="fade"
-            unmountOnExit
-          >
-            <button className="album-story-play" onClick={onClick}>
-              play
-            </button>
-          </CSSTransition>
-        </div>
+        {/* <audio preload="auto" loop src={audioSrc} ref={audioRef} /> */}
       </div>
-      {/* <audio preload="auto" loop src={audioSrc} ref={audioRef} /> */}
-    </div>
+      <CSSTransition
+        in={!showPlayButton && showTapStory}
+        PlayButton
+        timeout={2000}
+        classNames="fade"
+        unmountOnExit
+      >
+        <TapEssay onComplete={() => setShowTapStory(false)} />
+      </CSSTransition>
+    </>
   );
 };
 
