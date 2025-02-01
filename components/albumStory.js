@@ -81,7 +81,11 @@ const AlbumStory = ({
           className="album-story-video-wrapper"
           style={{ display: mediumSize ? 'block' : 'none' }}
         >
-          <video
+          <div
+            className="album-story-bg-image"
+            style={{ backgroundImage: `url('${horizontalBgImageSrc}')` }}
+          />
+          {/* <video
             preload="auto"
             loop
             muted
@@ -92,13 +96,17 @@ const AlbumStory = ({
             key={horizontalVideoSrc}
           >
             <source src={horizontalVideoSrc} type="video/mp4" />
-          </video>
+          </video> */}
         </div>
 
         <div
           className="album-story-video-wrapper"
           style={{ display: mediumSize ? 'none' : 'block' }}
         >
+          <div
+            className="album-story-bg-image"
+            style={{ backgroundImage: `url('${verticalBgImageSrc}')` }}
+          />
           <video
             preload="auto"
             loop

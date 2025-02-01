@@ -566,7 +566,8 @@ figure.bookshelf_image_wrapper {
   flex-basis: 100%;
 }
 
-.album-story-video {
+.album-story-video,
+.album-story-bg-image {
   position: fixed;
   left: 50%;
   top: 50%;
