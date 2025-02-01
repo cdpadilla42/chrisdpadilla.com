@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { useWindowSize } from '../lib/useWindowSize';
+import { Howl } from 'howler';
 
 const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
   const isPlaying = useRef(false);
@@ -11,6 +12,12 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
   const [show, setShow] = useState(true);
   const [mediumSize, setMediumSize] = useState(false);
   const { width } = useWindowSize();
+  const song = useRef(
+    new Howl({
+      src: [audioSrc],
+      loop: true,
+    })
+  );
 
   const isVideoPlaying = (video) =>
     !!(
@@ -22,7 +29,8 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
 
   const onClick = () => {
     if (!isPlaying.current) {
-      audioRef.current.play();
+      // audioRef.current.play();
+      song.current.play();
       if (videoRef.current) videoRef.current.play();
       if (videoRefTwo.current) videoRefTwo.current.play();
       isPlaying.current = true;
@@ -80,7 +88,7 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
           </button>
         </CSSTransition>
       </div>
-      <audio preload="auto" loop src={audioSrc} ref={audioRef} />
+      {/* <audio preload="auto" loop src={audioSrc} ref={audioRef} /> */}
     </div>
   );
 };

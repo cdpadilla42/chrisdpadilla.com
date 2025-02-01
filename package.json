@@ -16,6 +16,7 @@
     "feed": "^4.2.2",
     "gray-matter": "4.0.3",
     "highlight.js": "^11.9.0",
+    "howler": "^2.2.4",
     "lodash.template": "^4.5.0",
     "markdown-to-jsx": "^7.1.7",
     "mongoose": "^8.4.3",
