@@ -19,7 +19,7 @@ const verticalBgImageSrc =
 const AmethystZone = () => {
   return (
     <>
-      <Meta />
+      <Meta favicon="AmethystFavicon-16x16.png" />
       <Head>
         <title>A m e t h y s t ⋆.˚ ₊ ⊹</title>
       </Head>
