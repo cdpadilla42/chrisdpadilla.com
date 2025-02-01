@@ -557,6 +557,7 @@ figure.bookshelf_image_wrapper {
   min-width: calc(100vw - 16px);
   min-height: calc(100vh - 16px);
   position: relative;
+  overflow: hidden;
 }
 
 .album-story-page {
