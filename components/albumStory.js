@@ -69,14 +69,7 @@ const AlbumStory = ({
 
   return (
     <div className="album-story">
-      <div
-        className="album-story-page"
-        style={{
-          backgroundImage: `url('${bgImageUr}')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
+      <div className="album-story-page">
         <div
           className="album-story-video-wrapper"
           style={{ display: mediumSize ? 'block' : 'none' }}
@@ -105,7 +98,9 @@ const AlbumStory = ({
         >
           <div
             className="album-story-bg-image"
-            style={{ backgroundImage: `url('${verticalBgImageSrc}')` }}
+            style={{
+              backgroundImage: `url('${verticalBgImageSrc}')`,
+            }}
           />
           <video
             preload="auto"

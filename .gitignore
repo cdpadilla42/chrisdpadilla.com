@@ -37,3 +37,5 @@ yarn-error.log*
 public/rss.xml
 
 .env.local
+
+/_posts/.obsidian

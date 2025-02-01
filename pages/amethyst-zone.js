@@ -1,5 +1,7 @@
 import React from 'react';
 import AlbumStory from '../components/albumStory';
+import Head from 'next/head';
+import Meta from '../components/meta';
 
 const verticalVideoSrc =
   'https://res.cloudinary.com/cpadilla/video/upload/v1738379301/chrisdpadilla/blog/video/LiquidDnBVideoVerticalVideoOnlyCompressed_gobbfw.mp4';
@@ -16,13 +18,19 @@ const verticalBgImageSrc =
 
 const AmethystZone = () => {
   return (
-    <AlbumStory
-      verticalVideoSrc={verticalVideoSrc}
-      horizontalVideoSrc={horizontalVideoSrc}
-      audioSrc={audioSrc}
-      horizontalBgImageSrc={horizontalBgImageSrc}
-      verticalBgImageSrc={verticalBgImageSrc}
-    />
+    <>
+      <Meta />
+      <Head>
+        <title>A m e t h y s t ⋆.˚ ₊ ⊹</title>
+      </Head>
+      <AlbumStory
+        verticalVideoSrc={verticalVideoSrc}
+        horizontalVideoSrc={horizontalVideoSrc}
+        audioSrc={audioSrc}
+        horizontalBgImageSrc={horizontalBgImageSrc}
+        verticalBgImageSrc={verticalBgImageSrc}
+      />
+    </>
   );
 };
 
