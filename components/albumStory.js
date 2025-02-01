@@ -85,7 +85,7 @@ const AlbumStory = ({
             className="album-story-bg-image"
             style={{ backgroundImage: `url('${horizontalBgImageSrc}')` }}
           />
-          {/* <video
+          <video
             preload="auto"
             loop
             muted
@@ -96,7 +96,7 @@ const AlbumStory = ({
             key={horizontalVideoSrc}
           >
             <source src={horizontalVideoSrc} type="video/mp4" />
-          </video> */}
+          </video>
         </div>
 
         <div

@@ -588,6 +588,14 @@ figure.bookshelf_image_wrapper {
   /* max-width: auto; */
 }
 
+.album-story-bg-image {
+  z-index: 1;
+}
+
+.album-story-video {
+  z-index: 2;
+}
+
 @media all and (min-width: 800px) {
   .album-story-video {
     /* border-radius: 20px;
