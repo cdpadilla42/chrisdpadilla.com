@@ -62,7 +62,7 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
           loop
           muted
           type="video/mp4"
-          playsinline
+          playsInline
           ref={videoRef}
           className="album-story-video"
           style={{ display: mediumSize ? 'block' : 'none' }}
@@ -76,7 +76,7 @@ const AlbumStory = ({ verticalVideoSrc, horizontalVideoSrc, audioSrc }) => {
           loop
           muted
           type="video/mp4"
-          playsinline
+          playsInline
           ref={videoRefTwo}
           className="album-story-video"
           style={{ display: mediumSize ? 'none' : 'block' }}
