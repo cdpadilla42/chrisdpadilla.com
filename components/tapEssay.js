@@ -1,5 +1,7 @@
 import Head from 'next/head';
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
+import { useThrottledCallback } from 'use-debounce';
 
 const TapEssay = ({ onComplete }) => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -21,6 +23,9 @@ const TapEssay = ({ onComplete }) => {
       onComplete();
     }
   };
+
+  const throttledOnClick = useThrottledCallback(onClick, 2000);
+
   const pages = [
     [
       `
@@ -47,34 +52,37 @@ You feel the opening. A familiar sense of gently being called. This time only in
           color: 'rgba(225, 225, 225, 0.8)',
           cursor: 'pointer',
         }}
-        onClick={onClick}
+        onClick={throttledOnClick}
       >
         {pages.map((page, pageIndex) => {
           return (
-            <p
-              style={{
-                display: pageIndex === currentPage ? 'block' : 'none',
-              }}
+            <CSSTransition
+              in={pageIndex === currentPage}
+              timeout={2000}
+              classNames="fade"
+              unmountOnExit
             >
-              {page.map((paragraph, paragraphIndex) => {
-                console.log(paragraphIndex);
-                console.log(currentParagraph);
-                console.log(paragraphIndex > currentParagraph);
-                return (
-                  <span
-                    key={paragraph}
-                    style={{
-                      color:
-                        paragraphIndex > currentParagraph
-                          ? 'rgba(225,225,225,0)'
-                          : 'rgba(225,225,225,1)',
-                    }}
-                  >
-                    {paragraph}
-                  </span>
-                );
-              })}
-            </p>
+              <p>
+                {page.map((paragraph, paragraphIndex) => {
+                  console.log(paragraphIndex);
+                  console.log(currentParagraph);
+                  console.log(paragraphIndex > currentParagraph);
+                  return (
+                    <span
+                      key={paragraph}
+                      style={{
+                        color:
+                          paragraphIndex > currentParagraph
+                            ? 'rgba(225,225,225,0)'
+                            : 'rgba(225,225,225,1)',
+                      }}
+                    >
+                      {paragraph}
+                    </span>
+                  );
+                })}
+              </p>
+            </CSSTransition>
           );
         })}
       </div>

@@ -121,7 +121,6 @@ const AlbumStory = ({
           <div className="album-story-play-button-container">
             <CSSTransition
               in={showPlayButton}
-              PlayButton
               timeout={2000}
               classNames="fade"
               unmountOnExit

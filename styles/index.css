@@ -665,11 +665,19 @@ figure.bookshelf_image_wrapper {
 }
 
 .tap-essay p {
+  position: absolute;
+  /* position: fixed; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 80vw;
   max-width: 600px;
   font-size: 1rem;
 }
 
+.tap-essay span {
+  transition: color 2000ms linear;
+}
 @media all and (min-width: 800px) {
   .tap-essay {
     font-size: 2rem;
