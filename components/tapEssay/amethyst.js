@@ -1,5 +1,5 @@
 export const amethystPages = [
-  [`You feel the opening.`],
+  [`You sense the opening.`],
   [
     `A familiar sense of gently being called. `,
     `This time only in a whisper, `,
