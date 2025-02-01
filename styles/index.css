@@ -589,11 +589,9 @@ figure.bookshelf_image_wrapper {
 }
 
 .album-story-bg-image {
-  z-index: 1;
-}
-
-.album-story-video {
-  z-index: 2;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
 }
 
 @media all and (min-width: 800px) {
