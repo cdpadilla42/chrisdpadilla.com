@@ -687,6 +687,7 @@ figure.bookshelf_image_wrapper {
     line-height: 3rem;
   }
   .tap-essay p {
+    white-space: pre-line;
     font-size: 2rem;
   }
 }
