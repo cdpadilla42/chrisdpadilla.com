@@ -8,7 +8,7 @@ export const amethystPages = [
   },
   {
     text: [
-      `A familiar sense of gently being called. `,
+      `A familiar feeling of gently being called. `,
       `This time only in a whisper, `,
       `but you've become sensitive to the voice.`,
     ],
