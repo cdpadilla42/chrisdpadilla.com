@@ -12,7 +12,6 @@ const AlbumStory = ({
   horizontalBgImageSrc = '',
 }) => {
   const isPlaying = useRef(false);
-  const audioRef = useRef();
   const videoRef = useRef();
   const videoRefTwo = useRef();
   const pageLoaded = useRef(0);
@@ -32,18 +31,9 @@ const AlbumStory = ({
     }
   }, []);
 
-  const isVideoPlaying = (video) =>
-    !!(
-      video.currentTime > 0 &&
-      !video.paused &&
-      !video.ended &&
-      video.readyState > 2
-    );
-
   const onClick = () => {
     if (!isPlaying.current) {
       isPlaying.current = true;
-      // audioRef.current.play();
       song.current.play();
       if (videoRef.current) videoRef.current.play();
       if (videoRefTwo.current) videoRefTwo.current.play();
@@ -67,8 +57,6 @@ const AlbumStory = ({
       pageLoaded.current += 1;
     }
   }, [width]);
-
-  const bgImageUr = mediumSize ? horizontalBgImageSrc : verticalBgImageSrc;
 
   return (
     <>
@@ -136,13 +124,12 @@ const AlbumStory = ({
             </CSSTransition>
           </div>
         </div>
-        {/* <audio preload="auto" loop src={audioSrc} ref={audioRef} /> */}
       </div>
       <CSSTransition
         in={!showPlayButton && showTapStory}
         PlayButton
-        timeout={2000}
-        classNames="fade"
+        timeout={4000}
+        classNames="fade-slow"
         unmountOnExit
       >
         <TapEssay onComplete={() => setShowTapStory(false)} />

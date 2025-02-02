@@ -645,6 +645,24 @@ figure.bookshelf_image_wrapper {
   transition: opacity 2000ms;
 }
 
+.fade-slow-enter {
+  opacity: 0;
+}
+
+.fade-slow-enter-active {
+  opacity: 1;
+  transition: opacity 4000ms;
+}
+
+.fade-slow-exit {
+  opacity: 1;
+}
+
+.fade-slow-exit-active {
+  opacity: 0;
+  transition: opacity 4000ms;
+}
+
 /* Tap Essay */
 
 .tap-essay {
@@ -662,6 +680,7 @@ figure.bookshelf_image_wrapper {
   font-style: normal;
   letter-spacing: 0.2rem;
   line-height: 1.8rem;
+  transition: background-color 2000ms linear;
 }
 
 .tap-essay p {
