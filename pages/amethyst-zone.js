@@ -10,7 +10,7 @@ const horizontalVideoSrc =
   'https://res.cloudinary.com/cpadilla/video/upload/v1738379302/chrisdpadilla/blog/video/LiquidDnBVideoOnly16-9_de8vsn.mp4';
 
 const audioSrc =
-  'https://res.cloudinary.com/cpadilla/video/upload/v1738379392/chrisdpadilla/blog/audio/LiquidDnBASide_uvmed8.mp3';
+  'https://res.cloudinary.com/cpadilla/video/upload/v1738464782/chrisdpadilla/blog/audio/LiquidDnBMastered_bhvjyo.mp3';
 
 const horizontalBgImageSrc =
   'https://res.cloudinary.com/cpadilla/image/upload/v1738425039/chrisdpadilla/blog/imgs/LiquidDnBHorizontalImage_pty9cl.jpg';
