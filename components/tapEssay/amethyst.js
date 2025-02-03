@@ -1,6 +1,6 @@
 export const amethystPages = [
   {
-    text: [`You sense the opening.`],
+    text: [`You sense the opening.\n(tap to continue...)`],
     overlaySettings: {
       backgroundColor: 'rgba(0,0,0,1)',
       color: 'rgba(225, 225, 225, 0.8)',
