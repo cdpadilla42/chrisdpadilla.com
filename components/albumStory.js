@@ -29,6 +29,8 @@ const AlbumStory = ({
         html5: true,
       });
     }
+
+    return () => song.current.stop();
   }, []);
 
   const onClick = () => {
