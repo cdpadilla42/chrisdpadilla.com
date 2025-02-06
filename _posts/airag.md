@@ -3,10 +3,11 @@ title: The Retrieval-Augmented Generation Pattern for AI Development
 tags:
   - Tech
   - AI
+  - LangGraph
 date: '2024-11-20T10:33:07.322Z'
 ---
 
-Yes ladies and gentleman, a post about developing with **AI**! 
+Yes ladies and gentleman, a post about developing with **AI**!
 
 If you're team is looking to incorporate an LLM into your services, the first challenge to overcome is how to do so in a cost effective way.
 
@@ -37,7 +38,7 @@ Prompt Engineering is emerging as a role and craft all of it's own, and there ar
 
 ## LangChain
 
-The workflow is already so common that there's a framework at the ready to spin up and take care of the heavy lifting for you. [LangChain](https://www.langchain.com/langchain) (stylized as 🦜⛓️‍💥) is just that tool. 
+The workflow is already so common that there's a framework at the ready to spin up and take care of the heavy lifting for you. [LangChain](https://www.langchain.com/langchain) (stylized as 🦜⛓️‍💥) is just that tool.
 
 For a hands on experience building a RAG application on rails, their docs on [building a chatbot](https://python.langchain.com/docs/tutorials/chatbot/) are a good starting place.
 
