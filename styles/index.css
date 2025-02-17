@@ -474,13 +474,20 @@ iframe.internet_archive_audio {
   height: 60px;
 }
 
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
 @media all and (min-width: 800px) {
   iframe.youtube_video,
   iframe.internet_archive_video {
     width: 560px;
     height: 315px;
   }
-  iframe.internet_archive_audio {
+  iframe.internet_archive_audio,
+  .video {
     width: 560px;
   }
 }
