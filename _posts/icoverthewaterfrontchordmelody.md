@@ -12,8 +12,8 @@ date: '2025-02-16T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/wubu9actEQk)
 
-[I cover the waterfront](https://youtu.be/5r4iyMOp1gY)<br/>
-I'm watching the sea<br/>
+[I cover the waterfront](https://youtu.be/5r4iyMOp1gY),<br/>
+I'm watching the sea~<br/>
 Will the one I love be coming back to me?
 
 Arranged by [Frank Vignola](https://truefire.com/jazz-guitar-lessons/chord-melody-playbook/c1478).
