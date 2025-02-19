@@ -17,4 +17,4 @@ There's something, though, to being influenced by a time and a place. That subco
 
 Some opinions would put music-for-music's sake on a pedestal as the truest form of the medium. Perhaps so. However, I seem to find myself drawn more and more to the music that played just a part in a greater whole of creating a mood and atmosphere.
 
-Even if it was [weather channel music](/musicforlocalforecast.md).
+Even if it was [weather channel music](/musicforlocalforecast).
