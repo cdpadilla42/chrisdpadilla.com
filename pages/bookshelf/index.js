@@ -7,7 +7,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../../components/header';
 import { useRouter } from 'next/router';
-import BookshelfItem from '/components/bookshelfItem'
+import BookshelfItem from '/components/bookshelfItem';
 import path from 'path';
 
 export default function BookShelf({ books }) {
@@ -24,25 +24,33 @@ export default function BookShelf({ books }) {
       </Head>
       <Container>
         <Header section="bookshelf" />
-        <p>My words on other people's words. Currently a pile in progress.<br />None of the links included are affiliate links. Sharing these is payment enough!</p>
+        <p>
+          My words on other people's words. Currently a pile in progress.
+          <br />
+          None of the links included are affiliate links. Sharing these is
+          payment enough!
+        </p>
         <section>
-        {Object.values(books).map((book) => (
-         <BookshelfItem book={book} />
-        ))}
-      </section>
+          {Object.values(books).map((book) => (
+            <BookshelfItem book={book} />
+          ))}
+        </section>
       </Container>
     </Layout>
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const books = bookshelf;
-  const file = await fs.readFile(path.resolve(process.cwd() + '/_cache/bookshelfLinks.json'), 'utf8');
+  const file = await fs.readFile(
+    path.resolve(process.cwd() + '/_cache/bookshelfLinks.json'),
+    'utf8'
+  );
   const bookshelfLinks = JSON.parse(file);
 
   for (const key of Object.keys(bookshelfLinks)) {
     if (books[key]) {
-      books[key].postLinks = bookshelfLinks[key]
+      books[key].postLinks = bookshelfLinks[key];
     }
   }
 
@@ -52,4 +60,3 @@ export async function getServerSideProps() {
     },
   };
 }
-

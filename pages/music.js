@@ -73,7 +73,7 @@ export default function Music({ albums }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const albums = getAlbums();
 
   return {

@@ -34,7 +34,7 @@ export default function Blog({ allPosts, count }) {
       </Head>
       <Container>
         <Header section="blog" />
-          <aside>
+        <aside>
           <TagsNav />
           You can follow by{' '}
           {/* <Link href="/subscribe">
@@ -49,8 +49,8 @@ export default function Blog({ allPosts, count }) {
           </Link>
           .
         </aside>
-          <BlogPageIntro />
-          <hr />
+        <BlogPageIntro />
+        <hr />
         <FullPostPreviews posts={renderedPosts} count={count} />
       </Container>
     </Layout>

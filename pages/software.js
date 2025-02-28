@@ -40,8 +40,9 @@ export default function Projects({ softwareProjects }) {
           , where I work.
         </p>
         <p>
-          I write technical articles on <Link href="/blog/tech">my blog</Link>. Most
-          of my posts are tutorials and dev journals from my personal projects.
+          I write technical articles on <Link href="/blog/tech">my blog</Link>.
+          Most of my posts are tutorials and dev journals from my personal
+          projects.
         </p>
         <p>
           Want to get in touch? Find out how you can{' '}
@@ -53,7 +54,7 @@ export default function Projects({ softwareProjects }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const softwareProjects = getSoftwareProjects();
 
   const serializedSoftwareProjects = JSON.parse(

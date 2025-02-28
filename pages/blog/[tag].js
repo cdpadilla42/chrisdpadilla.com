@@ -5,7 +5,11 @@ import Container from '../../components/container';
 import Layout from '../../components/layout';
 import { getAllArtImages, getAllPosts } from '../../lib/api';
 import PostPreview from '../../components/post-preview';
-import { capitalizeFirstLetter, filterBlogPosts } from '../../lib/util';
+import {
+  capitalizeFirstLetter,
+  filterBlogPosts,
+  lowercaseFirstLetter,
+} from '../../lib/util';
 import Header from '../../components/header';
 import { primaryTags } from '../../lib/minorBlogTags';
 import TagsNav from '../../components/TagsNav';
@@ -15,9 +19,13 @@ import FullPostPreviews from '../../components/FullPostPreviews';
 import Link from 'next/link';
 import TagIntro from './blogPageIntro';
 import BlogPageIntro from './blogPageIntro';
-import { ART_SUB_TAGS, FULL_POST_PAGE_LIMIT, FULL_POST_TAGS } from '../../lib/constants';
+import {
+  ART_SUB_TAGS,
+  FULL_POST_PAGE_LIMIT,
+  FULL_POST_TAGS,
+} from '../../lib/constants';
 
-const targetArtGridTags = ['art', ...ART_SUB_TAGS]
+const targetArtGridTags = ['art', ...ART_SUB_TAGS];
 
 export default function Blog({ allPosts, images, count }) {
   const router = useRouter();
@@ -28,7 +36,8 @@ export default function Blog({ allPosts, images, count }) {
 
   // const showGrid = tag === 'art' && gridFromQueryParams;
   const showGrid = targetArtGridTags.includes(tag);
-  const showFullPost = FULL_POST_TAGS.includes(tag) || (tag === 'art' && !showGrid);
+  const showFullPost =
+    FULL_POST_TAGS.includes(tag) || (tag === 'art' && !showGrid);
   const showPreview = !showGrid && !showFullPost;
 
   if (!renderedPosts?.length && !showGrid) {
@@ -61,8 +70,8 @@ export default function Blog({ allPosts, images, count }) {
           </Link>
           .
         </aside>
-          <BlogPageIntro tag={capitalizedTag} />
-          <hr />
+        <BlogPageIntro tag={capitalizedTag} />
+        <hr />
         {showFullPost && renderedPosts.length > 0 && (
           <FullPostPreviews posts={renderedPosts} count={count} />
         )}
@@ -96,10 +105,15 @@ export async function getServerSideProps(context) {
   // Art Grid
   // if (context.query.grid) {
   if (targetArtGridTags.includes(context.params.tag)) {
-    const images = getAllArtImages(['content', 'slug', 'tags', 'date', 'artGridIgnore'], {filter: (post) => post.tags.includes(capitalizeFirstLetter(context.params.tag))});
+    const images = getAllArtImages(
+      ['content', 'slug', 'tags', 'date', 'artGridIgnore'],
+      {
+        filter: (post) =>
+          post.tags.includes(capitalizeFirstLetter(context.params.tag)),
+      }
+    );
     // const images = getAllArtImages().slice(0, 30);
     return {
-
       props: { images },
       // revalidate: 14400,
     };
@@ -124,7 +138,6 @@ export async function getServerSideProps(context) {
   if (FULL_POST_TAGS.includes(context.params.tag)) {
     allPostFields.push('content');
     limit = FULL_POST_PAGE_LIMIT;
-
   }
   const allPosts = getAllPosts(allPostFields);
 
@@ -145,7 +158,6 @@ export async function getServerSideProps(context) {
       .slice(skip)
       // Limit
       .slice(0, FULL_POST_PAGE_LIMIT);
-  
   }
 
   return {
@@ -164,6 +176,6 @@ export async function getServerSideProps(context) {
 //         },
 //       };
 //     }),
-//     fallback: 'blocking',
+//     fallback: true,
 //   };
 // }
