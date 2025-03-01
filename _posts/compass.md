@@ -6,7 +6,7 @@ tags:
 date: '2025-02-28T10:35:07.322Z'
 ---
 
-Some mediums are steeped in tradition. So much so, that there seems to be a clear step-by-step path to mastery.
+Some mediums are steeped in tradition and mastery oriented.
 
 The map to success there is very clear. Practice your scales, play loads of rep, spend years studying the masters, and you will arrive at a marked destination.
 
