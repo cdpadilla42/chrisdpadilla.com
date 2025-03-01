@@ -49,7 +49,7 @@ Number one has to be [Lucy](/blog/lucy), a brief collection of posts where our s
 
 I don't often have the opportunity, but when I play an [acoustic piano](/blog/acoustic%20Piano), I always savor it.
 
-It's probably evident from what I share, but I do a ton of reflecting. I take every chance I get to do [annual reflections](//blog/annuals) for different milestones. I like marking occassions and celebrating with writing.
+It's probably evident from what I share, but I do a ton of reflecting. I take every chance I get to do [annual reflections](/blog/annuals) for different milestones. I like marking occassions and celebrating with writing.
 
 ## Tending
 
