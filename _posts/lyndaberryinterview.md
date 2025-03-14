@@ -2,7 +2,7 @@
 title: Getting It on the Page
 tags:
   - Clippings
-date: '2025-03-14T10:35:07.322Z'
+date: '2025-03-14T10:40:07.322Z'
 ---
 
 Very quickly becoming a big fan of Lynda Berry's work.
