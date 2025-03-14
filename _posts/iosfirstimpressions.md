@@ -4,6 +4,7 @@ tags:
   - Tech
   - Swift
   - iOS
+  - Mobile
 date: '2025-01-29T10:33:07.322Z'
 ---
 
