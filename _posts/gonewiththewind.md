@@ -2,6 +2,8 @@
 title: Gone With the Wind
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2025-03-02T10:35:07.322Z'
 ---
 

@@ -2,6 +2,8 @@
 title: Like Someone In Love
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2025-02-02T10:35:07.322Z'
 ---
 

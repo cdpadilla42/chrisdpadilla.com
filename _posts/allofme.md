@@ -2,6 +2,8 @@
 title: All of Me
 tags:
   - Music
+  - Piano
+  - Jazz
 date: '2025-02-09T10:35:07.322Z'
 ---
 

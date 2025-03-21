@@ -2,6 +2,7 @@
 title: Bird Box Track
 tags:
   - Music
+  - Jazz
 date: '2025-03-16T10:35:07.322Z'
 ---
 

@@ -4,6 +4,8 @@ tags:
   - Music
   - Chord Melody
   - Electric Guitar
+  - Guitar
+  - Jazz
 date: '2025-02-23T10:35:07.322Z'
 ---
 
