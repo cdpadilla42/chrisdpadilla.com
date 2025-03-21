@@ -10,7 +10,7 @@ date: '2025-03-19T10:35:07.322Z'
 
 [Listen on Youtube](https://youtu.be/V52Fto40syM)
 
-Miyamoto on the subject of fantasy:
+Miyamoto:
 
 > Kids today have sports clubs after school. They go to tutoring. They are pushed by their parents. Their time is limited.
 >
