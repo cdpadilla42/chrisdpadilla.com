@@ -3,7 +3,7 @@ title: Metal Mario & Textures
 tags:
   - Clippings
   - Video Games
-date: '2025-03-23T10:35:07.322Z'
+date: '2025-03-24T10:35:07.322Z'
 ---
 
 ![Mama Mia](http://res.cloudinary.com/cpadilla/image/upload/v1742443220/chrisdpadilla/blog/images/utlahqa4itqmgjhkhvmr.jpg)
