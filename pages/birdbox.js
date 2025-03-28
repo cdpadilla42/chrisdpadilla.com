@@ -41,7 +41,7 @@ const About = () => {
           <a target="_blank" rel="noopener noreferrer">
             in your desktop browser
           </a>
-        </Link>{' '}
+        </Link>
         .
       </p>
     </Layout>
