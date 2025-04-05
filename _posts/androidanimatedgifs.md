@@ -1,5 +1,5 @@
 ---
-title: Android Animated Gifs on Android with Expo and React Native
+title: Animated Gifs on Android with Expo and React Native
 tags:
   - Tech
   - Mobile
