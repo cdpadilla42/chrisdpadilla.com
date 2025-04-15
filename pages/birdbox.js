@@ -14,19 +14,40 @@ const About = () => {
       </Head>
       <Header />
       <h1>Bird Box</h1>
-      {/* <div className="center">
+      <div className="center">
         <Image
-          src="https://res.cloudinary.com/cpadilla/image/upload/v1695238745/chrisdpadilla/site/acnmfrontpage_sza4ub.png"
-          alt="AC: New Mureder Start Page"
+          src="http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg"
+          alt="Bird Box"
           width={500}
           height={500}
         />
-      </div> */}
+      </div>
 
-      <h2>I Made A Game!</h2>
+      <h2>I Made An App!</h2>
       <p>
-        Bird Box is a music app where you can unlock songs by singing certain
-        melodies with the Toucan!
+        Bird Box is a simple toy music box! You can also unlock hidden songs if
+        you play the right notes.
+      </p>
+      <p>
+        When I first played Ocarina of Time, I would just spend ages fooling
+        around with the ocarina. Inspired by that simple pleasure of making
+        sounds, I took the opportunity to learn just enough{' '}
+        <Link href="https://reactnative.dev/">
+          <a target="_blank" rel="noopener noreferrer">
+            React Native
+          </a>
+        </Link>{' '}
+        to bring my own app to life!
+      </p>
+
+      <p>
+        There are currently a few hidden songs to discover. Playing a 6 note
+        sequence will unlock the song. HINT: if you listen to{' '}
+        <Link href="/birdboxost">
+          <a>the OST</a>
+        </Link>
+        , you may be able to pick out the first few notes that start each song.
+        ;)
       </p>
 
       <p>

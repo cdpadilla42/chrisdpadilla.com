@@ -89,8 +89,8 @@ export default function AlbumPage({ album }) {
                     {' '}
                     <Link href={link.link}>
                       <a
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        target={link.newWindow ? '_blank' : ''}
+                        rel={link.newWindow ? 'noopener noreferrer' : ''}
                         data-test="musicExternalLink"
                       >
                         {link.text}
