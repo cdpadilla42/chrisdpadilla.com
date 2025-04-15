@@ -3,6 +3,7 @@ title: Software Without Scale
 tags:
   - Notes
   - Creativity
+  - Tech
 date: '2025-04-15T10:35:07.322Z'
 ---
 
@@ -46,8 +47,6 @@ Robin Sloan in 2020 developed BoopSnoop: an app targeted at a user base of 4 peo
 >
 > When you liberate programming from the requirement to be professional and scalable, it becomes a different activity altogether, just as cooking at home is really nothing like cooking in a commercial kitchen. I can report to you: not only is this different activity rewarding in almost exactly the same way that cooking for someone you love is rewarding, there’s another feeling, too, specific to this realm.
 
-
-
 ---
 
 On app feel:
@@ -70,9 +69,9 @@ Finding a digital home in this sense used to be easier. Even MySpace and Faceboo
 
 ---
 
-Even when scaled down, the thing that keeps all apps from feeling truly comfortable is measured performance. Public access to number of likes, subs, listens, comments, etc. communicates clearly that the purpose of these platforms is scaling engagement. A tone that is ever present, even if you try to ignore the numbers. 
+Even when scaled down, the thing that keeps all apps from feeling truly comfortable is measured performance. Public access to number of likes, subs, listens, comments, etc. communicates clearly that the purpose of these platforms is scaling engagement. A tone that is ever present, even if you try to ignore the numbers.
 
-A personal blog can have all of that. But, importantly, it's your choice to turn it on or off. The medium is the message, and you can shape your medium to reflect a priority that goes beyond the assumption that value and scale are equivalent. 
+A personal blog can have all of that. But, importantly, it's your choice to turn it on or off. The medium is the message, and you can shape your medium to reflect a priority that goes beyond the assumption that value and scale are equivalent.
 
 ---
 
@@ -126,7 +125,7 @@ While on the subject of robots: _[Robot fighting leagues](https://www.nhrl.io/)_
 
 _Open Source Software_, by definition, is the separation of software and commerce. Scale is still a factor, but profit is not a requirement. The examples are numerous. My favorites are [Blender](https://www.blender.org/), [Krita](https://krita.org/en/), and [Kdenlive](https://kdenlive.org/en/).
 
-_[haikU](https://preneo.org/nwylde/haikU/about.html)_ by Nanette Wylde from 2001 generates a poem by combining three lines from different haikus at random for interesting juxtapositions. 
+_[haikU](https://preneo.org/nwylde/haikU/about.html)_ by Nanette Wylde from 2001 generates a poem by combining three lines from different haikus at random for interesting juxtapositions.
 
 For examples that target small groups specifically, dive into Clay Shirky's ["Situated Software"](https://web.archive.org/web/20050120085129/http://www.shirky.com/writings/situated_software.html) mentioned earlier.
 
