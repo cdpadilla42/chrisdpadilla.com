@@ -25,8 +25,8 @@ const About = () => {
 
       <h2>I Made An App!</h2>
       <p>
-        Bird Box is a simple toy music box! You can also unlock hidden songs if
-        you play the right notes.
+        Bird Box is a simple toy music box! A delightful little app for playing
+        with sound.
       </p>
       <p>
         When I first played Ocarina of Time, I would just spend ages fooling
@@ -41,29 +41,33 @@ const About = () => {
       </p>
 
       <p>
-        There are currently a few hidden songs to discover. Playing a 6 note
-        sequence will unlock the song. HINT: if you listen to{' '}
-        <Link href="/birdboxost">
-          <a>the OST</a>
-        </Link>
-        , you may be able to pick out the first few notes that start each song.
-        ;)
+        Bird Box comes with a songbook. If you can play the few themes by ear,
+        our feathered friend will recognize the tune and perform the entire song
+        for you!
       </p>
 
       <p>
-        You can download Bird Box from{' '}
+        You can download Bird Box for free from{' '}
         <Link href={BIRD_BOX_APP_STORE_URL}>
           <a target="_blank" rel="noopener noreferrer">
             the iOS App Store
           </a>
-        </Link>{' '}
-        or visit the game{' '}
+        </Link>
+        . You can visit the game{' '}
         <Link href={BIRD_BOX_URL}>
           <a target="_blank" rel="noopener noreferrer">
             in your desktop browser
           </a>
         </Link>
-        .
+        , though I've found the mobile apps perform best.
+      </p>
+
+      <p>
+        Spoil the game by listening to{' '}
+        <Link href="/birdboxost">
+          <a>the OST here</a>
+        </Link>
+        !
       </p>
     </Layout>
   );
