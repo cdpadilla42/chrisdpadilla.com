@@ -52,10 +52,10 @@ const About = () => {
       <h2>The History</h2>
 
       <p>
-        In 2020, my sister Jenn approached me with an idea for a murder mystery
-        game featuring some of the characters from Animal Crossing. I was
-        looking for a fun new way to sharpen my software engineering skills, and
-        I was won over by the silliness of the story!
+        In 2020, Jenn approached me with an idea for a murder mystery game
+        featuring some of the characters from Animal Crossing. I was looking for
+        a fun new way to sharpen my software engineering skills, and I was won
+        over by the silliness of the story!
       </p>
 
       <p>
