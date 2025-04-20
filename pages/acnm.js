@@ -24,7 +24,7 @@ const About = () => {
 
       <h2>I Made A Game!</h2>
       <p>
-        <Link href="https://acnewmurder.com/play">
+        <Link href="https://acnewmurder.com/">
           <a target="_blank" rel="noopener noreferrer">
             AC: New Murder
           </a>
@@ -87,7 +87,7 @@ const About = () => {
       </p>
       <p>
         You can{' '}
-        <Link href="https://acnewmurder.com/play">
+        <Link href="https://acnewmurder.com/">
           <a target="_blank" rel="noopener noreferrer">
             get started here
           </a>
@@ -110,17 +110,9 @@ const About = () => {
 
       <h2>Links</h2>
       <p>
-        <Link href="https://acnewmurder.com/play">
-          <a target="_blank" rel="noopener noreferrer">
-            🕵️‍♂️ Play AC: New Murder
-          </a>
-        </Link>
-      </p>
-
-      <p>
         <Link href="https://acnewmurder.com/">
           <a target="_blank" rel="noopener noreferrer">
-            🔍 Visit the Official Site
+            🕵️‍♂️ Play AC: New Murder
           </a>
         </Link>
       </p>
