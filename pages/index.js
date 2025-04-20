@@ -107,7 +107,7 @@ export default function Index({
                 </h3>
                 <span>
                   An interactive short story to accompany{' '}
-                  <Link href="/acnm">
+                  <Link href="/amethyst">
                     <a>the liquid drum and bass album</a>
                   </Link>
                   . Playable in browser.
@@ -115,7 +115,7 @@ export default function Index({
               </div>
             </div>
             <div className="interactive_container">
-              <Link href="/amethyst-zone">
+              <Link href="/acnm">
                 <a>
                   <Image
                     src="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/acnmcover_krjrsy.jpg"
