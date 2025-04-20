@@ -43,10 +43,8 @@ const About = () => {
 
       <p>
         Oh, and I{' '}
-        <Link href="https://letsgochris.bandcamp.com/album/ac-new-murder-soundtrack">
-          <a target="_blank" rel="noopener noreferrer">
-            made the music
-          </a>
+        <Link href="/acnewmurdersoundtrack">
+          <a>made the music</a>
         </Link>
         , too!
       </p>
@@ -118,10 +116,8 @@ const About = () => {
       </p>
 
       <p>
-        <Link href="https://letsgochris.bandcamp.com/album/ac-new-murder-soundtrack">
-          <a target="_blank" rel="noopener noreferrer">
-            🎶 Listen to the Soundtrack
-          </a>
+        <Link href="/acnewmurdersoundtrack">
+          <a>🎶 Listen to the Soundtrack</a>
         </Link>
       </p>
 
