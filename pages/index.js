@@ -10,6 +10,7 @@ import { getAllArtImages, getAllPosts, getLatestAlbum } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import featuredPostsSlugs from '../lib/featuredPosts';
 import { getRefs } from '../lib/biDirectionlLink';
+import LandingInteractive from '../components/LandingInteractive';
 
 export default function Index({
   latestPosts,
@@ -58,87 +59,7 @@ export default function Index({
             </Link>
           </div>
           <ArtGrid images={images} page={'home'} />
-          <div className="heading_flex">
-            <h2>Interactive</h2>
-          </div>
-          <article className="interactive">
-            {/* <div className="interactive_container">
-              <Link href="/birdbox">
-                <a>
-                  <Image
-                    src="http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg"
-                    alt="Bird Box"
-                    width="150"
-                    height="150"
-                    className="interactive_image"
-                  />
-                </a>
-              </Link>
-              <div className="interactive_description">
-                <h3>
-                  <Link href="/birdbox">
-                    <a>Bird Box</a>
-                  </Link>
-                </h3>
-                <span>
-                  A pleasant toy music box! A delightful mobile app for playing
-                  with sound and learning tunes by ear. Playable on iOS,
-                  Android, and web.
-                </span>
-              </div>
-            </div> */}
-            <div className="interactive_container">
-              <Link href="/amethyst-zone">
-                <a>
-                  <Image
-                    src="http://res.cloudinary.com/cpadilla/image/upload/v1737414483/chrisdpadilla/albums/izyuwlz5nmfr1ciujauv.jpg"
-                    alt="Amethyst"
-                    width="150"
-                    height="150"
-                    className="interactive_image"
-                  />
-                </a>
-              </Link>
-              <div className="interactive_description">
-                <h3>
-                  <Link href="/amethyst-zone">
-                    <a>Amethyst</a>
-                  </Link>
-                </h3>
-                <span>
-                  An interactive short story to accompany{' '}
-                  <Link href="/amethyst">
-                    <a>the liquid drum and bass album</a>
-                  </Link>
-                  . Playable in browser.
-                </span>
-              </div>
-            </div>
-            <div className="interactive_container">
-              <Link href="/acnm">
-                <a>
-                  <Image
-                    src="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/acnmcover_krjrsy.jpg"
-                    alt="AC: New Murder"
-                    width="150"
-                    height="150"
-                    className="interactive_image"
-                  />
-                </a>
-              </Link>
-              <div className="interactive_description">
-                <h3>
-                  <Link href="/acnm">
-                    <a>AC: New Murder</a>
-                  </Link>
-                </h3>
-                <span>
-                  A tribute game to Animal Crossing with story and design by my
-                  sister Jenn, web app and music by me!
-                </span>
-              </div>
-            </div>
-          </article>
+          <LandingInteractive />
         </section>
       </Container>
     </Layout>
