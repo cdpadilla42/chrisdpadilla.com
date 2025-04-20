@@ -25,7 +25,7 @@ export default function Index({
       <Container>
         <Intro />
         <section>
-        <MoreStories
+          <MoreStories
             latestPosts={latestPosts}
             featuredPosts={featuredPosts}
           />
@@ -57,26 +57,88 @@ export default function Index({
               </a>
             </Link>
           </div>
-          <ArtGrid images={images} page={"home"}/>
-          {/* <div className="heading_flex">
-            <h2>
-              <Link href="/acnm">
-                <a>I MADE A GAME — AC: NEW MURDER</a>
-              </Link>
-            </h2>
+          <ArtGrid images={images} page={'home'} />
+          <div className="heading_flex">
+            <h2>Interactive</h2>
           </div>
-          <article>
-            <Link href="/acnm">
-              <a>
-                <Image
-                  src="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/site/ACNMpromo2_wmgnhx.jpg"
-                  alt="Promo banner for AC: New Mureder"
-                  height="1067"
-                  width="800"
-                />
-              </a>
-            </Link>
-          </article> */}
+          <article className="interactive">
+            {/* <div className="interactive_container">
+              <Link href="/birdbox">
+                <a>
+                  <Image
+                    src="http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg"
+                    alt="Bird Box"
+                    width="150"
+                    height="150"
+                    className="interactive_image"
+                  />
+                </a>
+              </Link>
+              <div className="interactive_description">
+                <h3>
+                  <Link href="/birdbox">
+                    <a>Bird Box</a>
+                  </Link>
+                </h3>
+                <span>
+                  A pleasant toy music box! A delightful mobile app for playing
+                  with sound and learning tunes by ear. Playable on iOS,
+                  Android, and web.
+                </span>
+              </div>
+            </div> */}
+            <div className="interactive_container">
+              <Link href="/amethyst-zone">
+                <a>
+                  <Image
+                    src="http://res.cloudinary.com/cpadilla/image/upload/v1737414483/chrisdpadilla/albums/izyuwlz5nmfr1ciujauv.jpg"
+                    alt="Amethyst"
+                    width="150"
+                    height="150"
+                    className="interactive_image"
+                  />
+                </a>
+              </Link>
+              <div className="interactive_description">
+                <h3>
+                  <Link href="/amethyst-zone">
+                    <a>Amethyst</a>
+                  </Link>
+                </h3>
+                <span>
+                  An interactive short story to accompany{' '}
+                  <Link href="/amethyst">
+                    <a>the liquid drum and bass album</a>
+                  </Link>
+                  . Playable in browser.
+                </span>
+              </div>
+            </div>
+            <div className="interactive_container">
+              <Link href="/amethyst-zone">
+                <a>
+                  <Image
+                    src="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/acnmcover_krjrsy.jpg"
+                    alt="AC: New Murder"
+                    width="150"
+                    height="150"
+                    className="interactive_image"
+                  />
+                </a>
+              </Link>
+              <div className="interactive_description">
+                <h3>
+                  <Link href="/acnm">
+                    <a>AC: New Murder</a>
+                  </Link>
+                </h3>
+                <span>
+                  A tribute game to Animal Crossing with story and design by my
+                  sister Jenn, web app and music by me!
+                </span>
+              </div>
+            </div>
+          </article>
         </section>
       </Container>
     </Layout>
@@ -89,11 +151,10 @@ export async function getStaticProps() {
     convertContentToHtml: true,
   });
 
-  const env = process.env.NODE_ENV
-  if(env == "development"){
+  const env = process.env.NODE_ENV;
+  if (env == 'development') {
     getRefs();
-  
-}
+  }
 
   const images = getAllArtImages().slice(0, 6);
 
