@@ -107,7 +107,7 @@ export default function Index({
                 </h3>
                 <span>
                   An interactive short story to accompany{' '}
-                  <Link href="/amethyst">
+                  <Link href="/acnm">
                     <a>the liquid drum and bass album</a>
                   </Link>
                   . Playable in browser.
