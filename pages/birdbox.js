@@ -22,7 +22,6 @@ const About = () => {
           height={500}
         />
       </div>
-
       <h2>I Made An App!</h2>
       <p>
         Bird Box is a simple toy music box! A delightful little app for playing
@@ -39,13 +38,11 @@ const About = () => {
         </Link>{' '}
         to bring my own app to life!
       </p>
-
       <p>
         Bird Box comes with a songbook. If you can play the few themes by ear,
         our feathered friend will recognize the tune and perform the entire song
         for you!
       </p>
-
       <p>
         You can download Bird Box for free from{' '}
         <Link href={BIRD_BOX_APP_STORE_URL}>
@@ -59,15 +56,23 @@ const About = () => {
             in your desktop browser
           </a>
         </Link>
-        , though I've found the mobile apps perform best.
+        , though I've found the mobile app performs best.
       </p>
-
       <p>
         Spoil the game by listening to{' '}
         <Link href="/birdboxost">
           <a>the OST here</a>
         </Link>
         !
+      </p>
+      <p>
+        Android users!! I need your help. I need testers to run this through the
+        ringer before it launches on the Google Play Store. If you want to
+        participate,{' '}
+        <Link href="/contact">
+          <a>contact me by email</a>
+        </Link>
+        .
       </p>
     </Layout>
   );
