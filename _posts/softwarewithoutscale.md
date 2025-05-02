@@ -65,7 +65,7 @@ Derek Sivers talks about having a [private email account](https://sive.rs/pe) th
 
 Some people will say that Discord has a similar feel. I suppose it can, but most of the channels I'm in are overpopulated and too over-stimulating for that to feel true for me.
 
-Finding a digital home in this sense used to be easier. Even MySpace and Facebook friends were largely just your circle of IRL friends. Before that, forums and online groups were small due to the limited number of people using the internet. Largely, scale is the culprit.
+Finding a digital home in this sense used to be easier. Even MySpace and Facebook friends were largely just your circle of IRL friends. Before that, forums and online groups were small due to a smaller user base. Largely, scale is the culprit.
 
 ---
 
