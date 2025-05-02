@@ -87,7 +87,8 @@ main {
 }
 @media all and (min-width: 800px) {
   main {
-    margin: 4rem auto;
+    margin: 2rem auto;
+    padding: 2rem 0;
   }
 }
 
