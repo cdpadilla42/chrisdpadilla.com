@@ -80,6 +80,11 @@ main {
   margin: 3rem 0;
 }
 
+@media all and (min-width: 500px) {
+  main {
+    margin: 1rem 1rem;
+  }
+}
 @media all and (min-width: 800px) {
   main {
     margin: 4rem auto;
@@ -264,18 +269,39 @@ figcaption {
 }
 
 .art_display {
+  width: 100%;
+  aspect-ratio: 1 / 1;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 1.5rem;
   align-items: center;
+  justify-items: stretch;
+}
+
+.art_display_article,
+.artgridlink,
+.artgridimage {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .artgridimage {
-  height: 250px;
-  width: 250px;
   background: transparent no-repeat center;
   background-size: cover;
   margin: auto;
+}
+
+@media all and (min-width: 800px) {
+  .artgridimage {
+    height: 250px;
+    width: 250px;
+  }
+  .art_display,
+  .art_display_article,
+  .artgridlink {
+    aspect-ratio: auto;
+  }
 }
 /* .artgridimage.home {
   height: 500px;
@@ -289,8 +315,8 @@ figcaption {
 
 .artgridimage,
 .artgridimage.home {
-  height: 250px;
-  width: 250px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   background: transparent no-repeat center;
   background-size: cover;
   margin: auto;

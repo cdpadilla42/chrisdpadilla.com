@@ -6,9 +6,14 @@ const ArtGrid = ({ images, page }) => {
     <>
       <section className="art_display">
         {images.map((image, i) => (
-          <article key={image.src} className={`${(i > 0 && page === 'home') ? 'hideonmobile' : ''}`}>
+          <article
+            key={image.src}
+            className={`art_display_article ${
+              i > 0 && page === 'home' ? 'hideonmobile' : ''
+            }`}
+          >
             <Link href={`/${image.slug}`}>
-              <a data-test="musicGridLink">
+              <a data-test="musicGridLink" className="artgridlink">
                 <div
                   className={`artgridimage ${page}`}
                   style={{
