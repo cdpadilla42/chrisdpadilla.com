@@ -42,7 +42,7 @@ export default function LandingInteractive(props) {
           description={
             <>
               A tribute game to Animal Crossing with story and design by my
-              sister Jenn, web app and music by me!
+              sister Jenn, web app and music by your's truly!
             </>
           }
           image="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/acnmcover_krjrsy.jpg"
