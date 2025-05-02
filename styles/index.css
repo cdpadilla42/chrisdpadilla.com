@@ -71,7 +71,7 @@ footer {
 }
 
 main {
-  max-width: 50rem;
+  max-width: 48rem;
   margin: 1rem 0.5rem;
   /* grid-area: main; */
 }
@@ -88,7 +88,7 @@ main {
 @media all and (min-width: 800px) {
   main {
     margin: 2rem auto;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
   }
 }
 
