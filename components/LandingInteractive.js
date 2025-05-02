@@ -16,8 +16,7 @@ export default function LandingInteractive(props) {
           description={
             <>
               A pleasant toy music box! A mobile app designed for playing with
-              sound and learning melodies by ear. Playable on iOS, Android, and
-              web.
+              sound and learning melodies by ear. Playable on iOS and web.
             </>
           }
           image="http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg"
@@ -41,8 +40,8 @@ export default function LandingInteractive(props) {
           name="AC: New Murder"
           description={
             <>
-              A tribute game to Animal Crossing with story and design by my
-              sister Jenn, web app and music by your's truly!
+              A tribute game to Animal Crossing. Story and design by my sister
+              Jenn, web app and music by your's truly!
             </>
           }
           image="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/acnmcover_krjrsy.jpg"
