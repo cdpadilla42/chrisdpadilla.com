@@ -22,7 +22,7 @@ Is it easy enough where you don't feel totally overwhelmed by what you're doing?
 
 That's it. And it's relative.
 
-Saxophone is my most fluent instrument. To achieve flow, I would have to be working on a new piece with significant technical and expressive challenges to get there. But when I'm playing guitar, I find it just by spending time moving between two chords again and again and again.
+Saxophone is my most fluent instrument. To achieve flow, I would have to be working on a new piece with significant technical and expressive challenges to get there. But when I'm playing guitar, I find it just by spending time moving between [two chords](/twochords) again and again and again.
 
 Especially as we're getting started, we're moved by the product of creative work. Someone's ability as a performer inspires us, or a stunning painting really grabs us. That's great for lighting the spark.
 
