@@ -297,8 +297,8 @@ figcaption {
 
 @media all and (min-width: 800px) {
   .artgridimage {
-    height: 250px;
-    width: 250px;
+    height: 234px;
+    width: 234px;
   }
   .art_display,
   .art_display_article,
@@ -390,8 +390,8 @@ figcaption {
   }
 
   .artgridimage {
-    width: 250px;
-    height: 250px;
+    width: 202px;
+    height: 202px;
   }
 
   .hideonmobile {
