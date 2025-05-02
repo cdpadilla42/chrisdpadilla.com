@@ -82,7 +82,7 @@ main {
 
 @media all and (min-width: 500px) {
   main {
-    margin: 1rem 1rem;
+    margin: 1rem 2rem;
   }
 }
 @media all and (min-width: 800px) {
