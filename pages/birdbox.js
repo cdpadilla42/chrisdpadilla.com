@@ -38,6 +38,21 @@ const About = () => {
         </Link>{' '}
         to bring my own app to life!
       </p>
+      <article className="center">
+        <video
+          preload="auto"
+          loop
+          type="video/mp4"
+          playsInline
+          controls
+          className="center"
+        >
+          <source
+            src="https://res.cloudinary.com/cpadilla/video/upload/v1746288919/chrisdpadilla/blog/video/birdboxscreencapcompressed_zrx447.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </article>
       <p>
         Bird Box comes with a songbook. If you can play the few themes by ear,
         our feathered friend will recognize the tune and perform the entire song
