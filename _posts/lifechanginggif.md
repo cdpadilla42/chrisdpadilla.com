@@ -15,7 +15,7 @@ The [normal medium](/sax) didn't seem to fit as it did before. Practicing also f
 
 So I was sifting through Twitter when this popped up:
 
-<video preload="auto" controls loop type="video/mp4" className="video">
+<video controls loop type="video/mp4" className="video">
   <source src="https://res.cloudinary.com/cpadilla/video/upload/v1739808377/chrisdpadilla/blog/video/ThemeForDogByTheWindowLouieZong_u8rpo7.mp4" type="video/mp4" />
 </video>
 
