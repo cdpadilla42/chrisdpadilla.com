@@ -374,6 +374,16 @@ figcaption {
   text-align: center;
 }
 
+figure.reset {
+  margin-inline: 0;
+}
+.full-width {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  margin-inline: 0;
+}
+
 .hideonmobile {
   display: none;
 }
