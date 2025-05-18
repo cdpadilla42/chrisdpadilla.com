@@ -4,7 +4,7 @@ import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import { calculateAge } from '../lib/util';
-import { INSTAGRAM_URL } from '../lib/constants';
+import { HOME_TOWN, INSTAGRAM_URL } from '../lib/constants';
 
 const About = () => {
   const bd = new Date('1992-06-02');
@@ -21,7 +21,7 @@ const About = () => {
       <h2>The Gist</h2>
       <p>
         <strong>
-          I'm a software engineer and musician from Dallas, Texas. 🤠
+          I'm a software engineer and musician from {HOME_TOWN}. 🤠
         </strong>
         {'  '}I have been hacking and musicing for pretty much most of my life!
         I'm {calculateAge(bd)} years old and wrangled my first lines of HTML,
@@ -49,7 +49,8 @@ const About = () => {
       tools that empower apartment hunters and locators.
       <p>
         <strong>I'm an avid learner and maker!</strong> I bounce between
-        reading, writing, learning new instruments, and composing. There's always something new to try!
+        reading, writing, learning new instruments, and composing. There's
+        always something new to try!
       </p>
       <h2>Coding Origin Story</h2>
       <p>
@@ -127,7 +128,8 @@ const About = () => {
         . I also share snippets on my{' '}
         <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
           Instagram
-        </a>{' '}and{' '}
+        </a>{' '}
+        and{' '}
         <Link href="/blog/music">
           <a>blog</a>
         </Link>{' '}
@@ -136,9 +138,7 @@ const About = () => {
       <p></p>
       <h2>Life</h2>
       <p>
-        <strong>
-          I live in the Dallas area with my girlfriend and our pup Lucy.
-        </strong>{' '}
+        <strong>I live in {HOME_TOWN} with my fiancée and our pup Lucy.</strong>{' '}
         We all love the food here. 👌
       </p>
       <p>

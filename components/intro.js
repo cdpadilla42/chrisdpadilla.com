@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import Image from 'next/image';
 import Link from 'next/link';
+import { HOME_TOWN } from '../lib/constants';
 
 export default function Intro({ latestHap }) {
   return (
@@ -22,8 +23,8 @@ export default function Intro({ latestHap }) {
               <a>make pictures</a>
             </Link>
             . I also <Link href="/blog">write about it all on my blog</Link>. I
-            laugh all hours of the day. I live in Dallas, Texas
-            and love to make things. 
+            laugh all hours of the day. I live in {HOME_TOWN} and love to make
+            things.
           </p>
           <p className="hero_buttons">
             <Link href="/about">
