@@ -2,6 +2,7 @@
 title: What is Divine
 tags:
   - Books
+  - Clippings
 date: '2024-02-22T05:35:07.322Z'
 bookshelf:
   - FindingMeaningInTheSecondHalfOfLife
