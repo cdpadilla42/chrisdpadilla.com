@@ -21,7 +21,7 @@ const About = () => {
       <h2>The Gist</h2>
       <p>
         <strong>
-          I'm a software engineer and musician from {HOME_TOWN}. 🤠
+          I'm a software engineer and musician from {HOME_TOWN}. 🏔️
         </strong>
         {'  '}I have been hacking and musicing for pretty much most of my life!
         I'm {calculateAge(bd)} years old and wrangled my first lines of HTML,
