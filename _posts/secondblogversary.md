@@ -28,7 +28,7 @@ I took a moment to look back at what I've made this year. For context: This star
 
 I've since traded words for color and sound! Lately I only write for my tech posts. And the switch is intentional — I want to get more miles out of music and drawing, and there are only so many hours in the day.
 
-When I started, a was wringing my hands trying to decide what _one thing_ I would blog about. What a relief that it doesn't have to be one niche!
+When I started, I was wringing my hands trying to decide what _one thing_ I would blog about. What a relief that it doesn't have to be one niche!
 
 What I admire in the blogs I read is the spectrum of humanity that shines through. There's no predefined formula, and no algorithm to juice if you don't want to. So I end up seeing people as polyhedrons through the diversity they share and make.
 
