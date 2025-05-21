@@ -4,6 +4,7 @@ tags:
   - Music
   - Guitar
   - Electric Guitar
+  - Midwest Emo
 date: '2025-05-04T10:35:07.322Z'
 ---
 
