@@ -30,7 +30,7 @@ export default function MoreStories({ latestPosts, featuredPosts }) {
         ))}
       </ul>
       <div className="heading_flex">
-        <h2>Featured Articles</h2>
+        <h2>Featured</h2>
       </div>
       <ul className="bloglist_index bloglist">
         {featuredPosts.map((post) => (
