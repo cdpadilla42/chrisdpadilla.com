@@ -11,6 +11,7 @@ import { filterBlogPosts } from '../lib/util';
 import featuredPostsSlugs from '../lib/featuredPosts';
 import { getRefs } from '../lib/biDirectionlLink';
 import LandingInteractive from '../components/LandingInteractive';
+import LinksFeedLanding from '../components/links-feed-landing';
 
 export default function Index({
   latestPosts,
@@ -60,6 +61,7 @@ export default function Index({
             latestPosts={latestPosts}
             featuredPosts={featuredPosts}
           />
+          <LinksFeedLanding />
         </section>
       </Container>
     </Layout>

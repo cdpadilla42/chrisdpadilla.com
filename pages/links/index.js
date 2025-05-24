@@ -34,7 +34,7 @@ const groupLinksByTag = (links) => {
 
 const groupedLinks = groupLinksByTag(links);
 
-export default function BookShelf() {
+export default function Links() {
   const router = useRouter();
 
   const renderLinksSection = () => {
@@ -55,16 +55,6 @@ export default function BookShelf() {
         </section>
       );
     });
-  };
-
-  const renderLinksFeed = () => {
-    return (
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
-        {linksFeed.map((link) => (
-          <LinkFeedItem key={link.name} link={link} />
-        ))}
-      </ul>
-    );
   };
 
   return (
@@ -100,9 +90,23 @@ export default function BookShelf() {
             </Link>
             ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
           </p>
-          {renderLinksFeed()}
+          <LinksFeed />
         </section>
       </Container>
     </Layout>
   );
 }
+
+export const LinksFeed = ({ limit }) => {
+  let linksFeedList = [...linksFeed];
+  if (limit) {
+    linksFeedList = linksFeed.slice(0, limit);
+  }
+  return (
+    <ul style={{ listStyleType: 'none', padding: 0 }}>
+      {linksFeedList.map((link) => (
+        <LinkFeedItem key={link.name} link={link} />
+      ))}
+    </ul>
+  );
+};
