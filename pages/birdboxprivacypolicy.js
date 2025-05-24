@@ -22,7 +22,7 @@ export default function Blog() {
       <Header />
       <Container>
         <h2>Bird Box Support</h2>
-        <p>For support, reach out to cdpadilla42@gmail.com</p>
+        <p>For support, reach out to cdpadillapub@gmail.com</p>
         <h2>Bird Box Privacy Policy</h2>
         <p>
           This Privacy Policy explains how Bird-Box (the "App") collects, uses,
@@ -41,7 +41,7 @@ export default function Blog() {
         <p>
           {' '}
           Contact Us: If you have any questions about this Privacy Policy,
-          please contact us at cdpadilla42@gmail.com.{' '}
+          please contact us at cdpadillapub@gmail.com.{' '}
         </p>
         <p>
           Changes to this Policy: We may update this Privacy Policy from time to
