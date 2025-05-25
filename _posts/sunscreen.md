@@ -3,7 +3,7 @@ title: Sunscreen
 tags:
   - Notes
   - Songs
-date: '2025-05-12T10:35:07.322Z'
+date: '2025-05-24T22:25:56.322Z'
 ---
 
 Anyone remember the hit [Suncreen Spoken Word Song](https://en.wikipedia.org/wiki/Wear_Sunscreen) from the late 90s?
@@ -21,11 +21,9 @@ I blame hearing this at the impressionable age of 7 for being the reason why I l
 
 As journalist Mary Schmich[^1] shares in the original faux address to the class of '97:
 
-> Advice is a form of nostalgia, dispensing it is a way of fishing the past
-> From the disposal, wiping it off, and painting over the ugly parts
-> And recycling it for more than it's worth
+> Advice is a form of nostalgia, dispensing it is a way of fishing the past from the disposal, wiping it off, and painting over the ugly parts and recycling it for more than it's worth
 
-As I move from living in the expansive Dallas metro area to the stunningly scenic town of Boulder, I was thinking about these lines:
+As I move from living in the expansive Dallas metro area to the stunningly scenic & smaller town of Boulder, I was thinking about these lines:
 
 > Live in New York City once but leave before it makes you hard,<br/>
 > Live in northern California once but leave before it makes you soft.
