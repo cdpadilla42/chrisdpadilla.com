@@ -4,7 +4,11 @@ import Link from 'next/link';
 import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
-import { BIRD_BOX_APP_STORE_URL, BIRD_BOX_URL } from '../lib/constants';
+import {
+  BIRD_BOX_APP_STORE_URL,
+  BIRD_BOX_PLAY_STORE_URL,
+  BIRD_BOX_URL,
+} from '../lib/constants';
 
 const About = () => {
   return (
@@ -23,14 +27,33 @@ const About = () => {
         />
       </div>
       <h2>I Made An App!</h2>
+      <ul>
+        <li>
+          <Link href={BIRD_BOX_APP_STORE_URL}>
+            <a target="_blank" rel="noopener noreferrer">
+              Download from the iOS App Store
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href={BIRD_BOX_PLAY_STORE_URL}>
+            <a target="_blank" rel="noopener noreferrer">
+              Download from the Google Play Store
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/birdboxost">Listen to the OST (Spoilers!)</Link>
+        </li>
+      </ul>
       <p>
-        Bird Box is a simple toy music box! A delightful little app for playing
-        with sound.
+        Bird Box is a toy music box! A delightful little app for playing with
+        sound.
       </p>
       <p>
         When I first played Ocarina of Time, I would just spend ages fooling
         around with the ocarina. Inspired by that simple pleasure of making
-        sounds, I took the opportunity to learn just enough{' '}
+        sounds, I took the opportunity to use{' '}
         <Link href="https://reactnative.dev/">
           <a target="_blank" rel="noopener noreferrer">
             React Native
@@ -38,7 +61,8 @@ const About = () => {
         </Link>{' '}
         to bring my own app to life!
       </p>
-      <article className="center">
+
+      <article className="center markdown">
         <video
           preload="auto"
           loop
@@ -64,6 +88,12 @@ const About = () => {
           <a target="_blank" rel="noopener noreferrer">
             the iOS App Store
           </a>
+        </Link>{' '}
+        and{' '}
+        <Link href={BIRD_BOX_PLAY_STORE_URL}>
+          <a target="_blank" rel="noopener noreferrer">
+            the Google Play Store
+          </a>
         </Link>
         . You can visit the game{' '}
         <Link href={BIRD_BOX_URL}>
@@ -79,15 +109,6 @@ const About = () => {
           <a>the OST here</a>
         </Link>
         !
-      </p>
-      <p>
-        Android users!! I need your help. I need testers to run this through the
-        ringer before it launches on the Google Play Store. If you want to
-        participate,{' '}
-        <Link href="/contact">
-          <a>contact me by email</a>
-        </Link>
-        .
       </p>
     </Layout>
   );

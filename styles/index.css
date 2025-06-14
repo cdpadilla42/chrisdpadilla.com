@@ -587,6 +587,12 @@ button:hover {
   max-width: 547px;
 }
 
+@media all and (max-width: 600px) {
+  .center {
+    max-width: 100%;
+  }
+}
+
 .bookshelf_image {
   max-width: 120px;
 }
