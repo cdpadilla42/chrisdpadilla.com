@@ -1,7 +1,6 @@
 import React from 'react';
 import LandingInteractiveItem from './LandingInteractiveItem';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function LandingInteractive(props) {
   return (
@@ -11,17 +10,18 @@ export default function LandingInteractive(props) {
       </div>
 
       <article className="interactive">
-        {/* <LandingInteractiveItem
+        <LandingInteractiveItem
           name="Bird Box"
           description={
             <>
               A pleasant toy music box! A mobile app designed for playing with
-              sound and learning melodies by ear. Playable on iOS and web.
+              sound and learning melodies by ear. Playable on iOS, Android, and
+              web.
             </>
           }
           image="http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg"
           link="/birdbox"
-        /> */}
+        />
         <LandingInteractiveItem
           name="Amethyst"
           description={
