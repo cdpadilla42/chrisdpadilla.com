@@ -103,7 +103,7 @@ export const LinksFeed = ({ limit }) => {
     linksFeedList = linksFeed.slice(0, limit);
   }
   return (
-    <ul style={{ listStyleType: 'none', padding: 0 }}>
+    <ul style={{ listStyleType: 'none', padding: 0, whiteSpace: 'normal' }}>
       {linksFeedList.map((link) => (
         <LinkFeedItem key={link.name} link={link} />
       ))}
