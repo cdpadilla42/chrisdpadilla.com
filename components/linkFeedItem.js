@@ -33,6 +33,7 @@ const LinkFeedItem = ({ link }) => {
         >
           tags: {link.tags.map((tag) => tag).join(', ')}
         </span>
+        <br />
         <span
           style={{
             color: 'grey',
@@ -41,7 +42,7 @@ const LinkFeedItem = ({ link }) => {
             textWrap: 'wrap',
           }}
         >
-          <br />- {dateString}
+          - {dateString}
         </span>
       </div>
     </li>
