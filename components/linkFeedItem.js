@@ -29,6 +29,8 @@ const LinkFeedItem = ({ link }) => {
             fontStyle: 'italic',
             whiteSpace: 'pre',
             textWrap: 'wrap',
+            overflowWrap: 'break-word',
+            wordBreak: 'break-word',
           }}
         >
           tags: {link.tags.map((tag) => tag).join(', ')}
