@@ -23,7 +23,7 @@ const LinkFeedItem = ({ link }) => {
       </Markdown>
       <br />
       <div style={{ textAlign: 'right' }}>
-        <span
+        <div
           style={{
             color: 'grey',
             fontStyle: 'italic',
@@ -34,9 +34,9 @@ const LinkFeedItem = ({ link }) => {
           }}
         >
           tags: {link.tags.map((tag) => tag).join(', ')}
-        </span>
+        </div>
         <br />
-        <span
+        <div
           style={{
             color: 'grey',
             fontStyle: 'italic',
@@ -45,7 +45,7 @@ const LinkFeedItem = ({ link }) => {
           }}
         >
           - {dateString}
-        </span>
+        </div>
       </div>
     </li>
   );
