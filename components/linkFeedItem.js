@@ -27,7 +27,7 @@ const LinkFeedItem = ({ link }) => {
           style={{
             color: 'grey',
             fontStyle: 'italic',
-            whiteSpace: 'pre',
+            // whiteSpace: 'pre',
             textWrap: 'wrap',
             overflowWrap: 'break-word',
             wordBreak: 'break-word',
@@ -35,7 +35,6 @@ const LinkFeedItem = ({ link }) => {
         >
           tags: {link.tags.map((tag) => tag).join(', ')}
         </div>
-        <br />
         <div
           style={{
             color: 'grey',
