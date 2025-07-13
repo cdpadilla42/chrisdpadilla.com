@@ -1,7 +1,7 @@
 ---
 title: Zac Gorman on Process
 tags:
-  - Clippings
+  - Notes
   - Creativity
   - Play
   - Process
