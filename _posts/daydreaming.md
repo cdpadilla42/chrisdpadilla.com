@@ -18,8 +18,6 @@ And yet, paradoxically, it's essential, even in pragmatic efforts. Software prob
 
 But, I'd hate to justify it with a specific outcome. Much like music teaching advocates who would only speak of the increased SAT scores for music students, I feel that we'd be missing the point.
 
-I've given meditation a swing. It ultimately wasn't for me. It's the difference between tossing a baseball in the backyard with a friend to pass time vs. playing on the school's varsity team. I can't help but feel most people do it with an outcome in mind, rather than for the simple pleasure.
-
-I will say, though, writing is a fun vehicle for it. A nice balance of structure and flexibility. A place to watch thoughts crawl through the page, turning here and there, until a piece comes together.
+I will say, writing is a fun vehicle for it. A nice balance of structure and flexibility. A place to watch thoughts crawl through the page, turning here and there, until a piece comes together.
 
 But, nothing quite beats having time to stare at the ceiling and see where the thoughts go. There's a magic to it, ["between the click of the light and the start of the dream"](https://youtu.be/T703EHtdPwo?si=6s2lmcjNDICYXiXg&t=192).
