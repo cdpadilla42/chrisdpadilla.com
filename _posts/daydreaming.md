@@ -3,6 +3,7 @@ title: Daydreaming as a Hobby
 tags:
   - Notes
   - Creativity
+  - Writing
 date: '2025-08-06T13:39:19.322Z'
 ---
 
