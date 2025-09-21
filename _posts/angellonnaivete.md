@@ -1,7 +1,7 @@
 ---
 title: Roger Angell on Naïveté & Sports
 tags:
-  - Snippet
+  - Clippings
 date: '2025-09-21T10:32:07.322Z'
 ---
 
