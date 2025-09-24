@@ -13,11 +13,34 @@
     }
   ],
   "2023": [{ "slug": "2024", "title": "2024" }],
-  "opportunitytolivedeeply": [
-    { "slug": "andrewonwriting", "title": "Andrew on Why You Should Write" }
+  "sketches-2025-05-31": [
+    {
+      "slug": "thirdyearofpicturemaking",
+      "title": "Another Year of Making Pictures"
+    }
+  ],
+  "learning3d": [
+    {
+      "slug": "thirdyearofpicturemaking",
+      "title": "Another Year of Making Pictures"
+    },
+    { "slug": "thirdblogversary", "title": "Three Years of Blogging" },
+    { "slug": "2025-05", "title": "The Haps - May 2025" }
+  ],
+  "sketches-2025-01-25": [
+    {
+      "slug": "thirdyearofpicturemaking",
+      "title": "Another Year of Making Pictures"
+    },
+    { "slug": "learning3d", "title": "Learning 3D Modeling with Blender" },
+    { "slug": "sketches-2025-02-01", "title": "Going Fly Fishing" }
   ],
   "stanchfield": [
-    { "slug": "andrewonwriting", "title": "Andrew on Why You Should Write" },
+    {
+      "slug": "thirdyearofpicturemaking",
+      "title": "Another Year of Making Pictures"
+    },
+    { "slug": "andrewonwriting", "title": "Andrew On Why You Should Write" },
     { "slug": "thirdblogversary", "title": "Three Years of Blogging" },
     { "slug": "marchinginstep", "title": "Marching In Step" },
     { "slug": "firstblogversary", "title": "Lessons From a Year of Blogging" },
@@ -27,17 +50,7 @@
     },
     { "slug": "books2022", "title": "My Reading Year, 2022" }
   ],
-  "makingtagpages": [
-    { "slug": "andrewonwriting", "title": "Andrew on Why You Should Write" },
-    { "slug": "thirdblogversary", "title": "Three Years of Blogging" }
-  ],
-  "mountainsrestarts": [
-    {
-      "slug": "mountainsrestartsintro",
-      "title": "Mountains – Restarts (Intro)"
-    }
-  ],
-  "sketches-2025-05-31": [
+  "deadlines": [
     {
       "slug": "thirdyearofpicturemaking",
       "title": "Another Year of Making Pictures"
@@ -47,6 +60,19 @@
     {
       "slug": "thirdyearofpicturemaking",
       "title": "Another Year of Making Pictures"
+    }
+  ],
+  "opportunitytolivedeeply": [
+    { "slug": "andrewonwriting", "title": "Andrew On Why You Should Write" }
+  ],
+  "makingtagpages": [
+    { "slug": "andrewonwriting", "title": "Andrew On Why You Should Write" },
+    { "slug": "thirdblogversary", "title": "Three Years of Blogging" }
+  ],
+  "mountainsrestarts": [
+    {
+      "slug": "mountainsrestartsintro",
+      "title": "Mountains – Restarts (Intro)"
     }
   ],
   "compass": [
@@ -98,10 +124,6 @@
   "pratchettonenglishgardens": [
     { "slug": "thirdblogversary", "title": "Three Years of Blogging" }
   ],
-  "learning3d": [
-    { "slug": "thirdblogversary", "title": "Three Years of Blogging" },
-    { "slug": "2025-05", "title": "The Haps - May 2025" }
-  ],
   "amethystrelease": [
     { "slug": "thirdblogversary", "title": "Three Years of Blogging" }
   ],
@@ -149,10 +171,6 @@
   "repetitionandmeditation": [
     { "slug": "twochords", "title": "Two Chords" },
     { "slug": "musicaspuzzles", "title": "Music as Puzzles" }
-  ],
-  "sketches-2025-01-25": [
-    { "slug": "learning3d", "title": "Learning 3D Modeling with Blender" },
-    { "slug": "sketches-2025-02-01", "title": "Going Fly Fishing" }
   ],
   "amethyst-zone": [
     { "slug": "amethystrelease", "title": "New Album – Amethyst 💎🌊" }
