@@ -53,6 +53,6 @@ It's probably evident from what I share, but I do a ton of reflecting. I take ev
 
 ## Tending
 
-A garden needs tending. Harvesting and reworking. Seeing what's grown, knowing what to continue watering. The benefit of a long term project like a blog is seeing what sprouts. Seeing development over time. To only post and never organize would miss most the benefit. Revisiting and organizaing brings a cohesion to the organic growth.
+A garden needs tending. Harvesting and reworking. Seeing what's grown, knowing what to continue watering. The benefit of a long term project like a blog is seeing what sprouts. Seeing development over time. To only post and never organize would miss most of the benefit. Revisiting and organizaing brings a cohesion to the organic growth.
 
 [^1]: Coincidentally, Chris and Dave talked about Tag Pages on [ShopTalk](https://shoptalkshow.com/647/) the same week, so I'm in a good headspace for this!
