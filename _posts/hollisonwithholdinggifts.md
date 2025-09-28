@@ -15,7 +15,9 @@ A lengthy, but worthwhile excerpt from _Living and Examined Life_:
 >
 > To be eccentric, not to fit in, to hear our own drummer, these are the signs of our bringing our gift, our personhood, to the table of life. It sounds so simple, but it is so difficult, not only because of all the disabling messages of the past but also because to be that gift asks us to let go and trust that something within us is good enough, wise enough, strong enough to belong in this world. How dare one disregard what is seeking expression through us, to cower in the darkness of fear, to resist the gift that illumines this otherwise colorless world.
 
-The true work — the really challenging bit — in creative work is doing said work, knowing that there's no guaranteed reward coming in return externally. Even if so, they are fickle. A writer seeking the big break and validation will one day be knocked on their behind when it slips away.
+The common barrier to entry to those _"I always wanted to"'s_ is looking like an amateur, or even worse, a beginner! To do something without the promise of being exceptional at it.
+
+So the true work — the really challenging bit — in creative work is doing said work, knowing that there's no guaranteed reward coming in return externally. Even if so, they are fickle. A writer seeking the big break and validation will one day be knocked on their behind when it slips away.
 
 I hope it's clear that I'm writing about it because this is a lesson I'm continuing to learn. The aim is to facilitate what is seeking expression, regardless of the outcome. It _is_ humbling. Sometimes even the project itself _is_ ugly. Sometimes it's drawing Gundams in my sketchbook, knowing the drawing will turn out poorly. Sometimes it's publishing a piece that only I'm interested in.
 
