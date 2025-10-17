@@ -3,7 +3,7 @@ title: Horizons a Lifetime Away
 tags:
   - Notes
   - Creativity
-date: '2025-10-17T10:35:07.322Z'
+date: '2025-10-17T10:40:07.322Z'
 ---
 
 For anyone who can commit to the long haul, I highly recommend having a goal in your life that spans its entirety. There are a few better words for it, even: a practice, a purpose, a horizon.
