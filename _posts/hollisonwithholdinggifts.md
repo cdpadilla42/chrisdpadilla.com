@@ -5,7 +5,7 @@ tags:
 date: '2025-09-28T10:35:07.322Z'
 ---
 
-A lengthy, but worthwhile excerpt from _Living and Examined Life_:
+A lengthy, but worthwhile excerpt from _Living an Examined Life_:
 
 > When we think of the gift of ourselves, we usually revert to what is accepted, what is exceptional, or what might win approval. The flip side of this impulse may be seen in the desperate acts of the disenfranchised to become something notable through assassinations...Each act is the same: _I wish to be seen, to be valued, to be someone_. And as understandable as this desire surely is, how delusive the goal, how precarious the purchase on fame, importance, celebrity. Rather, our gift will best be found in the humble abode in which we live every day. Who I am, who you are, is the gift. No pretensions, no magnification necessary. They are merely compensations for self-doubt in any case...
 >
