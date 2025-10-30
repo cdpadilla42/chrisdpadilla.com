@@ -39,3 +39,11 @@ public/rss.xml
 .env.local
 
 /_posts/.obsidian
+
+# Generated at build time
+public/search-index.json
+_cache/backlinks.json
+_cache/bookshelfLinks.json
+
+# AI reference documentation
+.claude/
