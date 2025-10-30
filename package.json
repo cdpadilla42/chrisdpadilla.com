@@ -5,15 +5,19 @@
   },
   "scripts": {
     "dev": "next",
+    "prebuild": "node scripts/generate-search-index.js && node scripts/generate-backlinks.js",
     "build": "next build",
     "start": "next start",
     "test": "jest --watchAll",
-    "cypress": "npx cypress open"
+    "cypress": "npx cypress open",
+    "generate-search": "node scripts/generate-search-index.js",
+    "generate-backlinks": "node scripts/generate-backlinks.js"
   },
   "dependencies": {
     "classnames": "^2.3.2",
     "date-fns": "2.28.0",
     "feed": "^4.2.2",
+    "fuse.js": "^7.1.0",
     "gray-matter": "4.0.3",
     "highlight.js": "^11.9.0",
     "howler": "^2.2.4",
