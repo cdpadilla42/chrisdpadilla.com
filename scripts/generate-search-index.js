@@ -55,7 +55,6 @@ function generateSearchIndex() {
   // Create search index with cleaned content
   const searchIndex = visiblePosts.map((post) => ({
     title: post.title,
-    excerpt: post.excerpt,
     content: cleanMarkdownLinks(post.content),
     tags: post.tags,
     slug: post.slug,

@@ -27,9 +27,8 @@ export default function SearchModal({ isOpen, onClose }) {
           const Fuse = FuseModule.default;
           const fuseInstance = new Fuse(searchIndex, {
             keys: [
-              { name: 'title', weight: 0.4 },
-              { name: 'excerpt', weight: 0.3 },
-              { name: 'content', weight: 0.2 },
+              { name: 'title', weight: 0.5 },
+              { name: 'content', weight: 0.4 },
               { name: 'tags', weight: 0.1 },
             ],
             threshold: 0.2,
