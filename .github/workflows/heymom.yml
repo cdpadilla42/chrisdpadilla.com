@@ -1,14 +1,14 @@
-name: Hey Mom
+# name: Hey Mom
 
-on: [push]
+# on: [push]
 
-jobs:
-  hey-mom:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/github-script@v7
-        with:
-          script: |
-            const script = require('./.github/scripts/heyMom.js')
-            console.log(script({github, context}))
+# jobs:
+#   hey-mom:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/github-script@v7
+#         with:
+#           script: |
+#             const script = require('./.github/scripts/heyMom.js')
+#             console.log(script({github, context}))
