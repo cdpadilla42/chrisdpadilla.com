@@ -87,4 +87,4 @@ function filterPostsByDateRange(posts, targetDate, rangeDays) {
 }
 ```
 
-Perhaps there's an opportunity to optimize with Next's Incremental Static Regenteration. However, having markdown on disc in the server means searching is fairly quick. So it would be a consideration for larger projects, but the simple approach is best here.
+Perhaps there's an opportunity to optimize with Next's Incremental Static Regenteration. However, I already have an indexing system in place to speed up the search on each request. We'll leave it as appropriate for the scale of this humble blog.
