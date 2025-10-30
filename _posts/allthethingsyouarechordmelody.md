@@ -4,6 +4,7 @@ tags:
   - Music
   - Piano
   - Jazz
+  - Chord Melody
 date: '2024-10-27T10:35:07.322Z'
 ---
 
