@@ -68,12 +68,12 @@ export default function Index({
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts(['title', 'date', 'slug', 'hidden', 'tags'], {
+  const allPosts = getAllPosts(['title', 'date', 'slug', 'hidden', 'tags', 'content'], {
     filter: filterBlogPosts,
     convertContentToHtml: true,
   });
 
-  const images = getAllArtImages().slice(0, 6);
+  const images = getAllArtImages(allPosts).slice(0, 6);
 
   const latestPosts = allPosts.slice(0, 6);
 
