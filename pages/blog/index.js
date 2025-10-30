@@ -47,6 +47,11 @@ export default function Blog({ allPosts, count }) {
           <Link href="/blog/list">
             <a>here</a>
           </Link>
+          .<br />
+          See posts from{' '}
+          <Link href="/on-this-day">
+            <a>today in history</a>
+          </Link>
           .
         </aside>
         <BlogPageIntro />
