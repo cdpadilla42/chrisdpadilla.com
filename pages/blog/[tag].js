@@ -3,12 +3,11 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Container from '../../components/container';
 import Layout from '../../components/layout';
-import { getAllArtImages, getAllPosts } from '../../lib/api';
+import { getAllArtImages } from '../../lib/api';
 import PostPreview from '../../components/post-preview';
 import {
   capitalizeFirstLetter,
   filterBlogPosts,
-  lowercaseFirstLetter,
 } from '../../lib/util';
 import Header from '../../components/header';
 import { primaryTags } from '../../lib/minorBlogTags';
@@ -24,6 +23,7 @@ import {
   FULL_POST_PAGE_LIMIT,
   FULL_POST_TAGS,
 } from '../../lib/constants';
+import postsMetadata from '../../public/posts-metadata.json';
 
 const targetArtGridTags = ['art', ...ART_SUB_TAGS];
 
@@ -107,47 +107,27 @@ export default function Blog({ allPosts, images, count }) {
 }
 
 export async function getServerSideProps(context) {
+  // Load posts from pre-generated JSON instead of filesystem
+  const allPosts = postsMetadata;
+
   // Art Grid
-  // if (context.query.grid) {
   if (targetArtGridTags.includes(context.params.tag)) {
-    const images = getAllArtImages(
-      ['content', 'slug', 'tags', 'date', 'artGridIgnore'],
-      {
-        filter: (post) =>
-          post.tags.includes(capitalizeFirstLetter(context.params.tag)),
-      }
-    );
-    // const images = getAllArtImages().slice(0, 30);
+    const capitalizedTag = capitalizeFirstLetter(context.params.tag);
+
+    const images = getAllArtImages(allPosts, {
+      filter: (post) => post.tags.includes(capitalizedTag),
+    });
+
     return {
       props: { images },
-      // revalidate: 14400,
     };
   }
 
   // Category Page
-
-  const allPostFields = [
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-    'hidden',
-    'tags',
-  ];
-
   const page = context.query?.p || 1;
-  let limit = null;
-
-  if (FULL_POST_TAGS.includes(context.params.tag)) {
-    allPostFields.push('content');
-    limit = FULL_POST_PAGE_LIMIT;
-  }
-  const allPosts = getAllPosts(allPostFields);
-
   const capitalizedTag = capitalizeFirstLetter(context.params.tag);
   const regex = new RegExp(`^${capitalizedTag}$`, 'i');
+
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
   const skip = (page - 1) * FULL_POST_PAGE_LIMIT;
@@ -157,17 +137,14 @@ export async function getServerSideProps(context) {
   );
 
   const count = resPosts.length;
-  if (limit) {
-    resPosts = resPosts
-      // Skip
-      .slice(skip)
-      // Limit
-      .slice(0, FULL_POST_PAGE_LIMIT);
+
+  // Apply pagination for full post tags
+  if (FULL_POST_TAGS.includes(context.params.tag)) {
+    resPosts = resPosts.slice(skip, skip + FULL_POST_PAGE_LIMIT);
   }
 
   return {
     props: { allPosts: resPosts, count },
-    // revalidate: 14400,
   };
 }
 

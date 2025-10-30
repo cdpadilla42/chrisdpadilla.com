@@ -4,10 +4,10 @@ import Container from '../components/container';
 import Layout from '../components/layout';
 import Header from '../components/header';
 import PostPreview from '../components/post-preview';
-import { getAllPosts, getPrimaryTags } from '../lib/api';
 import { filterBlogPosts } from '../lib/util';
 import { getOnThisDayPosts } from '../lib/onThisDay';
 import { format } from 'date-fns';
+import postsMetadata from '../public/posts-metadata.json';
 
 export default function OnThisDay({ posts, rangeDays, totalFound, currentDate }) {
   const dateDisplay = format(new Date(currentDate), 'MMMM d');
@@ -57,10 +57,8 @@ export default function OnThisDay({ posts, rangeDays, totalFound, currentDate })
 }
 
 export async function getServerSideProps() {
-  const allPosts = getAllPosts(
-    ['title', 'date', 'slug', 'coverImage', 'excerpt', 'hidden', 'tags'],
-    { filter: filterBlogPosts }
-  );
+  // Load posts from pre-generated JSON instead of filesystem
+  const allPosts = postsMetadata.filter(filterBlogPosts);
 
   const { posts, rangeDays, totalFound } = getOnThisDayPosts(allPosts);
 

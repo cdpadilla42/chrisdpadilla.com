@@ -2,7 +2,6 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
-import { getAllPosts, getPostsCount } from '../../lib/api';
 import Layout from '../../components/layout';
 import Container from '../../components/container';
 import { filterBlogPosts } from '../../lib/util';
@@ -11,6 +10,7 @@ import TagsNav from '../../components/TagsNav';
 import FullPostPreviews from '../../components/FullPostPreviews';
 import BlogPageIntro from './blogPageIntro';
 import { FULL_POST_PAGE_LIMIT } from '../../lib/constants';
+import postsMetadata from '../../public/posts-metadata.json';
 
 export default function Blog({ allPosts, count }) {
   const router = useRouter();
@@ -64,31 +64,18 @@ export default function Blog({ allPosts, count }) {
 
 export async function getServerSideProps(context) {
   const page = context.query.p || 1;
-  const count = getPostsCount();
 
-  const skip = (page - 1) * FULL_POST_PAGE_LIMIT;
-  const allPosts = getAllPosts(
-    [
-      'title',
-      'date',
-      'slug',
-      'author',
-      'coverImage',
-      'excerpt',
-      'hidden',
-      'tags',
-      'content',
-    ],
-    {
-      skip,
-      limit: FULL_POST_PAGE_LIMIT,
-    }
-  );
-
+  // Load posts from pre-generated JSON instead of filesystem
+  const allPosts = postsMetadata;
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
+  const count = publishedPosts.length;
+  const skip = (page - 1) * FULL_POST_PAGE_LIMIT;
+
+  // Apply pagination manually
+  const paginatedPosts = publishedPosts.slice(skip, skip + FULL_POST_PAGE_LIMIT);
+
   return {
-    props: { allPosts: publishedPosts, count },
-    // revalidate: 14400,
+    props: { allPosts: paginatedPosts, count },
   };
 }

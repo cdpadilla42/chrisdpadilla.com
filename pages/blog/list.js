@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from '../../components/container';
 import Layout from '../../components/layout';
-import { getAllPosts } from '../../lib/api';
 import Head from 'next/head';
 import PostPreview from '../../components/post-preview';
 import { filterBlogPosts } from '../../lib/util';
@@ -11,6 +10,7 @@ import { primaryTags } from '../../lib/minorBlogTags';
 import { useRouter } from 'next/router';
 import TagsNav from '../../components/TagsNav';
 import BlogPageIntro from './blogPageIntro';
+import postsMetadata from '../../public/posts-metadata.json';
 
 export default function BlogList({ allPosts }) {
   const router = useRouter();
@@ -76,21 +76,13 @@ export default function BlogList({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    'title',
-    'date',
-    'slug',
-    'author',
-    'coverImage',
-    'excerpt',
-    'hidden',
-    'tags',
-  ]);
+  // Load posts from pre-generated JSON instead of filesystem
+  const allPosts = postsMetadata;
 
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
   return {
     props: { allPosts: publishedPosts },
-    // revalidate: 14400,
+    revalidate: 14400, // Revalidate every 4 hours
   };
 }
