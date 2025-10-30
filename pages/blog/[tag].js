@@ -8,6 +8,7 @@ import PostPreview from '../../components/post-preview';
 import {
   capitalizeFirstLetter,
   filterBlogPosts,
+  paginateArray,
 } from '../../lib/util';
 import Header from '../../components/header';
 import { primaryTags } from '../../lib/minorBlogTags';
@@ -130,8 +131,6 @@ export async function getServerSideProps(context) {
 
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
-  const skip = (page - 1) * FULL_POST_PAGE_LIMIT;
-
   let resPosts = publishedPosts.filter((post) =>
     post.tags.some((e) => regex.test(e))
   );
@@ -140,7 +139,7 @@ export async function getServerSideProps(context) {
 
   // Apply pagination for full post tags
   if (FULL_POST_TAGS.includes(context.params.tag)) {
-    resPosts = resPosts.slice(skip, skip + FULL_POST_PAGE_LIMIT);
+    resPosts = paginateArray(resPosts, page, FULL_POST_PAGE_LIMIT);
   }
 
   return {

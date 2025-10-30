@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
 import Container from '../../components/container';
-import { filterBlogPosts } from '../../lib/util';
+import { filterBlogPosts, paginateArray } from '../../lib/util';
 import Header from '../../components/header';
 import TagsNav from '../../components/TagsNav';
 import FullPostPreviews from '../../components/FullPostPreviews';
@@ -70,10 +70,9 @@ export async function getServerSideProps(context) {
   const publishedPosts = allPosts.filter(filterBlogPosts);
 
   const count = publishedPosts.length;
-  const skip = (page - 1) * FULL_POST_PAGE_LIMIT;
 
-  // Apply pagination manually
-  const paginatedPosts = publishedPosts.slice(skip, skip + FULL_POST_PAGE_LIMIT);
+  // Apply pagination
+  const paginatedPosts = paginateArray(publishedPosts, page, FULL_POST_PAGE_LIMIT);
 
   return {
     props: { allPosts: paginatedPosts, count },
