@@ -10,6 +10,7 @@ import Header from '../../components/header';
 import { primaryTags } from '../../lib/minorBlogTags';
 import { useRouter } from 'next/router';
 import TagsNav from '../../components/TagsNav';
+import BlogPageIntro from './blogPageIntro';
 
 export default function BlogList({ allPosts }) {
   const router = useRouter();
@@ -32,23 +33,28 @@ export default function BlogList({ allPosts }) {
       </Head>
       <Container>
         <Header section="blog" />
-        <p>Writings on Tech, Music, and Creativity.</p>
-        {/* <p>
-          Much of my technical writing is born from my{' '}
-          <Link href="/software">
-            <a>personal projects</a>
-          </Link>
-          .
-        </p> */}
-        <p>
+        <aside>
+          <TagsNav />
           You can follow by{' '}
+          {/* <Link href="/subscribe">
+            <a>Newsletter</a>
+            </Link>{' '}or{' '} */}
           <Link href="/api/feed">
             <a>RSS</a>
           </Link>
-          ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
-        </p>
-        <p>Take a look by topic:</p>
-        <TagsNav />
+          ! (<a href="https://aboutfeeds.com/">What's RSS?</a>) Full archive{' '}
+          <Link href="/blog/list">
+            <a>here</a>
+          </Link>
+          .<br />
+          See posts from{' '}
+          <Link href="/on-this-day">
+            <a>today in history</a>
+          </Link>
+          .
+        </aside>
+        <BlogPageIntro />
+        <hr />
         <ul className="bloglist">
           {renderedPosts.length > 0 &&
             renderedPosts.map((post) => (
