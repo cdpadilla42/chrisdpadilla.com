@@ -24,7 +24,7 @@ Then the project gets **BIG**. The list of features are long, a log of bugs crop
 
 The beautiful thing about a board is that we can keep track of multiple features, ideas, and bugs. From a glance, we can see what's on deck for developing, researching, and giving feedback.
 
-What's _especially_ cool about Notion's boards is that you can open the card up into it's own document!
+What's _especially_ cool about Notion's boards is that you can open the card up into its own document!
 
 Say that Jenn makes a card called "Add Pizza to Inventory."
 

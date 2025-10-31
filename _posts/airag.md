@@ -34,7 +34,7 @@ Another benefit to this is that requests to an API are not inherently stateful. 
 
 It's worth noting that step 2 may even require an LLM to parse the question and then interact with an API to gather data. There's a fair amount of complexity to still parse in developing these solutions. This is where you may be leaning on an **AI Agent**. An agent is an LLM that will parse a result and determine if a tool is required, such as pinging your internal APIs.
 
-Prompt Engineering is emerging as a role and craft all of it's own, and there are [many nuances to doing it well](https://medium.com/@springs_apps/prompt-engineering-examples-and-best-practices-82b1da724643).
+Prompt Engineering is emerging as a role and craft all of its own, and there are [many nuances to doing it well](https://medium.com/@springs_apps/prompt-engineering-examples-and-best-practices-82b1da724643).
 
 ## LangChain
 

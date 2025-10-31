@@ -27,6 +27,6 @@ So maybe that's it. AI is largely a synthesis tool that is only one step removed
 
 But it still takes a human being to understand context, style, form, and to solve the innumerable problems that take more than a few Google searches.
 
-Does that takeaway from how impressivene or usefull AI is as a tool? I don't think so. AI still unloads the initial effort of sifting through content.
+Does that takeaway from how impressive or useful AI is as a tool? I don't think so. AI still unloads the initial effort of sifting through content.
 
 If anything, the fact that AI is not quite a quantum leap in productivity is a testament to how **AMAZING** our current resources are.

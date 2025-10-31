@@ -38,7 +38,7 @@ So when your querying the items in the user's order, SQL has to travel through a
 1. We start with the user ID
 2. We query an order based on the user
 3. We query items based on what's contained in the order
-4. We get massage the data to show what's relevent to our query.
+4. We get massage the data to show what's relevant to our query.
 
 And thus, SQL gets the relationship monicker.
 

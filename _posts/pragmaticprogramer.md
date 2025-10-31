@@ -190,13 +190,13 @@ You can forget about:
 
 #### Internal Language
 
-That using a programming language primarily as it's means of communication. React and Jest are good examples of this.
+That using a programming language primarily as its means of communication. React and Jest are good examples of this.
 
 The strength here is that you have a lot of flexibility with the language. You can use the language to create several tests automatically, for example.
 
 #### External Language
 
-That using a meta-language, requiring a parser to implement. JSON, YAML, and CSV are good examples of this. They contain information and data, but needs parsing to turn into action. The most extreme example is an application that uses it's own custom language (GROQ is an example of this). If there is a client using your product, use this and reach for off the shelf external language solutions (JSON, YAML, CSV for client products)
+That using a meta-language, requiring a parser to implement. JSON, YAML, and CSV are good examples of this. They contain information and data, but needs parsing to turn into action. The most extreme example is an application that uses its own custom language (GROQ is an example of this). If there is a client using your product, use this and reach for off the shelf external language solutions (JSON, YAML, CSV for client products)
 
 #### Mix of both
 

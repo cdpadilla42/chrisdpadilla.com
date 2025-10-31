@@ -24,7 +24,7 @@ To jump to the most striking moment in the film for me: Rocky finds himself nerv
 
 These days, that's where I find myself creatively.
 
-I've had to relearn enjoying the practice for it's own sake. After spending time with contests to perform in and hoops to jump through, it's easy to get caught up thinking there's something the work needs to "win" with. 
+I've had to relearn enjoying the practice for its own sake. After spending time with contests to perform in and hoops to jump through, it's easy to get caught up thinking there's something the work needs to "win" with. 
 
 Anytime I find myself using the old map for my practice, a sense of defeat comes in and motivation is zapped. Without knowing it, a sublte voice has been asking "What is this going to get me?" And it's been the wrong question.
 

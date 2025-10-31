@@ -22,7 +22,7 @@ I've been guilty of mega commits that look something like this:
 git commit -m "render revenue data to pie chart AND Connect ID to Dashboard AND move tiers to constants file AND ..."
 ```
 
-I've recently made the switch to breaking out any instance where I would want to put an "and" in my explanation of the change into it's own commit. So now my commits will look more like this:
+I've recently made the switch to breaking out any instance where I would want to put an "and" in my explanation of the change into its own commit. So now my commits will look more like this:
 
 ```
 $ git commit -m "render revenue data to pie chart"

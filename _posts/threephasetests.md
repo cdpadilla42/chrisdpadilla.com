@@ -13,4 +13,4 @@ From [Justin Weiss](https://www.justinweiss.com/articles/writing-better-tests-wi
 > 2. Then, you do something (“Act”)
 > 3. Then, you make sure that what you expected to happen, actually happened. (“Assert”)
 
-Lovely. Flexible enough to accomodate multiple levels of complexity, while giving enough of a framework to get you started on the path to testing quickly.
+Lovely. Flexible enough to accommodate multiple levels of complexity, while giving enough of a framework to get you started on the path to testing quickly.

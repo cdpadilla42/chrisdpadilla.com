@@ -21,7 +21,7 @@ Not for fame or glory! As part of the practice, the authors names are unlisted t
 The site has three tiers of membership - guest, member, and admin.
 
 - GUESTS can sign up and login to post their own poems, joining in the art for art's sake movement.
-- MEMBERS have the added privilege of seeing which of their colleauges posted which poem and on what date.
+- MEMBERS have the added privilege of seeing which of their colleagues posted which poem and on what date.
 - ADMINS can see what members see and also have the ability to delete any poem they see fit.
 
 Tech used:

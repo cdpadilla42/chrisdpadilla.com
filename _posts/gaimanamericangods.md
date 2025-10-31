@@ -20,7 +20,7 @@ Like [Carl Barks](/carlbarkslocale), Gaiman started with a locale:
 >
 > Now I just had to write it.
 
-I think about this often, because it feels so true. Each project really does take it's own path:
+I think about this often, because it feels so true. Each project really does take its own path:
 
 > I remember when it was all done in first draft telling Gene Wolfe, who is the wisest writer I know and has written more excellent novels than any man I’ve met, that I thought I had now learned how to write a novel. Gene looked at me, and smiled kindly. “You never learn how to write a novel,” he told me. “You only learn to write the novel you’re on.”
 

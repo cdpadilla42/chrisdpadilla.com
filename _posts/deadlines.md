@@ -19,7 +19,7 @@ Especially in the beginning, arbitrary deadlines are a great way to kickstart a 
 - Perfectionism goes out the window quickly when something just needs to get done
 - When you can't lean on perfectionism and design, there's only room to follow intuition. A big plus in cultivating that!
 - The rhythm helps with any creative process. Routine gets the gears turning for what to make next
-- At the start, simply making it to the finish line is it's own reward, regardless of how the music / blog / drawing turned out
+- At the start, simply making it to the finish line is its own reward, regardless of how the music / blog / drawing turned out
 
 # Building Identity
 

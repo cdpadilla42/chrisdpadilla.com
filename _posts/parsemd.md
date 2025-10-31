@@ -73,7 +73,7 @@ const postHtml = converter.makeHtml(postBody);
 
 From here, it's all string manipulation to get the data I need.
 
-Potentially, a splitting the string by the bars ('---') would be enough. Using regex, though, will keep the process more flexible, incase in the article I use the same bars to break a section.
+Potentially, a splitting the string by the bars ('---') would be enough. Using regex, though, will keep the process more flexible, in case in the article I use the same bars to break a section.
 
 This regex will do the trick:
 

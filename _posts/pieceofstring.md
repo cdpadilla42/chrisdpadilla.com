@@ -10,7 +10,7 @@ How much time does it really take to get fulfillment out of a creative practice?
 
 I love taking on big projects. It's thrilling to see something grow over time, a song come together note by note, or a drawing take shape stroke by stroke.
 
-There have been times in my life where a project has been all consuming, where my thoughts were on it night and day. Going on the hunt is a thrill of it's own.
+There have been times in my life where a project has been all consuming, where my thoughts were on it night and day. Going on the hunt is a thrill of its own.
 
 When things get busy, though, I have my go-to's for simply keeping my hand in it.
 

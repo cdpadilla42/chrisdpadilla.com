@@ -18,7 +18,7 @@ Physical notes, however, encourage a different kind of writing. It's more free, 
 
 Something about brainstorming is easier on paper as well. I used to be a big fan of huge sketch pads for ideating. Something about moving the arm and laying things out broadly really makes the material feel alive.
 
-I know some people swear by keeping most of their notes and organization in written systems like the [Zattelkasten system](https://zettelkasten.de/overview/). The only problem for me is that, compared to digital tools, organizing physical media is cumbersome. I know some people find it theraputic. But it's not for me, personally.
+I know some people swear by keeping most of their notes and organization in written systems like the [Zattelkasten system](https://zettelkasten.de/overview/). The only problem for me is that, compared to digital tools, organizing physical media is cumbersome. I know some people find it therapeutic. But it's not for me, personally.
 
 
 ## Balancing Organized and Free Flowing

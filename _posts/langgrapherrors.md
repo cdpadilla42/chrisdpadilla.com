@@ -4,7 +4,7 @@ tags:
   - Tech
   - AI
   - TypeScript
-date: '2025-10-17T10:35:07.322Z'
+date: '2025-10-17T10:25:07.322Z'
 ---
 
 LangGraph is largely a state machine — a series of processes that are guided by changes to state. It's great for Agentic style apps.

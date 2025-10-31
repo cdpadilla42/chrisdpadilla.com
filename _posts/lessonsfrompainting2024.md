@@ -88,7 +88,7 @@ It's one thing to know that intellectually. And a wholly other thing to experien
 
 At some point, after working at a still life, spending an hour closely trying to match the color of a dull pot, I stepped outside. It was a clear day, mid afternoon. A rich blue sky, I observed. High in saturation today.
 
-As my gaze came downward, I saw the leaves on the tree. And while it's hard to explain in writing — a resonance occured. I started seeing the green of the leaves as a continuation of the blue in the sky. Not in an intellectual way, but on something much more deep and personal.
+As my gaze came downward, I saw the leaves on the tree. And while it's hard to explain in writing — a resonance occurred. I started seeing the green of the leaves as a continuation of the blue in the sky. Not in an intellectual way, but on something much more deep and personal.
 
 In the same way that each tone of music contains a multitude of different sounds, I made the connection that light was working in that same way. Obvious to some, I'm sure, but a revelation to me.
 

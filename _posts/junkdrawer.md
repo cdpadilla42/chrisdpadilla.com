@@ -17,7 +17,7 @@ Essentially - With notes, not EVERYTHING can be organized.
 
 What helps keep a notes nerd like me at ease with this is an idea of a junk drawer.
 
-Daniel Levitin in his book "[The Organized Mind](https://www.amazon.com/Organized-Mind-Thinking-Straight-Information/dp/0147516315)" closes the book with how our brains are naturally good at categorizing, and the "Miscellaneous" category totally counts as it's own category.
+Daniel Levitin in his book "[The Organized Mind](https://www.amazon.com/Organized-Mind-Thinking-Straight-Information/dp/0147516315)" closes the book with how our brains are naturally good at categorizing, and the "Miscellaneous" category totally counts as its own category.
 
 This manifests in a few way for me: it's my hand-written, physical notepad where I write stream-of-conciouse-notes through the day.
 

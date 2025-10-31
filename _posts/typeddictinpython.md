@@ -31,7 +31,7 @@ class Concert(TypedDict):
 
 All pretty straightforward. We're instantiating a class, inheriting from the `TypedDict` base class. Then we set our expected properties as values on that class.
 
-It's ideal to store a class like this in it's own types directory in your project.
+It's ideal to store a class like this in its own types directory in your project.
 
 A couple of nice ways to use this:
 

@@ -14,7 +14,7 @@ Happy holidays!! New music is out today!
 
 Late 2000s tech had a unique vibrancy that made it feel almost magical. A new wave of color and light, glowing portals that illuminated worlds imagined and real. It was truly alive, how you interacted with it was so novel. More intuitive than ever before.
 
-The anticipation for this promised future was at it's strongest as you began to load up that new system you brought home. Powering it on. Walking through the startup process. Being greeted to something wholly new...
+The anticipation for this promised future was at its strongest as you began to load up that new system you brought home. Powering it on. Walking through the startup process. Being greeted to something wholly new...
 
 [Details here!](/sky-box)
 

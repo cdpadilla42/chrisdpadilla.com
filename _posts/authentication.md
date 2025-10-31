@@ -63,4 +63,4 @@ Depending on how you store the token, there are security concerns here, too. It'
 
 Depending on your situation, you may just need the ease of setup provided by session storage. For an API spanning multiple devices, JWT's may seem appealing. There is also the option to blend the approaches: Using JWT's while also storing session logic in a cache or DB.
 
-Some handy libraries for implementing authentication includes Passport.js and auth0. For integrated authentication with Google, Facebook, etc., there's also OAuth2.0. A tangled conversation on it's own! And, addmitedly, one that's best implemented alongside a custom authentication feature, rather than as the only form of authentication.
+Some handy libraries for implementing authentication includes Passport.js and auth0. For integrated authentication with Google, Facebook, etc., there's also OAuth2.0. A tangled conversation on its own! And, admittedly, one that's best implemented alongside a custom authentication feature, rather than as the only form of authentication.
