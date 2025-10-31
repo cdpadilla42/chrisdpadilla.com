@@ -67,7 +67,7 @@ Two things helped: Exposure therapy and [automatic drawing](/automaticdrawing). 
 
 I kind of love drawing now! I'm excited to keep exploring.
 
-A women saw me doodling a couple months ago and payed me the kindness of a compliment, followed with "That's so impressive, and looks really hard!"
+A woman saw me doodling a couple months ago and payed me the kindness of a compliment, followed with "That's so impressive, and looks really hard!"
 
 I told her what I'm so excited to tell anyone who will listen: Anyone can do this.
 
