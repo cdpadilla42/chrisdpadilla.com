@@ -5,7 +5,7 @@ tags:
   - Guitar
   - Electric Guitar
   - Math Rock
-date: '2025-11-01T11:20:07.322Z'
+date: '2025-11-02T11:20:07.322Z'
 ---
 
 <figure className="reset">
