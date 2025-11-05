@@ -35,7 +35,7 @@ This morning, I was talking with Miranda about a music workshop from high school
 
 > Few of us are fortunate enough to be able to understand the rich alchemy that happens when there is a balance between true solitude and true community in one's musical interactions and one's life interactions. Most of us exist as a wild pendulum that swings almost uncontrollably between loneliness and the crowd. This dynamic inertia manifests itself in the music we make, or rather the music we try to make. As musicians, we constantly and dynamically exist in the atmosphere of a larger community. That large community can be defined as small as one or extended to hundreds. The relationship with an accompanist is community. The relationship with an audience is a community....Human beings communicating directly with one another through 'great things' speak powerfully and with one voice. A musician's soul can be explored individually, but it can only grow and deepen through the nourishment of connectedness at every moment. Without the lifeline between souls, there is no art, and more importantly, perhaps, no real life or living.
 
-Join a cycling class! Make time for pair programingm! Go to a swing dance class! Take up accordion lessons! Especially if you work remotely, find ways to return to the hive and move together.
+Join a cycling class! Make time for pair programming! Go to a swing dance class! Take up accordion lessons! Especially if you work remotely, find ways to return to the hive and move together.
 
 For creatives, carve out a part of your practice that requires being in the room with other people and creating together. For me, it's playing in a community concert band. For artists, it could be something as simple as painting in a class together.
 
