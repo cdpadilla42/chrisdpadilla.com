@@ -108,7 +108,7 @@ def generate_blog_post(self, image_url: str = '') -> bool:
 
 ```
 
-Sometimes, I do this a week out, so I'll add some back and forth incase I want to manually set the date:
+Sometimes, I do this a week out, so I'll add some back and forth in case I want to manually set the date:
 
 ```
 	date_ok = input(f"{target_date_string} date ok? (Y/n): ")
