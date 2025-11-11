@@ -6,6 +6,8 @@ tags:
 date: '2025-11-11T13:54:16.322Z'
 bookshelf:
   - PaintingAsAPastime
+  - ProgressiveSightReading
+  - SuperSightReadingSecrets
 ---
 
 <figure>
