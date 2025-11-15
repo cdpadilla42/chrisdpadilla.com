@@ -71,7 +71,7 @@ Now, consider this:
 
 A perfect fourth, ladies and gentlemen. Present in the harmonic series, a symbol of openness, firm, grounded — yet, not entirely resolved. This comfortably leaves you in anticipation for what's next while assuring you that you are, indeed, being taken care of.
 
-Call button designers, take note. One note can make all the difference.
+Call button designers, take note. One pitch can make all the difference.
 
 ---
 
