@@ -126,10 +126,6 @@ const About = () => {
           <a>listen to my music here</a>
         </Link>
         . I also share snippets on my{' '}
-        <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-          Instagram
-        </a>{' '}
-        and{' '}
         <Link href="/blog/music">
           <a>blog</a>
         </Link>{' '}
@@ -152,10 +148,6 @@ const About = () => {
       </p>
       <p>
         <strong>Lately I've been drawing in my spare time.</strong> I keep my{' '}
-        <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-          Instagram
-        </a>{' '}
-        and{' '}
         <Link href="/blog/art">
           <a>blog</a>
         </Link>{' '}
