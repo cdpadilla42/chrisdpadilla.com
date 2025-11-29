@@ -69,8 +69,8 @@ export default function Index({
             </Link>
           </div>
           <p>
-            Books and online resources for learning music, art, programming, and
-            living a creative life.
+            Dozens of books and online materials for learning music, art,
+            programming, and living a creative life.
           </p>
           <div className="heading_flex">
             <h2>Bookshelf</h2>

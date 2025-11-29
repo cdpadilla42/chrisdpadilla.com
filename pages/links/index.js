@@ -73,6 +73,13 @@ export default function Links() {
           The web is made possible and most interesting thanks to the humble
           hyperlink! Here is a curated list of them.
         </p>
+        <p style={{ fontStyle: 'italic' }}>
+          Looking for learning resources? Find them{' '}
+          <Link href="/learningresources">
+            <a>here</a>
+          </Link>
+          .
+        </p>
         <section>
           <h2>Favorites</h2>
           <p style={{ fontStyle: 'italic' }}>
