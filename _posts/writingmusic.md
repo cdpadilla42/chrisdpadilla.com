@@ -5,6 +5,8 @@ tags:
   - Composing
   - Beethoven
 date: '2022-10-12T05:35:07.322Z'
+bookshelf:
+  - HowToFailAtAlmostEverything
 ---
 
 I had a surprisingly hard time starting up the practice of writing music. Lots of false starts were involved, a ton of back and forth on if I even really enjoyed doing it, and the classic moments of cringing at some of my first tunes.
