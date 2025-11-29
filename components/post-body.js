@@ -24,27 +24,34 @@ export default function PostBody({ content }) {
 }
 
 // const BlogImage = (props) => <Image {...props} width={800} layout="fill" />;
-const BlogImage = (props) => (
+export const BlogImage = (props) => (
   <a href={props.src} target="_blank" rel="noopener noreferrer">
     <img {...props} />
   </a>
 );
 
-const CodeBlock = ({className, children}) => {
-  children = hljs.highlightAuto(children, ['javascript', 'typescript', 'java', 'python', 'react', 'yaml', 'dockerfile', 'bash']).value;
+const CodeBlock = ({ className, children }) => {
+  children = hljs.highlightAuto(children, [
+    'javascript',
+    'typescript',
+    'java',
+    'python',
+    'react',
+    'yaml',
+    'dockerfile',
+    'bash',
+  ]).value;
   return (
     <pre>
-      <code dangerouslySetInnerHTML={{__html: children}} />
+      <code dangerouslySetInnerHTML={{ __html: children }} />
     </pre>
   );
-}
-
-const PreBlock = ({children, ...rest}) => {
-  if ('type' in children && children ['type'] === 'code') {
-    return CodeBlock(children['props']);
-  }
-  
-  return <pre {...rest}>{children}</pre>;
 };
 
+const PreBlock = ({ children, ...rest }) => {
+  if ('type' in children && children['type'] === 'code') {
+    return CodeBlock(children['props']);
+  }
 
+  return <pre {...rest}>{children}</pre>;
+};

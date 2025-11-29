@@ -7,8 +7,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../../components/header';
 import { useRouter } from 'next/router';
-import BookshelfItem from '/components/bookshelfItem';
+import BookshelfItem from '../../components/bookshelfItem';
 import path from 'path';
+import { BlogImage } from '../../components/post-body';
+import NextLink from '../../components/NextLink';
 
 export default function BookShelf({ books }) {
   const router = useRouter();
@@ -24,11 +26,23 @@ export default function BookShelf({ books }) {
       </Head>
       <Container>
         <Header section="bookshelf" />
+        <article className="markdown">
+          <figure>
+            <BlogImage
+              alt="Courtyard of the Jagiellonian Library (1846), Marcin Zaleski (Polish, 1796-1877)"
+              src="https://res.cloudinary.com/cpadilla/image/upload/v1764442397/chrisdpadilla/blog/images/a2yke7kajboqe5wp1znl.jpg"
+            />
+            <figcaption>
+              <NextLink href="https://artvee.com/dl/courtyard-of-the-jagiellonian-library/">
+                Courtyard of the Jagiellonian Library (1846)
+              </NextLink>
+              , Marcin Zaleski (Polish, 1796-1877)
+            </figcaption>
+          </figure>
+        </article>
         <p>
-          My words on other people's words. Currently a pile in progress.
-          <br />
-          None of the links included are affiliate links. Sharing these is
-          payment enough!
+          My words on other people's words. None of the links included are
+          affiliate links. Sharing these is payment enough!
         </p>
         <section>
           {Object.values(books).map((book) => (

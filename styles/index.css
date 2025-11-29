@@ -222,13 +222,20 @@ main img {
   width: 100%;
   margin: 0 auto;
   display: block;
-  max-height: 800px;
-  min-height: 500px;
+  max-height: 600px;
+  min-height: 400px;
   aspect-ratio: 3/2;
   object-fit: contain;
   background: #232930;
   padding: 8px;
   box-sizing: border-box;
+}
+
+@media all and (min-width: 800px) {
+  .markdown img {
+    min-height: 500px;
+    max-height: 800px;
+  }
 }
 
 .markdown p {

@@ -5,6 +5,27 @@ tags:
   - Books
   - Annuals
 date: '2023-12-29T10:35:07.322Z'
+bookshelf:
+  - FormAndEssence
+  - TerryPratchettALifeWithFootnotes
+  - FreePlayImprovisationInLifeAndArt
+  - FellowshipOfTheRing
+  - MickeyMouseTrappedOnTreasureIsland
+  - PaintingAsAPastime2023
+  - HayaoMiyazaki
+  - CartoonAnimationPrestonBlair
+  - DonaldDuckTheOldCastleSecret
+  - CalvinAndHobbes
+  - CucumberQuest
+  - AreYouListening
+  - SonicTheHedgehog30thAnniversary
+  - DragonBall
+  - FullmetalAlchemist
+  - OnePersonMultipleCareers
+  - MakeYourArtNoMatterWhat
+  - HowToFailAtAlmostEverything
+  - TheGiftsOfImperfection
+  - TheAlchemist
 ---
 
 From "The Black Swan" by Nassim Nicholas Taleb, Via [Anne-Laure Le Cunff](https://nesslabs.com/antilibrary):
@@ -102,3 +123,7 @@ Thoughts on hobby making and painting from an enthusiastic hobbyist! Wonderful i
 ## Also
 
 **_The Alchemist by Paulo Coelho_**. A last-minute read over the holiday break! Miranda and I both wanted to read this together, and we've loved it! A beautiful journey that illustrates how much richer the world is when we pursue our own personal inspirations and callings, grand or simple. I read this in high school, having practically no life experience to draw on for all of the metaphors. Surprising to me: reading it now, the terrain covered in the book is largely familiar.
+
+---
+
+_Update: All books here have been added to [my bookshelf](/bookshelf), a dedicated page for all books read._

@@ -10,6 +10,7 @@ import { bookshelf } from '../../lib/bookshelf';
 import LinkItem from '../../components/linkItem';
 import BookshelfItem from '../../components/bookshelfItem';
 import NextLink from '../../components/NextLink';
+import { BlogImage } from '../../components/post-body';
 
 export default function LearningResources({ books }) {
   const tags = [
@@ -58,18 +59,18 @@ export default function LearningResources({ books }) {
         'Most of the sections after this one are a matter of learning the tools for the medium. These are applicable to all areas, highly worth reading no matter what you create.',
     },
     {
-      title: 'Music',
-      id: 'music',
-      tag: 'musicresource',
-      description:
-        'The best way to learn music is by doing it, whether you play an instrument, compose, or produce digitally. Most of the resources here are methods for doing exactly that.',
-    },
-    {
       title: 'Programming',
       id: 'programming',
       tag: 'programming',
       description:
         'Whether you are looking to go pro or are curious about exploring a rich hobby in webcraft, there is an infinite ocean of resources at your disposal. Below are favorites, spanning online curriculums, podcasts, and interesting writers in the tech space.',
+    },
+    {
+      title: 'Music',
+      id: 'music',
+      tag: 'musicresource',
+      description:
+        'The best way to learn music is by doing it, whether you play an instrument, compose, or produce digitally. Most of the resources here are methods for doing exactly that.',
     },
     {
       title: 'Art',
@@ -115,6 +116,20 @@ export default function LearningResources({ books }) {
       <Container>
         <Header />
         <h1>Learning Resources</h1>
+        <article className="markdown">
+          <figure>
+            <BlogImage
+              alt="In The Library (1928), Józef Rapacki (Polish, 1871-1929)"
+              src="https://res.cloudinary.com/cpadilla/image/upload/v1764441600/chrisdpadilla/blog/images/anfu3i62cpw3zuaubcwe.jpg"
+            />
+            <figcaption>
+              <NextLink href="https://artvee.com/dl/in-the-library-3/#00">
+                In The Library (1928)
+              </NextLink>
+              , Józef Rapacki (Polish, 1871-1929)
+            </figcaption>
+          </figure>
+        </article>
         <p>
           Materials for learning how to code, create art, and make music. Some
           paid, many free. Links are pulled from my{' '}
@@ -131,8 +146,8 @@ export default function LearningResources({ books }) {
             ))}
           </ul>
         </nav>
-        {sections.map(renderSection)}
         <hr />
+        {sections.map(renderSection)}
       </Container>
     </Layout>
   );

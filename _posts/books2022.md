@@ -6,6 +6,25 @@ tags:
   - Tech
   - Annuals
 date: '2022-12-09T05:35:07.322Z'
+bookshelf:
+  - ThePragmaticProgrammer
+  - PragmaticThinkingAndLearning
+  - ThePassionateProgrammer
+  - ThePersonalMBA
+  - AskIwata
+  - ShowYourWork
+  - FourThousandWeeks
+  - ThePrincipleOf18
+  - TheTimeParadox
+  - The12StagesOfHealing
+  - ListeningBook
+  - BigMagic
+  - GestureDrawingForAnimation
+  - TheJazzPianoBook
+  - HalLeonardGuitarMethod
+  - RemixingTheClassroom
+  - LaserwriterII
+  - TheLightFantastic
 ---
 
 I made a conscious effort to actually read less this year. Kind of a weird way to start my first "Books I've read this year" sort of blog post, but it's the truth!
@@ -169,3 +188,7 @@ I'm starting a campaign to read every [Discworld](https://www.terrypratchettbook
 I read up to the 6th book this year, Wyrd Sisters. But the Light Fantastic was my favorite. Still wildly funny, but there's a more serious tone at the start that quickly reshapes even in the next book onward. If these books were illustrations, later books are fully colored in more of a cartoony style, and this one was done a darker, more engergetic ink style.
 
 <div className="clearfix">
+
+---
+
+_Update: All books here have been added to [my bookshelf](/bookshelf), a dedicated page for all books read._

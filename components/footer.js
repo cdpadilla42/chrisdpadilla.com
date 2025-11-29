@@ -27,22 +27,8 @@ export default function Footer() {
           Newsletter
       </Link>{' '}
       •{' '} */}
-      <Link href="/blog">
-          Blog
-      </Link>{' '}
-      •{' '}
-      <Link href="/music">
-          Music
-      </Link>{' '}
-      •{' '}
-      <Link href="/about">
-          About
-      </Link>{' '}
-      •{' '}
-      <Link href="/contact">
-          Contact
-      </Link>{' '}
-      •{' '}
+      <Link href="/blog">Blog</Link> • <Link href="/music">Music</Link> •{' '}
+      <Link href="/about">About</Link> • <Link href="/contact">Contact</Link> •{' '}
       <Link href="/api/feed">
         <a target="_blank" rel="noopener noreferrer">
           RSS
@@ -57,25 +43,28 @@ export default function Footer() {
         Spotify
       </a>{' '}
       •{' '}
+      {/* {' '}
+      •{' '}
       <a href={APPLE_MUSIC} target="_blank" rel="noopener noreferrer">
         Apple Music
-      </a><br/>
+      </a> */}
+      {/* <br /> */}
       <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
         Github
       </a>{' '}
       •{' '}
-      <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+      {/* <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
         Instagram
       </a>{' '}
-      •{' '}
-      <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
+      •{' '} */}
+      {/* <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
         Bluesky
       </a>{' '}
       •{' '}
       <a href={MUSIC_TWITTER_URL} target="_blank" rel="noopener noreferrer">
         Twitter
       </a>{' '}
-      •{' '}
+      •{' '} */}
       <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
         LinkedIn
       </a>{' '}

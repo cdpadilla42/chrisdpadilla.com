@@ -3,14 +3,7 @@ import Container from '../components/container';
 import Layout from '../components/layout';
 import Head from 'next/head';
 import Header from '../components/header';
-import {
-  MUSIC_TWITTER_URL,
-  GITHUB_URL,
-  INSTAGRAM_URL,
-  LINKEDIN_URL,
-  MASTODON_URL,
-  BLUESKY_URL,
-} from '../lib/constants';
+import { GITHUB_URL, LINKEDIN_URL } from '../lib/constants';
 import Link from 'next/link';
 
 export default function Blog() {
@@ -24,8 +17,8 @@ export default function Blog() {
         <h1>Contact.</h1>
         <p>
           You can reach me at <strong>cdpadilla42</strong> at{' '}
-          <strong>gmail</strong> dot <strong>com</strong>. It's the
-          most reliable way to get to me.
+          <strong>gmail</strong> dot <strong>com</strong>. It's the most
+          reliable way to get to me.
         </p>
         {/* <p>
           You can join my{' '}
@@ -35,9 +28,9 @@ export default function Blog() {
           I keep it very quiet — just a couple of updates a year on what I'm up to.
 
         </p> */}
-        <p>I'm also on the socials:</p>
+        <p>I'm on a few socials:</p>
         <ul>
-          <li>
+          {/* <li>
             <a
               href={MUSIC_TWITTER_URL}
               target="_blank"
@@ -50,17 +43,17 @@ export default function Blog() {
             <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
               Bluesky
             </a>
-          </li>
+          </li> */}
           <li>
             <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
               Instagram
             </a>
-          </li>
+          </li> */}
           <li>
             <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
               LinkedIn
