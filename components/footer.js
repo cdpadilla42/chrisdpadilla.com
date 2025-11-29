@@ -35,6 +35,9 @@ export default function Footer() {
         </a>
       </Link>
       <br />
+      <Link href="/learningresources">Learning Resources</Link> •{' '}
+      <Link href="/bookshelf">Bookshelf</Link>
+      <br />
       <a href={BANDCAMP_URL} target="_blank" rel="noopener noreferrer">
         Bandcamp
       </a>{' '}
