@@ -21,6 +21,7 @@ const groupLinksByTag = (links) => {
 
   links.forEach((link) => {
     if (!link.tags) return;
+    if (link.tags.includes('learningresourceonly')) return;
     link.tags.forEach((tag) => {
       if (!groupedLinks[tag]) {
         groupedLinks[tag] = [];
