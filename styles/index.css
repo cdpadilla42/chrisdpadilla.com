@@ -254,6 +254,9 @@ figcaption {
   float: left;
   margin-right: 1rem;
   width: 150px;
+  margin: 0 !important;
+  min-height: auto !important;
+  aspect-ratio: auto !important;
 }
 
 .markdown footer {

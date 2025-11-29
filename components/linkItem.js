@@ -7,18 +7,17 @@ import markdownToHtml from '../lib/markdownToHtml';
 const LinkItem = ({ link }) => {
   return (
     <li key={link.name}>
-      <span>
-        <NextLink href={link.url}>{link.title}</NextLink>:{' '}
-        <Markdown
-          options={{
-            overrides: {
-              a: NextLink,
-            },
-          }}
-        >
-          {link.description}
-        </Markdown>
-      </span>
+      <NextLink href={link.url}>{link.title}</NextLink>:{' '}
+      <Markdown
+        options={{
+          forceInline: true,
+          overrides: {
+            a: NextLink,
+          },
+        }}
+      >
+        {link.description}
+      </Markdown>
     </li>
   );
 };

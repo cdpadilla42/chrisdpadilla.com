@@ -60,6 +60,27 @@ export default function Index({
             latestPosts={latestPosts}
             featuredPosts={featuredPosts}
           />
+          <div className="heading_flex">
+            <h2>Learning Resources</h2>
+            <Link href="/learningresources">
+              <a>
+                <h2>Visit</h2>
+              </a>
+            </Link>
+          </div>
+          <p>
+            Books and online resources for learning music, art, programming, and
+            living a creative life.
+          </p>
+          <div className="heading_flex">
+            <h2>Bookshelf</h2>
+            <Link href="/bookshelf">
+              <a>
+                <h2>Visit</h2>
+              </a>
+            </Link>
+          </div>
+          <p>Collection of books read and enjoyed.</p>
           <LinksFeedLanding />
         </section>
       </Container>
@@ -68,10 +89,13 @@ export default function Index({
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts(['title', 'date', 'slug', 'hidden', 'tags', 'content'], {
-    filter: filterBlogPosts,
-    convertContentToHtml: true,
-  });
+  const allPosts = getAllPosts(
+    ['title', 'date', 'slug', 'hidden', 'tags', 'content'],
+    {
+      filter: filterBlogPosts,
+      convertContentToHtml: true,
+    }
+  );
 
   const images = getAllArtImages(allPosts).slice(0, 6);
 
