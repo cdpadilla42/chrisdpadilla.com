@@ -105,7 +105,7 @@ It's one thing to be able to talk abstractly about third party integrations. And
 
 The classic paradox - entry level jobs ask for 2 years of experience. I've heard that client work or tutoring has helped people here. For me, I really enjoyed getting experience through Open Source.
 
-Look on [Code for America's site](https://brigade.codeforamerica.org/) to see if there is a chapter in your area. If not, some groups may still be working virtually. I'd recommend this over searching github for projects for a few of reasons:
+Look on [The Alliance of Civic Technology's site](https://www.civictechnologists.org/about) to see if there is a chapter in your area. If not, some groups may still be working virtually. I'd recommend this over searching github for projects for a few of reasons:
 
 1. You'll likely get experience working with volunteers with different skills. Designers, researchers, and data analysts may work on the same project. The same is true with programming - you may be the front end expert in a team of backend devs.
 2. You'll learn fast the hard skills of programming in a group. Setting up a new dev environment, using git as a collaboration tool, and participating in code reviews are all part of the experience in open source and on the job.
