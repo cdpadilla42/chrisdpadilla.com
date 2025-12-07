@@ -132,6 +132,40 @@ const About = () => {
         .
       </p>
       <p></p>
+      <h2>Philosophy</h2>
+      <p>
+        <strong>
+          I believe we all have our own inner Truths that resonate with what we
+          find Beautiful in the world around us.
+        </strong>{' '}
+        Creating is the richest way for us to align with those Truths. A life
+        regularly entangled with creation is one in which we are in a process of
+        Becoming, where we are practicing the spirit-lifting experience of Awe,
+        and where we share an artifact that can inspire others to do the same.{' '}
+      </p>
+      <p>
+        I don't inherently think that a Mozart Sonata is in greater alignment
+        with Truth than a teenager's home-recorded grunge song. Hence, the
+        breadth of genre and subject matter here. Resonance and sincerity are
+        the key ingredients.
+      </p>
+      <p>
+        Similarly, a seemingly logical discipline like software has its own
+        beauty to it. The series of notes that comprise the major scale, which
+        lay a foundation for Western music, is at its core, a wonderfully
+        balanced relationship of frequencies with mathematical ratios that
+        determine which tones resonate and sing in harmony. Programmers largely
+        aspire to a similar level of order and elegance.
+      </p>
+      <p>
+        I use{' '}
+        <Link href="/blog">
+          <a>the blog especially</a>
+        </Link>{' '}
+        as an open notebook of my own process for the work I do across
+        disciplines, annotated frequently with nuggets of insight that could be
+        useful for anyone else's work. Thanks for spending a bit of time here!
+      </p>
       <h2>Life</h2>
       <p>
         <strong>I live in {HOME_TOWN} with my fiancée and our pup Lucy.</strong>{' '}
