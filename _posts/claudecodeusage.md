@@ -3,15 +3,20 @@ title: Critical Thinking and Coding Agents
 tags:
   - Tech
   - AI
-date: '2025-12-12T11:00:23.322Z'
+date: '2025-12-18T16:35:16.322Z'
 ---
+
+<figure>
+![Wäscherinnen am Gubbio, Georg Heinrich Busse (German, 1810-1868)](http://res.cloudinary.com/cpadilla/image/upload/v1766100741/chrisdpadilla/blog/images/bpvn4hljtbertkj3cgir.png)
+<figcaption>[Wäscherinnen am Gubbio](https://artvee.com/dl/wascherinnen-am-gubbio/), Georg Heinrich Busse (German, 1810 - 1868)</figcaption>
+</figure>
 
 I've gone the Agentic-AI coding way for the past couple of months. My initial responses to it may mirror your own:
 
 - Earlier this year, after using inline suggestions for some time, the jump to prompting an agent that then writes multiple files' worth of code was shocking! The feeling of it running away conjured images from [the Sorcerer's Apprentice](https://video.disney.com/watch/sorcerer-s-apprentice-fantasia-4ea9ebc01a74ea59a5867853).
 - Returning to the approach several months later, trying it in my own projects, the results were suddenly thrilling! With the right wrangling, what was previously tedious to implement became trivial. The possibility of accelerated speed was intoxicating.
 
-Depending on your bent towards pessimism and optimism, the order of events may be different for you. Programmers, as those who now largely work with AI closely in our daily work, have been getting a very pragmatic understanding of the tool as it's emerging, finding its edges and where it can improve our work. So, naturally, consensus is between the two extremes of rejection and hype. This is a powerful tool, and it takes a separate skill to fully understand where it's appropriate to use and how to get the results you're looking for. Here are some thoughts as I've been getting up to speed on using coding agents:
+Depending on your bent towards pessimism and optimism, the order of events may be different for you. Programmers, as those who now largely work with AI closely in our daily work, have been getting a very pragmatic understanding of the tool as it's emerging, finding its edges and where it can improve our work. So, naturally, consensus is between the two extremes of rejection and hype. This is a powerful tool, and it takes a separate skill to fully understand where it's appropriate to use and how to get the results you're looking for. Here are some thoughts on navigating the middle path:
 
 ## Vibe Coding Vs. AI Assisted Coding
 
@@ -29,6 +34,11 @@ There are a few studies already underscoring the hypothesis that we are thinking
 
 So our aim is clearly for deep involvement in the process while using these tools, but we have to be mindful that the tool itself may not be working in that interest out of the box. Restraint, practice, and perhaps a different framework of interacting with the agents are required.
 
+<figure>
+![The Conversation, Louis Charles Moeller (American, 1855-1930)](http://res.cloudinary.com/cpadilla/image/upload/v1766101013/chrisdpadilla/blog/images/ljnyruj1zmguacr3y2c0.png)
+<figcaption>[The Conversation](https://artvee.com/dl/the-conversation-11/#00), Louis Charles Moeller (American, 1855-1930)</figcaption>
+</figure>
+
 ## The Chat Interface
 
 I think this is also partly due to the UI here.
@@ -45,7 +55,7 @@ Much of this is to say that my sweet spot for AI-assisted coding has been with t
 
 For a broad exploration of what's out there in the Spec Driven Development space, Birgitta Bockeler [returns with a thoughtful article here](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html).
 
-My favorite at the time of writing has been [Superpowers by Jesse Vincent](https://github.com/obra/superpowers). The technology underneath this is not overly complex: The heart of it is a series of prompts that you can read on the github page.
+My favorite at the time of writing has been [Superpowers by Jesse Vincent](https://github.com/obra/superpowers). The technology underneath this is not overly complex: The heart of it is a series of prompts that you can read on the GitHub page.
 
 The framework encourages you to work in phases: First, brainstorming high-level considerations and edge cases, then writing an implementation plan with code samples, and then implementing the plan sequentially with quality checks along the way. A massive improvement in thoroughness from even Claude Code's planning mode alone.
 
@@ -53,7 +63,7 @@ Even better is that markdown files are generated as artifacts along the way. Thi
 
 As an aside — the markdown files are, largely, disposable. Perhaps part of the idea of having these files written is that they can then serve as reference documentation down the line. Unfortunately, change happens quickly, and it then becomes an issue of keeping multiple documents in sync. So, thus far, I've tossed these files after a given phase of a feature is complete.
 
-The primary benefit in my own use is that any feature of medium complexity is now something that I have the chance to think through thoroughly from high-level design to implementation details, all while also appreciating the benefit of a tool that can type much faster than I can.
+The primary benefit in my own use is that any feature of medium complexity is now something that I have the chance to think through thoroughly, from high-level design to implementation details, all while also appreciating the benefit of a tool that can type much faster than I can.
 
 ## Raising Our Gaze
 
