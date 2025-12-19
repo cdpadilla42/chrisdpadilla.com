@@ -113,12 +113,6 @@ Interesting lens on how the way we perceive time shapes us. Future focused folks
 
 <img src="https://padilla-media.s3.amazonaws.com/books/12stages.jpg" className="article-book-image">
 
-**The 12 Stages of Healing by Donny Epstein**
-
-If you know, you know. Nothing compares to Network Spinal. Donny's book is a tremendous introduction to the philosophy as well as a field guide for navigating the different rhythms of life.
-
-<div className="clearfix">
-
 # Music & Art
 
 <img src="https://padilla-media.s3.amazonaws.com/books/listeningbook.jpeg" className="article-book-image">
