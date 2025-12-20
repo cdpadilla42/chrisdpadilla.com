@@ -2,6 +2,7 @@
 title: From the Window
 tags:
   - Art
+  - Digital Art
 date: '2025-07-12T20:51:14.322Z'
 ---
 

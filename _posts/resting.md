@@ -2,6 +2,7 @@
 title: Resting
 tags:
   - Art
+  - Digital Art
 date: '2025-11-08T10:35:07.322Z'
 ---
 
