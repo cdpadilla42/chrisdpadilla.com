@@ -11,7 +11,7 @@ date: '2025-12-21T13:12:45.322Z'
 
 A series of studies done as part of [Jeremy Vickery's Painting Light course](https://www.lightingmentor.com/).
 
-One fellow student left a note saying that the course felt a little like the [draw the owl meme](./howtodrawthetick.md). There's some truth to that — for the most part, Jeremy is providing a set of photos, telling you what sort of aspects of light to look for, and then having you take a jab at it on your own for the most part.
+One fellow student left a note saying that the course felt a little like the [draw the owl meme](./howtodrawthetick.md). There's some truth to that — for the most part, Jeremy is providing a set of photos, telling you what sort of aspects of light to look for, and then having you take a jab at it on your own.
 
 I was having this conversation recently where I shared that, looking back, great teachers do a lot for their students. But I think the benefit many people are really looking for is permission to do a project, and holding a container for doing the work. On the surface, that's a low bar. In practice, though, it's highly valuable and not so simple to do.
 
