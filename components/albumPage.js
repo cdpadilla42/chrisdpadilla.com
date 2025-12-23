@@ -12,7 +12,7 @@ import NextLink from '../components/NextLink';
 import { convertCamelCaseToTitleCase } from '../lib/util';
 import dynamic from 'next/dynamic';
 
-const PlaylistPlayer = dynamic(() => import('../components/PlaylistPlayer'), {
+const PlaylistPlayer = dynamic(() => import('./playlistPlayer'), {
   ssr: false,
 });
 
