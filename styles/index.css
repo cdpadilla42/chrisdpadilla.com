@@ -907,6 +907,19 @@ figure.bookshelf_image_wrapper {
   text-align: right;
 }
 
+@media (max-width: 480px) {
+  .playlist-controls {
+    gap: 0.5rem;
+  }
+  .playlist-controls span {
+    min-width: auto;
+    flex-shrink: 0;
+  }
+  .playlist-controls input[type='range'] {
+    min-width: 0;
+  }
+}
+
 .playlist-player-wrapper {
   background: #232930;
   border-radius: 4px;
