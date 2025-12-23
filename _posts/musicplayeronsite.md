@@ -16,7 +16,7 @@ It didn't feel very [POSSE](https://indieweb.org/POSSE) of me to have so much on
 
 All the major players have their baggage in the music hosting/streaming space, unfortunately. Even previously humble Bandcamp has traded parent companies _twice_ in the past few years.
 
-But, you know, I have to say there's a little something special in having music play on this lil' site — in the same way that a hand rolled pizza at home is different from a frozen one, eh?
+And besides — I have to say there's a little something special in having music play on this lil' site — in the same way that a hand rolled pizza at home is different from a frozen one, eh?
 
 So I whipped a solution up this morning! See an example on [the ol' Bird Box OST page](/birdboxost).
 
