@@ -836,10 +836,15 @@ figure.bookshelf_image_wrapper {
 
 .playlist-track {
   display: grid;
-  grid-template-columns: 2rem 1fr 3rem;
+  grid-template-columns: 1.5rem 1fr auto;
   padding: 0.5rem 1rem;
   cursor: pointer;
   gap: 0.5rem;
+}
+
+.playlist-track-num {
+  text-align: center;
+  color: var(--white);
 }
 
 .playlist-track:hover {
@@ -850,36 +855,9 @@ figure.bookshelf_image_wrapper {
   background: rgba(0, 0, 0, 0.15);
 }
 
-.playlist-track-num {
-  text-align: center;
-  color: var(--code-font-color);
-}
-
-.playlist-track.playing .playlist-track-num {
-  color: var(--white);
-}
 
 .playlist-duration {
   text-align: right;
-}
-
-.playlist-artist,
-.playlist-album {
-  color: var(--code-font-color);
-}
-
-@media all and (min-width: 800px) {
-  .playlist-track {
-    grid-template-columns: 2rem 1fr 1fr 1fr 3rem;
-    gap: 1rem;
-  }
-}
-
-@media all and (max-width: 799px) {
-  .playlist-artist,
-  .playlist-album {
-    display: none;
-  }
 }
 
 .playlist-controls {

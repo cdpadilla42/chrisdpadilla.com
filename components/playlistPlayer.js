@@ -89,7 +89,11 @@ const PlaylistPlayer = ({ tracks }) => {
         <button type="button" onClick={handlePrev} aria-label="Previous">
           ⏮
         </button>
-        <button type="button" onClick={handlePlayPause} aria-label={isPlaying ? 'Pause' : 'Play'}>
+        <button
+          type="button"
+          onClick={handlePlayPause}
+          aria-label={isPlaying ? 'Pause' : 'Play'}
+        >
           {isPlaying ? '⏸' : '▶'}
         </button>
         <button type="button" onClick={handleNext} aria-label="Next">
