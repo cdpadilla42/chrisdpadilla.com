@@ -875,8 +875,16 @@ figure.bookshelf_image_wrapper {
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.25rem;
-  min-width: 1.5rem;
+  min-width: 2rem;
   text-align: center;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlist-controls button.skip-btn {
+  font-size: 0.9rem;
 }
 
 .playlist-controls button:hover {

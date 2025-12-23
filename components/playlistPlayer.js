@@ -86,18 +86,19 @@ const PlaylistPlayer = ({ tracks }) => {
         onLoadedMetadata={handleLoadedMetadata}
       />
       <div className="playlist-controls">
-        <button type="button" onClick={handlePrev} aria-label="Previous">
-          ⏮
+        <button type="button" className="skip-btn" onClick={handlePrev} aria-label="Previous">
+          ◀◀
         </button>
         <button
           type="button"
+          className="play-btn"
           onClick={handlePlayPause}
           aria-label={isPlaying ? 'Pause' : 'Play'}
         >
           {isPlaying ? '⏸' : '▶'}
         </button>
-        <button type="button" onClick={handleNext} aria-label="Next">
-          ⏭
+        <button type="button" className="skip-btn" onClick={handleNext} aria-label="Next">
+          ▶▶
         </button>
         <span>{formatTime(currentTime)}</span>
         <input
