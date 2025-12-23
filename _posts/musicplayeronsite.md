@@ -87,6 +87,6 @@ const handleSeek = (e) => {
 
 The rest is styling and a few more handlers in the React component.
 
-Files are stored on AWS through S3. I had to whip up a script to upload and adjust my albums.js file en masse, a somewhat tedious task since many older albums were not quite as organized as my newer ones. Left plenty time to get nostalgic!
+Files are stored on AWS through S3. I had to whip up a script to upload and adjust my albums.js file en masse, a somewhat tedious task since many older albums were not quite as organized as my newer ones. Left plenty of time to get nostalgic!
 
 Give it a whirl! Visit any of the albums on [my music page](/music).
