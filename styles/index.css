@@ -577,6 +577,12 @@ button:hover {
   flex-direction: column-reverse;
 }
 
+.album_image {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  max-width: 500px;
+}
+
 @media all and (min-width: 800px) {
   .album_flex {
     flex-direction: row;
@@ -816,4 +822,106 @@ figure.bookshelf_image_wrapper {
   .interactive_description {
     margin: 0 2rem;
   }
+}
+
+/* Playlist Player */
+
+.playlist-player {
+  background: #232930;
+  color: var(--white);
+  font-size: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.playlist-track {
+  display: grid;
+  grid-template-columns: 2rem 1fr 3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+
+.playlist-track:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.playlist-track.playing {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.playlist-track-num {
+  text-align: center;
+  color: var(--code-font-color);
+}
+
+.playlist-track.playing .playlist-track-num {
+  color: var(--white);
+}
+
+.playlist-duration {
+  text-align: right;
+}
+
+.playlist-artist,
+.playlist-album {
+  color: var(--code-font-color);
+}
+
+@media all and (min-width: 800px) {
+  .playlist-track {
+    grid-template-columns: 2rem 1fr 1fr 1fr 3rem;
+    gap: 1rem;
+  }
+}
+
+@media all and (max-width: 799px) {
+  .playlist-artist,
+  .playlist-album {
+    display: none;
+  }
+}
+
+.playlist-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.playlist-controls button {
+  background: none;
+  border: none;
+  color: var(--white);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.playlist-controls button:hover {
+  background: none;
+  color: var(--blue);
+}
+
+.playlist-controls input[type='range'] {
+  flex: 1;
+  cursor: pointer;
+}
+
+.playlist-controls span {
+  font-size: 12px;
+  color: var(--code-font-color);
+  min-width: 3rem;
+}
+
+.playlist-controls span:last-child {
+  text-align: right;
+}
+
+.playlist-player-wrapper {
+  background: #232930;
+  border-radius: 4px;
 }

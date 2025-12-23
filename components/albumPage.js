@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from '../components/container';
 import Layout from '../components/layout';
 import Head from 'next/head';
@@ -10,44 +10,14 @@ import markdownToHtml from '../lib/markdownToHtml';
 import Markdown from 'markdown-to-jsx';
 import NextLink from '../components/NextLink';
 import { convertCamelCaseToTitleCase } from '../lib/util';
+import dynamic from 'next/dynamic';
+
+const PlaylistPlayer = dynamic(() => import('../components/PlaylistPlayer'), {
+  ssr: false,
+});
 
 export default function AlbumPage({ album }) {
-  const [showTracks, setShowTracks] = useState(false);
   const pageTitle = `${album.title} | Chris Padilla`;
-
-  const renderShowTracksButton = () => {
-    const text = showTracks ? 'Hide Tracks' : 'Show Tracks';
-    if (!album.tracks) return '';
-    return (
-      <button
-        type="button"
-        onClick={() => setShowTracks(!showTracks)}
-        style={{ width: '160px' }}
-      >
-        {text}
-      </button>
-    );
-  };
-
-  const renderTracks = () => {
-    if (album.tracks) {
-      return (
-        <>
-          {showTracks && <h3>Tracks</h3>}
-          {showTracks &&
-            album.tracks.map((track) => (
-              <>
-                <p>{track.title}</p>
-                <p>
-                  {' '}
-                  <audio src={track.url} controls="controls" />
-                </p>
-              </>
-            ))}
-        </>
-      );
-    }
-  };
 
   const renderGenres = () => {
     if (album.genres) {
@@ -149,18 +119,33 @@ export default function AlbumPage({ album }) {
               {album.description}
             </Markdown>
             {renderGenres()}
-            {renderShowTracksButton()}
-            {renderTracks()}
           </div>
           <div className="album_image">
             <Image
               src={album.coverURL}
               alt={`Cover art for ${album.title}.`}
-              width="500"
-              height="500"
+              width={500}
+              height={500}
+              layout="responsive"
             />
           </div>
         </div>
+        {album.tracks && (
+          <div
+            className="playlist-player-wrapper"
+            style={{ minHeight: 66 + album.tracks.length * 37 }}
+          >
+            <PlaylistPlayer
+              tracks={album.tracks.map((track) => ({
+                title: track.title,
+                artist: album.artist || '',
+                album: album.title,
+                duration: track.duration || '',
+                src: track.url,
+              }))}
+            />
+          </div>
+        )}
       </Container>
     </Layout>
   );
