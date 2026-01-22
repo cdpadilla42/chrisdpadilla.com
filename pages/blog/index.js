@@ -37,9 +37,10 @@ export default function Blog({ allPosts, count }) {
         <aside>
           <TagsNav />
           You can follow by{' '}
-          {/* <Link href="/subscribe">
+          <Link href="/subscribe">
             <a>Newsletter</a>
-            </Link>{' '}or{' '} */}
+          </Link>{' '}
+          or{' '}
           <Link href="/api/feed">
             <a>RSS</a>
           </Link>

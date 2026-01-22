@@ -67,9 +67,6 @@ export default function Subscribe() {
 
             <input type="radio" id="contactChoice2" name="frequency" value="SOME" checked={frequency === 'SOME'} onChange={e => setFrequency("SOME")}/>
             <label htmlFor="contactChoice2">Rarely (once a year)</label>
-
-            <input type="radio" id="contactChoice3" name="frequency" value="UNSUBSCRIBE" checked={frequency === 'UNSUBSCRIBE'} onChange={e => setFrequency("UNSUBSCRIBE")}/>
-            <label htmlFor="contactChoice3">None</label>
           </fieldset><br />
 
           <button type="submit" disabled={submitting}>{submitting ? 'Submitting...' : 'Sign Me Up!'}</button>

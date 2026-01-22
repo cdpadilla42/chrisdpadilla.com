@@ -38,10 +38,10 @@ export default function Intro({ latestHap }) {
             <Link href="/now">
               <a>What I'm Doing Now</a>
             </Link>{' '}
-            {/* —{' '}
+            —{' '}
             <Link href="/subscribe">
               <a>Newsletter</a>
-            </Link> */}
+            </Link>
           </p>
         </div>
         <div className="headshot">
