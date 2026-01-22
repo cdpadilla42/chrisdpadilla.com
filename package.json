@@ -43,7 +43,9 @@
     "@testing-library/react": "13.2.0",
     "@testing-library/user-event": "14.2.0",
     "autoprefixer": "^10.4.2",
+    "cloudinary": "^2.9.0",
     "cypress": "^12.2.0",
+    "dotenv": "^17.2.3",
     "jest": "28.1.0",
     "jest-environment-jsdom": "^29.4.1"
   }

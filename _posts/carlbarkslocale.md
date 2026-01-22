@@ -8,11 +8,11 @@ date: '2023-07-24T10:35:07.322Z'
 
 A fun rabbit hole I've been down is learning more about "The Good Duck Artist" [Carl Barks](https://www.siennafineart.com/carl-barks-biography).
 
-![The Good Duck Artist](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/art/carl-barks-01_zhfh2q.jpg)
+![The Good Duck Artist](https://padilla-media.s3.amazonaws.com/blog/art/carl-barks-01.jpg)
 
 Barks was a self taught cartoonist and an early legend in comics. He's known for his Donald Duck and Scrooge McDuck cartoons. Wickedly talented in every domain within comics — Story, drawing, expression, color, inking — he was also incredibly prolific, releasing comics regularly over a 25 year career.
 
-![The Good Duck](https://res.cloudinary.com/cpadilla/image/upload/v1690222716/chrisdpadilla/blog/art/donald_duck_cover_sbdne1.jpg)
+![The Good Duck](https://padilla-media.s3.amazonaws.com/blog/art/donald_duck_cover.jpg)
 
 Interestingly enough, Barks was more widely famous in Danish culture as opposed to the US due to Donald Duck being the lead character in Denmark instead of Mickey Mouse. Hence, why one of my top searches for "Carl Barks Interviews" brought me to a Danish recording:
 

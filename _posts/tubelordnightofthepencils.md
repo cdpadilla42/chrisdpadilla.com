@@ -18,7 +18,7 @@ date: '2025-06-15T10:39:37.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1749253062/chrisdpadilla/blog/video/TubelordNightofThePencilsCompressed_azkkbj.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/TubelordNightofThePencilsCompressed.mov"
       type="video/mp4"
     />
   </video>

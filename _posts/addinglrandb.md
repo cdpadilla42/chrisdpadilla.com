@@ -8,7 +8,7 @@ date: '2025-11-30T13:30:24.322Z'
 ---
 
 <figure>
-![In The Library (1928), Józef Rapacki (Polish, 1871-1929)](https://res.cloudinary.com/cpadilla/image/upload/v1764441600/chrisdpadilla/blog/images/anfu3i62cpw3zuaubcwe.jpg)
+![In The Library (1928), Józef Rapacki (Polish, 1871-1929)](https://padilla-media.s3.amazonaws.com/blog/images/addinglrandb.jpg)
 <figcaption>[In The Library (1928)](https://artvee.com/dl/in-the-library-3/#00), Józef Rapacki (Polish, 1871-1929)</figcaption>
 </figure>
 

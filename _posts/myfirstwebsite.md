@@ -6,7 +6,7 @@ tags:
 date: '2023-06-12T10:35:07.322Z'
 ---
 
-![Table layouts, table layouts everywhere!](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/imgs/moomoofilmsscreenshot_v21ipg.png)
+![Table layouts, table layouts everywhere!](https://padilla-media.s3.amazonaws.com/blog/images/myfirstwebsite.png)
 
 Like many folks born in the early 90s, I grew up with the web. You could say we both grew up alongside each other! I was right on that edge of entering elementary school _just_ [as the internet became a household utility](https://thehistoryoftheweb.com/timeline/?date_from=1995&date_to=1996).
 

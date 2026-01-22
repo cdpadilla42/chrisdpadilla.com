@@ -8,7 +8,7 @@ tags:
 date: '2024-09-27T10:35:07.322Z'
 ---
 
-![💀](http://res.cloudinary.com/cpadilla/image/upload/v1724720738/chrisdpadilla/albums/orfbp2lxpn0p4xvszpgs.jpg)
+![💀](https://padilla-media.s3.amazonaws.com/albums/covers/my-mix-cd.jpg)
 
 A love letter to burning CDs in the 2000s. Inspired by some soup of punk.
 

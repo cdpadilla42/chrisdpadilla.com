@@ -8,7 +8,7 @@ tags:
 date: '2025-06-17T08:29:56.322Z'
 ---
 
-![🦜](http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg)
+![🦜](https://padilla-media.s3.amazonaws.com/albums/covers/bird-box-ost.jpg)
 
 I'm launching an app today!!
 

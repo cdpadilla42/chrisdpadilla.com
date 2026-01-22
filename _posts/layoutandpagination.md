@@ -9,7 +9,7 @@ I've updated my blog home page to show posts in full instead of just the titles.
 
 I also found out I've posted over 200 times to this blog!! A great milestone! _And_ a fun performance issue to navigate with pagination. :)
 
-![Hey Diglett!](https://res.cloudinary.com/cpadilla/image/upload/v1691699173/chrisdpadilla/blog/imgs/Screen_Shot_2023-08-10_at_3.25.49_PM_wnfuxh.png)
+![Hey Diglett!](https://padilla-media.s3.amazonaws.com/blog/images/Screen_Shot_2023-08-10_at_3.25.49_PM.png)
 
 ## Pagination
 

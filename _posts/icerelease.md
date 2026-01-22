@@ -6,7 +6,7 @@ tags:
 date: '2023-12-15T10:35:07.322Z'
 ---
 
-![Brr!](http://res.cloudinary.com/cpadilla/image/upload/v1702152532/chrisdpadilla/albums/kaaujeftajggbj1syz29.jpg)
+![Brr!](https://padilla-media.s3.amazonaws.com/albums/covers/ice.jpg)
 
 Music somewhere between ambient classical and winter lofi!
 

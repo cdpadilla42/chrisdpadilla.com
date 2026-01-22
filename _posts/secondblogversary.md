@@ -24,7 +24,7 @@ One other thing I've come to appreciate with blogging as a medium is this:
 
 I took a moment to look back at what I've made this year. For context: This started largely as a text blog, mostly developer logs. Out of the soil, buds of more literary posts on what I was reading began to sprout. Soon after that, I started sharing art and music.
 
-![🐟s](https://res.cloudinary.com/cpadilla/image/upload/v1711760204/chrisdpadilla/blog/art/mifqqti0mohgww2xtuo4.jpg)
+![🐟s](https://padilla-media.s3.amazonaws.com/blog/art/secondblogversary.jpg)
 
 I've since traded words for color and sound! Lately I only write for my tech posts. And the switch is intentional — I want to get more miles out of music and drawing, and there are only so many hours in the day.
 

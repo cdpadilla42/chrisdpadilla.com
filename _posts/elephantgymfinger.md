@@ -18,7 +18,7 @@ date: '2025-12-07T14:58:58.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1762741038/chrisdpadilla/blog/video/ElephantGymFingerLC_jjegc8.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/ElephantGymFingerLC.mov"
       type="video/mp4"
     />
   </video>

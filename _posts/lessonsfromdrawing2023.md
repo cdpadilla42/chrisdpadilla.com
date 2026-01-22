@@ -7,7 +7,7 @@ tags:
 date: '2023-12-30T10:35:07.322Z'
 ---
 
-![Biiiig pile!](https://res.cloudinary.com/cpadilla/image/upload/v1701459740/chrisdpadilla/blog/imgs/Sketchbooks2023_l3k5g5.jpg)
+![Biiiig pile!](https://padilla-media.s3.amazonaws.com/blog/images/Sketchbooks2023.jpg)
 
 This year I drew! [A LOT](/blog/chris%20Learns%20to%20Draw)! in September of 2022 I committed to drawing daily and learning some technique. This year I stuck with it, finding time everyday to sketch.
 
@@ -15,7 +15,7 @@ A year ago, it was life changing to be making music regularly - having a new voi
 
 Same has been true for drawing, and it's been equally life changing!
 
-![first sketches](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/art/IMG_3121_um7jiz.jpg)
+![first sketches](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2023-05-07-2.jpg)
 
 ## A Space to Nurture Intuition
 
@@ -29,7 +29,7 @@ Art is thrilling, because it can capture things that _do_ exist. Or things that 
 
 Once you know the building blocks - anatomy, spheres, boxes, cylinders - and you can build with that, the real fun comes with drawing something that isn't in front of you. True invention, and it can be accomplished in just a minute if it's a sketch.
 
-![Pair of Pears](https://res.cloudinary.com/cpadilla/image/upload/v1704049763/chrisdpadilla/blog/images/pears_bzfabx.jpg)
+![Pair of Pears](https://padilla-media.s3.amazonaws.com/blog/images/pears.jpg)
 
 ## Learning to See and Loving How You See
 
@@ -55,11 +55,11 @@ Once I started learning some technique, one of the biggest challenges in my draw
 
 When I got started, I could do it all day. And some of my first posts show that I had no trouble here, no matter the result!
 
-![first sketches](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/art/IMG_2825_gydkcg.jpg)
+![first sketches](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2023-03-05.jpg)
 
 But once you start learning about right and wrong, good and bad, staying loose gets tricky. Yet, it's essential — for experimentation, for practice, and most importantly for me, for keeping it fun!
 
-![Later on](https://res.cloudinary.com/cpadilla/image/upload/v1697226818/chrisdpadilla/blog/art/mst3ksketches_q8cemc.jpg)
+![Later on](https://padilla-media.s3.amazonaws.com/blog/art/mst3ksketches.jpg)
 
 Two things helped: Exposure therapy and [automatic drawing](/automaticdrawing). Forcing myself to draw no matter the result helped me realize that nobody died if I quietly drew something poorly in my sketchbook, never to be seen by anyone (shocking, I know!) And, on the days where coming up with anything to draw was challenge, falling back on automatic drawing helped me reset the bar down low. On those days, usually something more solid formed, like flowers or an idea for a character drawing.
 
@@ -73,4 +73,4 @@ I told her what I'm so excited to tell anyone who will listen: Anyone can do thi
 
 If a guy like me, who's just been goofing around on this for a year, can draw and reap a lifetime of satisfaction from it – so can you!
 
-![Onward!](https://res.cloudinary.com/cpadilla/image/upload/v1693000996/chrisdpadilla/blog/art/sniviiandmareep_cldzmr.jpg)
+![Onward!](https://padilla-media.s3.amazonaws.com/blog/art/lessonsfromdrawing2023.jpg)

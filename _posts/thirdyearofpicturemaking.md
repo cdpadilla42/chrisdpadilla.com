@@ -8,7 +8,7 @@ date: '2025-09-21T10:35:07.322Z'
 
 I thought about skipping this one, but I still enjoy annual checkpoints for these practices. They're nice spots on the hiking trail to sling the backpack off the shoulders and take in the view.
 
-![🏡](https://res.cloudinary.com/cpadilla/image/upload/v1747869382/chrisdpadilla/blog/art/qdn2xmwqqhavbrjkhnnq.jpg)
+![🏡](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2025-05-31.jpg)
 
 ## Paintings
 
@@ -20,7 +20,7 @@ Easily the one I sat the most with was [Dallas House](/sketches-2025-05-31). A m
 
 I owe much to [Loish's fantastic Patreon](https://www.patreon.com/cw/loish). I thought I was pretty efficient with my workflow until I watched a few of her tutorials and process videos!
 
-![🐸🍩🌊](http://res.cloudinary.com/cpadilla/image/upload/v1737820791/chrisdpadilla/blog/art/tuxsawzyu0vmntlucr7z.jpg)
+![🐸🍩🌊](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2025-01-25.jpg)
 
 ## Blender
 
@@ -32,7 +32,7 @@ I'm sure I'll come back to it. I loved firing on all cylinders to bring forth th
 
 A few months ago, I discovered the [Blender MCP server](https://blender-mcp.com/), essentially giving an AI interface for working with the software. I haven't given it a spin yet. There's a whole separate conversation we could have on it. For now, I'll say it seems promising if used a certain way — as a replacement for googling "How to do X in Blender." But, I don't know that I would enjoy it if I were having it do the design work for me.
 
-![✌️✨ A sketch of a cute gal sitting on a ledge, looking off at the empty page](http://res.cloudinary.com/cpadilla/image/upload/v1754155580/chrisdpadilla/blog/art/ruiu5p3f4pwmzosc1pii.png)
+![✌️✨ A sketch of a cute gal sitting on a ledge, looking off at the empty page](https://padilla-media.s3.amazonaws.com/blog/art/flowygirlsketch.png)
 
 ## Sketching
 
@@ -42,7 +42,7 @@ I've continually enjoyed simple figure drawing and good ol' cartooning. Both hav
 
 I'm hoping to do more of this. Which brings me to...
 
-![☃️🏠🏔️](http://res.cloudinary.com/cpadilla/image/upload/v1734104812/chrisdpadilla/blog/art/mxdtfdolcroaw4b0qqz7.jpg)
+![☃️🏠🏔️](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2024-12-14.jpg)
 
 ## Any Changes?
 
@@ -58,7 +58,7 @@ This applies to the blog at large. Time for a reprieve. To go on other, irl adve
 
 Oh, also I'm going to keep sharing to the blog and leave behind the socials. Pick a few think pieces out there on the harm of social media and imagine that I reworked them here for my situation.
 
-![mama mia: Fan painting of Super Mario 64. Mario soars across a candy coated twilight sky. A floating island in the distance marks his launching point.](http://res.cloudinary.com/cpadilla/image/upload/v1752373785/chrisdpadilla/blog/art/vtnijy4amz94cbyze5q8.jpg)
+![mama mia: Fan painting of Super Mario 64. Mario soars across a candy coated twilight sky. A floating island in the distance marks his launching point.](https://padilla-media.s3.amazonaws.com/blog/art/mariowingstothesky.jpg)
 
 ## Art & Fear
 

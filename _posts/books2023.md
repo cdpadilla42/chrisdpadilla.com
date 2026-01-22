@@ -40,7 +40,7 @@ This year, instead of saying I'll cut my reading all together, I spent time maki
 
 ## Favorites
 
-<img src="http://res.cloudinary.com/cpadilla/image/upload/v1703708187/chrisdpadilla/blog/images/bghzxmoijk0vpc0eaniv.jpg" className="article-book-image">
+<img src="https://padilla-media.s3.amazonaws.com/blog/images/books2023.jpg" className="article-book-image">
 
 **_Form & Essence_**
 
@@ -48,31 +48,31 @@ I took an arts admin class with Matt back at UT. Matt is such an amazing embodim
 
 "Matthew Hinsley, with a musician's sensitivity, brings the magic of balancing both the tangible and the spiritual off of the artist's canvas and into our daily lives. Form & Essence is an antidote to the day-to-day focus on what's quantifiable. Without asking the reader to forego the material, Hinsley warmly invites the reader to look beyond at all at the things that truly matter — relationships, storytelling, and building a life around character. This book feels like a wonderful blending of Stephen Covey and Julia Cameron — fitting for the subject of the book. But Matt's own generosity and personality shine through clear as day. And his is a personality worth being with in its own right. Even if you only spend a bit of time with a few chapters, I can guarantee that you will see the world differently: with more lightness, with an eye for deepening your connections, and a gravitation towards the seemingly small things that truly matter in life.”
 
-<img src="http://res.cloudinary.com/cpadilla/image/upload/v1703708207/chrisdpadilla/blog/images/bthrukikmjvtc3el9bit.jpg" className="article-book-image">
+<img src="https://padilla-media.s3.amazonaws.com/blog/images/books2023-2.jpg" className="article-book-image">
 
 **_Terry Pratchett: A Life With Footnotes by Rob Wilkins_**
 
 A humorous, authentic, and a heartfelt account by Rob Wilkins. I'm glad to have discovered that the author behind Discworld was just as colorful and down to earth as his stories. Further proof of how prolific and brilliant a writer Terry was. Rob's account of Terry's decline towards the end of his life was absolutely heart-wrenching. Though, as the book concludes, "Of all the dead authors in the world, Terry is the most alive." I had the pleasure of writing a few words after reading on [inspiration](/pratchettandinspiration) and [libraries](/pratchettandlibraries).
 
-<img src="http://res.cloudinary.com/cpadilla/image/upload/v1703708170/chrisdpadilla/blog/images/dbgmtjij349vdtpzw6rg.jpg" className="article-book-image">
+<img src="https://padilla-media.s3.amazonaws.com/blog/images/books2023-3.jpg" className="article-book-image">
 
 **_Free Play: Improvisation in Life and Art_**
 
 "The creative process is a spiritual path. This adventure is about us, about the deep self, the composer in all of us, about originality, meaning not that which is all new, but that which is fully and originally ourselves." A multi-faceted look at the act of making in the moment. Turned my impression of improvisation on its head by acknowledge that even the act of design and iteration is just as improvisatory as riffing off the cuff!
 
-<img src="http://res.cloudinary.com/cpadilla/image/upload/v1703708086/chrisdpadilla/blog/images/hlr5jtbpwsurg5bwi5a6.jpg" className="article-book-image">
+<img src="https://padilla-media.s3.amazonaws.com/blog/images/books2023-4.jpg" className="article-book-image">
 
 **_Fellowship of the Ring_**
 
 My first read through!! I bopped between physical and audiobook. Rob Ingles is phenomenal, but the scene painting is so lush, I ended up wanting to sit down and take it all in with the book in hand. Warm characters, a fantastically grand adventure, and a world so fully realized, I'm not at all surprised to see how this remains a timeless classic. Rob Ingles reading and [singing](/robingles) the audiobook version is _the_ way to experience this.
 
-<img src="http://res.cloudinary.com/cpadilla/image/upload/v1703708126/chrisdpadilla/blog/images/pohrsvrktakplnngwwoc.jpg" className="article-book-image">
+<img src="https://padilla-media.s3.amazonaws.com/blog/images/books2023-5.jpg" className="article-book-image">
 
 **_Walt Disney's Mickey Mouse "Trapped On Treasure Island" by Floyd Gottfredson_**
 
 Stunning adventure comics! I devoured the second volume early this year. I can't believe these were printed in the newspaper. The detail in the sets, the grand nature of the story — these strips culminate in a rich novel! Floyd Gottfredson was a major inspiration for Carl Barks, and it's easy to see why. Included are really nice essays giving historical context to these stories as well.
 
-<img src="http://res.cloudinary.com/cpadilla/image/upload/v1703708153/chrisdpadilla/blog/images/lcxcuv7866ycgpdy6bos.jpg" className="article-book-image">
+<img src="https://padilla-media.s3.amazonaws.com/blog/images/books2023-6.jpg" className="article-book-image">
 
 **_Painting As a Pastime_**
 

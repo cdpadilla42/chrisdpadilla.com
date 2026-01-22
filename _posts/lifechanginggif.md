@@ -16,7 +16,7 @@ The [normal medium](/sax) didn't seem to fit as it did before. Practicing also f
 So I was sifting through Twitter when this popped up:
 
 <video controls loop type="video/mp4" className="video">
-  <source src="https://res.cloudinary.com/cpadilla/video/upload/v1739808377/chrisdpadilla/blog/video/ThemeForDogByTheWindowLouieZong_u8rpo7.mp4" type="video/mp4" />
+  <source src="https://padilla-media.s3.amazonaws.com/blog/video/ThemeForDogByTheWindowLouieZong.mp4" type="video/mp4" />
 </video>
 
 [Source](https://twitter.com/everydaylouie/status/1093344297041055745)

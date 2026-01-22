@@ -18,7 +18,7 @@ date: '2025-11-02T11:20:07.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1756506560/chrisdpadilla/blog/video/DonCaballeroFireBackAboutLouderCompressed_o7kjaq.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/DonCaballeroFireBackAboutLouderCompressed.mov"
       type="video/mp4"
     />
   </video>

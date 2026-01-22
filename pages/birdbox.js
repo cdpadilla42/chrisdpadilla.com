@@ -20,7 +20,7 @@ const About = () => {
       <h1>Bird Box</h1>
       <div className="center">
         <Image
-          src="http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg"
+          src="https://padilla-media.s3.amazonaws.com/albums/covers/bird-box-ost.jpg"
           alt="Bird Box"
           width={500}
           height={500}
@@ -72,7 +72,7 @@ const About = () => {
           className="center"
         >
           <source
-            src="https://res.cloudinary.com/cpadilla/video/upload/v1746288919/chrisdpadilla/blog/video/birdboxscreencapcompressed_zrx447.mp4"
+            src="https://padilla-media.s3.amazonaws.com/blog/video/birdboxscreencapcompressed.mp4"
             type="video/mp4"
           />
         </video>

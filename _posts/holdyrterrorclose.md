@@ -17,7 +17,7 @@ date: '2025-09-28T10:37:07.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1756605415/chrisdpadilla/blog/video/TheGoTeamHoldYrTerrorCloseCompressed_ooxtgr.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/TheGoTeamHoldYrTerrorCloseCompressed.mov"
       type="video/mp4"
     />
   </video>

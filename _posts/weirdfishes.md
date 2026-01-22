@@ -17,7 +17,7 @@ date: '2025-07-06T16:57:15.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1751410594/chrisdpadilla/blog/video/WeirdFishesLoudCompressed_f5diws.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/WeirdFishesLoudCompressed.mov"
       type="video/mp4"
     />
   </video>

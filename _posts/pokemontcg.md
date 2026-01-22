@@ -20,7 +20,7 @@ Some parts of the hobby are admittedly not so pleasant: It's unapologetically co
 I'll save gushing about the art, nostalgia, and game mechanics for another day. More urgently worth exploring is everything around the game, and why doing it communally has been surprisingly transformative.
 
 <figure>
-![That's me!](https://res.cloudinary.com/cpadilla/image/upload/v1760736308/chrisdpadilla/blog/images/CPWithPikachuCard_wyplda.jpg)
+![That's me!](https://padilla-media.s3.amazonaws.com/blog/images/CPWithPikachuCard.jpg)
 <figcaption>The author in front of a big base set Pikachu card at a Wizards of the Coast mall tour event, circa '99</figcaption>
 </figure>
 

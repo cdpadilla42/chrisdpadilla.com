@@ -13,4 +13,4 @@ I first came across this in [Wes Bos' Advanced React course](https://advancedrea
 
 If you don't want to pick your colors, looks like there's even a [VS Code plugin](https://advancedreact.com/) that will do this automatically for you! (Thank you [Stack Overflow](https://stackoverflow.com/a/55904635/14101718)!)
 
-![The Plugin in question](http://res.cloudinary.com/cpadilla/image/upload/v1709928831/chrisdpadilla/blog/images/vbghbc3lejnalwc7m2fn.jpg)
+![The Plugin in question](https://padilla-media.s3.amazonaws.com/blog/images/vscodetitlebartheme.jpg)

@@ -16,7 +16,7 @@ _**Brutal.**_
 
 The exercise looks like this:
 
-![📦](https://res.cloudinary.com/cpadilla/image/upload/v1686775136/chrisdpadilla/blog/art/IMG_3260_Large_isfqri.jpg)
+![📦](https://padilla-media.s3.amazonaws.com/blog/art/250boxesandrepetition.jpg)
 
 The point is to get familiar with perspective. And every now and then I stop and ask "am I doing this wrong? Are there any tips? Am I just not looking at it the wrong way. Maybe if I find another guide..." It's a question I've had for most art. If I find the right strategy, I'll just know how to do the thing.
 

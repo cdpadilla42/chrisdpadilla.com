@@ -18,7 +18,7 @@ date: '2025-12-25T11:27:14.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1766255197/chrisdpadilla/blog/video/OComeAllYeFaithfulLC_ctonxd.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/OComeAllYeFaithfulLC.mov"
       type="video/mp4"
     />
   </video>

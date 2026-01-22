@@ -7,7 +7,7 @@ date: '2025-12-01T16:37:45.322Z'
 ---
 
 <figure>
-![Woman With A Guitar, Raimundo de Madrazo y Garreta (Spanish, 1841 - 1920)](http://res.cloudinary.com/cpadilla/image/upload/v1764275228/chrisdpadilla/blog/images/dxwrzzpn6zglgngeedxc.png)
+![Woman With A Guitar, Raimundo de Madrazo y Garreta (Spanish, 1841 - 1920)](https://padilla-media.s3.amazonaws.com/blog/images/agenteleveatormusic.png)
 <figcaption>[Woman With A Guitar](https://artvee.com/dl/woman-with-a-guitar/), Raimundo de Madrazo y Garreta (Spanish, 1841 - 1920)</figcaption>
 </figure>
 

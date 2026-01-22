@@ -30,7 +30,7 @@ export default function BookShelf({ books }) {
           <figure>
             <BlogImage
               alt="Courtyard of the Jagiellonian Library (1846), Marcin Zaleski (Polish, 1796-1877)"
-              src="https://res.cloudinary.com/cpadilla/image/upload/v1764442397/chrisdpadilla/blog/images/a2yke7kajboqe5wp1znl.jpg"
+              src="https://padilla-media.s3.amazonaws.com/blog/images/a2yke7kajboqe5wp1znl.jpg"
             />
             <figcaption>
               <NextLink href="https://artvee.com/dl/courtyard-of-the-jagiellonian-library/">

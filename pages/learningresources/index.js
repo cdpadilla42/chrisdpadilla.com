@@ -120,7 +120,7 @@ export default function LearningResources({ books }) {
           <figure>
             <BlogImage
               alt="In The Library (1928), Józef Rapacki (Polish, 1871-1929)"
-              src="https://res.cloudinary.com/cpadilla/image/upload/v1764441600/chrisdpadilla/blog/images/anfu3i62cpw3zuaubcwe.jpg"
+              src="https://padilla-media.s3.amazonaws.com/blog/images/addinglrandb.jpg"
             />
             <figcaption>
               <NextLink href="https://artvee.com/dl/in-the-library-3/#00">

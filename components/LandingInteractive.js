@@ -19,7 +19,7 @@ export default function LandingInteractive(props) {
               web.
             </>
           }
-          image="http://res.cloudinary.com/cpadilla/image/upload/v1743372758/chrisdpadilla/albums/zwqx8tumg5iz7yigqgfo.jpg"
+          image="https://padilla-media.s3.amazonaws.com/albums/covers/bird-box-ost.jpg"
           link="/birdbox"
         />
         <LandingInteractiveItem
@@ -33,7 +33,7 @@ export default function LandingInteractive(props) {
               . Playable in browser.
             </>
           }
-          image="http://res.cloudinary.com/cpadilla/image/upload/v1737414483/chrisdpadilla/albums/izyuwlz5nmfr1ciujauv.jpg"
+          image="https://padilla-media.s3.amazonaws.com/albums/covers/amethyst.jpg"
           link="/amethyst-zone"
         />
         <LandingInteractiveItem
@@ -44,7 +44,7 @@ export default function LandingInteractive(props) {
               Jenn, web app and music by your's truly!
             </>
           }
-          image="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/acnmcover_krjrsy.jpg"
+          image="https://padilla-media.s3.amazonaws.com/albums/covers/ac-new-murder-soundtrack.jpg"
           link="/acnm"
         />
       </article>

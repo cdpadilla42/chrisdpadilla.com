@@ -6,7 +6,7 @@ tags:
 date: '2024-01-19T10:35:07.322Z'
 ---
 
-![Pew pew!](https://res.cloudinary.com/cpadilla/image/upload/v1696876707/chrisdpadilla/albums/Space_Frog_64_Cover_ybls1p.jpg)
+![Pew pew!](https://padilla-media.s3.amazonaws.com/albums/covers/space-frog-64.jpg)
 
 Video Game inspired Drum and Bass! Influenced by Soichi Terada and Jun Chikuma.
 

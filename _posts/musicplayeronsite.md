@@ -8,7 +8,7 @@ date: '2025-12-23T10:25:18.322Z'
 ---
 
 <figure>
-  ![Gramophone, Charles Bowman (American, c. 1937)](http://res.cloudinary.com/cpadilla/image/upload/v1766510240/chrisdpadilla/blog/images/czgsn84jtan1an3sgz1z.png)
+  ![Gramophone, Charles Bowman (American, c. 1937)](https://padilla-media.s3.amazonaws.com/blog/images/musicplayeronsite.png)
   <figcaption>[Gramophone](https://artvee.com/dl/gramophone#00), Charles Bowman (American, c. 1937)</figcaption>
 </figure>
 

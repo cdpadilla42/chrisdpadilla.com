@@ -6,7 +6,7 @@ tags:
 date: '2025-03-24T10:35:07.322Z'
 ---
 
-![Mama Mia](http://res.cloudinary.com/cpadilla/image/upload/v1742443220/chrisdpadilla/blog/images/utlahqa4itqmgjhkhvmr.jpg)
+![Mama Mia](https://padilla-media.s3.amazonaws.com/blog/images/metalmariorender.jpg)
 
 I have an annual ritual of playing through Super Mario 64. I'm super familiar with the game proper.
 

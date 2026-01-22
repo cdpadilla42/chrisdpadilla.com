@@ -18,7 +18,7 @@ date: '2025-08-06T11:20:07.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1754016137/chrisdpadilla/blog/video/MountainsRestartsIntro_tgwfnd.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/MountainsRestartsIntro.mov"
       type="video/mp4"
     />
   </video>

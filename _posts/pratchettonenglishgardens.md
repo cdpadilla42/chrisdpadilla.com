@@ -12,7 +12,7 @@ bookshelf:
 
 ---
 
-![🌱](http://res.cloudinary.com/cpadilla/image/upload/v1719764149/chrisdpadilla/blog/art/jaajckgqppxeu4rasrbc.jpg)
+![🌱](https://padilla-media.s3.amazonaws.com/blog/art/pratchettonenglishgardens.jpg)
 
 I revisited a passage from Sir Terry Pratchett's ["A Slip of the Keyboard."](https://www.terrypratchettbooks.com/books/a-slip-of-the-keyboard/) The essay "Magic Kingdoms" illustrates the English dedication to maintaining a garden in any environment. Pratchett uses this as an exemplification for how the garden is a portal to another world, and a widespread fascination with planting a garden is why fantasy is part of the fabric of the culture. 
 

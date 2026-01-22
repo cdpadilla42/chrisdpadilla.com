@@ -23,4 +23,4 @@ A breakdown of options:
 
 Violà!
 
-![🦜](https://res.cloudinary.com/cpadilla/image/upload/v1742586410/chrisdpadilla/blog/art/BirdBoxAnimationTransparent_prj6ml.gif)
+![🦜](https://padilla-media.s3.amazonaws.com/blog/art/BirdBoxAnimationTransparent.gif)

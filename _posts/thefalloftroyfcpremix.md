@@ -18,7 +18,7 @@ date: '2025-08-31T10:35:07.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1755816223/chrisdpadilla/blog/video/TheFallOfTroyFCPREMIXLoudCompressed_caraln.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/TheFallOfTroyFCPREMIXLoudCompressed.mov"
       type="video/mp4"
     />
   </video>

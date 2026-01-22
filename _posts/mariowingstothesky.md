@@ -7,7 +7,7 @@ tags:
 date: '2025-07-19T20:33:58.322Z'
 ---
 
-![mama mia: Fan painting of Super Mario 64. Mario soars across a candy coated twilight sky. A floating island in the distance marks his launching point.](http://res.cloudinary.com/cpadilla/image/upload/v1752373785/chrisdpadilla/blog/art/vtnijy4amz94cbyze5q8.jpg)
+![mama mia: Fan painting of Super Mario 64. Mario soars across a candy coated twilight sky. A floating island in the distance marks his launching point.](https://padilla-media.s3.amazonaws.com/blog/art/mariowingstothesky.jpg)
 
 [Wahoo!](https://youtu.be/pb4u9kXeY8o?si=IAPmIl5e3iHWBZYQ)
 

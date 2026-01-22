@@ -19,7 +19,7 @@ I thought I'd start a well-warranted evening at home alone by watching Seinfeld 
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1762041529/chrisdpadilla/blog/video/seinfeldgoingout_eoqso5.mp4"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/goingout.mp4"
       type="video/mp4"
     />
   </video>

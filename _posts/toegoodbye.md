@@ -18,7 +18,7 @@ date: '2025-07-20T16:02:55.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1753049136/chrisdpadilla/blog/video/ToeGoodbyeLoudCompressed_sium18.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/ToeGoodbyeLoudCompressed.mov"
       type="video/mp4"
     />
   </video>

@@ -7,7 +7,7 @@ tags:
 date: '2023-03-23T10:35:07.322Z'
 ---
 
-![Memories from the Texas winter storm](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/WhiteoutCover.jpg)
+![Memories from the Texas winter storm](https://padilla-media.s3.amazonaws.com/albums/covers/whiteout.jpg)
 
 Bring on the clear skies and open windows!!
 

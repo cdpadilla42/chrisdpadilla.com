@@ -25,7 +25,7 @@ Essentially, I need a non-Next solution for taking a moderately high quality ima
 So I'm turning to [Cloudinary](https://cloudinary.com/). And so far, so good! I've created a named transform so that all I have to do is add a `t_optimize` param to the url to get a resized, compressed image. I can get more granular with it from here, but for my needs, it feels like this gets me most of the way there to optimized images.
 
 ```
-https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/spring.jpg
+https://padilla-media.s3.amazonaws.com/albums/covers/spring.jpg
 ```
 
 And there we go! There's support to do this dynamically with JavaScript, and I have a way of bringing the images in to RSS without worrying about a heavy load time.

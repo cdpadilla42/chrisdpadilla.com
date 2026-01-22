@@ -6,7 +6,7 @@ tags:
 date: '2025-11-08T10:35:07.322Z'
 ---
 
-![Cartoon drawing of a woman resting on the ground. Aaaaah](https://res.cloudinary.com/cpadilla/image/upload/v1762113736/chrisdpadilla/blog/art/e7kyposkfpxlwsq9tjoi.png)
+![Cartoon drawing of a woman resting on the ground. Aaaaah](https://padilla-media.s3.amazonaws.com/blog/art/resting.png)
 
 Enjoying the breeze.
 

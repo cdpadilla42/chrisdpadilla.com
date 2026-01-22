@@ -10,7 +10,7 @@ bookshelf:
 ---
 
 <figure>
-![Rainy Midnight, late 1890s, Childe Hassam (American, 1859–1935)](http://res.cloudinary.com/cpadilla/image/upload/v1762381167/chrisdpadilla/blog/images/tixfwrw6bcoqzm3494bd.png)
+![Rainy Midnight, late 1890s, Childe Hassam (American, 1859–1935)](https://padilla-media.s3.amazonaws.com/blog/images/artandscience.png)
 <figcaption>[Rainy Midnight](https://emuseum.mfah.org/objects/17719/rainy-midnight), late 1890s, Childe Hassam (American, 1859–1935)</figcaption>
 </figure>
 

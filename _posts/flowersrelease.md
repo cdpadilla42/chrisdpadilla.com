@@ -7,7 +7,7 @@ tags:
 date: '2024-03-23T08:35:07.322Z'
 ---
 
-![🌼](http://res.cloudinary.com/cpadilla/image/upload/v1707148977/chrisdpadilla/albums/rgccmav9xrwqo45mcmvn.jpg)
+![🌼](https://padilla-media.s3.amazonaws.com/albums/covers/flowers.jpg)
 
 Incase you missed it! Celebrating the arrival of spring! I've always loved how these two flowers speckle the hills and fields this time of year.
 

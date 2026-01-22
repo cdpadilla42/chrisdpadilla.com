@@ -7,6 +7,6 @@ tags:
 date: '2026-01-16T10:07:31.322Z'
 ---
 
-![Lucy looks longingly off at mini mountains](https://res.cloudinary.com/cpadilla/image/upload/v1766203149/chrisdpadilla/blog/art/ububvzggwsqxgmh0olzf.png)
+![Lucy looks longingly off at mini mountains](https://padilla-media.s3.amazonaws.com/blog/art/littlemountainpark.png)
 
 There's this park near our new place that has these miniature mountains for the dogs to climb. Lucy loves them!

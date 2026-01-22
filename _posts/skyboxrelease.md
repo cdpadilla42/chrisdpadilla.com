@@ -6,7 +6,7 @@ tags:
 date: '2024-12-20T10:35:07.322Z'
 ---
 
-![🌎](https://res.cloudinary.com/cpadilla/image/upload/v1730427231/chrisdpadilla/albums/SkyBoxAlbumCoverScaled_gjfqk3.jpg)
+![🌎](https://padilla-media.s3.amazonaws.com/albums/covers/skybox.jpg)
 
 Happy holidays!! New music is out today!
 

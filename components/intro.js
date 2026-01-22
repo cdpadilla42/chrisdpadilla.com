@@ -46,7 +46,7 @@ export default function Intro({ latestHap }) {
         </div>
         <div className="headshot">
           <Image
-            src="https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/site/headshot-blue_lerc2k.jpg"
+            src="https://padilla-media.s3.amazonaws.com/blog/images/headshot-blue.jpg"
             width={500}
             height={500}
           />

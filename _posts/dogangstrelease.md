@@ -7,7 +7,7 @@ tags:
 date: '2024-04-25T10:35:07.322Z'
 ---
 
-![Woof](http://res.cloudinary.com/cpadilla/image/upload/v1709406537/chrisdpadilla/albums/dowxbicwfeixmvvo4jr0.jpg)
+![Woof](https://padilla-media.s3.amazonaws.com/albums/covers/dog-angst.jpg)
 
 Lucy's been listening to my teenage emo CDs! Now she's all moody.
 

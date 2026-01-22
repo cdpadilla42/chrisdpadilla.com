@@ -17,7 +17,7 @@ date: '2025-11-22T13:49:35.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1763844523/chrisdpadilla/blog/video/ClementiSonatinaOp36No1Mvmt3C_cdcqsx.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/ClementiSonatinaOp36No1Mvmt3C.mov"
       type="video/mp4"
     />
   </video>

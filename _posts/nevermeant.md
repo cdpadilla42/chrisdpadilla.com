@@ -18,7 +18,7 @@ date: '2025-07-13T16:57:15.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1751410644/chrisdpadilla/blog/video/NeverMeantLickLoudCompressed_nyqkij.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/NeverMeantLickLoudCompressed.mov"
       type="video/mp4"
     />
   </video>

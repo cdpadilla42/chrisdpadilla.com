@@ -15,7 +15,7 @@ const About = () => {
       <h1>AC: New Murder </h1>
       <div className="center">
         <Image
-          src="https://res.cloudinary.com/cpadilla/image/upload/v1695238745/chrisdpadilla/site/acnmfrontpage_sza4ub.png"
+          src="https://padilla-media.s3.amazonaws.com/blog/images/acnmfrontpage.png"
           alt="AC: New Mureder Start Page"
           width={500}
           height={500}

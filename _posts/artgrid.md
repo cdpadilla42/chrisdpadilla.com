@@ -12,7 +12,7 @@ date: '2023-09-15T10:35:07.322Z'
 
 A visit to the [homepage of this very site](/) on desktop will show the neat instagram-like image grid of my sketches! Now that much of my blog is visual, and since it's been a year of me drawing, it's time to make a nice display for my drawings.
 
-![Equal parts Pokémon and Zelda, a good balance!](https://res.cloudinary.com/cpadilla/image/upload/v1694801728/chrisdpadilla/blog/imgs/artgrid_ofabdh.jpg)
+![Equal parts Pokémon and Zelda, a good balance!](https://padilla-media.s3.amazonaws.com/blog/images/artgrid.jpg)
 
 Creating it with my current setup has been interesting! I'll walk you through it, covering extracting the images and piping them through Next's server side handler.
 
@@ -28,7 +28,7 @@ tags:
 date: '2023-09-01T10:35:07.322Z'
 ---
 
-![Charge!!!](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/art/sniviiandmareep_cldzmr.jpg)
+![Charge!!!](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2023-09-01.jpg)
 
 Pokémon — the gateway to doodling on math homework.
 
@@ -100,7 +100,7 @@ export function getAllArtImages(
 The interesting part here is down in the `forEach` loop. There, I'm calling `getImageValuesFromMarkdown`, which uses a regex to find all of the instances of a markdown denotation for an image. In the file, it looks like this:
 
 ```
-![Charge!!!](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/art/sniviiandmareep_cldzmr.jpg)
+![Charge!!!](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2023-09-01.jpg)
 ```
 
 That all gets massaged into an array of objects with the image source and markdown slug so that the images link to the post.

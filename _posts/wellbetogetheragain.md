@@ -16,6 +16,6 @@ _No tears, no fears. Remember, there's always tomorrow... ~_
 
 Had the pleasure of playing this beautiful piano just outside of the [Frisco Discovery Center](https://mindstretchingfun.org/):
 
-![Front View](http://res.cloudinary.com/cpadilla/image/upload/v1722034347/chrisdpadilla/blog/images/nhcp2qkw3wqbdtw1zi1m.jpg)
+![Front View](https://padilla-media.s3.amazonaws.com/blog/images/wellbetogetheragain.jpg)
 
-![Back View. Beautiful dark design with a colorful, floral pattern.](http://res.cloudinary.com/cpadilla/image/upload/v1722034359/chrisdpadilla/blog/images/jjhxnbmzxvnogy4ph8g6.jpg)
+![Back View. Beautiful dark design with a colorful, floral pattern.](https://padilla-media.s3.amazonaws.com/blog/images/wellbetogetheragain-2.jpg)

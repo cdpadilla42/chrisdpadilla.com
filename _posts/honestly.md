@@ -18,7 +18,7 @@ date: '2025-05-11T11:35:07.322Z'
 	  className="full-width"
 	>
 	  <source
-	    src="https://res.cloudinary.com/cpadilla/video/upload/v1746756564/chrisdpadilla/blog/video/AmericanFootballHonsetlyCompressed_d1klyu.mov"
+	    src="https://padilla-media.s3.amazonaws.com/blog/video/AmericanFootballHonsetlyCompressed.mov"
 	    type="video/mp4"
 	  />
 	</video>

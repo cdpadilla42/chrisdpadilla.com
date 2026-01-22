@@ -6,7 +6,7 @@ tags:
 date: '2024-06-14T07:35:07.322Z'
 ---
 
-![🔵](http://res.cloudinary.com/cpadilla/image/upload/v1715540106/chrisdpadilla/albums/gjtaih6mu4n3b7waq5bt.jpg)
+![🔵](https://padilla-media.s3.amazonaws.com/albums/covers/jam-3d.jpg)
 
 Collectathon Island's magical power-orbs have been scattered all over the place! We need a lovable 3D anthropomorphic mascot to use their signature jumping and running abilities to return them all.
 

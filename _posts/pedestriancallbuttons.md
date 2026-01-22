@@ -24,7 +24,7 @@ Take a listen to this, dear reader:
     controls
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1763166693/chrisdpadilla/blog/video/HalfStepButton_nl1nxy.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/HalfStepButton.mov"
       type="video/mp4"
     />
   </video>
@@ -42,7 +42,7 @@ _**UGH!**_ This is a half step moving down. It makes me think of the Straus piec
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1762051652/chrisdpadilla/blog/video/StraussAlsoSprachZarathustra_gfq2md.mp4"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/StraussAlsoSprachZarathustra.mp4"
       type="video/mp4"
     />
   </video>
@@ -63,7 +63,7 @@ Now, consider this:
     controls
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1763166694/chrisdpadilla/blog/video/PerfectFourthButton_jlsbnl.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/PerfectFourthButton.mov"
       type="video/mp4"
     />
   </video>
@@ -89,7 +89,7 @@ But, alas, not all of the tax dollars can go to such indulgences. So be mindful 
   >
 
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1763166693/chrisdpadilla/blog/video/VocalButton_dvl2jt.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/VocalButton.mov"
       type="video/mp4"
     />
 

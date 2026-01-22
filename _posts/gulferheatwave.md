@@ -18,7 +18,7 @@ date: '2025-11-29T12:29:18.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1764184430/chrisdpadilla/blog/video/GulferHeatWaveCL_gq3yu1.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/GulferHeatWaveCL.mov"
       type="video/mp4"
     />
   </video>

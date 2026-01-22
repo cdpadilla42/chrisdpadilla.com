@@ -11,7 +11,7 @@ bookshelf:
 ---
 
 <figure>
-![🌅 🌸](http://res.cloudinary.com/cpadilla/image/upload/v1720970404/chrisdpadilla/blog/art/cycvcjwrayjqovqq3f95.jpg)
+![🌅 🌸](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2024-09-20.jpg)
 
 <figcaption>_Blue Sky Thinking — [09/20/24](/sketches-2024-09-20)_</figcaption>
 </figure>
@@ -25,7 +25,7 @@ This year I turned my focus to the world of color and texture through digital pa
 Much of what I have to say this year is a revisiting of ideas I came across last year. Only this time the context has changed. A bit of a variation on a theme!
 
 <figure>
-![💡](http://res.cloudinary.com/cpadilla/image/upload/v1714759239/chrisdpadilla/blog/art/qdboj8odf90ttzskm261.jpg)
+![💡](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2024-05-04.jpg)
 <figcaption>_Still Life — [5/4/24](/sketches-2024-05-04)_</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ The process of painting is great fun. Though, my favorite takeaway from picking 
 
 <figure>
 
-![Sweet little Lucy loving on this pretty sky](http://res.cloudinary.com/cpadilla/image/upload/v1709928009/chrisdpadilla/blog/art/xfucx6ersmigetuq4x7m.jpg)
+![Sweet little Lucy loving on this pretty sky](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2024-03-09.jpg)
 
 <figcaption>_Pup at Twilight — [3/9/24](/sketches-2024-03-09)_</figcaption>
 
@@ -70,7 +70,7 @@ Actually, that lines up nicely with Robertryan Cory's recommended routine for ar
 
 <figure>
 
-![🌅 🌸](http://res.cloudinary.com/cpadilla/image/upload/v1720970165/chrisdpadilla/blog/art/xvfz2acl5xzisg1bceuq.jpg)
+![🌅 🌸](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2023-09-24.jpg)
 
 <figcaption>_An early swing at digital painting — [09/24/23](/sketches-2023-09-24)_</figcaption>
 
@@ -95,7 +95,7 @@ In the same way that each tone of music contains a multitude of different sounds
 There are plenty of reasons to paint. Maybe one of the most worthwhile, though, is that — just like studying sound — you spend time with another Truth in the world. This time, through color and light.
 
 <figure>
-![🌳🌳🌳](http://res.cloudinary.com/cpadilla/image/upload/v1720124693/chrisdpadilla/blog/art/qw2jmc3cc6emfi7r5ucr.jpg)
+![🌳🌳🌳](https://padilla-media.s3.amazonaws.com/blog/art/sketches-2024-07-06.jpg)
 
 <figcaption>_Campion Trail – [07/06/24](/sketches-2024-07-06)_</figcaption>
 </figure>

@@ -18,7 +18,7 @@ date: '2025-05-25T10:42:07.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1746757871/chrisdpadilla/blog/video/TangledHairCampfiresCompressed_jxqeto.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/TangledHairCampfiresCompressed.mov"
       type="video/mp4"
     />
   </video>

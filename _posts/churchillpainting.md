@@ -11,7 +11,7 @@ bookshelf:
 
 I don't always find the inspiration I'm looking for from the bios and stories of full time artists. Those select few who can spend most of their week in the studio. Winston Churchill, who was surprisingly an enthusiastic, self proclaimed hobby painter, can speak much more clearly to the situation of having to find time to be creative in the nooks and crannies of the day.
 
-![And a surprisingly sensitive painter, at that!!](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/imgs/churchillpainting_Large_u62tt7.jpg)
+![And a surprisingly sensitive painter, at that!!](https://padilla-media.s3.amazonaws.com/blog/images/churchillpainting_Large.jpg)
 
 I've been rattling in my mind all the different reasons I like drawing/piano/guitar/writing music/blogging, and why someone else might like to do them too.
 
@@ -23,7 +23,7 @@ A particularly sobering passage acknowledges that, as a hobbyist, you won't reac
 
 > But if, on the contrary, you are inclined – late in life though it be – to reconnoitre a foreign sphere of limitless extent, then be persuaded that the first quality that is needed is Audacity. There really is no time for the deliberate approach. Two years of drawing-lessons, three years of copying woodcuts, five years of plaster casts – these are for the young. They have enough time to bear. And this thorough grounding is for those who, hearing the call in the morning of their days, are able to make painting their paramount lifelong vocation. The truth and beauty of line and form which by the slightest touch or twist of the brush a real artist imparts to every feature of his design must be founded on long, hard, persevering apprenticeship and a practice so habitual that it has become instinctive. We must not be too ambitious. We cannot aspire to masterpieces. We may content ourselves with a joy ride in a paintbox. And for this Audacity is the only ticket.
 
-![These trees ❤️](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/imgs/winston-churchill-art-collection-pr-0518-1600x800_cufqio.jpg)
+![These trees ❤️](https://padilla-media.s3.amazonaws.com/blog/images/winston-churchill-art-collection-pr-0518-1600x800.jpg)
 
 It's still worth the pursuit all the same. The rewards for that Audacity are many:
 
@@ -43,4 +43,4 @@ And why wait? The time to plant a garden is now:
 
 While the earlier, the better for overcoming the initial hurdle of learning the vocabulary, it's never too late. Thankfully, the barrier to entry is not technique or years of experience. Just Audacity!
 
-![☁️](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/blog/imgs/f752c85e-2fd1-4597-918d-190e3c628fd5_570_jvy9d9.jpg)
+![☁️](https://padilla-media.s3.amazonaws.com/blog/images/churchillpainting.jpg)

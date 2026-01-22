@@ -7,7 +7,7 @@ date: '2025-12-18T16:35:16.322Z'
 ---
 
 <figure>
-![Wäscherinnen am Gubbio, Georg Heinrich Busse (German, 1810-1868)](http://res.cloudinary.com/cpadilla/image/upload/v1766100741/chrisdpadilla/blog/images/bpvn4hljtbertkj3cgir.png)
+![Wäscherinnen am Gubbio, Georg Heinrich Busse (German, 1810-1868)](https://padilla-media.s3.amazonaws.com/blog/images/claudecodeusage.png)
 <figcaption>[Wäscherinnen am Gubbio](https://artvee.com/dl/wascherinnen-am-gubbio/), Georg Heinrich Busse (German, 1810 - 1868)</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ There are a few studies already underscoring the hypothesis that we are thinking
 So our aim is clearly for deep involvement in the process while using these tools, but we have to be mindful that the tool itself may not be working in that interest out of the box. Restraint, practice, and perhaps a different framework of interacting with the agents are required.
 
 <figure>
-![The Conversation, Louis Charles Moeller (American, 1855-1930)](http://res.cloudinary.com/cpadilla/image/upload/v1766101013/chrisdpadilla/blog/images/ljnyruj1zmguacr3y2c0.png)
+![The Conversation, Louis Charles Moeller (American, 1855-1930)](https://padilla-media.s3.amazonaws.com/blog/images/claudecodeusage-2.png)
 <figcaption>[The Conversation](https://artvee.com/dl/the-conversation-11/#00), Louis Charles Moeller (American, 1855-1930)</figcaption>
 </figure>
 

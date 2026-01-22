@@ -17,7 +17,7 @@ date: '2025-10-17T10:35:07.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1757949545/chrisdpadilla/blog/video/PeachesThemePaperMario64Compressed_msnfky.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/PeachesThemePaperMario64Compressed.mov"
       type="video/mp4"
     />
   </video>

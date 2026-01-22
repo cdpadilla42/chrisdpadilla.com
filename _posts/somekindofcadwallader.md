@@ -18,7 +18,7 @@ date: '2025-06-01T07:57:58.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1748059221/chrisdpadilla/blog/video/SomeKindOfCadwalladerCompressed_eiozn3.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/SomeKindOfCadwalladerCompressed.mov"
       type="video/mp4"
     />
   </video>

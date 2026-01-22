@@ -6,7 +6,7 @@ tags:
 date: '2023-02-23T10:35:07.322Z'
 ---
 
-![These books are like floating daydreams](https://res.cloudinary.com/cpadilla/image/upload/t_optimize/chrisdpadilla/albums/spring.jpg)
+![These books are like floating daydreams](https://padilla-media.s3.amazonaws.com/albums/covers/spring.jpg)
 
 Bring on the clear skies and open windows!!
 

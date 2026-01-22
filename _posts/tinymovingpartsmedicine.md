@@ -18,7 +18,7 @@ date: '2025-07-27T19:36:00.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1753234504/chrisdpadilla/blog/video/TinyMovingPartsMedicineLoudCompressed_wcjq58.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/TinyMovingPartsMedicineLoudCompressed.mov"
       type="video/mp4"
     />
   </video>

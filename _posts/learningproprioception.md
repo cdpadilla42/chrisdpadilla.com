@@ -11,7 +11,7 @@ bookshelf:
 ---
 
 <figure>
-![A Summer's Day, Abbott Fuller Graves (American, 1859–1936)](http://res.cloudinary.com/cpadilla/image/upload/v1762381947/chrisdpadilla/blog/images/xu8rq6mnrigcdtjjozhz.png)
+![A Summer's Day, Abbott Fuller Graves (American, 1859–1936)](https://padilla-media.s3.amazonaws.com/blog/images/learningproprioception.png)
 <figcaption>[A Summer's Day](https://commons.wikimedia.org/wiki/File:Abbott_Fuller_Graves_-_A_Summer%E2%80%99s_Day.jpg), Abbott Fuller Graves</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Speaking of, a great companion is Hannah Smith's [Progressive Sight Reading Exer
 Most recently, and with great jubilation, I've been returning to earlier elementary piano methods. It's time to leave the realm of pure exercise and start applying this to music more regularly. My method series of choice has been the [Faber Piano Adventure series](https://pianoadventures.com/), jumping back in at book 3A. Though any method will do, such as the Alfred method.
 
 <figure>
-![Doorway and Garden, Abbott Fuller Graves](http://res.cloudinary.com/cpadilla/image/upload/v1762621631/chrisdpadilla/blog/images/ymidubcowi9ycehunx43.png)
+![Doorway and Garden, Abbott Fuller Graves](https://padilla-media.s3.amazonaws.com/blog/images/learningproprioception-2.png)
 <figcaption>[Doorway and Garden](https://commons.wikimedia.org/wiki/File:Abbott_Fuller_Graves_-_Doorway_and_Garden.jpg#:~:text=Licensing,of%20art%20are%20public%20domain%22.), Abbott Fuller Graves</figcaption>
 </figure>
 

@@ -18,7 +18,7 @@ date: '2025-06-08T11:20:07.322Z'
     className="full-width"
   >
     <source
-      src="https://res.cloudinary.com/cpadilla/video/upload/v1748641409/chrisdpadilla/blog/video/MountainsRestartsCompressed_p0jucr.mov"
+      src="https://padilla-media.s3.amazonaws.com/blog/video/MountainsRestartsCompressed.mov"
       type="video/mp4"
     />
   </video>
