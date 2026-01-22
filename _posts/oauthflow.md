@@ -15,7 +15,7 @@ I've gone through a couple of rounds implementing OAuth sign in. The biggest hur
 ## Sign In Flow
 
 <figure>
-![OAuth Flow Illustrated](https://developers.google.com/static/identity/protocols/oauth2/images/flows/authorization-code.png)
+![OAuth Flow Illustrated](https://padilla-media.s3.amazonaws.com/images/oauth-authorization-code-flow.png)
 <figcaption>Oath Flow Illustrated on the [Google Docs](https://developers.google.com/identity/protocols/oauth2#webserver)</figcaption>
 </figure>
 

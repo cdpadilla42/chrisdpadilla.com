@@ -13,4 +13,4 @@ date: '2023-07-29T10:35:07.322Z'
 
 Ah yes, the ol' "Piano Playin', Chocolate Eater Blues."
 
-![CHOCOLATE!!!!](https://i.giphy.com/media/3oxOCqY7aKRESAP26s/giphy.webp)
+![CHOCOLATE!!!!](https://padilla-media.s3.amazonaws.com/images/chocolate-spongebob.webp)

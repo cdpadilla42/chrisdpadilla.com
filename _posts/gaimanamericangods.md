@@ -10,7 +10,7 @@ bookshelf:
 
 Several great nuggets of writing insight from Neil Gaiman's introduction to the 10th Anniversary Edition of American Gods.
 
-![Storm's coming...](https://m.media-amazon.com/images/I/41Zdb78xM2L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg)
+![Storm's coming...](https://padilla-media.s3.amazonaws.com/books/american-gods.jpg)
 
 Like [Carl Barks](/carlbarkslocale), Gaiman started with a locale:
 
