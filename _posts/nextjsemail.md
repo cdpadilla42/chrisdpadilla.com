@@ -12,7 +12,7 @@ date: '2024-07-12T10:35:07.322Z'
 
 My favorite spot to catch up with writers and artists is from the comfort of my own email inbox. Social media algorithms are fickle and too bite-sized to be sustaining. But sitting down for a couple of minutes to read an email long form is a delight!
 
-I was curious about implementing the infrastructure for this very site. I don't plan on going full-on email marketer! I am interested, though, in a once or twice a year short note on what's going on in my corner of the internet. 
+I was curious about implementing the infrastructure for this very site. I don't plan on going full-on email marketer! I am interested, though, in a once or twice a year short note on what's going on in my corner of the internet.
 
 And, the fun part — It means getting to write some node code to set up an email subscription flow!
 
@@ -42,13 +42,13 @@ export default function Subscribe() {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
-  const [frequency, setFrequency] = useState('ALL'); 
+  const [frequency, setFrequency] = useState('ALL');
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState(false);
   const router = useRouter();
-  
+
   ...
-  
+
 }
 ```
 
@@ -74,7 +74,7 @@ return (
           <input type="text" id="lastName" name="lastName" required value={lastName} onChange={e => setLastName(e.currentTarget.value)} /><br />
           <label htmlFor="email">Email:</label><br />
           <input type="email" id="email" name="email" required value={email} onChange={e => setEmail(e.currentTarget.value)} /><br />
-  
+
           <button type="submit" disabled={submitting}>{submitting ? 'Submitting...' : 'Sign Me Up!'}</button>
           {error && (
             <p>Oops! Something went wrong... try refreshing. If all else fails,  <Link href={`/contact`}>
@@ -88,7 +88,6 @@ return (
 ```
 
 Next I'll handle radio elements for emailing frequency. Most input fields are simple enough with one element. Radio elements, however, require special logic to work. Here, I'm setting the value to true only if our state matches the current element. The `onChange` is then responsible for updating the state to its value.
-
 
 ```HTML
 <fieldset value={frequency}>
@@ -105,10 +104,8 @@ Next I'll handle radio elements for emailing frequency. Most input fields are si
 
 ```
 
-Now for submitting the form! My submit handler will set the submitting state so the input button won't accidentally be double-clicked. 
+Now for submitting the form! My submit handler will set the submitting state so the input button won't accidentally be double-clicked.
 
-Then, I'll gather the values from state. From there, the `fetch` API is used to send the request. And upon successful submission, the user is then redirected to `/subscribed?n={firstName}`. The query param is added to customize the message when they land. 
+Then, I'll gather the values from state. From there, the `fetch` API is used to send the request. And upon successful submission, the user is then redirected to `/subscribed?n={firstName}`. The query param is added to customize the message when they land.
 
 That's all there is to it! There's more work involved with handling updating subscription status and using the templates. If your curious, I'd recommend digging into Pete Houston's [Simple Newsletter repo](https://github.com/petehouston/simple-newsletter) and playing with it yourself!
-
-Oh, _by the way!_ You can see the [working page here](/subscribe)!
