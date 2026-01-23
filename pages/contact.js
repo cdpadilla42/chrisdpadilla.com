@@ -20,14 +20,14 @@ export default function Blog() {
           <strong>gmail</strong> dot <strong>com</strong>. It's the most
           reliable way to get to me.
         </p>
-        <p>
+        {/* <p>
           You can join my{' '}
           <Link href="/subscribe">
             <a>newsletter</a>
           </Link>
           . I keep it very quiet — just a couple of updates a year on what I'm up
           to.
-        </p>
+        </p> */}
         <p>I'm on a few socials:</p>
         <ul>
           {/* <li>

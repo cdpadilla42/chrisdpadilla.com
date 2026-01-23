@@ -23,8 +23,8 @@ export default function Footer() {
         Mastodon
       </a>{' '}
       •{' '} */}
-      <Link href="/subscribe">Newsletter</Link>{' '}
-      •{' '}
+      {/* <Link href="/subscribe">Newsletter</Link>{' '}
+      •{' '} */}
       <Link href="/blog">Blog</Link> • <Link href="/music">Music</Link> •{' '}
       <Link href="/about">About</Link> • <Link href="/contact">Contact</Link> •{' '}
       <Link href="/api/feed">

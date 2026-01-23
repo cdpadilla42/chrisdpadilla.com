@@ -58,12 +58,12 @@ export default function Blog({ allPosts, images, count }) {
         <Header section="blog" tag={capitalizedTag} />
         <aside>
           <TagsNav />
-          Follow by{' '}
+          {/* Follow by{' '}
           <Link href="/subscribe">
             <a>Newsletter</a>
           </Link>{' '}
-          or{' '}
-          <Link href="/api/feed">
+          or{' '} */}
+          Follow by <Link href="/api/feed">
             <a>RSS</a>
           </Link>
           ! (<a href="https://aboutfeeds.com/">What's RSS?</a>) Full archive{' '}
