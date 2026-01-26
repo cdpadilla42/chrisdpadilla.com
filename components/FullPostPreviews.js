@@ -24,7 +24,7 @@ const FullPostPreviews = ({ posts, count }) => {
       <ul className="bloglist">
         {posts.length > 0 &&
           posts.map((post) => (
-            <>
+            <React.Fragment key={post.slug}>
               <PostHeader
                 title={post.title}
                 coverImage={post.coverImage}
@@ -34,7 +34,7 @@ const FullPostPreviews = ({ posts, count }) => {
               />
               <PostBody content={post.content} />
               <hr style={{'margin': '4rem 0'}}></hr>
-            </>
+            </React.Fragment>
           ))}
       </ul>
       <div className="pagination-controller" style={{ display: 'flex' }}>
