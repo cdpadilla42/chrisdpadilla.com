@@ -4,7 +4,7 @@ tags:
   - Tech
   - JavaScript
   - TypeScript
-date: '2026-01-24T15:21:10.322Z'
+date: '2026-01-26T10:52:19.322Z'
 ---
 
 Sending an asynchronous job off to a worker to handle a background task can lighten the load of a main application, but it takes careful consideration around how to ensure we aren't then seeing duplicate results. This is the idea around a portion of a system being idempotent. Here's how I navigated this in my own work this week:
