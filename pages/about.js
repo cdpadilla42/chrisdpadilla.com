@@ -21,7 +21,7 @@ const About = () => {
       <h2>The Gist</h2>
       <p>
         <strong>
-          I'm a software engineer and musician from {HOME_TOWN}. 🏔️
+          I'm a software engineer and musician from {HOME_TOWN}. 🤠
         </strong>
         {'  '}I have been hacking and musicing for pretty much most of my life!
         I'm {calculateAge(bd)} years old and wrangled my first lines of HTML,
@@ -141,7 +141,8 @@ const About = () => {
         Creating is the richest way for us to align with those Truths. A life
         regularly entangled with creation is one in which we are in a process of
         Becoming, where we are practicing the spirit-lifting experience of Awe,
-        and where we share an artifact that can inspire others to do the same.{' '}
+        and where we share an artifact that can inspire others to do the
+        same.{' '}
       </p>
       <p>
         I don't inherently think that a Mozart Sonata is in greater alignment
