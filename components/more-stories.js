@@ -7,7 +7,7 @@ export default function MoreStories({ latestPosts, featuredPosts }) {
   return (
     <section>
       <div className="heading_flex">
-        <h2>Latest Posts</h2>
+        <h2>Blog</h2>
         <Link href="/blog">
           <a>
             <h2>See All</h2>
