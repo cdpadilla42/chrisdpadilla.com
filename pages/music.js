@@ -54,10 +54,10 @@ export default function Music({ albums }) {
           <Link href="/blog/music">
             <a>blog</a>
           </Link>{' '}
-          or{' '}
+          {/* or{' '}
           <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
             Instagram
-          </a>{' '}
+          </a>{' '} */}
           for more recordings.
         </p>
         <p>
