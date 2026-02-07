@@ -317,10 +317,6 @@ figcaption {
 }
 
 @media all and (min-width: 800px) {
-  .artgridimage {
-    height: 234px;
-    width: 234px;
-  }
   .art_display,
   .art_display_article,
   .artgridlink {
@@ -418,11 +414,6 @@ figure.reset {
 
   .softwareproject_display_description {
     margin-top: 0;
-  }
-
-  .artgridimage {
-    width: 202px;
-    height: 202px;
   }
 
   .hideonmobile {
