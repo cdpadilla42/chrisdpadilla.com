@@ -13,7 +13,8 @@ export default function LinksFeedLanding() {
           </a>
         </Link>
       </div>
-      <LinksFeed limit={5} />
+      <p>Curated links from the world wide web.</p>
+      {/* <LinksFeed limit={5} /> */}
     </section>
   );
 }
