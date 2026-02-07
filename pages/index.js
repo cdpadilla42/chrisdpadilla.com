@@ -5,8 +5,9 @@ import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
 import ArtGrid from '../components/ArtGrid';
-import { getAllArtImages, getAllPosts, getLatestAlbums } from '../lib/api';
+import { getAllArtImages, getAlbumBySlug, getAllPosts, getLatestAlbums } from '../lib/api';
 import featuredArtSlugs from '../lib/featuredArt';
+import featuredAlbumSlugs from '../lib/featuredAlbums';
 import { filterBlogPosts } from '../lib/util';
 import featuredPostsSlugs from '../lib/featuredPosts';
 import LandingInteractive from '../components/LandingInteractive';
@@ -103,7 +104,11 @@ export async function getStaticProps() {
     allPosts.find((post) => post.slug === featuredSlug),
   );
 
-  const latestAlbums = getLatestAlbums(6);
+  const [latestAlbum] = getLatestAlbums(1);
+  const featuredAlbumsList = featuredAlbumSlugs
+    .map((slug) => getAlbumBySlug(slug))
+    .filter(Boolean);
+  const latestAlbums = [latestAlbum, ...featuredAlbumsList];
 
   return {
     props: {
