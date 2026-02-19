@@ -19,7 +19,7 @@ export default function Intro({ latestHap }) {
               <a>play music</a>
             </Link>{' '}
             and{' '}
-            <Link href="/blog/art">
+            <Link href="/gallery">
               <a>make pictures</a>
             </Link>
             . I also <Link href="/blog">write about it all on my blog</Link>. I
