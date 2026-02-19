@@ -3,6 +3,7 @@ title: Snow Trek Home
 tags:
   - Art
   - Digital Art
+  - Gallery
 date: '2024-12-14T10:35:07.322Z'
 ---
 

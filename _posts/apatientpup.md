@@ -4,6 +4,7 @@ tags:
   - Art
   - Digital Art
   - Lucy
+  - Gallery
 date: '2025-02-15T10:35:07.322Z'
 ---
 

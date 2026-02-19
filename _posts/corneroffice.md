@@ -3,6 +3,7 @@ title: Corner Office
 tags:
   - Art
   - Digital Art
+  - Gallery
 date: '2025-07-26T10:35:07.322Z'
 ---
 

@@ -4,6 +4,7 @@ tags:
   - Art
   - Digital Art
   - 3D Art
+  - Gallery
 date: '2025-01-25T10:35:07.322Z'
 ---
 

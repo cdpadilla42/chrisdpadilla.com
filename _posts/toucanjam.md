@@ -3,6 +3,7 @@ title: Toucan Jam
 tags:
   - Art
   - Digital Art
+  - Gallery
 date: '2025-06-21T13:16:37.322Z'
 ---
 

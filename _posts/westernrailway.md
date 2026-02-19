@@ -2,6 +2,7 @@
 title: Western Railway
 tags:
   - Art
+  - Gallery
 date: '2026-02-07T10:35:07.322Z'
 ---
 
