@@ -31,6 +31,14 @@ export default function Header({ section, tag }) {
     </>
   );
 
+  const studioHeader = () => (
+    <>
+      <Link href="/studio">
+        <a>Studio</a>
+      </Link>
+    </>
+  );
+
   const galleryHeader = () => (
     <>
       <Link href="/gallery">
@@ -68,6 +76,20 @@ export default function Header({ section, tag }) {
       <>
         <span className="header_divider">/</span>
         {galleryHeader()}
+      </>
+    );
+  } else if (section === 'music') {
+    trailingHeader = (
+      <>
+        <span className="header_divider">/</span>
+        {musicHeader()}
+      </>
+    );
+  } else if (section === 'studio') {
+    trailingHeader = (
+      <>
+        <span className="header_divider">/</span>
+        {studioHeader()}
       </>
     );
   } else if (section) {
