@@ -31,6 +31,14 @@ export default function Header({ section, tag }) {
     </>
   );
 
+  const galleryHeader = () => (
+    <>
+      <Link href="/gallery">
+        <a>Gallery</a>
+      </Link>
+    </>
+  );
+
   const bookshelfHeader = () => (
     <>
       <Link href="/bookshelf">
@@ -53,6 +61,13 @@ export default function Header({ section, tag }) {
       <>
         <span className="header_divider">/</span>
         {bookshelfHeader()}
+      </>
+    );
+  } else if (section === 'gallery') {
+    trailingHeader = (
+      <>
+        <span className="header_divider">/</span>
+        {galleryHeader()}
       </>
     );
   } else if (section) {
