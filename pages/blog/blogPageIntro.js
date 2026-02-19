@@ -34,6 +34,10 @@ const BlogPageIntro = ({ tag }) => {
           <a href="/lessonsfrompainting2024">digital painting in 2024</a> as
           Notes on this blog.
         </p>
+        <p>
+          Browse my <a href="/gallery">curated gallery</a> or{' '}
+          <a href="/blog/art/grid">view all art as a grid</a>.
+        </p>
         <p>Some common themes:</p>
         <ul className="tagslist">
           {ART_SUB_TAGS.map((tag) => (
@@ -55,6 +59,9 @@ const BlogPageIntro = ({ tag }) => {
         <p>
           Feed for regular recordings across instruments! You can find my{' '}
           <a href="/music">originally composed albums here</a>.
+        </p>
+        <p>
+          Check out my <a href="/studio">curated studio recordings</a>.
         </p>
         <p>Here are some common themes that you can explore:</p>
         <ul className="tagslist">
