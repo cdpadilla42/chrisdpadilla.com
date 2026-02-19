@@ -71,6 +71,17 @@ export default function Blog() {
           </Link>
           . (<a href="https://aboutfeeds.com/">What's RSS?</a>)
         </p>
+        <p>
+          You can also follow my{' '}
+          <Link href="/links">
+            <a>links</a>
+          </Link>{' '}
+          feed by{' '}
+          <Link href="/api/links/feed">
+            <a>RSS</a>
+          </Link>
+          .
+        </p>
       </Container>
     </Layout>
   );
