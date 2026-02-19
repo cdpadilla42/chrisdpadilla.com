@@ -26,7 +26,7 @@ import {
 } from '../../lib/constants';
 import postsMetadata from '../../public/posts-metadata.json';
 
-const targetArtGridTags = ['art', ...ART_SUB_TAGS];
+const targetArtGridTags = [...ART_SUB_TAGS];
 
 export default function Blog({ allPosts, images, count }) {
   const router = useRouter();
@@ -37,8 +37,7 @@ export default function Blog({ allPosts, images, count }) {
 
   // const showGrid = tag === 'art' && gridFromQueryParams;
   const showGrid = targetArtGridTags.includes(tag);
-  const showFullPost =
-    FULL_POST_TAGS.includes(tag) || (tag === 'art' && !showGrid);
+  const showFullPost = FULL_POST_TAGS.includes(tag);
   const showPreview = !showGrid && !showFullPost;
 
   if (!renderedPosts?.length && !showGrid) {
