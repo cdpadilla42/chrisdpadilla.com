@@ -5,6 +5,7 @@ tags:
   - Guitar
   - Electric Guitar
   - Math Rock
+  - Studio
 date: '2025-12-07T14:58:58.322Z'
 ---
 
