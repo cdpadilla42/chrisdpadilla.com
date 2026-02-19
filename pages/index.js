@@ -31,7 +31,17 @@ export default function Index({
             <h2>Music</h2>
             <Link href="/music">
               <a>
-                <h2>See All</h2>
+                <h2>Albums</h2>
+              </a>
+            </Link>
+            <Link href="/studio">
+              <a>
+                <h2>Studio</h2>
+              </a>
+            </Link>
+            <Link href="/blog/music">
+              <a>
+                <h2>Blog</h2>
               </a>
             </Link>
           </div>
@@ -49,6 +59,11 @@ export default function Index({
                 <h2>Gallery</h2>
               </a>
             </Link>
+            <Link href="/blog/art">
+              <a>
+                <h2>Blog</h2>
+              </a>
+            </Link>
           </div>
           <ArtGrid images={images} page={'home'} />
           <LandingInteractive />
@@ -56,7 +71,7 @@ export default function Index({
             latestPosts={latestPosts}
             featuredPosts={featuredPosts}
           />
-          <div className="heading_flex">
+<div className="heading_flex">
             <h2>Learning Resources</h2>
             <Link href="/learningresources">
               <a>
