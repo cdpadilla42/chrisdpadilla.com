@@ -44,9 +44,9 @@ export default function Index({
           />
           <div className="heading_flex">
             <h2>Art</h2>
-            <Link href="/blog/art">
+            <Link href="/gallery">
               <a>
-                <h2>See All</h2>
+                <h2>Gallery</h2>
               </a>
             </Link>
           </div>

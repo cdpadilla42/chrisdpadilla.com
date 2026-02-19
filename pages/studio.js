@@ -17,7 +17,10 @@ export default function Studio({ posts, count }) {
       </Head>
       <Container>
         <Header section="studio" />
-        <p>A curated selection of my favorite recordings.</p>
+        <p>
+          A curated selection of my favorite recordings. See all music posts on the{' '}
+          <a href="/blog/music">music blog</a>.
+        </p>
         <hr />
         {posts.length > 0 && (
           <FullPostPreviews posts={posts} count={count} />

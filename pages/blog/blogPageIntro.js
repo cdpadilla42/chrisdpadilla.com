@@ -60,9 +60,6 @@ const BlogPageIntro = ({ tag }) => {
           Feed for regular recordings across instruments! You can find my{' '}
           <a href="/music">originally composed albums here</a>.
         </p>
-        <p>
-          Check out my <a href="/studio">curated studio recordings</a>.
-        </p>
         <p>Here are some common themes that you can explore:</p>
         <ul className="tagslist">
           {musicTags.map((tag) => (

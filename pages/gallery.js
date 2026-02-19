@@ -17,7 +17,10 @@ export default function Gallery({ images }) {
       </Head>
       <Container>
         <Header section="gallery" />
-        <p>A curated selection of my favorite art pieces.</p>
+        <p>
+          A curated selection of my favorites. See all art posts on the{' '}
+          <a href="/blog/art">art blog</a>.
+        </p>
         <hr />
         <div style={{ marginTop: '2rem' }}>
           <ArtGrid images={images} />
@@ -31,7 +34,7 @@ export async function getServerSideProps() {
   const allPosts = postsMetadata.filter(filterBlogPosts);
 
   const galleryPosts = allPosts.filter((post) =>
-    post.tags?.some((t) => t === 'Gallery')
+    post.tags?.some((t) => t === 'Gallery'),
   );
 
   const images = getAllArtImages(galleryPosts);

@@ -50,15 +50,15 @@ export default function Music({ albums }) {
           .
         </p>
         <p>
-          Swing by my{' '}
+          Swing by the{' '}
+          <Link href="/studio">
+            <a>studio page</a>
+          </Link>{' '}
+          for my favorite personal recordings and the{' '}
           <Link href="/blog/music">
             <a>blog</a>
           </Link>{' '}
-          {/* or{' '}
-          <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-            Instagram
-          </a>{' '} */}
-          for more recordings.
+          for even more.
         </p>
         <p>
           My biggest chapter has been in saxophone playing. You can{' '}

@@ -89,6 +89,8 @@ export default function Header({ section, tag }) {
     trailingHeader = (
       <>
         <span className="header_divider">/</span>
+        {musicHeader()}
+        <span className="header_divider">/</span>
         {studioHeader()}
       </>
     );
