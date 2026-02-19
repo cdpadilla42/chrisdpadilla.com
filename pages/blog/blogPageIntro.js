@@ -58,7 +58,8 @@ const BlogPageIntro = ({ tag }) => {
         <hr />
         <p>
           Feed for regular recordings across instruments! You can find my{' '}
-          <a href="/music">originally composed albums here</a>.
+          <a href="/music">originally composed albums here</a> and{' '}
+          <a href="/studio">my favorite personal recordings here</a>.
         </p>
         <p>Here are some common themes that you can explore:</p>
         <ul className="tagslist">
