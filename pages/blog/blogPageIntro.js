@@ -36,9 +36,9 @@ const BlogPageIntro = ({ tag }) => {
         </p>
         <p>
           Browse my <a href="/gallery">curated gallery</a> or{' '}
-          <a href="/blog/art/grid">view all art as a grid</a>.
+          <a href="/blog/art/grid">view all art as a grid</a>. For some common
+          themes:
         </p>
-        <p>Some common themes:</p>
         <ul className="tagslist">
           {ART_SUB_TAGS.map((tag) => (
             <li className="tagslist_tag" data-tag={tag} key={tag}>
