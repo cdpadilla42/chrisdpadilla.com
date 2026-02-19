@@ -27,8 +27,7 @@ const BookshelfItem = ({ book, hideReadDetails, linkInTitle }) => {
       </h3>
       {!hideReadDetails && (
         <small>
-          Date Read: <strong>{book.date}</strong> | Status:{' '}
-          <strong>{capitalizeFirstLetter(book.progress)}</strong>
+          Date: <strong>{book.date}</strong>
           {book.rating && (
             <>
               {' '}
