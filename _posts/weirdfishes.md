@@ -4,6 +4,7 @@ tags:
   - Music
   - Guitar
   - Electric Guitar
+  - Studio
 date: '2025-07-06T16:57:15.322Z'
 ---
 

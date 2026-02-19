@@ -5,6 +5,7 @@ tags:
   - Piano
   - Anime
   - Video Games
+  - Studio
 date: '2024-06-09T10:35:07.322Z'
 ---
 

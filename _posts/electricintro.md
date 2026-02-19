@@ -5,6 +5,7 @@ tags:
   - Guitar
   - Electric Guitar
   - Improv
+  - Studio
 date: '2024-08-18T10:35:07.322Z'
 ---
 

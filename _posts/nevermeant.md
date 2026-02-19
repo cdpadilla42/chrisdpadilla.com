@@ -5,6 +5,7 @@ tags:
   - Guitar
   - Electric Guitar
   - Midwest Emo
+  - Studio
 date: '2025-07-13T16:57:15.322Z'
 ---
 

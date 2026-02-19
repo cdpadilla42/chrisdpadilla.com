@@ -4,6 +4,7 @@ tags:
   - Music
   - Piano
   - Classical
+  - Studio
 date: '2025-09-21T10:30:07.322Z'
 ---
 

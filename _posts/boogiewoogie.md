@@ -4,6 +4,7 @@ tags:
   - Music
   - Piano
   - Jazz
+  - Studio
 date: '2024-03-24T10:35:07.322Z'
 ---
 

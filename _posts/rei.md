@@ -5,6 +5,7 @@ tags:
   - Piano
   - Anime
   - Neon Genesis Evangelion
+  - Studio
 date: '2024-07-07T10:35:07.322Z'
 ---
 

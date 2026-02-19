@@ -4,6 +4,7 @@ tags:
   - Music
   - Piano
   - Kazoo
+  - Studio
 date: '2025-09-28T10:37:07.322Z'
 ---
 

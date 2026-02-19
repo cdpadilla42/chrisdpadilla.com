@@ -5,6 +5,7 @@ tags:
   - Piano
   - Jazz
   - Chord Melody
+  - Studio
 date: '2024-10-27T10:35:07.322Z'
 ---
 
