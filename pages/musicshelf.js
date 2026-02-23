@@ -101,7 +101,7 @@ export default function MusicShelfPage({ albums }) {
               <option value="title">Album Title (Alpha)</option>
             </select>
           </div>
-          <Link href="/topsongs/2016">
+          <Link href="/topsongs/2025">
             <a className="topSongsLink">Top Songs</a>
           </Link>
         </div>
