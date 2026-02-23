@@ -101,15 +101,15 @@ export default function TopSongsYearPage({
           font-family:
             -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
           margin: 0;
-          padding: 24px 12px;
+          padding: 0;
         }
       `}</style>
 
       <style jsx>{`
         .topSongsPage {
-          width: 100%;
           max-width: 980px;
           margin: 0 auto;
+          padding: 24px 12px;
         }
 
         h1 {
@@ -236,7 +236,7 @@ export default function TopSongsYearPage({
           text-overflow: ellipsis;
         }
 
-        @media (max-width: 720px) {
+        @media (max-width: 1024px) {
           .row {
             grid-template-columns: 38px minmax(0, 1fr);
           }
