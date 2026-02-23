@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import { musicShelf } from '../lib/musicShelf';
 
 export default function MusicShelfPage({ albums }) {
@@ -18,26 +19,36 @@ export default function MusicShelfPage({ albums }) {
           undefined,
           {
             sensitivity: 'base',
-          }
+          },
         );
         if (artistOrder !== 0) return artistOrder;
-        return normalizeSortText(a.title).localeCompare(normalizeSortText(b.title), undefined, {
-          sensitivity: 'base',
-        });
+        return normalizeSortText(a.title).localeCompare(
+          normalizeSortText(b.title),
+          undefined,
+          {
+            sensitivity: 'base',
+          },
+        );
       });
     }
 
     if (sortBy === 'title') {
       return list.sort((a, b) =>
-        normalizeSortText(a.title).localeCompare(normalizeSortText(b.title), undefined, {
-          sensitivity: 'base',
-        })
+        normalizeSortText(a.title).localeCompare(
+          normalizeSortText(b.title),
+          undefined,
+          {
+            sensitivity: 'base',
+          },
+        ),
       );
     }
 
     return list.sort((a, b) => {
-      const yearA = typeof a.yearListened === 'number' ? a.yearListened : -Infinity;
-      const yearB = typeof b.yearListened === 'number' ? b.yearListened : -Infinity;
+      const yearA =
+        typeof a.yearListened === 'number' ? a.yearListened : -Infinity;
+      const yearB =
+        typeof b.yearListened === 'number' ? b.yearListened : -Infinity;
       if (yearA !== yearB) return yearB - yearA;
 
       const dateA = Date.parse(a.date || '');
@@ -52,7 +63,7 @@ export default function MusicShelfPage({ albums }) {
         undefined,
         {
           sensitivity: 'base',
-        }
+        },
       );
       if (artistOrder !== 0) return artistOrder;
       return (a.title || '').localeCompare(b.title || '', undefined, {
@@ -67,7 +78,12 @@ export default function MusicShelfPage({ albums }) {
         <title>Music Shelf | Chris Padilla</title>
       </Head>
       <main className="musicShelfPage">
-        <h1>Music Shelf</h1>
+        <h1>
+          <Link href="/">
+            <a>Chris Padilla</a>
+          </Link>{' '}
+          / Music Shelf
+        </h1>
         <div className="controls">
           <div className="count">{albums.length} albums</div>
           <label htmlFor="music-shelf-sort" className="sortLabel">
@@ -87,11 +103,7 @@ export default function MusicShelfPage({ albums }) {
         <div className="grid">
           {sortedAlbums.map((album) => (
             <div className="album" key={album.slug}>
-              <img
-                src={album.image || ''}
-                alt={album.title}
-                loading="lazy"
-              />
+              <img src={album.image || ''} alt={album.title} loading="lazy" />
               <div className="title" title={album.title}>
                 {album.title}
               </div>
@@ -99,7 +111,9 @@ export default function MusicShelfPage({ albums }) {
                 {album.artist}
               </div>
               {typeof album.yearListened === 'number' ? (
-                <div className="yearListened">Listened: {album.yearListened}</div>
+                <div className="yearListened">
+                  Listened: {album.yearListened}
+                </div>
               ) : null}
             </div>
           ))}
@@ -109,7 +123,8 @@ export default function MusicShelfPage({ albums }) {
         body {
           background: #121212;
           color: #fff;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          font-family:
+            -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
           padding: 24px;
         }
       `}</style>
