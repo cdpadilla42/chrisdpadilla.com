@@ -5,7 +5,12 @@ import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
 import ArtGrid from '../components/ArtGrid';
-import { getAllArtImages, getAlbumBySlug, getAllPosts, getLatestAlbums } from '../lib/api';
+import {
+  getAllArtImages,
+  getAlbumBySlug,
+  getAllPosts,
+  getLatestAlbums,
+} from '../lib/api';
 import featuredArtSlugs from '../lib/featuredArt';
 import featuredAlbumSlugs from '../lib/featuredAlbums';
 import { filterBlogPosts } from '../lib/util';
@@ -71,7 +76,7 @@ export default function Index({
             latestPosts={latestPosts}
             featuredPosts={featuredPosts}
           />
-<div className="heading_flex">
+          <div className="heading_flex">
             <h2>Learning Resources</h2>
             <Link href="/learningresources">
               <a>
@@ -92,6 +97,15 @@ export default function Index({
             </Link>
           </div>
           <p>Collection of books read and enjoyed.</p>
+          <div className="heading_flex">
+            <h2>Music Shelf</h2>
+            <Link href="/musicshelf">
+              <a>
+                <h2>Visit</h2>
+              </a>
+            </Link>
+          </div>
+          <p>A lifetime of listening to music all on one page.</p>
           <LinksFeedLanding />
         </section>
       </Container>
