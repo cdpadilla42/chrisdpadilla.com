@@ -1,8 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { topSongsByYear } from '../../lib/topSongsByYear';
+import { topSongsPlaylistByYear } from '../../lib/topSongsByYear/playlists';
 
-export default function TopSongsYearPage({ year, songs, availableYears }) {
+export default function TopSongsYearPage({
+  year,
+  songs,
+  availableYears,
+  playlistUrl,
+}) {
   const currentYearIndex = availableYears.indexOf(year);
   const previousYear =
     currentYearIndex > 0 ? availableYears[currentYearIndex - 1] : null;
@@ -26,7 +32,17 @@ export default function TopSongsYearPage({ year, songs, availableYears }) {
 
         <div className="metaRow">
           <div className="count">{songs.length} tracks</div>
-          <div className="yearNav">
+          <div className="actions">
+            {playlistUrl ? (
+              <a
+                href={playlistUrl}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="playlistLink"
+              >
+                Open Playlist
+              </a>
+            ) : null}
             {previousYear ? (
               <Link href={`/topsongs/${previousYear}`}>
                 <a>← {previousYear}</a>
@@ -111,11 +127,27 @@ export default function TopSongsYearPage({ year, songs, availableYears }) {
           font-size: 14px;
         }
 
-        .yearNav {
+        .actions {
           display: flex;
+          align-items: center;
           gap: 12px;
-          min-width: 112px;
-          justify-content: space-between;
+          min-width: 220px;
+          justify-content: flex-end;
+        }
+
+        .playlistLink {
+          border: 1px solid rgba(255, 255, 255, 0.22);
+          border-radius: 9999px;
+          padding: 6px 12px;
+          color: #fff;
+          font-size: 12px;
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+        }
+
+        .playlistLink:hover {
+          border-color: rgba(255, 255, 255, 0.45);
+          background: rgba(255, 255, 255, 0.08);
         }
 
         .table {
@@ -235,11 +267,15 @@ export async function getStaticProps({ params }) {
     return { notFound: true };
   }
 
+  const defaultSearchUrl = `https://open.spotify.com/search/Your%20Top%20Songs%20${year}`;
+  const playlistUrl = topSongsPlaylistByYear[year] || defaultSearchUrl;
+
   return {
     props: {
       year,
       songs,
       availableYears: Object.keys(topSongsByYear).map(Number).sort((a, b) => a - b),
+      playlistUrl,
     },
   };
 }

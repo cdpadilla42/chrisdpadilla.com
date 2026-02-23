@@ -85,20 +85,25 @@ export default function MusicShelfPage({ albums }) {
           / Music Shelf
         </h1>
         <div className="controls">
-          <div className="count">{albums.length} albums</div>
-          <label htmlFor="music-shelf-sort" className="sortLabel">
-            Sort:
-          </label>
-          <select
-            id="music-shelf-sort"
-            className="sortSelect"
-            value={sortBy}
-            onChange={(event) => setSortBy(event.target.value)}
-          >
-            <option value="yearListened">Year Listened</option>
-            <option value="artist">Artist (Alpha)</option>
-            <option value="title">Album Title (Alpha)</option>
-          </select>
+          <div className="controlsLeft">
+            <div className="count">{albums.length} albums</div>
+            <label htmlFor="music-shelf-sort" className="sortLabel">
+              Sort:
+            </label>
+            <select
+              id="music-shelf-sort"
+              className="sortSelect"
+              value={sortBy}
+              onChange={(event) => setSortBy(event.target.value)}
+            >
+              <option value="yearListened">Year Listened</option>
+              <option value="artist">Artist (Alpha)</option>
+              <option value="title">Album Title (Alpha)</option>
+            </select>
+          </div>
+          <Link href="/topsongs/2016">
+            <a className="topSongsLink">Top Songs</a>
+          </Link>
         </div>
         <div className="grid">
           {sortedAlbums.map((album) => (
@@ -157,9 +162,16 @@ export default function MusicShelfPage({ albums }) {
         .controls {
           display: flex;
           align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          margin-bottom: 24px;
+        }
+
+        .controlsLeft {
+          display: flex;
+          align-items: center;
           flex-wrap: wrap;
           gap: 8px;
-          margin-bottom: 24px;
         }
 
         .sortLabel {
@@ -174,6 +186,16 @@ export default function MusicShelfPage({ albums }) {
           color: #fff;
           font-size: 13px;
           padding: 6px 8px;
+        }
+
+        .topSongsLink {
+          color: #8ec5ff;
+          font-size: 13px;
+          text-decoration: none;
+        }
+
+        .topSongsLink:hover {
+          text-decoration: underline;
         }
 
         .grid {
