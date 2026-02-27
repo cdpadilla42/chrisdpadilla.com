@@ -101,9 +101,14 @@ export default function MusicShelfPage({ albums }) {
               <option value="title">Album Title (Alpha)</option>
             </select>
           </div>
-          <Link href="/topsongs/2025">
-            <a className="topSongsLink">Top Songs</a>
-          </Link>
+          <div className="controlsRight">
+            <Link href="/topsongs/2025">
+              <a className="topSongsLink">Top Songs</a>
+            </Link>
+            <Link href="/alifetimeofmusiclistening">
+              <a className="topSongsLink">About This Page</a>
+            </Link>
+          </div>
         </div>
         <div className="grid">
           {sortedAlbums.map((album) => (
@@ -124,15 +129,6 @@ export default function MusicShelfPage({ albums }) {
           ))}
         </div>
       </main>
-      <style jsx global>{`
-        body {
-          background: #121212;
-          color: #fff;
-          font-family:
-            -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-          padding: 24px;
-        }
-      `}</style>
       <style jsx>{`
         .musicShelfPage,
         .musicShelfPage * {
@@ -145,7 +141,12 @@ export default function MusicShelfPage({ albums }) {
           width: 100%;
           max-width: none;
           margin: 0;
-          padding: 0;
+          padding: 24px;
+          background: #121212;
+          color: #fff;
+          font-family:
+            -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          min-height: 100vh;
         }
 
         h1 {
@@ -186,6 +187,11 @@ export default function MusicShelfPage({ albums }) {
           color: #fff;
           font-size: 13px;
           padding: 6px 8px;
+        }
+
+        .controlsRight {
+          display: flex;
+          gap: 12px;
         }
 
         .topSongsLink {
