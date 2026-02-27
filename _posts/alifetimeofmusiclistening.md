@@ -7,6 +7,8 @@ tags:
 date: '2026-02-27T12:52:45.322Z'
 ---
 
+![Music grid for days](https://padilla-media.s3.amazonaws.com/blog/images/musicshelfscreenshot.png)
+
 _In short — I made [a new webpage](/musicshelf) to chronicle my listening history. Woohoo!_
 
 ---
