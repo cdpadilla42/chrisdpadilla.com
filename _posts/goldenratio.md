@@ -4,7 +4,7 @@ tags:
   - Art
   - Clippings
   - Chris Learns to Draw
-date: '2026-02-27T13:08:08.322Z'
+date: '2026-02-27T13:13:51.322Z'
 artGridIgnore: true
 ---
 
