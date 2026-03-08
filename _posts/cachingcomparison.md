@@ -1,9 +1,9 @@
 ---
-title: Caching Strategies
+title: A Brief Explainer on Caching Strategies
 tags:
   - Tech
   - System Design
-date: '2026-02-26T09:59:56.322Z'
+date: '2026-02-27T12:42:45.322Z'
 ---
 
 The difference in speed between accessing data from disc and accessing from an in-memory cache is significant, by the magnitude of 10-100 in some cases. When serving data in our applications that is frequently accessed, we want to place a cache in front of the DB to increase speed and lighten up read access to disc.
