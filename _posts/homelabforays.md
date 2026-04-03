@@ -23,7 +23,7 @@ This skips over a lot of what looks fun for a maturing setup: building a machine
 
 So yes, I'm excited to eventually have hardware to talk about and neat networking approaches at a later time. But for now, keeping it simple is keeping me moving.
 
-Worth saying: I do employ the [3-2-1 backup strategy](https://en.wikipedia.org/wiki/Backup). I have a primary drive, a mirrored drive, and have the primary backed up to the cloud via [BackBlaze](https://www.backblaze.com/). Wes Bos gives a great pitch for [why he uses BackBlaze on Syntax](https://syntax.fm/show/220/the-synology-show-backups-and-home-server).
+Worth saying: I have employed for [a while now](/databackup) the [3-2-1 backup strategy](https://en.wikipedia.org/wiki/Backup). I have a primary drive, a mirrored drive, and have the primary backed up to the cloud via [BackBlaze](https://www.backblaze.com/). Wes Bos gives a great pitch for [why he uses BackBlaze on Syntax](https://syntax.fm/show/220/the-synology-show-backups-and-home-server).
 
 Now is also a good time to shout out [FreeFileSync](https://freefilesync.org/), a handy bit of OSS that I've used since 2010. This helped with migrating files and currently makes keeping drives in sync painless. It's manual, but it still works wonderfully. I've also picked up [DaisyDisk](https://daisydiskapp.com/) for getting a visual on what's taking up how much space on any given drive.
 
