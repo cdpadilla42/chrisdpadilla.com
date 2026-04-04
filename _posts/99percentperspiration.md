@@ -7,6 +7,7 @@ tags:
 date: '2026-04-04T09:09:47.322Z'
 bookshelf:
   - GestureDrawingForAnimation
+artGridIgnore: true
 ---
 
 <figure>
