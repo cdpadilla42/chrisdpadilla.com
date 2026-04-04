@@ -5,6 +5,7 @@ tags:
 date: '2025-10-18T10:35:07.322Z'
 bookshelf:
   - RealityIsBroken
+  - WeNeedToHangOut
 ---
 
 Since moving to Boulder, I've picked up a childhood hobby. [The Pokémon TCG](https://www.youtube.com/watch?v=LbKFTg-K5HU) exploded in popularity when I was in elementary school, and I stayed a fan of the franchise while growing up.
