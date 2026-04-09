@@ -11,7 +11,7 @@ bookshelf:
 
 I had a surprisingly hard time starting up the practice of writing music. Lots of false starts were involved, a ton of back and forth on if I even really enjoyed doing it, and the classic moments of cringing at some of my first tunes.
 
-In a lot of ways, music school \_really\_\_ helped me out with the skills and vocabulary needed to make songs.
+In a lot of ways, music school _really_ helped me out with the skills and vocabulary needed to make songs.
 
 But then, the unspoken emphasis on theory-driven music and "correctness" in music was a really difficult funk to shake loose.
 
