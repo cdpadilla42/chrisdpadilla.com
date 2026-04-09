@@ -1,5 +1,5 @@
 ---
-title: Alfred — Straight Jig
+title: Manus — Straight Jig
 tags:
   - Music
   - Guitar
