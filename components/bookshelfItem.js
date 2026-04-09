@@ -1,6 +1,5 @@
 import React from 'react';
 import Markdown from 'markdown-to-jsx';
-import { capitalizeFirstLetter } from '../lib/util';
 import NextLink from './NextLink';
 
 const BookshelfItem = ({ book, hideReadDetails, linkInTitle }) => {
@@ -13,11 +12,11 @@ const BookshelfItem = ({ book, hideReadDetails, linkInTitle }) => {
   };
 
   return (
-    <article key={book.name}>
+    <article key={book.name} className="bookshelf_item">
       <figure className="bookshelf_image_wrapper">
         <img src={book.image} className="bookshelf_image" />
       </figure>
-      <h3 id={book.slug}>
+      <h3 id={book.slug} className="bookshelf_title">
         {linkInTitle && book.purchase ? (
           <NextLink href={book.purchase}>{book.name}</NextLink>
         ) : (
@@ -26,7 +25,7 @@ const BookshelfItem = ({ book, hideReadDetails, linkInTitle }) => {
         – by {book.author}
       </h3>
       {!hideReadDetails && (
-        <small>
+        <small className="bookshelf_meta">
           Date: <strong>{book.date}</strong>
           {book.rating && (
             <>
@@ -46,7 +45,11 @@ const BookshelfItem = ({ book, hideReadDetails, linkInTitle }) => {
         </small>
       )}
       {book.desc && (
-        <div className="bookshelf_desc">
+        <div
+          className={`bookshelf_desc ${
+            hideReadDetails ? 'bookshelf_desc__compact' : ''
+          }`.trim()}
+        >
           <Markdown>{book.desc}</Markdown>
         </div>
       )}

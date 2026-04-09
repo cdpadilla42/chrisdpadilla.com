@@ -621,6 +621,19 @@ figure.bookshelf_image_wrapper {
   float: left;
 }
 
+.bookshelf_title {
+  margin-bottom: 0.25rem;
+}
+
+.bookshelf_meta {
+  display: block;
+  margin: 0 0 0.75rem;
+}
+
+.bookshelf_desc__compact p:first-child {
+  margin-top: 0;
+}
+
 /* Album Story */
 
 .album-story {

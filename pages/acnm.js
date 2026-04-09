@@ -26,7 +26,7 @@ const About = () => {
         </Link>
         <Link href="https://acnewmurder.com/">
           <a target="_blank" rel="noopener noreferrer">
-            <h2>PLAY NOW</h2>
+            <h2 style={{ color: 'var(--blue)' }}>PLAY NOW</h2>
           </a>
         </Link>
       </div>
