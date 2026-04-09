@@ -40,7 +40,7 @@ export default function LearningResources({ books }) {
 
   const renderBooksSection = (books) => {
     if (!books) return null;
-    return books.map((book) => (
+    return [...books].reverse().map((book) => (
       <BookshelfItem key={book.slug} book={book} hideReadDetails linkInTitle />
     ));
   };
