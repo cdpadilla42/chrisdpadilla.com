@@ -2,33 +2,50 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-export default function LandingInteractiveItem({
-  name,
-  description,
-  link,
-  image,
-}) {
+const isOutboundUrl = (href) => /^https?:\/\//.test(href);
+const shouldOpenInNewTab = (href) =>
+  isOutboundUrl(href) || href === '/amethyst-zone';
+
+export default function LandingInteractiveItem({ title, href, image }) {
+  const content = (
+    <>
+      <span className="interactive_tile_image_frame" aria-hidden="true">
+        <Image
+          src={image}
+          alt={title}
+          layout="fill"
+          objectFit="cover"
+          className="interactive_tile_image"
+        />
+      </span>
+      <span className="interactive_tile_title">{title}</span>
+    </>
+  );
+
+  if (shouldOpenInNewTab(href)) {
+    return (
+      <article className="interactive_tile">
+        <Link href={href}>
+          <a
+            className="interactive_tile_link"
+            aria-label={title}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {content}
+          </a>
+        </Link>
+      </article>
+    );
+  }
+
   return (
-    <div className="interactive_container">
-      <Link href={link}>
-        <a>
-          <Image
-            src={image}
-            alt="Amethyst"
-            width="150"
-            height="150"
-            className="interactive_image"
-          />
+    <article className="interactive_tile">
+      <Link href={href}>
+        <a className="interactive_tile_link" aria-label={title}>
+          {content}
         </a>
       </Link>
-      <div className="interactive_description">
-        <h3>
-          <Link href={link}>
-            <a>{name}</a>
-          </Link>
-        </h3>
-        <span>{description}</span>
-      </div>
-    </div>
+    </article>
   );
 }

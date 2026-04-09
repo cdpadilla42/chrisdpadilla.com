@@ -14,12 +14,21 @@ const About = () => {
       <Header />
       <h1>AC: New Murder </h1>
       <div className="center">
-        <Image
-          src="https://padilla-media.s3.amazonaws.com/blog/images/acnmfrontpage.png"
-          alt="AC: New Mureder Start Page"
-          width={500}
-          height={500}
-        />
+        <Link href="https://acnewmurder.com/">
+          <a target="_blank" rel="noopener noreferrer">
+            <Image
+              src="https://padilla-media.s3.amazonaws.com/blog/images/acnmfrontpage.png"
+              alt="AC: New Mureder Start Page"
+              width={500}
+              height={500}
+            />
+          </a>
+        </Link>
+        <Link href="https://acnewmurder.com/">
+          <a target="_blank" rel="noopener noreferrer">
+            <h2>PLAY NOW</h2>
+          </a>
+        </Link>
       </div>
 
       <h2>I Made A Game!</h2>

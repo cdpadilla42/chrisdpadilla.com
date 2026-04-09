@@ -1,16 +1,9 @@
 import Link from 'next/link';
-import {
-  MUSIC_TWITTER_URL,
-  GITHUB_URL,
-  INSTAGRAM_URL,
-  LINKEDIN_URL,
-  SPOTIFY_URL,
-  BANDCAMP_URL,
-  APPLE_MUSIC,
-  BLUESKY_URL,
-} from '../lib/constants';
+import { getActiveSocials } from '../lib/socials';
 
 export default function Footer() {
+  const activeSocials = getActiveSocials();
+
   return (
     <footer>
       <span>© 2022-{new Date().getFullYear()} Chris Padilla</span>
@@ -36,39 +29,14 @@ export default function Footer() {
       <Link href="/learningresources">Learning Resources</Link> •{' '}
       <Link href="/bookshelf">Bookshelf</Link>
       <br />
-      <a href={BANDCAMP_URL} target="_blank" rel="noopener noreferrer">
-        Bandcamp
-      </a>{' '}
-      •{' '}
-      <a href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">
-        Spotify
-      </a>{' '}
-      •{' '}
-      {/* {' '}
-      •{' '}
-      <a href={APPLE_MUSIC} target="_blank" rel="noopener noreferrer">
-        Apple Music
-      </a> */}
-      {/* <br /> */}
-      <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
-        Github
-      </a>{' '}
-      •{' '}
-      {/* <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-        Instagram
-      </a>{' '}
-      •{' '} */}
-      {/* <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
-        Bluesky
-      </a>{' '}
-      •{' '}
-      <a href={MUSIC_TWITTER_URL} target="_blank" rel="noopener noreferrer">
-        Twitter
-      </a>{' '}
-      •{' '} */}
-      <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
-        LinkedIn
-      </a>{' '}
+      {activeSocials.map((social, index) => (
+        <span key={social.id}>
+          <a href={social.url} target="_blank" rel="noopener noreferrer">
+            {social.label}
+          </a>
+          {index < activeSocials.length - 1 ? ' • ' : ''}
+        </span>
+      ))}
     </footer>
   );
 }

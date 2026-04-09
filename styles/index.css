@@ -297,7 +297,7 @@ figcaption {
   aspect-ratio: 1 / 1;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 5rem;
   align-items: center;
   justify-items: stretch;
 }
@@ -787,31 +787,53 @@ figure.bookshelf_image_wrapper {
 
 .interactive {
   display: grid;
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 3.5rem;
 }
 
-.interactive_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+.interactive_tile {
+  margin: 0;
 }
 
-.interactive_image {
-  border-radius: 10%;
+.interactive_tile_link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 18px;
+  aspect-ratio: 1 / 1;
+  background: #232930;
 }
 
-.interactive_description {
-  flex: 1;
-  width: 100%;
+.interactive_tile_image_frame {
+  position: absolute;
+  inset: 0;
+}
+
+.interactive_tile_image {
+  transition: opacity 180ms ease;
+}
+
+.interactive_tile_title {
+  position: absolute;
+  left: 0.85rem;
+  bottom: 1rem;
+  z-index: 1;
+  display: inline-flex;
+  max-width: calc(100% - 1.7rem);
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  color: var(--blue);
+  background: rgba(48, 99, 142, 0.72);
+  font-size: 1.05rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
 }
 
 @media all and (min-width: 800px) {
-  .interactive_container {
-    flex-direction: row;
-  }
-  .interactive_description {
-    margin: 0 2rem;
+  .interactive {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
   }
 }
 

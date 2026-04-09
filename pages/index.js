@@ -33,6 +33,10 @@ export default function Index({
         <Intro />
         <section>
           <div className="heading_flex">
+            <h2>Interactive</h2>
+          </div>
+          <LandingInteractive />
+          <div className="heading_flex">
             <h2>Music</h2>
             <Link href="/music">
               <a>
@@ -71,7 +75,6 @@ export default function Index({
             </Link>
           </div>
           <ArtGrid images={images} page={'home'} />
-          <LandingInteractive />
           <MoreStories
             latestPosts={latestPosts}
             featuredPosts={featuredPosts}

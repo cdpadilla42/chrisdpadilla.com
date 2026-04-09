@@ -3,10 +3,12 @@ import Container from '../components/container';
 import Layout from '../components/layout';
 import Head from 'next/head';
 import Header from '../components/header';
-import { GITHUB_URL, LINKEDIN_URL } from '../lib/constants';
 import Link from 'next/link';
+import { getActiveSocials } from '../lib/socials';
 
 export default function Blog() {
+  const activeSocials = getActiveSocials();
+
   return (
     <Layout noFooter>
       <Head>
@@ -30,35 +32,13 @@ export default function Blog() {
         </p> */}
         <p>I'm on a few socials:</p>
         <ul>
-          {/* <li>
-            <a
-              href={MUSIC_TWITTER_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a href={BLUESKY_URL} target="_blank" rel="noopener noreferrer">
-              Bluesky
-            </a>
-          </li> */}
-          <li>
-            <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
-          </li>
-          {/* <li>
-            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
-              Instagram
-            </a>
-          </li> */}
-          <li>
-            <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </a>
-          </li>
+          {activeSocials.map((social) => (
+            <li key={social.id}>
+              <a href={social.url} target="_blank" rel="noopener noreferrer">
+                {social.label}
+              </a>
+            </li>
+          ))}
         </ul>
         <p>
           You can follow my{' '}
