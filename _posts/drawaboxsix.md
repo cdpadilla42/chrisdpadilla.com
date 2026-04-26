@@ -8,7 +8,7 @@ artGridIgnore: true
 ---
 
 <figure>
-  ![Sheets strewn about with studies of the head](https://padilla-media.s3.amazonaws.com/blog/images/AmpConstruction.png)
+  ![Sheets strewn about with construction studies of an amp and many other everyday objects.](https://padilla-media.s3.amazonaws.com/blog/images/AmpConstruction.png)
   <figcaption>Studies!</figcaption>
 </figure>
 
