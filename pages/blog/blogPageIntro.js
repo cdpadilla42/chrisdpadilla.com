@@ -197,7 +197,7 @@ const BlogPageIntro = ({ tag }) => {
             documented. You can read my reflection on{' '}
             <a href="/lessonsfromdrawing2023">
               Lessons From A Year of Drawing here
-            </a>
+            </a> and <a href="/lessonsfrompainting2024">painting here</a>.
             .
           </span>
         </p>
