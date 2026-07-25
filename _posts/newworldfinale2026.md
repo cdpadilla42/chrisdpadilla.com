@@ -5,7 +5,7 @@ tags:
   - Piano
   - Classical
   - Chris Learns Piano
-date: '2026-06-29T18:09:03.322Z'
+date: '2026-07-25T18:09:03.322Z'
 ---
 
 <figure className="reset">

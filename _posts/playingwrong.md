@@ -3,7 +3,7 @@ title: Playing the Game Wrong
 tags:
   - Notes
   - Creativity
-date: '2026-05-25T19:03:55.322Z'
+date: '2026-07-25T20:03:55.322Z'
 ---
 
 ![Gif of mario sleeping alongside a piranha plant from SM64 😴](https://padilla-media.s3.amazonaws.com/blog/images/mariosleepinggif.gif)

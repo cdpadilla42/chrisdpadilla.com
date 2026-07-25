@@ -3,7 +3,7 @@ title: Testing Chat Bots with Personas
 tags:
   - Tech
   - AI
-date: '2026-07-18T16:00:09.322Z'
+date: '2026-07-25T16:00:10.322Z'
 ---
 
 Conversational AI can be tricky to integrate with an application due to the variability of response and, as a result, how slippery it is to have generative responses in tandem with an adherence to tone and an array of desired responses. The continual tuning and refinement is an ongoing task!

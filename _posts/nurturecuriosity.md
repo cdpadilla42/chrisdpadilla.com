@@ -9,7 +9,7 @@ date: '2023-04-27T10:35:07.322Z'
 There are a few why's behind my [recent drawing habit](/blog/art). Here are a few:
 
 - I grew up with [an artist in the family](https://www.jennpadilla.com/)
-- [My](https://en.wikipedia.org/wiki/My_Neighbor_Totoro) [favorite](<https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)>) [stories](https://en.wikipedia.org/wiki/Your_Name) [are](https://en.wikipedia.org/wiki/Kiki%27s_Delivery_Service) [told](http://drmcninja.com/) [through](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) [pictures](https://en.wikipedia.org/wiki/Calvin_and_Hobbes)
+- [My](https://en.wikipedia.org/wiki/My_Neighbor_Totoro) [favorite](https://www.imdb.com/title/tt0032455/) [stories](https://en.wikipedia.org/wiki/Your_Name) [are](https://en.wikipedia.org/wiki/Kiki%27s_Delivery_Service) [told](http://drmcninja.com/) [through](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender) [pictures](https://en.wikipedia.org/wiki/Calvin_and_Hobbes)
 - Drawing as a medium has one of the widest spectrums for style
 - Drawing, as a whole, [has personal creativity baked in more](https://www.youtube.com/watch?v=80yhjO8yLeE&ab_channel=Proko) so than music
 
