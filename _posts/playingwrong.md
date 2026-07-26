@@ -22,7 +22,7 @@ Speaking of, a helpful connection: I played Super Mario 64 to death as a kid. I 
 
 And what made it so engrossing for long stretches of time, and why I don't really remember burning out from it, is that I approached it the way that a kid would. I played the game wrong! I would take in the scenery. Sit and enjoy the music. Make up my own goofy games within the game. (e.g., climbing slides backwards.) When hitting a wall, I found other ways to lighten the load to keep playing.
 
-So I'm searching for ways to do this in my mediums. Playing familiar pieces. Drawing favorite subjects — flowers, people, and little ghosts. Simply enjoying the production of sound and line. Playing my own goofy games of "what if I played a improvised with only these three strings?" 
+So I'm searching for ways to do this in my mediums. Playing familiar pieces. Drawing favorite subjects — flowers, people, and little ghosts. Simply enjoying the production of sound and line. Playing my own goofy games of "what if I improvised with only these three strings?" 
 
 A lot of that requires doing things that don't end up on this site. It has to happen off stage. More on this another time.
 
