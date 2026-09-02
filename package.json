@@ -9,6 +9,8 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watchAll",
+    "test:ci": "jest --runInBand",
+    "fathom:download": "node scripts/fathom-download.js",
     "cypress": "npx cypress open",
     "generate-search": "node scripts/generate-search-index.js",
     "generate-backlinks": "node scripts/generate-backlinks.js"
@@ -44,9 +46,12 @@
     "@testing-library/user-event": "14.2.0",
     "autoprefixer": "^10.4.2",
     "cloudinary": "^2.9.0",
+    "csv-parse": "^6.1.0",
     "cypress": "^12.2.0",
     "dotenv": "^17.2.3",
     "jest": "28.1.0",
-    "jest-environment-jsdom": "^29.4.1"
+    "jest-environment-jsdom": "^29.4.1",
+    "playwright": "^1.59.1",
+    "xlsx": "^0.18.5"
   }
 }

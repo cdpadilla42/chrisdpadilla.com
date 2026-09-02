@@ -25,6 +25,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -49,3 +50,10 @@ _cache/bookshelfLinks.json
 
 # AI reference documentation
 .claude/
+
+# Migration scripts
+/scripts/
+/docs/
+.vscode/
+.gitignore/
+.superpowers/
