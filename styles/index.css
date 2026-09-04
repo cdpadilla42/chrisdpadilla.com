@@ -311,8 +311,7 @@ figcaption {
 }
 
 .artgridimage {
-  background: transparent no-repeat center;
-  background-size: cover;
+  position: relative;
   margin: auto;
 }
 
@@ -337,8 +336,7 @@ figcaption {
 .artgridimage.home {
   width: 100%;
   aspect-ratio: 1 / 1;
-  background: transparent no-repeat center;
-  background-size: cover;
+  position: relative;
   margin: auto;
 }
 

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 
 const ArtGrid = ({ images, page }) => {
@@ -14,15 +15,15 @@ const ArtGrid = ({ images, page }) => {
           >
             <Link href={`/${image.slug}`}>
               <a data-test="musicGridLink" className="artgridlink">
-                <div
-                  className={`artgridimage ${page}`}
-                  style={{
-                    background: 'transparent no-repeat center',
-                    backgroundSize: 'cover',
-                    margin: 'auto',
-                    backgroundImage: `url('${image.src}')`,
-                  }}
-                />
+                <div className={`artgridimage ${page}`}>
+                  <Image
+                    src={image.src}
+                    alt=""
+                    layout="fill"
+                    objectFit="cover"
+                    sizes="(max-width: 799px) calc(100vw - 2.5rem), 30vw"
+                  />
+                </div>
               </a>
             </Link>
           </article>
