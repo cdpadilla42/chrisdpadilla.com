@@ -13,13 +13,12 @@ const AlbumStory = ({
 }) => {
   const isPlaying = useRef(false);
   const videoRef = useRef();
-  const videoRefTwo = useRef();
-  const pageLoaded = useRef(0);
   const [showPlayButton, setShowPlayButton] = useState(true);
   const [showTapStory, setShowTapStory] = useState(false);
-  const [mediumSize, setMediumSize] = useState(false);
   const { width } = useWindowSize();
   const song = useRef();
+  const hasViewport = typeof width === 'number';
+  const mediumSize = width > 800;
 
   useEffect(() => {
     if (!song.current) {
@@ -38,77 +37,45 @@ const AlbumStory = ({
       isPlaying.current = true;
       song.current.play();
       if (videoRef.current) videoRef.current.play();
-      if (videoRefTwo.current) videoRefTwo.current.play();
       setShowPlayButton(false);
       setTimeout(() => setShowTapStory(true), 2000);
     } else {
-      if (videoRef) videoRef.current.pause();
-      if (videoRefTwo) videoRefTwo.current.pause();
-      videoRefTwo.current.pause();
+      if (videoRef.current) videoRef.current.pause();
       isPlaying.current = false;
     }
   };
-
-  useEffect(() => {
-    if (pageLoaded.current < 2) {
-      if (width > 800) {
-        setMediumSize(true);
-      } else {
-        setMediumSize(false);
-      }
-      pageLoaded.current += 1;
-    }
-  }, [width]);
 
   return (
     <>
       <div className="album-story">
         <div className="album-story-page">
-          <div
-            className="album-story-video-wrapper"
-            style={{ display: mediumSize ? 'block' : 'none' }}
-          >
-            <div
-              className="album-story-bg-image"
-              style={{ backgroundImage: `url('${horizontalBgImageSrc}')` }}
-            />
-            <video
-              preload="auto"
-              loop
-              muted
-              type="video/mp4"
-              playsInline
-              ref={videoRef}
-              className="album-story-video"
-              key={horizontalVideoSrc}
-            >
-              <source src={horizontalVideoSrc} type="video/mp4" />
-            </video>
-          </div>
-
-          <div
-            className="album-story-video-wrapper"
-            style={{ display: mediumSize ? 'none' : 'block' }}
-          >
-            <div
-              className="album-story-bg-image"
-              style={{
-                backgroundImage: `url('${verticalBgImageSrc}')`,
-              }}
-            />
-            <video
-              preload="auto"
-              loop
-              muted
-              type="video/mp4"
-              playsInline
-              ref={videoRefTwo}
-              className="album-story-video"
-              key={verticalVideoSrc}
-            >
-              <source src={verticalVideoSrc} type="video/mp4" />
-            </video>
-          </div>
+          {hasViewport && (
+            <div className="album-story-video-wrapper">
+              <div
+                className="album-story-bg-image"
+                style={{
+                  backgroundImage: `url('${
+                    mediumSize ? horizontalBgImageSrc : verticalBgImageSrc
+                  }')`,
+                }}
+              />
+              <video
+                preload="auto"
+                loop
+                muted
+                type="video/mp4"
+                playsInline
+                ref={videoRef}
+                className="album-story-video"
+                key={mediumSize ? horizontalVideoSrc : verticalVideoSrc}
+              >
+                <source
+                  src={mediumSize ? horizontalVideoSrc : verticalVideoSrc}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          )}
           <div className="album-story-play-button-container">
             <CSSTransition
               in={showPlayButton}
