@@ -1,9 +1,8 @@
 import markdownStyles from './markdown-styles.module.css';
 import Markdown from 'markdown-to-jsx';
 import Link from 'next/link';
-import Image from 'next/image';
 import NextLink from './NextLink';
-import hljs from 'highlight.js';
+import { highlightCode } from '../lib/highlight';
 
 export default function PostBody({ content }) {
   return (
@@ -31,16 +30,7 @@ export const BlogImage = (props) => (
 );
 
 const CodeBlock = ({ className, children }) => {
-  children = hljs.highlightAuto(children, [
-    'javascript',
-    'typescript',
-    'java',
-    'python',
-    'react',
-    'yaml',
-    'dockerfile',
-    'bash',
-  ]).value;
+  children = highlightCode(children);
   return (
     <pre>
       <code dangerouslySetInnerHTML={{ __html: children }} />
