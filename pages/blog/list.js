@@ -11,6 +11,7 @@ import { useRouter } from 'next/router';
 import TagsNav from '../../components/TagsNav';
 import BlogPageIntro from './blogPageIntro';
 import postsMetadata from '../../public/posts-metadata.json';
+import { selectBlogListPost } from '../../lib/blogList';
 
 export default function BlogList({ allPosts }) {
   const router = useRouter();
@@ -61,11 +62,8 @@ export default function BlogList({ allPosts }) {
               <PostPreview
                 key={post.slug}
                 title={post.title}
-                coverImage={post.coverImage}
                 date={post.date}
-                author={post.author}
                 slug={post.slug}
-                excerpt={post.excerpt}
                 tags={post.tags.filter((tag) => primaryTags.includes(tag))}
               />
             ))}
@@ -79,7 +77,9 @@ export async function getStaticProps() {
   // Load posts from pre-generated JSON instead of filesystem
   const allPosts = postsMetadata;
 
-  const publishedPosts = allPosts.filter(filterBlogPosts);
+  const publishedPosts = allPosts
+    .filter(filterBlogPosts)
+    .map(selectBlogListPost);
 
   return {
     props: { allPosts: publishedPosts },
