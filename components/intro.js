@@ -30,10 +30,10 @@ export default function Intro({ latestHap }) {
             <Link href="/about">
               <a>More about me</a>
             </Link>{' '}
-            —{' '}
+            {/* —{' '}
             <Link href="/contact">
               <a>Contact me</a>
-            </Link>{' '}
+            </Link>{' '}*/}
             —{' '}
             <Link href="/now">
               <a>What I'm Doing Now</a>

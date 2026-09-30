@@ -19,7 +19,8 @@ export default function Footer() {
       {/* <Link href="/subscribe">Newsletter</Link>{' '}
       •{' '} */}
       <Link href="/blog">Blog</Link> • <Link href="/music">Music</Link> •{' '}
-      <Link href="/about">About</Link> • <Link href="/contact">Contact</Link> •{' '}
+      <Link href="/about">About</Link> •{' '}
+      {/* <Link href="/contact">Contact</Link> •{' '}*/}
       <Link href="/api/feed">
         <a target="_blank" rel="noopener noreferrer">
           RSS

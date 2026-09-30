@@ -44,7 +44,7 @@ export default function Post({ post, morePosts, preview, prelude, pagesLinkingBa
               />
               <PostBody content={post.content} />
             </article>
-            <aside className="article_end">
+            {/* <aside className="article_end">
              <p>
               <strong>Thank you for reading!</strong> I'd love to hear your
               thoughts. Feel free to{' '}
@@ -58,7 +58,7 @@ export default function Post({ post, morePosts, preview, prelude, pagesLinkingBa
               </Link>
               ! (<a href="https://aboutfeeds.com/">What's RSS?</a>)
               </p>
-            </aside>
+            </aside>*/}
             <BacklinksSection pagesLinkingBackTo={pagesLinkingBackTo}/>
             <BookshelfSection bookshelf={bookshelf} bookshelfPostList={post.bookshelf}/>
             <script src="../"></script>
