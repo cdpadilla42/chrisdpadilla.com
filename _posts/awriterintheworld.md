@@ -3,7 +3,7 @@ title: A Writer In the World
 tags:
   - Books
   - Notes
-date: '2026-09-30T10:35:07.322Z'
+date: '2026-09-30T12:20:43.322Z'
 bookshelf:
   - TheAbundance
 ---
