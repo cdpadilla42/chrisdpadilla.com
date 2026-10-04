@@ -9,7 +9,6 @@ artGridIgnore: true
 
 <figure>
   ![💪](https://padilla-media.s3.amazonaws.com/blog/images/BicepStudies.png)
-  <figcaption>Bicep Studies</figcaption>
 </figure>
 
 Studying the gun show 💪 
